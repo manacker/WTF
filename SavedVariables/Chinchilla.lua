@@ -44,7 +44,15 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["RangeCircle"] = {
+		["QuestTracker"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enabled"] = true,
+					["frameHeight"] = 500,
+					["showCollapseButton"] = false,
+					["frameWidth"] = 250,
+				},
+			},
 		},
 		["Position"] = {
 			["profiles"] = {
@@ -116,15 +124,7 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["QuestTracker"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = true,
-					["frameHeight"] = 500,
-					["showCollapseButton"] = false,
-					["frameWidth"] = 250,
-				},
-			},
+		["RangeCircle"] = {
 		},
 	},
 	["profileKeys"] = {

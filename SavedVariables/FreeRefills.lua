@@ -108,13 +108,13 @@ FreeRefillsDB = {
 		["Moriturus - Al'Akir"] = "Moriturus - Al'Akir",
 		["Orric - Magtheridon"] = "Orric - Magtheridon",
 		["Zücho - Der Rat von Dalaran"] = "Zücho - Der Rat von Dalaran",
-		["Atrako - Der Rat von Dalaran"] = "Atrako - Der Rat von Dalaran",
-		["Magnifico - Der Rat von Dalaran"] = "Magnifico - Der Rat von Dalaran",
-		["Severe - Der Rat von Dalaran"] = "Severe - Der Rat von Dalaran",
 		["Sotheby - Der Rat von Dalaran"] = "Sotheby - Der Rat von Dalaran",
+		["Magnifico - Der Rat von Dalaran"] = "Magnifico - Der Rat von Dalaran",
+		["Magní - Al'Akir"] = "Magní - Al'Akir",
+		["Atrako - Der Rat von Dalaran"] = "Atrako - Der Rat von Dalaran",
 		["Macneto - Der Rat von Dalaran"] = "Macneto - Der Rat von Dalaran",
 		["Herman - Der Rat von Dalaran"] = "Herman - Der Rat von Dalaran",
-		["Magní - Al'Akir"] = "Magní - Al'Akir",
+		["Severe - Der Rat von Dalaran"] = "Severe - Der Rat von Dalaran",
 		["Randolph - Gorgonnash"] = "Randolph - Gorgonnash",
 		["Mcneto - Der Rat von Dalaran"] = "Mcneto - Der Rat von Dalaran",
 	},
@@ -149,13 +149,13 @@ FreeRefillsDB = {
 		},
 		["Crowley - Frostwolf"] = {
 		},
-		["Hurg - Khaz'goroth"] = {
+		["Macneto - Der Rat von Dalaran"] = {
 		},
 		["Magnifico von Der Rat von Dalaran"] = {
 		},
-		["Macneto - Der Rat von Dalaran"] = {
-		},
 		["Crowley - Gorgonnash"] = {
+		},
+		["Hurg - Khaz'goroth"] = {
 		},
 		["Jinjael - Der Rat von Dalaran"] = {
 		},

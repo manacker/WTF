@@ -176,6 +176,7 @@ bind ALT-CTRL-B TOGGLE_BINDPAD
 bind ALT-V ALLNAMEPLATES
 bind ALT-SHIFT-A NONE
 bind ALT-A CLICK BindPadKey:SPELL Angeln
+bind  CLICK Chinchilla_Expander_Button:LeftButton
 modifiedclick ALT SELFCAST
 modifiedclick SHIFT AUTOLOOTTOGGLE
 modifiedclick CTRL STICKYCAMERA

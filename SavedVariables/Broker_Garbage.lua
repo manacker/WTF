@@ -7,7 +7,7 @@ BG_GlobalDB = {
 	["forceVendorPrice"] = {
 	},
 	["showMoney"] = 2,
-	["moneyEarned"] = 5771347,
+	["moneyEarned"] = 5853188,
 	["tooltipNumItems"] = 9,
 	["useRealValues"] = false,
 	["showEarned"] = true,
@@ -34,7 +34,7 @@ BG_GlobalDB = {
 	["hasEnchanter"] = true,
 	["sellOldGear"] = false,
 	["showLost"] = true,
-	["itemsSold"] = 1728,
+	["itemsSold"] = 1741,
 	["showContainers"] = true,
 	["sellNWQualityTreshold"] = 4,
 }

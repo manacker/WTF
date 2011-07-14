@@ -66,6 +66,7 @@ ReforgenatorDB = {
 				["notes"] = "http://elitistjerks.com/f75/t110326-cataclysm_fire_mage_compendium/#Gearing_a_Fire_Mage",
 				["ak"] = "MAGE/2",
 				["PerCharacterOptions"] = {
+					["Magnifico-Der Rat von Dalaran/2"] = true,
 				},
 				["reforgeOrder"] = {
 					{

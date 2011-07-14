@@ -46,14 +46,14 @@ ArchyDB = {
 						["looted"] = 0,
 						["counter"] = 0,
 					},
-					[56380] = {
+					[56410] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["counter"] = 0,
 					},
-					[56410] = {
+					[56380] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
@@ -67,7 +67,7 @@ ArchyDB = {
 						["looted"] = 0,
 						["counter"] = 0,
 					},
-					[56441] = {
+					[56516] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
@@ -102,7 +102,7 @@ ArchyDB = {
 						["looted"] = 0,
 						["counter"] = 0,
 					},
-					[56516] = {
+					[56441] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,

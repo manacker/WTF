@@ -93,22 +93,25 @@ BazookaDB = {
 						["area"] = "left",
 						["pos"] = 17,
 					},
-					["Launcher: Erste Hilfe"] = {
-						["pos"] = 21,
-					},
-					["Launcher: Ingenieurskunst"] = {
-						["pos"] = 22,
-					},
-					["HitCrit"] = {
+					["Broker_DurabilityInfo"] = {
 						["area"] = "left",
-						["pos"] = 18,
+						["pos"] = 6,
+					},
+					["LDBThreat"] = {
+						["area"] = "cleft",
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["Broker_Garbage"] = {
+						["area"] = "left",
+						["pos"] = 7,
 					},
 					["|cFFFFB366Ara|r Guild"] = {
 						["pos"] = 10,
 					},
-					["picoGuild"] = {
+					["ElkFactions"] = {
 						["area"] = "left",
-						["pos"] = 5,
+						["pos"] = 21,
 					},
 					["Broker_uClock"] = {
 						["showIcon"] = false,
@@ -119,9 +122,9 @@ BazookaDB = {
 						["area"] = "left",
 						["pos"] = 2,
 					},
-					["ElkFactions"] = {
+					["picoGuild"] = {
 						["area"] = "left",
-						["pos"] = 21,
+						["pos"] = 5,
 					},
 					["ArkInventory_Mounts"] = {
 						["area"] = "left",
@@ -137,21 +140,18 @@ BazookaDB = {
 						["area"] = "left",
 						["pos"] = 4,
 					},
-					["Broker_DurabilityInfo"] = {
-						["area"] = "left",
-						["pos"] = 6,
+					["Launcher: Erste Hilfe"] = {
+						["pos"] = 21,
 					},
 					["Archy"] = {
 						["pos"] = 25,
 					},
-					["Broker_Garbage"] = {
+					["HitCrit"] = {
 						["area"] = "left",
-						["pos"] = 7,
+						["pos"] = 18,
 					},
-					["LDBThreat"] = {
-						["area"] = "cleft",
-						["enabled"] = false,
-						["pos"] = 1,
+					["Launcher: Ingenieurskunst"] = {
+						["pos"] = 22,
 					},
 				},
 				["launcher"] = {
@@ -205,10 +205,10 @@ BazookaDB = {
 					["Decursive"] = {
 						["pos"] = 22,
 					},
-					["kgPanels"] = {
+					["BagnonLauncher"] = {
 						["pos"] = 22,
 					},
-					["BagnonLauncher"] = {
+					["kgPanels"] = {
 						["pos"] = 22,
 					},
 					["Omen"] = {

@@ -900,7 +900,7 @@ BindPadVars = {
 			1, -- [1]
 		},
 	},
-	["PROFILE_Der Rat von Dalaran_Sotheby"] = {
+	["PROFILE_Der Rat von Dalaran_Atrako"] = {
 		{
 			{
 			}, -- [1]
@@ -1161,7 +1161,7 @@ BindPadVars = {
 			1, -- [1]
 		},
 	},
-	["PROFILE_Der Rat von Dalaran_Atrako"] = {
+	["PROFILE_Der Rat von Dalaran_Macneto"] = {
 		{
 			{
 			}, -- [1]
@@ -2592,7 +2592,7 @@ BindPadVars = {
 			2, -- [2]
 		},
 	},
-	["PROFILE_Der Rat von Dalaran_Macneto"] = {
+	["PROFILE_Der Rat von Dalaran_Sotheby"] = {
 		{
 			{
 			}, -- [1]
