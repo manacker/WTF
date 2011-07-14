@@ -1,0 +1,3 @@
+MACRO 16777217 "Mount2" Ability_Mount_Razorscale
+/script f=string.sub;z=f(GetZoneText(),1,4);sz=f(GetSubZoneText(),5,8);if IsMounted() then Dismount() else if IsFlyableArea() and (z~="Dala" or  sz=="us\' " or sz=="Scha") and z~="Taus" then CallCompanion("MOUNT",2) else CallCompanion("MOUNT",1) end end
+END

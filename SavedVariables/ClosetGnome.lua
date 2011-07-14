@@ -1,0 +1,9 @@
+
+ClosetGnomeDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

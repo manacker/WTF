@@ -1,0 +1,15 @@
+Version: 1
+Frame: MinimapCluster
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: 11
+Y: -16
+W: 192
+H: 192
+Frame: WorldMapFrame
+FrameLevel: 0
+Anchor: TOPLEFT
+X: 0
+Y: 0
+W: 1638
+H: 1024

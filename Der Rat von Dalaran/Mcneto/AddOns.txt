@@ -1,0 +1,12 @@
+DBM-Party-Cataclysm: enabled
+ArkInventory: enabled
+Bagnon: disabled
+Baggins: disabled
+Bagnon_Forever: disabled
+ArkInventoryRules: enabled
+ArkInventoryRulesExample: disabled
+DBM-Party-WotLK: disabled
+DBM-Icecrown: disabled
+DBM-ChamberOfAspects: disabled
+Recount: disabled
+Omen: disabled

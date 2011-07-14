@@ -1,0 +1,5 @@
+
+StealYourCarbonDB = {
+	["stocklist"] = {
+	},
+}

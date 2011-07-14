@@ -1,0 +1,2 @@
+
+Click2CastCharDB = nil

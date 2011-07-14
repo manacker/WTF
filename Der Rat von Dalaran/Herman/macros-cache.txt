@@ -1,0 +1,14 @@
+MACRO 16777218 "Levi" INV_Misc_QuestionMark
+#show Levitieren
+/cast [target=player] Levitieren
+END
+MACRO 16777217 "Mount2" Ability_Mount_Razorscale
+/cast Himmelsross
+END
+MACRO 16777219 "Schild" INV_Misc_QuestionMark
+#show Machtwort: Schild
+/cast [target=player] Machtwort: Schild
+END
+MACRO 16777220 "Seq" INV_Misc_QuestionMark
+/castsequence reset=10/target Vampirberührung, Verschlingende Seuche, Schattenwort: Schmerz, Gedankenschlag, Gedankenschinden
+END

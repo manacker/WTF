@@ -1,0 +1,8 @@
+SET questLogCollapseFilter "-1"
+SET cameraSavedDistance "5.550000"
+SET cameraSavedPitch "6.166663"
+SET showKeyring "1"
+SET playerStatLeftDropdown "PLAYERSTAT_BASE_STATS"
+SET playerStatRightDropdown "PLAYERSTAT_SPELL_COMBAT"
+SET showTokenFrame "1"
+SET showTokenFrameHonor "1"

@@ -1,0 +1,7 @@
+MACRO 16777223 "Felrage" Ability_Creature_Poison_05
+/cast Eisrüstung
+/use Alptraumsaat
+END
+MACRO 16777222 "Stachel" Spell_Frost_IceShard
+/use Naj'entus' Stachel
+END

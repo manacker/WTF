@@ -1,0 +1,47 @@
+MACRO 20 "assist" Ability_CheapShot
+/assist Sorith
+END
+MACRO 10 "cs" INV_Misc_QuestionMark
+#showtooltip Gegenzauber
+/stopcasting
+/cast Gegenzauber
+END
+MACRO 12 "Focussheep" INV_Misc_QuestionMark
+# show Verwandlung
+/focus target
+/cast Verwandlung(Rang 4)
+END
+MACRO 24 "Funke" Spell_Frost_Wisp
+/target Energiefunke
+END
+MACRO 23 "Heal" Spell_Nature_Regeneration_02
+/cast [target=pet] Wiederbeleben
+END
+MACRO 21 "HS" INV_Misc_QuestionMark
+/use Teuflischer Gesundheitsstein
+END
+MACRO 11 "Max" INV_Misc_QuestionMark
+#show Eisige Adern
+/cast Einäschern
+/stopcasting
+/cast Eisige Adern
+/stopcasting
+#/use 13
+#/use 14
+/stopcasting
+/cast Frostfeuerblitz
+END
+MACRO 25 "Mount" Ability_Mount_RidingHorse
+/script f=string.sub;z=f(GetZoneText(),1,4);sz=f(GetSubZoneText(),5,8);if IsMounted() then Dismount() else if IsFlyableArea() and (z~="Dala" or  sz=="us\' " or sz=="Scha") and z~="Taus" then CallCompanion("MOUNT",7) else CallCompanion("MOUNT",1) end end
+END
+MACRO 7 "Netz" Ability_Creature_Disease_01
+/target Fangnetz
+END
+MACRO 9 "oldMount" Spell_Shadow_UnstableAfllictions
+/cast [flyable,nomounted,nomodifier:shift] Turbogetriebene Flugmaschine; [modifier:shift]Gepanzerter Braunbär
+/cast [nomounted,noflyable] Gepanzerter Braunbär
+/dismount
+END
+MACRO 22 "VE" Spell_Shadow_PainSpike
+/script VehicleExit();
+END

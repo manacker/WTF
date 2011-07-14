@@ -1,0 +1,40 @@
+
+BG_GlobalDB = {
+	["disableKey"] = "SHIFT",
+	["showClams"] = true,
+	["showSource"] = false,
+	["hideZeroValue"] = true,
+	["forceVendorPrice"] = {
+	},
+	["showMoney"] = 2,
+	["moneyEarned"] = 5771347,
+	["tooltipNumItems"] = 9,
+	["useRealValues"] = false,
+	["showEarned"] = true,
+	["autoSellToVendor"] = true,
+	["moneyLostByDeleting"] = 0,
+	["showIcon"] = true,
+	["reportNothingToSell"] = true,
+	["LDBformat"] = "[itemname]x[itemcount] ([itemvalue])",
+	["showAutoSellIcon"] = true,
+	["dropQuality"] = 0,
+	["include"] = {
+	},
+	["autoSellList"] = {
+	},
+	["sellNotWearable"] = false,
+	["LDBNoJunk"] = "Kein Müll",
+	["exclude"] = {
+	},
+	["itemsDropped"] = 0,
+	["showSellLog"] = false,
+	["autoRepairAtVendor"] = true,
+	["autoSellIncludeItems"] = false,
+	["tooltipMaxHeight"] = 220,
+	["hasEnchanter"] = true,
+	["sellOldGear"] = false,
+	["showLost"] = true,
+	["itemsSold"] = 1728,
+	["showContainers"] = true,
+	["sellNWQualityTreshold"] = 4,
+}

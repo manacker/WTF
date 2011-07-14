@@ -1,0 +1,9 @@
+MACRO 16777218 "Fragen" INV_Misc_QuestionMark
+/say ?
+END
+MACRO 16777217 "Rufen" INV_Misc_QuestionMark
+/say !
+END
+MACRO 16777219 "Sagen" INV_Misc_QuestionMark
+/say .
+END

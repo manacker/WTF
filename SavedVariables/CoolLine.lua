@@ -1,0 +1,50 @@
+
+CoolLineDB = {
+	["bgcolor"] = {
+		["a"] = 0.6,
+		["b"] = 0,
+		["g"] = 0,
+		["r"] = 0,
+	},
+	["border"] = "Blizzard Dialog",
+	["statusbar"] = "Blizzard",
+	["fontsize"] = 10,
+	["block"] = {
+		["Ruhestein"] = true,
+		["Tischlein deck dich"] = true,
+	},
+	["spellcolor"] = {
+		["a"] = 1,
+		["b"] = 0.8,
+		["g"] = 0.792156862745098,
+		["r"] = 0.2470588235294118,
+	},
+	["nospellcolor"] = {
+		["a"] = 1,
+		["b"] = 0,
+		["g"] = 0,
+		["r"] = 0,
+	},
+	["inactivealpha"] = 0.1,
+	["bordercolor"] = {
+		["a"] = 1,
+		["b"] = 0.4117647058823529,
+		["g"] = 0.3764705882352941,
+		["r"] = 0.3803921568627451,
+	},
+	["w"] = 374,
+	["vertical"] = false,
+	["y"] = -397,
+	["activealpha"] = 0.7999999999999999,
+	["dbinit"] = 1,
+	["reverse"] = false,
+	["x"] = -1,
+	["h"] = 18,
+	["fontcolor"] = {
+		["a"] = 0.8,
+		["b"] = 1,
+		["g"] = 1,
+		["r"] = 1,
+	},
+	["font"] = "Default (Calibri v1)",
+}
