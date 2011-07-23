@@ -27,10 +27,10 @@ MapsterDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["point"] = "TOP",
+			["point"] = "TOPLEFT",
 			["scale"] = 0.9178005456924439,
-			["y"] = -62.39986626671794,
-			["x"] = -198.0858138495167,
+			["y"] = -84.39969730443886,
+			["x"] = 150.0002697588355,
 			["questObjectives"] = 1,
 			["modules"] = {
 				["FogClear"] = false,

@@ -1,5 +1,5 @@
 MACRO 37 "cs" INV_Misc_QuestionMark
-#show Gegenzauber
+#showtooltip Gegenzauber
 /stopcasting
 /cast Gegenzauber
 END

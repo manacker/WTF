@@ -30,9 +30,10 @@ ParrotDB = {
 		["Display"] = {
 			["profiles"] = {
 				["Magnifico - Der Rat von Dalaran"] = {
+					["stickyFont"] = "Calibri Bold",
+					["font"] = "Calibri",
+					["fontOutline"] = "OUTLINE",
 					["fontSize"] = 13,
-					["font"] = "Default (Calibri v1)",
-					["stickyFont"] = "Default (Calibri v1)",
 				},
 				["Default"] = {
 					["fontSize"] = 12,
@@ -152,27 +153,27 @@ ParrotDB = {
 					["triggers"] = {
 						{
 							["locale"] = "deDE",
-							["id"] = 1,
+							["color"] = "ff00ff",
 							["name"] = "Heimzahlen!",
 							["sticky"] = true,
-							["color"] = "ff00ff",
+							["id"] = 1,
+							["class"] = "WARLOCK",
+							["icon"] = 34939,
 							["conditions"] = {
 								["Self buff gain"] = "Heimzahlen",
 							},
-							["icon"] = 34939,
-							["class"] = "WARLOCK",
 						}, -- [1]
 						{
 							["locale"] = "deDE",
-							["id"] = 3,
+							["color"] = "ffff00",
 							["name"] = "Freizaubern!",
 							["sticky"] = true,
-							["color"] = "ffff00",
+							["id"] = 3,
+							["class"] = "MAGE;PRIEST;SHAMAN",
+							["icon"] = 16246,
 							["conditions"] = {
 								["Self buff gain"] = "Freizaubern",
 							},
-							["icon"] = 16246,
-							["class"] = "MAGE;PRIEST;SHAMAN",
 						}, -- [2]
 						{
 							["id"] = 4,
@@ -206,15 +207,15 @@ ParrotDB = {
 						}, -- [4]
 						{
 							["locale"] = "deDE",
-							["id"] = 6,
+							["color"] = "0000ff",
 							["name"] = "Erfrierung!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 6,
+							["class"] = "MAGE",
+							["icon"] = 12497,
 							["conditions"] = {
 								["Target debuff gain"] = "Erfrierung",
 							},
-							["icon"] = 12497,
-							["class"] = "MAGE",
 						}, -- [5]
 						{
 							["id"] = 7,
@@ -233,15 +234,15 @@ ParrotDB = {
 						}, -- [6]
 						{
 							["locale"] = "deDE",
-							["id"] = 8,
+							["color"] = "ff0000",
 							["name"] = "Einschlag!",
 							["sticky"] = true,
-							["color"] = "ff0000",
+							["id"] = 8,
+							["class"] = "MAGE",
+							["icon"] = 11103,
 							["conditions"] = {
 								["Target debuff gain"] = "Einschlag",
 							},
-							["icon"] = 11103,
-							["class"] = "MAGE",
 						}, -- [7]
 						{
 							["secondaryConditions"] = {
@@ -249,8 +250,8 @@ ParrotDB = {
 							},
 							["locale"] = "deDE",
 							["name"] = "Niedrige Gesundheit!",
-							["id"] = 10,
 							["color"] = "ff7f7f",
+							["id"] = 10,
 							["conditions"] = {
 								["Self health percent"] = 0.4,
 							},
@@ -263,8 +264,8 @@ ParrotDB = {
 							},
 							["locale"] = "deDE",
 							["name"] = "Niedriges Mana!",
-							["id"] = 11,
 							["color"] = "7f7fff",
+							["id"] = 11,
 							["conditions"] = {
 								["Self mana percent"] = 0.35,
 							},
@@ -278,23 +279,23 @@ ParrotDB = {
 							["name"] = "Niedrige Begleitergesundheit!",
 							["locale"] = "deDE",
 							["id"] = 12,
+							["class"] = "HUNTER;MAGE;WARLOCK;DEATHKNIGHT",
+							["color"] = "ff7f7f",
 							["conditions"] = {
 								["Pet health percent"] = 0.4,
 							},
-							["color"] = "ff7f7f",
-							["class"] = "HUNTER;MAGE;WARLOCK;DEATHKNIGHT",
 						}, -- [10]
 						{
 							["locale"] = "deDE",
-							["id"] = 14,
+							["color"] = "7f007f",
 							["name"] = "Einbruch der Nacht!",
 							["sticky"] = true,
-							["color"] = "7f007f",
+							["id"] = 14,
+							["class"] = "WARLOCK",
+							["icon"] = 18095,
 							["conditions"] = {
 								["Self buff gain"] = "Schattentrance",
 							},
-							["icon"] = 18095,
-							["class"] = "WARLOCK",
 						}, -- [11]
 						{
 							["disabled"] = true,
@@ -303,11 +304,11 @@ ParrotDB = {
 							["locale"] = "deDE",
 							["name"] = "Freier",
 							["color"] = "ff0000",
-							["sticky"] = true,
-							["icon"] = 25364,
 							["conditions"] = {
 								["Self buff gain"] = "Woge des Lichts",
 							},
+							["icon"] = 25364,
+							["sticky"] = true,
 						}, -- [12]
 						{
 							["id"] = 16,
@@ -360,39 +361,39 @@ ParrotDB = {
 						}, -- [15]
 						{
 							["locale"] = "deDE",
-							["id"] = 20,
+							["color"] = "0000ff",
 							["name"] = "Waffe des Mahlstroms!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 20,
+							["class"] = "SHAMAN",
+							["icon"] = 51532,
 							["conditions"] = {
 								["Self buff stacks gain"] = "Waffe des Mahlstroms,5",
 							},
-							["icon"] = 51532,
-							["class"] = "SHAMAN",
 						}, -- [16]
 						{
 							["locale"] = "deDE",
-							["id"] = 22,
+							["color"] = "0000ff",
 							["name"] = "Gefrierender Nebel!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 22,
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 59052,
 							["conditions"] = {
 								["Self buff gain"] = "Gefrierender Nebel",
 							},
-							["icon"] = 59052,
-							["class"] = "DEATHKNIGHT",
 						}, -- [17]
 						{
 							["locale"] = "deDE",
-							["id"] = 23,
+							["color"] = "0000ff",
 							["name"] = "Tötungsmaschine!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 23,
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 51130,
 							["conditions"] = {
 								["Self buff gain"] = "Tötungsmaschine",
 							},
-							["icon"] = 51130,
-							["class"] = "DEATHKNIGHT",
 						}, -- [18]
 						{
 							["disabled"] = true,
@@ -401,98 +402,98 @@ ParrotDB = {
 							["locale"] = "deDE",
 							["name"] = "Runenstoß!",
 							["color"] = "0000ff",
-							["sticky"] = true,
-							["icon"] = 56816,
 							["conditions"] = {
 								["Incoming Dodge"] = true,
 								["Incoming Parry"] = true,
 							},
+							["icon"] = 56816,
+							["sticky"] = true,
 						}, -- [19]
 						{
 							["locale"] = "deDE",
-							["id"] = 25,
+							["color"] = "ff0000",
 							["name"] = "Sichern und Laden!",
 							["sticky"] = true,
-							["color"] = "ff0000",
+							["id"] = 25,
+							["class"] = "HUNTER",
+							["icon"] = 56344,
 							["conditions"] = {
 								["Self buff gain"] = "Sichern und Laden",
 							},
-							["icon"] = 56344,
-							["class"] = "HUNTER",
 						}, -- [20]
 						{
 							["locale"] = "deDE",
-							["id"] = 26,
+							["color"] = "0000ff",
 							["name"] = "Hirnfrost!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 26,
+							["class"] = "MAGE",
+							["icon"] = 57761,
 							["conditions"] = {
 								["Self buff gain"] = "Feuerball!",
 							},
-							["icon"] = 57761,
-							["class"] = "MAGE",
 						}, -- [21]
 						{
 							["locale"] = "deDE",
-							["id"] = 27,
+							["color"] = "ff0000",
 							["name"] = "Plötzlicher Tod!",
 							["sticky"] = true,
-							["color"] = "ff0000",
+							["id"] = 27,
+							["class"] = "WARRIOR",
+							["icon"] = 52437,
 							["conditions"] = {
 								["Self buff gain"] = "Plötzlicher Tod",
 							},
-							["icon"] = 52437,
-							["class"] = "WARRIOR",
 						}, -- [22]
 						{
 							["locale"] = "deDE",
-							["color"] = "ffffff",
+							["id"] = 28,
 							["name"] = "Finsternis Sternenfeuer!",
 							["sticky"] = true,
-							["id"] = 28,
-							["class"] = "DRUID",
-							["icon"] = 48518,
+							["color"] = "ffffff",
 							["conditions"] = {
 								["Self buff gain"] = 48518,
 							},
+							["icon"] = 48518,
+							["class"] = "DRUID",
 						}, -- [23]
 						{
 							["locale"] = "deDE",
-							["color"] = "ffffff",
+							["id"] = 28,
 							["name"] = "Finsternis Zorn!",
 							["sticky"] = true,
-							["id"] = 28,
-							["class"] = "DRUID",
-							["icon"] = 48517,
+							["color"] = "ffffff",
 							["conditions"] = {
 								["Self buff gain"] = 48517,
 							},
+							["icon"] = 48517,
+							["class"] = "DRUID",
 						}, -- [24]
 						{
 							["locale"] = "deDE",
-							["color"] = "ffff00",
+							["id"] = 29,
 							["name"] = "Die Kunst des Krieges!",
 							["sticky"] = true,
-							["id"] = 29,
-							["class"] = "PALADIN",
-							["icon"] = 53489,
+							["color"] = "ffff00",
 							["conditions"] = {
 								["Self buff gain"] = "Die Kunst des Krieges",
 							},
+							["icon"] = 53489,
+							["class"] = "PALADIN",
 						}, -- [25]
 						{
 							["secondaryConditions"] = {
 								["Spell ready"] = "Tödlicher Schuss",
 							},
-							["color"] = "ff0000",
+							["id"] = 31,
 							["name"] = "Tödlicher Schuss!",
 							["sticky"] = true,
-							["id"] = 31,
-							["class"] = "HUNTER",
-							["icon"] = 53351,
+							["color"] = "ff0000",
 							["conditions"] = {
 								["Enemy target health percent"] = 0.2,
 							},
+							["icon"] = 53351,
+							["class"] = "HUNTER",
 						}, -- [26]
 					},
 					["triggers2"] = {
@@ -600,27 +601,27 @@ ParrotDB = {
 					["triggers"] = {
 						{
 							["locale"] = "deDE",
-							["id"] = 1,
+							["color"] = "ff00ff",
 							["name"] = "Heimzahlen!",
 							["sticky"] = true,
-							["color"] = "ff00ff",
+							["id"] = 1,
+							["class"] = "WARLOCK",
+							["icon"] = 34939,
 							["conditions"] = {
 								["Self buff gain"] = "Heimzahlen",
 							},
-							["icon"] = 34939,
-							["class"] = "WARLOCK",
 						}, -- [1]
 						{
 							["locale"] = "deDE",
-							["id"] = 3,
+							["color"] = "ffff00",
 							["name"] = "Freizaubern!",
 							["sticky"] = true,
-							["color"] = "ffff00",
+							["id"] = 3,
+							["class"] = "MAGE;PRIEST;SHAMAN",
+							["icon"] = 16246,
 							["conditions"] = {
 								["Self buff gain"] = "Freizaubern",
 							},
-							["icon"] = 16246,
-							["class"] = "MAGE;PRIEST;SHAMAN",
 						}, -- [2]
 						{
 							["id"] = 4,
@@ -654,15 +655,15 @@ ParrotDB = {
 						}, -- [4]
 						{
 							["locale"] = "deDE",
-							["id"] = 6,
+							["color"] = "0000ff",
 							["name"] = "Erfrierung!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 6,
+							["class"] = "MAGE",
+							["icon"] = 12497,
 							["conditions"] = {
 								["Target debuff gain"] = "Erfrierung",
 							},
-							["icon"] = 12497,
-							["class"] = "MAGE",
 						}, -- [5]
 						{
 							["id"] = 7,
@@ -681,15 +682,15 @@ ParrotDB = {
 						}, -- [6]
 						{
 							["locale"] = "deDE",
-							["id"] = 8,
+							["color"] = "ff0000",
 							["name"] = "Einschlag!",
 							["sticky"] = true,
-							["color"] = "ff0000",
+							["id"] = 8,
+							["class"] = "MAGE",
+							["icon"] = 11103,
 							["conditions"] = {
 								["Target debuff gain"] = "Einschlag",
 							},
-							["icon"] = 11103,
-							["class"] = "MAGE",
 						}, -- [7]
 						{
 							["secondaryConditions"] = {
@@ -697,8 +698,8 @@ ParrotDB = {
 							},
 							["locale"] = "deDE",
 							["name"] = "Niedrige Gesundheit!",
-							["id"] = 10,
 							["color"] = "ff7f7f",
+							["id"] = 10,
 							["conditions"] = {
 								["Self health percent"] = 0.4,
 							},
@@ -711,8 +712,8 @@ ParrotDB = {
 							},
 							["locale"] = "deDE",
 							["name"] = "Niedriges Mana!",
-							["id"] = 11,
 							["color"] = "7f7fff",
+							["id"] = 11,
 							["conditions"] = {
 								["Self mana percent"] = 0.35,
 							},
@@ -726,11 +727,11 @@ ParrotDB = {
 							["name"] = "Niedrige Begleitergesundheit!",
 							["locale"] = "deDE",
 							["id"] = 12,
+							["class"] = "HUNTER;MAGE;WARLOCK;DEATHKNIGHT",
+							["color"] = "ff7f7f",
 							["conditions"] = {
 								["Pet health percent"] = 0.4,
 							},
-							["color"] = "ff7f7f",
-							["class"] = "HUNTER;MAGE;WARLOCK;DEATHKNIGHT",
 						}, -- [10]
 						{
 							["id"] = 13,
@@ -749,15 +750,15 @@ ParrotDB = {
 						}, -- [11]
 						{
 							["locale"] = "deDE",
-							["id"] = 14,
+							["color"] = "7f007f",
 							["name"] = "Einbruch der Nacht!",
 							["sticky"] = true,
-							["color"] = "7f007f",
+							["id"] = 14,
+							["class"] = "WARLOCK",
+							["icon"] = 18095,
 							["conditions"] = {
 								["Self buff gain"] = "Schattentrance",
 							},
-							["icon"] = 18095,
-							["class"] = "WARLOCK",
 						}, -- [12]
 						{
 							["disabled"] = true,
@@ -766,11 +767,11 @@ ParrotDB = {
 							["locale"] = "deDE",
 							["name"] = "Freier",
 							["color"] = "ff0000",
-							["sticky"] = true,
-							["icon"] = 25364,
 							["conditions"] = {
 								["Self buff gain"] = "Woge des Lichts",
 							},
+							["icon"] = 25364,
+							["sticky"] = true,
 						}, -- [13]
 						{
 							["id"] = 16,
@@ -840,39 +841,39 @@ ParrotDB = {
 						}, -- [17]
 						{
 							["locale"] = "deDE",
-							["id"] = 20,
+							["color"] = "0000ff",
 							["name"] = "Waffe des Mahlstroms!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 20,
+							["class"] = "SHAMAN",
+							["icon"] = 51532,
 							["conditions"] = {
 								["Self buff stacks gain"] = "Waffe des Mahlstroms,5",
 							},
-							["icon"] = 51532,
-							["class"] = "SHAMAN",
 						}, -- [18]
 						{
 							["locale"] = "deDE",
-							["id"] = 22,
+							["color"] = "0000ff",
 							["name"] = "Gefrierender Nebel!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 22,
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 59052,
 							["conditions"] = {
 								["Self buff gain"] = "Gefrierender Nebel",
 							},
-							["icon"] = 59052,
-							["class"] = "DEATHKNIGHT",
 						}, -- [19]
 						{
 							["locale"] = "deDE",
-							["id"] = 23,
+							["color"] = "0000ff",
 							["name"] = "Tötungsmaschine!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 23,
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 51130,
 							["conditions"] = {
 								["Self buff gain"] = "Tötungsmaschine",
 							},
-							["icon"] = 51130,
-							["class"] = "DEATHKNIGHT",
 						}, -- [20]
 						{
 							["disabled"] = true,
@@ -881,48 +882,48 @@ ParrotDB = {
 							["locale"] = "deDE",
 							["name"] = "Runenstoß!",
 							["color"] = "0000ff",
-							["sticky"] = true,
-							["icon"] = 56816,
 							["conditions"] = {
 								["Incoming Dodge"] = true,
 								["Incoming Parry"] = true,
 							},
+							["icon"] = 56816,
+							["sticky"] = true,
 						}, -- [21]
 						{
 							["locale"] = "deDE",
-							["id"] = 25,
+							["color"] = "ff0000",
 							["name"] = "Sichern und Laden!",
 							["sticky"] = true,
-							["color"] = "ff0000",
+							["id"] = 25,
+							["class"] = "HUNTER",
+							["icon"] = 56344,
 							["conditions"] = {
 								["Self buff gain"] = "Sichern und Laden",
 							},
-							["icon"] = 56344,
-							["class"] = "HUNTER",
 						}, -- [22]
 						{
 							["locale"] = "deDE",
-							["id"] = 26,
+							["color"] = "0000ff",
 							["name"] = "Hirnfrost!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 26,
+							["class"] = "MAGE",
+							["icon"] = 57761,
 							["conditions"] = {
 								["Self buff gain"] = "Feuerball!",
 							},
-							["icon"] = 57761,
-							["class"] = "MAGE",
 						}, -- [23]
 						{
 							["locale"] = "deDE",
-							["id"] = 27,
+							["color"] = "ff0000",
 							["name"] = "Plötzlicher Tod!",
 							["sticky"] = true,
-							["color"] = "ff0000",
+							["id"] = 27,
+							["class"] = "WARRIOR",
+							["icon"] = 52437,
 							["conditions"] = {
 								["Self buff gain"] = "Plötzlicher Tod",
 							},
-							["icon"] = 52437,
-							["class"] = "WARRIOR",
 						}, -- [24]
 					},
 				},
@@ -951,15 +952,15 @@ ParrotDB = {
 									"Fass!", -- [1]
 								},
 							},
-							["name"] = "Fass!!",
 							["disabled"] = true,
+							["name"] = "Fass!!",
 							["class"] = "HUNTER",
 							["color"] = "ff0000",
+							["sticky"] = true,
+							["icon"] = "Fass!",
 							["conditions"] = {
 								["Outgoing crit"] = true,
 							},
-							["icon"] = "Fass!",
-							["sticky"] = true,
 						}, -- [2]
 						{
 							["secondaryConditions"] = {
@@ -979,8 +980,8 @@ ParrotDB = {
 							["sticky"] = true,
 						}, -- [3]
 						{
-							["disabled"] = true,
 							["name"] = "Free Göttliche Pein!",
+							["disabled"] = true,
 							["conditions"] = {
 								["Aura gain"] = {
 									{
@@ -991,9 +992,9 @@ ParrotDB = {
 								},
 							},
 							["color"] = "ff0000",
-							["sticky"] = true,
-							["icon"] = "Göttliche Pein",
 							["class"] = "PRIEST",
+							["icon"] = "Göttliche Pein",
+							["sticky"] = true,
 						}, -- [4]
 						{
 							["secondaryConditions"] = {
@@ -1280,26 +1281,26 @@ ParrotDB = {
 							["sticky"] = true,
 							["icon"] = "Hinrichten",
 							["conditions"] = {
-								["Focus buff gain"] = false,
-								["Self buff fade"] = false,
 								["Target debuff fade"] = false,
-								["Enemy target health percent"] = 0.2,
+								["Self buff fade"] = false,
+								["Focus buff gain"] = false,
+								["Focus buff fade"] = false,
 								["Outgoing cast"] = false,
 								["Focus debuff gain"] = false,
 								["Spell ready"] = false,
-								["Focus buff fade"] = false,
+								["Enemy target health percent"] = 0.2,
 							},
 						}, -- [5]
 						{
+							["class"] = "MAGE",
+							["disabled"] = true,
 							["conditions"] = {
 								["Target debuff gain"] = "Erfrierung",
 							},
-							["name"] = "Erfrierung!",
-							["class"] = "MAGE",
 							["color"] = "0000ff",
 							["sticky"] = true,
 							["icon"] = "Erfrierung",
-							["disabled"] = true,
+							["name"] = "Erfrierung!",
 						}, -- [6]
 						{
 							["secondaryConditions"] = {
@@ -1328,15 +1329,15 @@ ParrotDB = {
 							["secondaryConditions"] = {
 								["Spell ready"] = "Fass!",
 							},
-							["sticky"] = true,
-							["disabled"] = true,
 							["conditions"] = {
 								["Outgoing crit"] = true,
 							},
+							["name"] = "Fass!!",
+							["sticky"] = true,
 							["color"] = "ff0000",
 							["class"] = "HUNTER",
 							["icon"] = "Fass!",
-							["name"] = "Fass!!",
+							["disabled"] = true,
 						}, -- [9]
 						{
 							["secondaryConditions"] = {
@@ -1362,15 +1363,15 @@ ParrotDB = {
 							["sticky"] = true,
 						}, -- [11]
 						{
-							["class"] = "PRIEST",
-							["name"] = "Free Göttliche Pein!",
 							["sticky"] = true,
+							["disabled"] = true,
+							["class"] = "PRIEST",
 							["color"] = "ff0000",
 							["conditions"] = {
 								["Self buff gain"] = "Woge des Lichts",
 							},
 							["icon"] = "Göttliche Pein",
-							["disabled"] = true,
+							["name"] = "Free Göttliche Pein!",
 						}, -- [12]
 						{
 							["secondaryConditions"] = {
@@ -1405,17 +1406,17 @@ ParrotDB = {
 								["Warrior stance"] = "Defensive Stance",
 								["Spell ready"] = "Rache",
 							},
-							["sticky"] = true,
-							["disabled"] = true,
 							["conditions"] = {
 								["Incoming Block"] = true,
 								["Incoming Dodge"] = true,
 								["Incoming Parry"] = true,
 							},
+							["name"] = "Rache!",
+							["sticky"] = true,
 							["color"] = "ffff00",
 							["class"] = "WARRIOR",
 							["icon"] = "Rache",
-							["name"] = "Rache!",
+							["disabled"] = true,
 						}, -- [15]
 						{
 							["secondaryConditions"] = {
@@ -1455,15 +1456,15 @@ ParrotDB = {
 						}, -- [18]
 						{
 							["locale"] = "deDE",
-							["id"] = 2,
+							["color"] = "ff00ff",
 							["name"] = "Blackout!",
 							["sticky"] = true,
-							["color"] = "ff00ff",
+							["id"] = 2,
+							["class"] = "PRIEST",
+							["icon"] = 15326,
 							["conditions"] = {
 								["Target debuff gain"] = "Blackout",
 							},
-							["icon"] = 15326,
-							["class"] = "PRIEST",
 						}, -- [19]
 						{
 							["disabled"] = true,
@@ -1472,59 +1473,59 @@ ParrotDB = {
 							["locale"] = "deDE",
 							["name"] = "Freier",
 							["color"] = "ff0000",
-							["sticky"] = true,
-							["icon"] = 25364,
 							["conditions"] = {
 								["Self buff gain"] = "Woge des Lichts",
 							},
+							["icon"] = 25364,
+							["sticky"] = true,
 						}, -- [20]
 						{
 							["locale"] = "deDE",
-							["id"] = 20,
+							["color"] = "0000ff",
 							["name"] = "Waffe des Mahlstroms!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 20,
+							["class"] = "SHAMAN",
+							["icon"] = 51532,
 							["conditions"] = {
 								["Self buff stacks gain"] = "Waffe des Mahlstroms,5",
 							},
-							["icon"] = 51532,
-							["class"] = "SHAMAN",
 						}, -- [21]
 						{
 							["locale"] = "deDE",
-							["id"] = 21,
+							["color"] = "ff0000",
 							["name"] = "Todestrance!!",
 							["sticky"] = true,
-							["color"] = "ff0000",
+							["id"] = 21,
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 50466,
 							["conditions"] = {
 								["Self buff gain"] = "Todestrance!",
 							},
-							["icon"] = 50466,
-							["class"] = "DEATHKNIGHT",
 						}, -- [22]
 						{
 							["locale"] = "deDE",
-							["id"] = 22,
+							["color"] = "0000ff",
 							["name"] = "Gefrierender Nebel!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 22,
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 59052,
 							["conditions"] = {
 								["Self buff gain"] = "Gefrierender Nebel",
 							},
-							["icon"] = 59052,
-							["class"] = "DEATHKNIGHT",
 						}, -- [23]
 						{
 							["locale"] = "deDE",
-							["id"] = 23,
+							["color"] = "0000ff",
 							["name"] = "Tötungsmaschine!",
 							["sticky"] = true,
-							["color"] = "0000ff",
+							["id"] = 23,
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 51130,
 							["conditions"] = {
 								["Self buff gain"] = "Tötungsmaschine",
 							},
-							["icon"] = 51130,
-							["class"] = "DEATHKNIGHT",
 						}, -- [24]
 						{
 							["disabled"] = true,
@@ -1533,12 +1534,12 @@ ParrotDB = {
 							["locale"] = "deDE",
 							["name"] = "Runenstoß!",
 							["color"] = "0000ff",
-							["sticky"] = true,
-							["icon"] = 56816,
 							["conditions"] = {
 								["Incoming Dodge"] = true,
 								["Incoming Parry"] = true,
 							},
+							["icon"] = 56816,
+							["sticky"] = true,
 						}, -- [25]
 						{
 							["secondaryConditions"] = {
@@ -1547,11 +1548,11 @@ ParrotDB = {
 							["sticky"] = true,
 							["name"] = "Niedrige Gesundheit!",
 							["class"] = "DRUID;HUNTER;MAGE;PALADIN;PRIEST;ROGUE;SHAMAN;WARLOCK;WARRIOR;DEATHKNIGHT",
-							["id"] = 10,
+							["color"] = "ff7f7f",
 							["conditions"] = {
 								["Self health percent"] = 0.4,
 							},
-							["color"] = "ff7f7f",
+							["id"] = 10,
 							["locale"] = "deDE",
 						}, -- [26]
 						{
@@ -1561,11 +1562,11 @@ ParrotDB = {
 							["sticky"] = true,
 							["name"] = "Niedriges Mana!",
 							["class"] = "DRUID;HUNTER;MAGE;PALADIN;PRIEST;SHAMAN;WARLOCK",
-							["id"] = 11,
+							["color"] = "7f7fff",
 							["conditions"] = {
 								["Self mana percent"] = 0.35,
 							},
-							["color"] = "7f7fff",
+							["id"] = 11,
 							["locale"] = "deDE",
 						}, -- [27]
 						{
@@ -1573,99 +1574,99 @@ ParrotDB = {
 								["Trigger cooldown"] = 3,
 							},
 							["name"] = "Niedrige Begleitergesundheit!",
-							["class"] = "HUNTER;MAGE;WARLOCK;DEATHKNIGHT",
-							["id"] = 12,
 							["conditions"] = {
 								["Pet health percent"] = 0.4,
 							},
+							["id"] = 12,
+							["class"] = "HUNTER;MAGE;WARLOCK;DEATHKNIGHT",
 							["color"] = "ff7f7f",
 							["locale"] = "deDE",
 						}, -- [28]
 						{
 							["locale"] = "deDE",
+							["class"] = "HUNTER",
+							["name"] = "Sichern und Laden!",
 							["conditions"] = {
 								["Self buff gain"] = "Sichern und Laden",
 							},
-							["name"] = "Sichern und Laden!",
-							["class"] = "HUNTER",
-							["color"] = "ff0000",
+							["id"] = 25,
 							["sticky"] = true,
 							["icon"] = 56344,
-							["id"] = 25,
+							["color"] = "ff0000",
 						}, -- [29]
 						{
 							["locale"] = "deDE",
+							["class"] = "MAGE",
+							["name"] = "Hirnfrost!",
 							["conditions"] = {
 								["Self buff gain"] = "Feuerball!",
 							},
-							["name"] = "Hirnfrost!",
-							["class"] = "MAGE",
-							["color"] = "0000ff",
+							["id"] = 26,
 							["sticky"] = true,
 							["icon"] = 57761,
-							["id"] = 26,
+							["color"] = "0000ff",
 						}, -- [30]
 						{
 							["locale"] = "deDE",
+							["class"] = "WARRIOR",
+							["name"] = "Plötzlicher Tod!",
 							["conditions"] = {
 								["Self buff gain"] = "Plötzlicher Tod",
 							},
-							["name"] = "Plötzlicher Tod!",
-							["class"] = "WARRIOR",
-							["color"] = "ff0000",
+							["id"] = 27,
 							["sticky"] = true,
 							["icon"] = 52437,
-							["id"] = 27,
+							["color"] = "ff0000",
 						}, -- [31]
 						{
 							["locale"] = "deDE",
+							["class"] = "DRUID",
+							["name"] = "Finsternis Sternenfeuer!",
 							["conditions"] = {
 								["Self buff gain"] = 48518,
 							},
-							["name"] = "Finsternis Sternenfeuer!",
-							["class"] = "DRUID",
-							["color"] = "ffffff",
+							["id"] = 28,
 							["sticky"] = true,
 							["icon"] = 48518,
-							["id"] = 28,
+							["color"] = "ffffff",
 						}, -- [32]
 						{
 							["locale"] = "deDE",
+							["class"] = "DRUID",
+							["name"] = "Finsternis Zorn!",
 							["conditions"] = {
 								["Self buff gain"] = 48517,
 							},
-							["name"] = "Finsternis Zorn!",
-							["class"] = "DRUID",
-							["color"] = "ffffff",
+							["id"] = 28,
 							["sticky"] = true,
 							["icon"] = 48517,
-							["id"] = 28,
+							["color"] = "ffffff",
 						}, -- [33]
 						{
 							["locale"] = "deDE",
+							["class"] = "PALADIN",
+							["name"] = "Die Kunst des Krieges!",
 							["conditions"] = {
 								["Self buff gain"] = "Die Kunst des Krieges",
 							},
-							["name"] = "Die Kunst des Krieges!",
-							["class"] = "PALADIN",
-							["color"] = "ffff00",
+							["id"] = 29,
 							["sticky"] = true,
 							["icon"] = 53489,
-							["id"] = 29,
+							["color"] = "ffff00",
 						}, -- [34]
 						{
 							["secondaryConditions"] = {
 								["Spell ready"] = "Tödlicher Schuss",
 							},
+							["class"] = "HUNTER",
+							["name"] = "Tödlicher Schuss!",
 							["conditions"] = {
 								["Enemy target health percent"] = 0.2,
 							},
-							["name"] = "Tödlicher Schuss!",
-							["class"] = "HUNTER",
-							["color"] = "ff0000",
+							["id"] = 31,
 							["sticky"] = true,
 							["icon"] = 53351,
-							["id"] = 31,
+							["color"] = "ff0000",
 						}, -- [35]
 					},
 				},

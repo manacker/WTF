@@ -53,18 +53,19 @@ BazookaDB = {
 					},
 					["Broker_ProfessionsMenu"] = {
 						["showLabel"] = true,
-						["area"] = "left",
+						["enabled"] = false,
 						["showText"] = false,
-						["showSuffix"] = true,
 						["showValue"] = true,
-						["pos"] = 19,
+						["showSuffix"] = true,
+						["pos"] = 21,
 					},
 					["ArkInventory_Bags"] = {
 						["area"] = "left",
+						["enabled"] = false,
 						["pos"] = 15,
 					},
 					["BugSack"] = {
-						["pos"] = 27,
+						["pos"] = 28,
 					},
 					["ArkInventory_Tracking_Currency"] = {
 						["showIcon"] = false,
@@ -75,7 +76,7 @@ BazookaDB = {
 						["pos"] = 13,
 					},
 					["Launcher: Kochkunst"] = {
-						["pos"] = 23,
+						["pos"] = 24,
 					},
 					["Broker_Location"] = {
 						["showIcon"] = false,
@@ -93,38 +94,35 @@ BazookaDB = {
 						["area"] = "left",
 						["pos"] = 17,
 					},
-					["Broker_DurabilityInfo"] = {
-						["area"] = "left",
-						["pos"] = 6,
+					["Launcher: Erste Hilfe"] = {
+						["pos"] = 22,
 					},
-					["LDBThreat"] = {
-						["area"] = "cleft",
-						["enabled"] = false,
-						["pos"] = 1,
+					["Launcher: Ingenieurskunst"] = {
+						["pos"] = 23,
 					},
-					["Broker_Garbage"] = {
+					["HitCrit"] = {
 						["area"] = "left",
-						["pos"] = 7,
+						["pos"] = 18,
 					},
 					["|cFFFFB366Ara|r Guild"] = {
 						["pos"] = 10,
 					},
-					["ElkFactions"] = {
+					["picoGuild"] = {
 						["area"] = "left",
-						["pos"] = 21,
+						["pos"] = 5,
 					},
 					["Broker_uClock"] = {
 						["showIcon"] = false,
-						["pos"] = 29,
+						["pos"] = 30,
 					},
 					["ArkInventory_Money"] = {
 						["showIcon"] = false,
 						["area"] = "left",
 						["pos"] = 2,
 					},
-					["picoGuild"] = {
+					["ElkFactions"] = {
 						["area"] = "left",
-						["pos"] = 5,
+						["pos"] = 22,
 					},
 					["ArkInventory_Mounts"] = {
 						["area"] = "left",
@@ -134,24 +132,27 @@ BazookaDB = {
 						["pos"] = 28,
 					},
 					["Launcher: Verhüttung"] = {
-						["pos"] = 24,
+						["pos"] = 25,
 					},
 					["picoFriends"] = {
 						["area"] = "left",
 						["pos"] = 4,
 					},
-					["Launcher: Erste Hilfe"] = {
-						["pos"] = 21,
+					["Broker_DurabilityInfo"] = {
+						["area"] = "left",
+						["pos"] = 6,
 					},
 					["Archy"] = {
-						["pos"] = 25,
+						["pos"] = 26,
 					},
-					["HitCrit"] = {
+					["Broker_Garbage"] = {
 						["area"] = "left",
-						["pos"] = 18,
+						["pos"] = 7,
 					},
-					["Launcher: Ingenieurskunst"] = {
-						["pos"] = 22,
+					["LDBThreat"] = {
+						["area"] = "cleft",
+						["enabled"] = false,
+						["pos"] = 1,
 					},
 				},
 				["launcher"] = {
@@ -172,7 +173,7 @@ BazookaDB = {
 					},
 					["Bazooka"] = {
 						["area"] = "right",
-						["pos"] = 26,
+						["pos"] = 29,
 					},
 					["Reforgenator"] = {
 						["pos"] = 18,
@@ -186,29 +187,29 @@ BazookaDB = {
 					},
 					["DBM-LDB"] = {
 						["area"] = "right",
-						["pos"] = 3,
+						["pos"] = 4,
 					},
 					["LFG"] = {
 						["showValue"] = false,
-						["area"] = "right",
 						["showSuffix"] = true,
-						["pos"] = 4,
+						["pos"] = 23,
 					},
 					["Bartender4"] = {
 						["area"] = "right",
-						["pos"] = 5,
+						["pos"] = 6,
 					},
 					["GatherMate2"] = {
 						["area"] = "right",
 						["pos"] = 8,
 					},
 					["Decursive"] = {
+						["area"] = "right",
+						["pos"] = 2,
+					},
+					["kgPanels"] = {
 						["pos"] = 22,
 					},
 					["BagnonLauncher"] = {
-						["pos"] = 22,
-					},
-					["kgPanels"] = {
 						["pos"] = 22,
 					},
 					["Omen"] = {
@@ -221,11 +222,19 @@ BazookaDB = {
 			},
 			["bars"] = {
 				{
+					["bgTexture"] = "Blizzard Dialog Background",
 					["font"] = "Calibri",
+					["bgEdgeSize"] = 1,
 					["frameWidth"] = 1536.000107963344,
 					["pos"] = 1,
 					["iconSize"] = 14,
 					["frameHeight"] = 19.99999578268188,
+					["bgColor"] = {
+						["a"] = 0.6500000059604645,
+						["b"] = 0.9372549019607843,
+						["g"] = 0.4196078431372549,
+						["r"] = 0.7411764705882353,
+					},
 				}, -- [1]
 				{
 					["bgEnabled"] = false,

@@ -5,6 +5,7 @@ ReforgenatorDB = {
 			["targetLevelSelection"] = {
 			},
 			["useSandbox"] = {
+				[2] = true,
 			},
 		},
 	},
@@ -66,7 +67,6 @@ ReforgenatorDB = {
 				["notes"] = "http://elitistjerks.com/f75/t110326-cataclysm_fire_mage_compendium/#Gearing_a_Fire_Mage",
 				["ak"] = "MAGE/2",
 				["PerCharacterOptions"] = {
-					["Magnifico-Der Rat von Dalaran/2"] = true,
 				},
 				["reforgeOrder"] = {
 					{
@@ -230,6 +230,32 @@ ReforgenatorDB = {
 				},
 				["readOnly"] = true,
 				["class"] = "PALADIN",
+			},
+			["Magnifiro"] = {
+				["notes"] = "http://elitistjerks.com/f75/t110326-cataclysm_fire_mage_compendium/#Gearing_a_Fire_Mage",
+				["PerCharacterOptions"] = {
+				},
+				["reforgeOrder"] = {
+					{
+						["cap"] = "SpellHitCap",
+						["rating"] = 8,
+					}, -- [1]
+					{
+						["cap"] = "15% Haste",
+						["rating"] = 20,
+					}, -- [2]
+					{
+						["cap"] = "MaximumPossible",
+						["rating"] = 11,
+					}, -- [3]
+				},
+				["class"] = "MAGE",
+				["statWeights"] = {
+					["ITEM_MOD_CRIT_RATING_SHORT"] = 1.55,
+					["ITEM_MOD_HASTE_RATING_SHORT"] = 1.59,
+					["ITEM_MOD_MASTERY_RATING_SHORT"] = 1.3,
+					["ITEM_MOD_HIT_RATING_SHORT"] = 2.72,
+				},
 			},
 			["Warlock, affliction"] = {
 				["notes"] = "http://elitistjerks.com/f80/t112939-affliction_cataclysm_4_2_release/",

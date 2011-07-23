@@ -12,8 +12,8 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 600.0001298933981,
-					["y"] = 330.0000732407581,
+					["x"] = 627.0002147317811,
+					["y"] = 293.0000816051057,
 				},
 			},
 		},
@@ -21,11 +21,15 @@ Quartz3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["h"] = 20,
-					["w"] = 430,
-					["y"] = 90,
-					["font"] = "Calibri",
-					["x"] = 745.0000494831993,
+					["w"] = 449,
+					["y"] = 88,
+					["x"] = 730,
+					["iconalpha"] = 1,
+					["border"] = "ArkInventory Square 1",
 					["texture"] = "BantoBar",
+					["font"] = "Calibri",
+					["nametextposition"] = "center",
+					["hideicon"] = true,
 				},
 			},
 		},
@@ -52,8 +56,16 @@ Quartz3DB = {
 		["Mirror"] = {
 			["profiles"] = {
 				["Default"] = {
+					["mirroricons"] = false,
 					["mirroroffset"] = -0,
+					["mirroranchor"] = "free",
+					["mirrory"] = 102,
+					["mirrortexture"] = "BantoBar",
+					["mirrorfont"] = "Calibri",
+					["mirrorx"] = 608,
+					["mirrorheight"] = 14,
 					["mirrorposition"] = "top",
+					["mirrorfontsize"] = 10,
 				},
 			},
 		},
@@ -78,6 +90,9 @@ Quartz3DB = {
 			["modules"] = {
 				["GCD"] = false,
 				["Buff"] = false,
+				["Target"] = false,
+				["Pet"] = false,
+				["Focus"] = false,
 			},
 		},
 	},

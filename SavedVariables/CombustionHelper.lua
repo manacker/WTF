@@ -1,9 +1,9 @@
 
-combulock = true
+combulock = false
 combuffb = false
 combuautohide = 1
 combuimpact = true
-combuscale = 1.399999976158142
+combuscale = 1.480000019073486
 combubeforefade = 15
 combuafterfade = 15
 combufadeoutspeed = 2
@@ -11,7 +11,7 @@ combufadeinspeed = 2
 combuwaitfade = 86
 combufadealpha = 0
 combubartimers = false
-combubarwidth = 24
+combubarwidth = 10
 combured = 0
 combugreen = 0.5
 combublue = 0.8
@@ -19,8 +19,8 @@ combuopacity = 1
 combucrit = true
 comburefreshmode = true
 combureport = true
-combureportvalue = 0
-combureportthreshold = false
+combureportvalue = 12000
+combureportthreshold = true
 combureportpyro = true
 combutrack = true
 combuchat = true
@@ -30,7 +30,7 @@ combulbtarget = true
 combulbup = true
 combulbright = false
 combulbleft = false
-combutimervalue = 2
+combutimervalue = 1.5
 combuignitedelta = 0
 combuignitepredict = true
 combureportmunching = true
@@ -76,12 +76,7 @@ combusettingstable = {
 		0, -- [3]
 		0.5, -- [4]
 	},
-	["textcolorvalid"] = {
-		0, -- [1]
-		1, -- [2]
-		0, -- [3]
-		1, -- [4]
-	},
+	["edgeFile"] = "InterfaceTooltipsUI-Tooltip-Border",
 	["bgFile"] = "InterfaceTooltipsUI-Tooltip-Background",
 	["bgcolornormal"] = {
 		0.25, -- [1]
@@ -95,5 +90,10 @@ combusettingstable = {
 		0.67, -- [3]
 		1, -- [4]
 	},
-	["edgeFile"] = "InterfaceTooltipsUI-Tooltip-Border",
+	["textcolorvalid"] = {
+		0, -- [1]
+		1, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
 }

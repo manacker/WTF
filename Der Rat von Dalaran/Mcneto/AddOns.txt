@@ -10,3 +10,6 @@ DBM-Icecrown: disabled
 DBM-ChamberOfAspects: disabled
 Recount: disabled
 Omen: disabled
+TinyTip: enabled
+Broker_DungeonDifficulty: disabled
+guildxp: disabled

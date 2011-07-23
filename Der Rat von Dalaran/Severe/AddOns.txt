@@ -95,7 +95,7 @@ Quartz_Tradeskill: enabled
 RatingBuster: enabled
 Recount: disabled
 Routes: disabled
-TinyTip: disabled
+TinyTip: enabled
 TinyTipOptions: enabled
 TrinketMenu: disabled
 DBM-Core: disabled
@@ -183,3 +183,4 @@ Bagnon: disabled
 Baggins: disabled
 Bagnon_Forever: disabled
 ArkInventoryRulesExample: disabled
+guildxp: disabled

@@ -95,7 +95,7 @@ Quartz_Tradeskill: enabled
 RatingBuster: enabled
 Recount: disabled
 Routes: enabled
-TinyTip: disabled
+TinyTip: enabled
 TinyTipOptions: enabled
 TrinketMenu: disabled
 DBM-Core: enabled

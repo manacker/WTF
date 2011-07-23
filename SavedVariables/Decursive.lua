@@ -17,17 +17,20 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1310680616,
+		["LastVersionAnnounce"] = 1311362574,
 	},
 	["profiles"] = {
 		["Default"] = {
-			["DebuffsFrameContainer_y"] = 122.9187144392196,
-			["DebuffsFrameElemScale"] = 1.4,
+			["DebuffsFrameContainer_y"] = 119.7186774208427,
+			["DebuffsFrameYSpacing"] = 2,
+			["DebuffsFrameElemScale"] = 1.26,
 			["DebuffsFrameGrowToTop"] = true,
 			["MainBarX"] = 614.4000179363367,
 			["MainBarY"] = -96.00000712108627,
-			["DebuffsFramePerline"] = 5,
-			["DebuffsFrameContainer_x"] = 395.5202772002859,
+			["DebuffsFrameContainer_x"] = 389.7603074488969,
+			["DebuffsFrameElemBorderAlpha"] = 0.175,
+			["DebuffsFrameXSpacing"] = 2,
+			["HideLiveList"] = true,
 		},
 	},
 }

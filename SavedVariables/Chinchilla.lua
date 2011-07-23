@@ -40,23 +40,25 @@ Chinchilla2DB = {
 		["TrackingDots"] = {
 			["profiles"] = {
 				["Default"] = {
-					["enabled"] = false,
+					["trackingDotStyle"] = "NandiniNew",
 				},
 			},
 		},
-		["QuestTracker"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = true,
-					["frameHeight"] = 500,
-					["showCollapseButton"] = false,
-					["frameWidth"] = 250,
-				},
-			},
+		["RangeCircle"] = {
 		},
 		["Position"] = {
 			["profiles"] = {
 				["Default"] = {
+					["capture"] = {
+						nil, -- [1]
+						-16.00014957421608, -- [2]
+						-209.9998691225609, -- [3]
+					},
+					["vehicleSeats"] = {
+						nil, -- [1]
+						-8.000466154229798, -- [2]
+						-290.000072678449, -- [3]
+					},
 					["ticketStatus"] = {
 						nil, -- [1]
 						-197.0000658604514, -- [2]
@@ -64,23 +66,24 @@ Chinchilla2DB = {
 					},
 					["minimap"] = {
 						nil, -- [1]
-						0.003022973629640546, -- [2]
-						-12.80078183454884, -- [3]
+						-3.330139652134173, -- [2]
+						-6.134002307822182, -- [3]
+					},
+					["boss"] = {
+						"BOTTOMRIGHT", -- [1]
+						-291.9998911931924, -- [2]
+						193.0001679195499, -- [3]
 					},
 					["questWatch"] = {
 						"RIGHT", -- [1]
-						[3] = 134.9999923385387,
-					},
-					["capture"] = {
-						nil, -- [1]
-						-16.00014957421608, -- [2]
-						-209.9998691225609, -- [3]
+						8.097250785965571e-005, -- [2]
+						145.0000610808241, -- [3]
 					},
 					["minimapLock"] = true,
-					["vehicleSeats"] = {
+					["poweralt"] = {
 						nil, -- [1]
-						-8.000466154229798, -- [2]
-						-290.000072678449, -- [3]
+						1.999984958232062, -- [2]
+						-176.9999283758806, -- [3]
 					},
 				},
 			},
@@ -119,12 +122,22 @@ Chinchilla2DB = {
 					["difficulty"] = 150,
 					["dayNight"] = 30,
 					["zoomIn"] = 329,
+					["clock"] = 213,
+					["track"] = 360,
 					["lock"] = true,
 					["battleground"] = 210,
 				},
 			},
 		},
-		["RangeCircle"] = {
+		["QuestTracker"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enabled"] = true,
+					["frameHeight"] = 500,
+					["showCollapseButton"] = false,
+					["frameWidth"] = 250,
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
