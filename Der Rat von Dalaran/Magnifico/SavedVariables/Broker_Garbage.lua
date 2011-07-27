@@ -2,7 +2,7 @@
 BG_LocalDB = {
 	["include"] = {
 	},
-	["moneyEarned"] = 6725496,
+	["moneyEarned"] = 9746534,
 	["autoSellList"] = {
 		[6308] = true,
 		[6289] = true,

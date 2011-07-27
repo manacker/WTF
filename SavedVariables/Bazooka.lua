@@ -189,6 +189,9 @@ BazookaDB = {
 						["area"] = "right",
 						["pos"] = 4,
 					},
+					["BigWigs"] = {
+						["pos"] = 19,
+					},
 					["LFG"] = {
 						["showValue"] = false,
 						["showSuffix"] = true,

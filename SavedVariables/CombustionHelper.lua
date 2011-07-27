@@ -1,7 +1,7 @@
 
 combulock = false
 combuffb = false
-combuautohide = 1
+combuautohide = 2
 combuimpact = true
 combuscale = 1.480000019073486
 combubeforefade = 15

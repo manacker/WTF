@@ -17,7 +17,7 @@ BigWigs_SC: enabled
 BigWigs_Sunwell: enabled
 BigWigs_TheEye: enabled
 BigWigs_ZulAman: enabled
-BigWigs: disabled
+BigWigs: enabled
 BLASCProfiler: enabled
 BLASCrafter: disabled
 Broker2FuBar: disabled
@@ -98,7 +98,7 @@ Routes: enabled
 TinyTip: enabled
 TinyTipOptions: enabled
 TrinketMenu: disabled
-DBM-Core: enabled
+DBM-Core: disabled
 DBM-GUI: enabled
 DBM-Battlegrounds: disabled
 DBM-ChamberOfAspects: disabled
@@ -213,3 +213,8 @@ SexyReputation: disabled
 guildxp: disabled
 RaidWatch: disabled
 ReforgeSaver: disabled
+BigWigs_Bastion: disabled
+BigWigs_Throne: disabled
+SkadaEnemies: disabled
+SkadaHealing: disabled
+SkadaPower: disabled

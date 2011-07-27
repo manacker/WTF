@@ -2,6 +2,7 @@
 ACP_Data = {
 	["sorter"] = "Group By Name",
 	["NoRecurse"] = false,
+	["NoChildren"] = true,
 	["AddonSet"] = {
 		{
 			"ArkInventory", -- [1]
@@ -32,10 +33,8 @@ ACP_Data = {
 			"DBM-ThroneFourWinds", -- [26]
 		}, -- [1]
 	},
-	["NoChildren"] = true,
 	["collapsed"] = {
 		["Libraries"] = true,
-		["BigWigs"] = true,
 		["Blizzard Addons"] = true,
 		["FuBar"] = true,
 		["oRA2"] = true,
@@ -43,6 +42,7 @@ ACP_Data = {
 		["Broker"] = true,
 		["ShadowedUnitFrames"] = true,
 		["Wowhead"] = true,
+		["DBM"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,

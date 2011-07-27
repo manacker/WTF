@@ -42,6 +42,11 @@ Postal3DB = {
 			},
 		},
 		["Magnifico - Der Rat von Dalaran"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Gorthuk|Der Rat von Dalaran|Horde", -- [1]
+				},
+			},
 		},
 		["Herman - Der Rat von Dalaran"] = {
 		},

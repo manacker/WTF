@@ -41,6 +41,7 @@ Chinchilla2DB = {
 			["profiles"] = {
 				["Default"] = {
 					["trackingDotStyle"] = "NandiniNew",
+					["enabled"] = false,
 				},
 			},
 		},

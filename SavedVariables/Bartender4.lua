@@ -550,8 +550,8 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.49993389353847,
-								["x"] = -231.4999503410791,
+								["y"] = -42.73997077820275,
+								["x"] = -445.8999645112681,
 								["point"] = "CENTER",
 							},
 						}, -- [6]
@@ -600,9 +600,23 @@ Bartender4DB = {
 							},
 						}, -- [9]
 						{
+							["rows"] = 4,
 							["skin"] = {
 								["ID"] = "NotCaith",
 								["Backdrop"] = false,
+							},
+							["enabled"] = true,
+							["buttons"] = 9,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 117,
+								["x"] = 385,
+								["point"] = "BOTTOM",
+								["scale"] = 1.019999980926514,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["shift"] = 6,
 							},
 						}, -- [10]
 					},
@@ -1797,9 +1811,9 @@ Bartender4DB = {
 						["Backdrop"] = false,
 					},
 					["position"] = {
-						["y"] = -183.059937860629,
-						["x"] = -147.8198117093978,
-						["point"] = "CENTER",
+						["y"] = 257.40168809404,
+						["x"] = -355.3047377140913,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Atrako - Der Rat von Dalaran"] = {

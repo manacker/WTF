@@ -41,6 +41,10 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "PRIEST",
 						},
+						["Räpter"] = {
+							["level"] = 80,
+							["class"] = "HUNTER",
+						},
 						["Navariôn"] = {
 							["class"] = "WARRIOR",
 							["level"] = 80,
@@ -53,57 +57,73 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "DEATHKNIGHT",
 						},
+						["Kîana"] = {
+							["level"] = 80,
+							["class"] = "ROGUE",
+						},
 						["Pagor"] = {
 							["level"] = 40,
 							["class"] = "WARRIOR",
-						},
-						["Räpter"] = {
-							["level"] = 80,
-							["class"] = "HUNTER",
-						},
-						["Vedalo"] = {
-							["class"] = "WARLOCK",
-							["level"] = 71,
-						},
-						["Groomer"] = {
-							["class"] = "WARRIOR",
-							["level"] = 22,
-						},
-						["Élaa"] = {
-							["level"] = 13,
-							["class"] = "HUNTER",
 						},
 						["Shasirra"] = {
 							["class"] = "WARLOCK",
 							["level"] = 28,
 						},
-						["Yummy"] = {
+						["Vedalo"] = {
 							["class"] = "WARLOCK",
-							["level"] = 80,
+							["level"] = 71,
+						},
+						["Grumli"] = {
+							["class"] = "HUNTER",
+							["level"] = 38,
+						},
+						["Groomer"] = {
+							["class"] = "WARRIOR",
+							["level"] = 22,
 						},
 						["Galidria"] = {
 							["level"] = 71,
 							["class"] = "HUNTER",
 						},
+						["Litfara"] = {
+							["class"] = "PALADIN",
+							["level"] = 71,
+						},
+						["Moruck"] = {
+							["class"] = "HUNTER",
+							["level"] = 80,
+						},
+						["Shîsou"] = {
+							["class"] = "DRUID",
+							["level"] = 82,
+						},
+						["Yummy"] = {
+							["class"] = "WARLOCK",
+							["level"] = 80,
+						},
+						["Dogmaer"] = {
+							["class"] = "DRUID",
+							["level"] = 10,
+						},
 						["Xràý"] = {
 							["level"] = 77,
 							["class"] = "ROGUE",
 						},
-						["Falandril"] = {
-							["level"] = 70,
-							["class"] = "DRUID",
+						["Navidia"] = {
+							["level"] = 80,
+							["class"] = "MAGE",
 						},
-						["Mcneto"] = {
+						["Drnomek"] = {
+							["level"] = 70,
 							["class"] = "WARRIOR",
-							["level"] = 33,
 						},
 						["Noranto"] = {
 							["class"] = "PRIEST",
 							["level"] = 80,
 						},
-						["Arcbound"] = {
-							["class"] = "MAGE",
-							["level"] = 81,
+						["Morkina"] = {
+							["class"] = "WARRIOR",
+							["level"] = 80,
 						},
 						["Valérien"] = {
 							["level"] = 85,
@@ -113,13 +133,13 @@ ChatterDB = {
 							["level"] = 24,
 							["class"] = "MAGE",
 						},
-						["Litfara"] = {
-							["class"] = "PALADIN",
-							["level"] = 71,
+						["Medocius"] = {
+							["class"] = "MAGE",
+							["level"] = 80,
 						},
-						["Suminorys"] = {
-							["level"] = 82,
-							["class"] = "WARLOCK",
+						["Falandril"] = {
+							["level"] = 70,
+							["class"] = "DRUID",
 						},
 						["Brotfahrerin"] = {
 							["class"] = "SHAMAN",
@@ -137,13 +157,13 @@ ChatterDB = {
 							["class"] = "DRUID",
 							["level"] = 19,
 						},
-						["Kerus"] = {
-							["level"] = 80,
+						["Sieglinde"] = {
+							["level"] = 48,
 							["class"] = "MAGE",
 						},
-						["Dogmaer"] = {
+						["Khomul"] = {
+							["level"] = 26,
 							["class"] = "DRUID",
-							["level"] = 10,
 						},
 						["Shaukaris"] = {
 							["class"] = "HUNTER",
@@ -153,15 +173,15 @@ ChatterDB = {
 							["level"] = 78,
 							["class"] = "DRUID",
 						},
-						["Sotkia"] = {
-							["class"] = "DRUID",
-							["level"] = 80,
+						["Billâbông"] = {
+							["class"] = "MAGE",
+							["level"] = "71",
 						},
 						["Nomekz"] = {
 							["level"] = 85,
 							["class"] = "WARLOCK",
 						},
-						["Morkina"] = {
+						["Teutoni"] = {
 							["class"] = "WARRIOR",
 							["level"] = 80,
 						},
@@ -177,65 +197,65 @@ ChatterDB = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
-						["Boldy"] = {
-							["level"] = 85,
-							["class"] = "PALADIN",
+						["Kerus"] = {
+							["level"] = 80,
+							["class"] = "MAGE",
 						},
 						["Merowing"] = {
 							["level"] = 64,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Yey"] = {
-							["level"] = 67,
-							["class"] = "ROGUE",
+						["Sotkia"] = {
+							["class"] = "DRUID",
+							["level"] = 80,
 						},
 						["Tamila"] = {
 							["level"] = 74,
 							["class"] = "PALADIN",
 						},
-						["Kîana"] = {
-							["level"] = 80,
+						["Amildur"] = {
+							["level"] = 83,
 							["class"] = "ROGUE",
 						},
 						["Menophis"] = {
 							["class"] = "SHAMAN",
 							["level"] = 4,
 						},
-						["Grumli"] = {
-							["class"] = "HUNTER",
-							["level"] = 38,
+						["Concitarîo"] = {
+							["level"] = 85,
+							["class"] = "ROGUE",
 						},
 						["Mandrig"] = {
 							["level"] = 70,
 							["class"] = "MAGE",
 						},
-						["Billâbông"] = {
-							["class"] = "MAGE",
-							["level"] = "71",
+						["Warrian"] = {
+							["class"] = "WARRIOR",
+							["level"] = 24,
 						},
 						["Gnimp"] = {
 							["class"] = "ROGUE",
 							["level"] = 85,
 						},
-						["Teutoni"] = {
-							["class"] = "WARRIOR",
-							["level"] = 80,
+						["Gorthuk"] = {
+							["class"] = "HUNTER",
+							["level"] = 85,
 						},
 						["Thanopstru"] = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
-						["Amildur"] = {
-							["level"] = 83,
-							["class"] = "ROGUE",
+						["Pixal"] = {
+							["level"] = 80,
+							["class"] = "HUNTER",
 						},
 						["Stueck"] = {
 							["level"] = 80,
 							["class"] = "ROGUE",
 						},
-						["Khomul"] = {
-							["level"] = 26,
-							["class"] = "DRUID",
+						["Gísburn"] = {
+							["class"] = "PALADIN",
+							["level"] = 81,
 						},
 						["Neile"] = {
 							["level"] = 70,
@@ -245,13 +265,13 @@ ChatterDB = {
 							["class"] = "WARRIOR",
 							["level"] = 80,
 						},
-						["Concitarîo"] = {
-							["level"] = 85,
-							["class"] = "ROGUE",
+						["Zeudberg"] = {
+							["level"] = 76,
+							["class"] = "SHAMAN",
 						},
-						["Aludira"] = {
-							["class"] = "HUNTER",
-							["level"] = 85,
+						["Maragosch"] = {
+							["level"] = 80,
+							["class"] = "PALADIN",
 						},
 						["Silba"] = {
 							["class"] = "PRIEST",
@@ -309,9 +329,9 @@ ChatterDB = {
 							["class"] = "WARRIOR",
 							["level"] = 80,
 						},
-						["Resche"] = {
-							["level"] = 28,
-							["class"] = "DRUID",
+						["Eufelie"] = {
+							["level"] = 80,
+							["class"] = "WARRIOR",
 						},
 						["Yag"] = {
 							["class"] = "MAGE",
@@ -321,45 +341,45 @@ ChatterDB = {
 							["class"] = "WARRIOR",
 							["level"] = 75,
 						},
-						["Pixal"] = {
-							["level"] = 80,
+						["Kashim"] = {
+							["level"] = 70,
 							["class"] = "HUNTER",
 						},
 						["Shugal"] = {
 							["class"] = "PALADIN",
 							["level"] = 85,
 						},
-						["Zeudberg"] = {
-							["level"] = 76,
-							["class"] = "SHAMAN",
-						},
-						["Bowlca"] = {
-							["class"] = "DRUID",
+						["Abarehatsch"] = {
 							["level"] = 80,
+							["class"] = "MAGE",
+						},
+						["Wurstmodem"] = {
+							["level"] = 2,
+							["class"] = "ROGUE",
 						},
 						["Butchér"] = {
-							["level"] = 72,
-							["class"] = "ROGUE",
+							["level"] = 85,
+							["class"] = "WARRIOR",
 						},
 						["Sujiana"] = {
 							["class"] = "MAGE",
 							["level"] = 13,
 						},
-						["Warrian"] = {
-							["class"] = "WARRIOR",
-							["level"] = 24,
+						["Irfin"] = {
+							["class"] = "PALADIN",
+							["level"] = 85,
 						},
 						["Cochran"] = {
 							["level"] = 57,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Gorthuk"] = {
+						["Aludira"] = {
 							["class"] = "HUNTER",
-							["level"] = 83,
+							["level"] = 85,
 						},
-						["Jamés"] = {
-							["level"] = 45,
-							["class"] = "PRIEST",
+						["Amaunet"] = {
+							["class"] = "WARRIOR",
+							["level"] = 80,
 						},
 						["Fischbein"] = {
 							["class"] = "PALADIN",
@@ -377,17 +397,17 @@ ChatterDB = {
 							["class"] = "WARLOCK",
 							["level"] = 85,
 						},
-						["Eufelie"] = {
-							["level"] = 80,
-							["class"] = "WARRIOR",
+						["Thálon"] = {
+							["level"] = 85,
+							["class"] = "DRUID",
 						},
-						["Kashim"] = {
-							["level"] = 70,
-							["class"] = "HUNTER",
+						["Galil"] = {
+							["level"] = 15,
+							["class"] = "SHAMAN",
 						},
-						["Abarehatsch"] = {
-							["level"] = 80,
-							["class"] = "MAGE",
+						["Shagzs"] = {
+							["level"] = 22,
+							["class"] = "PRIEST",
 						},
 						["Okara"] = {
 							["class"] = "WARRIOR",
@@ -405,9 +425,9 @@ ChatterDB = {
 							["level"] = 61,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Gísburn"] = {
-							["class"] = "PALADIN",
-							["level"] = 81,
+						["Resche"] = {
+							["level"] = 28,
+							["class"] = "DRUID",
 						},
 						["Calellá"] = {
 							["class"] = "DEATHKNIGHT",
@@ -425,29 +445,29 @@ ChatterDB = {
 							["level"] = 70,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Wurstmodem"] = {
-							["level"] = 2,
-							["class"] = "ROGUE",
+						["Laserchicken"] = {
+							["class"] = "MAGE",
+							["level"] = 10,
 						},
 						["Feyhashar"] = {
 							["class"] = "WARRIOR",
 							["level"] = 80,
 						},
-						["Aterios"] = {
-							["level"] = 54,
-							["class"] = "PALADIN",
+						["Bowlca"] = {
+							["class"] = "DRUID",
+							["level"] = 80,
 						},
 						["Hellcow"] = {
 							["class"] = "DEATHKNIGHT",
 							["level"] = 85,
 						},
-						["Amaunet"] = {
-							["class"] = "WARRIOR",
-							["level"] = 80,
+						["Jamés"] = {
+							["level"] = 45,
+							["class"] = "PRIEST",
 						},
-						["Infiniti"] = {
-							["class"] = "HUNTER",
-							["level"] = 66,
+						["Wutan"] = {
+							["class"] = "ROGUE",
+							["level"] = 80,
 						},
 						["Nensha"] = {
 							["class"] = "PRIEST",
@@ -457,30 +477,6 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "MAGE",
 						},
-						["Sylarus"] = {
-							["class"] = "DRUID",
-							["level"] = 20,
-						},
-						["Moesch"] = {
-							["class"] = "HUNTER",
-							["level"] = 80,
-						},
-						["Shagzs"] = {
-							["level"] = 22,
-							["class"] = "PRIEST",
-						},
-						["Gnaddelwarz"] = {
-							["class"] = "WARRIOR",
-							["level"] = 85,
-						},
-						["Draufwienix"] = {
-							["class"] = "WARRIOR",
-							["level"] = 70,
-						},
-						["Laserchicken"] = {
-							["class"] = "MAGE",
-							["level"] = 10,
-						},
 						["Topsy"] = {
 							["class"] = "MAGE",
 							["level"] = 85,
@@ -488,6 +484,30 @@ ChatterDB = {
 						["Sîsqo"] = {
 							["level"] = 14,
 							["class"] = "DRUID",
+						},
+						["Tasmina"] = {
+							["level"] = 80,
+							["class"] = "DRUID",
+						},
+						["Gnaddelwarz"] = {
+							["class"] = "WARRIOR",
+							["level"] = 85,
+						},
+						["Illasera"] = {
+							["class"] = "PALADIN",
+							["level"] = 80,
+						},
+						["Deregond"] = {
+							["class"] = "PALADIN",
+							["level"] = 85,
+						},
+						["Moesch"] = {
+							["class"] = "HUNTER",
+							["level"] = 80,
+						},
+						["Matzman"] = {
+							["level"] = 80,
+							["class"] = "PALADIN",
 						},
 						["Sweezle"] = {
 							["class"] = "WARLOCK",
@@ -505,13 +525,13 @@ ChatterDB = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
-						["Deregond"] = {
-							["class"] = "PALADIN",
+						["És"] = {
+							["class"] = "MAGE",
 							["level"] = 85,
 						},
-						["Wutan"] = {
-							["class"] = "ROGUE",
-							["level"] = 80,
+						["Pasch"] = {
+							["class"] = "PALADIN",
+							["level"] = 73,
 						},
 						["Brandó"] = {
 							["level"] = 55,
@@ -533,25 +553,25 @@ ChatterDB = {
 							["level"] = 22,
 							["class"] = "ROGUE",
 						},
-						["Rondraja"] = {
-							["level"] = 42,
-							["class"] = "WARRIOR",
+						["Dreamwâlker"] = {
+							["class"] = "ROGUE",
+							["level"] = 31,
+						},
+						["Mandragòr"] = {
+							["class"] = "MAGE",
+							["level"] = 80,
 						},
 						["Gnomiâ"] = {
 							["level"] = 80,
 							["class"] = "WARLOCK",
 						},
-						["Matzman"] = {
-							["level"] = 80,
-							["class"] = "PALADIN",
+						["Aje"] = {
+							["class"] = "ROGUE",
+							["level"] = 39,
 						},
-						["Tograt"] = {
-							["class"] = "DRUID",
+						["Sarahangel"] = {
+							["class"] = "PRIEST",
 							["level"] = 80,
-						},
-						["És"] = {
-							["class"] = "MAGE",
-							["level"] = 85,
 						},
 						["Bentica"] = {
 							["level"] = 80,
@@ -577,9 +597,9 @@ ChatterDB = {
 							["level"] = 56,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Neil"] = {
-							["class"] = "WARRIOR",
-							["level"] = 80,
+						["Tirijana"] = {
+							["class"] = "HUNTER",
+							["level"] = 32,
 						},
 						["Iscari"] = {
 							["level"] = 80,
@@ -599,47 +619,47 @@ ChatterDB = {
 						},
 						["Kuhfladin"] = {
 							["class"] = "PALADIN",
-							["level"] = 27,
+							["level"] = 40,
 						},
 						["Neytirie"] = {
 							["class"] = "PRIEST",
 							["level"] = 85,
 						},
-						["Pasch"] = {
-							["class"] = "PALADIN",
-							["level"] = 73,
+						["Tograt"] = {
+							["class"] = "DRUID",
+							["level"] = 80,
 						},
 						["Tyar"] = {
 							["class"] = "SHAMAN",
 							["level"] = 84,
 						},
-						["Maragosch"] = {
+						["Koruna"] = {
 							["level"] = 80,
 							["class"] = "PALADIN",
 						},
-						["Shagsz"] = {
-							["level"] = 47,
-							["class"] = "SHAMAN",
+						["Suró"] = {
+							["level"] = 79,
+							["class"] = "DEATHKNIGHT",
 						},
 						["Samhoof"] = {
 							["class"] = "DRUID",
 							["level"] = 80,
 						},
-						["Mandragòr"] = {
-							["class"] = "MAGE",
+						["Feenstaub"] = {
+							["class"] = "PRIEST",
 							["level"] = 80,
 						},
 						["Diáz"] = {
 							["level"] = 80,
 							["class"] = "MAGE",
 						},
-						["Jacobi"] = {
-							["class"] = "PALADIN",
-							["level"] = 30,
+						["Shagsz"] = {
+							["level"] = 47,
+							["class"] = "SHAMAN",
 						},
-						["Salome"] = {
-							["class"] = "WARLOCK",
-							["level"] = 80,
+						["Khark"] = {
+							["class"] = "SHAMAN",
+							["level"] = 85,
 						},
 						["Sheníqwa"] = {
 							["level"] = 84,
@@ -665,13 +685,13 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "PALADIN",
 						},
-						["Suró"] = {
-							["level"] = 79,
-							["class"] = "DEATHKNIGHT",
-						},
-						["Feenstaub"] = {
+						["Nefrandîr"] = {
 							["class"] = "PRIEST",
-							["level"] = 80,
+							["level"] = 72,
+						},
+						["Tandras"] = {
+							["level"] = 70,
+							["class"] = "PALADIN",
 						},
 						["Ès"] = {
 							["class"] = "PALADIN",
@@ -685,21 +705,21 @@ ChatterDB = {
 							["level"] = 36,
 							["class"] = "ROGUE",
 						},
-						["Koruna"] = {
-							["level"] = 80,
-							["class"] = "PALADIN",
+						["Caîn"] = {
+							["class"] = "DEATHKNIGHT",
+							["level"] = 57,
 						},
-						["Khark"] = {
-							["class"] = "SHAMAN",
-							["level"] = 85,
+						["Isnensha"] = {
+							["level"] = 80,
+							["class"] = "WARLOCK",
 						},
 						["Aiala"] = {
 							["level"] = 73,
 							["class"] = "DRUID",
 						},
-						["Galil"] = {
-							["level"] = 15,
-							["class"] = "SHAMAN",
+						["Âeówynn"] = {
+							["class"] = "WARLOCK",
+							["level"] = 40,
 						},
 						["Karnayna"] = {
 							["class"] = "PRIEST",
@@ -709,25 +729,25 @@ ChatterDB = {
 							["class"] = "DEATHKNIGHT",
 							["level"] = 55,
 						},
-						["Nefrandîr"] = {
-							["class"] = "PRIEST",
-							["level"] = 72,
+						["Branko"] = {
+							["level"] = 77,
+							["class"] = "WARRIOR",
 						},
-						["Mâgnifico"] = {
-							["level"] = 80,
+						["Makuma"] = {
+							["level"] = 74,
 							["class"] = "SHAMAN",
 						},
-						["Coongaar"] = {
-							["class"] = "MAGE",
-							["level"] = 80,
+						["Sylarius"] = {
+							["level"] = 85,
+							["class"] = "SHAMAN",
 						},
 						["Zopicloon"] = {
 							["class"] = "PRIEST",
 							["level"] = 64,
 						},
-						["Isnensha"] = {
+						["Ostrael"] = {
 							["level"] = 80,
-							["class"] = "WARLOCK",
+							["class"] = "WARRIOR",
 						},
 						["Derixu"] = {
 							["class"] = "ROGUE",
@@ -753,17 +773,17 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "PALADIN",
 						},
-						["Sylarius"] = {
-							["level"] = 85,
+						["Uiuiuih"] = {
 							["class"] = "SHAMAN",
+							["level"] = 76,
 						},
 						["Yaeger"] = {
 							["level"] = 60,
 							["class"] = "SHAMAN",
 						},
-						["Branko"] = {
-							["level"] = 77,
-							["class"] = "WARRIOR",
+						["Mâgnifico"] = {
+							["level"] = 80,
+							["class"] = "SHAMAN",
 						},
 						["Martika"] = {
 							["level"] = 85,
@@ -773,9 +793,9 @@ ChatterDB = {
 							["level"] = 36,
 							["class"] = "WARLOCK",
 						},
-						["Memmnarch"] = {
+						["Balandina"] = {
 							["class"] = "PALADIN",
-							["level"] = 80,
+							["level"] = 26,
 						},
 						["Maydia"] = {
 							["level"] = 8,
@@ -793,9 +813,9 @@ ChatterDB = {
 							["class"] = "WARLOCK",
 							["level"] = 80,
 						},
-						["Streifschuss"] = {
-							["class"] = "HUNTER",
-							["level"] = 78,
+						["Cyxz"] = {
+							["class"] = "ROGUE",
+							["level"] = 85,
 						},
 						["Neopriest"] = {
 							["class"] = "PRIEST",
@@ -805,9 +825,9 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "MAGE",
 						},
-						["Ostrael"] = {
+						["Coongaar"] = {
+							["class"] = "MAGE",
 							["level"] = 80,
-							["class"] = "WARRIOR",
 						},
 						["Balaan"] = {
 							["class"] = "SHAMAN",
@@ -825,49 +845,49 @@ ChatterDB = {
 							["level"] = 85,
 							["class"] = "PALADIN",
 						},
-						["Hadhodblut"] = {
-							["level"] = 80,
-							["class"] = "DEATHKNIGHT",
+						["Leukos"] = {
+							["class"] = "WARRIOR",
+							["level"] = 72,
 						},
 						["Rhababar"] = {
 							["class"] = "WARRIOR",
 							["level"] = 80,
 						},
-						["Cyxz"] = {
-							["class"] = "ROGUE",
+						["Magnifico"] = {
+							["class"] = "MAGE",
 							["level"] = 85,
 						},
 						["Androgan"] = {
 							["level"] = 70,
 							["class"] = "WARRIOR",
 						},
-						["Uiuiuih"] = {
-							["class"] = "SHAMAN",
-							["level"] = 76,
+						["Khandros"] = {
+							["level"] = 73,
+							["class"] = "PALADIN",
 						},
-						["Désirée"] = {
-							["class"] = "WARRIOR",
+						["Memmnarch"] = {
+							["class"] = "PALADIN",
 							["level"] = 80,
 						},
 						["Donmagic"] = {
 							["class"] = "MAGE",
 							["level"] = 80,
 						},
-						["Leukos"] = {
-							["class"] = "WARRIOR",
-							["level"] = 72,
-						},
-						["Losti"] = {
-							["class"] = "PALADIN",
+						["Hadhodblut"] = {
 							["level"] = 80,
+							["class"] = "DEATHKNIGHT",
+						},
+						["Evangeline"] = {
+							["level"] = 80,
+							["class"] = "MAGE",
 						},
 						["Callella"] = {
 							["class"] = "HUNTER",
 							["level"] = 80,
 						},
-						["Torgny"] = {
-							["class"] = "PALADIN",
-							["level"] = 80,
+						["Élaa"] = {
+							["level"] = 39,
+							["class"] = "HUNTER",
 						},
 						["Akonulus"] = {
 							["class"] = "MAGE",
@@ -881,37 +901,37 @@ ChatterDB = {
 							["class"] = "DRUID",
 							["level"] = 82,
 						},
-						["Deradorn"] = {
+						["Thungdhil"] = {
+							["class"] = "DEATHKNIGHT",
 							["level"] = 80,
-							["class"] = "MAGE",
 						},
-						["Calella"] = {
+						["Runá"] = {
+							["class"] = "HUNTER",
+							["level"] = 80,
+						},
+						["Clawdius"] = {
 							["class"] = "PRIEST",
-							["level"] = 80,
-						},
-						["Sorith"] = {
-							["level"] = 80,
-							["class"] = "MAGE",
+							["level"] = 85,
 						},
 						["Cilest"] = {
 							["class"] = "ROGUE",
 							["level"] = 4,
 						},
-						["Khandros"] = {
-							["level"] = 73,
+						["Pawn"] = {
 							["class"] = "PALADIN",
+							["level"] = 83,
 						},
 						["Caltor"] = {
 							["class"] = "DEATHKNIGHT",
 							["level"] = 85,
 						},
-						["Evangeline"] = {
+						["Sunayna"] = {
 							["level"] = 80,
-							["class"] = "MAGE",
+							["class"] = "PRIEST",
 						},
-						["Shizø"] = {
-							["class"] = "MAGE",
-							["level"] = 2,
+						["Patronne"] = {
+							["level"] = 36,
+							["class"] = "HUNTER",
 						},
 						["Uffe"] = {
 							["class"] = "PALADIN",
@@ -921,49 +941,49 @@ ChatterDB = {
 							["level"] = 15,
 							["class"] = "PRIEST",
 						},
-						["Nenshi"] = {
-							["level"] = 38,
-							["class"] = "WARLOCK",
+						["Sorith"] = {
+							["level"] = 80,
+							["class"] = "MAGE",
 						},
 						["Vloi"] = {
 							["class"] = "DEATHKNIGHT",
 							["level"] = 80,
 						},
-						["Pawn"] = {
-							["class"] = "PALADIN",
-							["level"] = 83,
-						},
-						["Sunayna"] = {
-							["level"] = 80,
-							["class"] = "PRIEST",
-						},
-						["Clawdius"] = {
-							["class"] = "PRIEST",
-							["level"] = 85,
-						},
 						["Clawdia"] = {
 							["class"] = "HUNTER",
 							["level"] = 82,
 						},
-						["Canju"] = {
-							["class"] = "WARLOCK",
+						["Zepha"] = {
 							["level"] = 20,
+							["class"] = "PRIEST",
+						},
+						["Calella"] = {
+							["class"] = "PRIEST",
+							["level"] = 80,
+						},
+						["Dragoban"] = {
+							["class"] = "HUNTER",
+							["level"] = 57,
 						},
 						["Nayna"] = {
 							["level"] = 81,
 							["class"] = "DRUID",
 						},
-						["Filiasilvae"] = {
-							["class"] = "DRUID",
-							["level"] = 85,
+						["Ichorcse"] = {
+							["class"] = "HUNTER",
+							["level"] = 9,
+						},
+						["Brotfahrer"] = {
+							["class"] = "MAGE",
+							["level"] = 80,
 						},
 						["Makuta"] = {
 							["class"] = "DEATHKNIGHT",
 							["level"] = 55,
 						},
-						["Manescha"] = {
-							["class"] = "SHAMAN",
-							["level"] = 85,
+						["Ermek"] = {
+							["level"] = 79,
+							["class"] = "MAGE",
 						},
 						["Swags"] = {
 							["class"] = "PRIEST",
@@ -973,9 +993,9 @@ ChatterDB = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
-						["Nuffy"] = {
-							["class"] = "MAGE",
-							["level"] = 80,
+						["Gurkenschurk"] = {
+							["class"] = "ROGUE",
+							["level"] = 15,
 						},
 						["Goldira"] = {
 							["class"] = "PALADIN",
@@ -989,9 +1009,9 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "DRUID",
 						},
-						["Dragoban"] = {
-							["class"] = "HUNTER",
-							["level"] = 57,
+						["Ohm"] = {
+							["class"] = "MAGE",
+							["level"] = 85,
 						},
 						["Gorgast"] = {
 							["level"] = 80,
@@ -1013,37 +1033,37 @@ ChatterDB = {
 							["class"] = "MAGE",
 							["level"] = 83,
 						},
-						["Krayn"] = {
-							["class"] = "WARLOCK",
-							["level"] = 22,
+						["Arowen"] = {
+							["class"] = "HUNTER",
+							["level"] = 81,
 						},
 						["Seilence"] = {
 							["class"] = "HUNTER",
 							["level"] = 85,
 						},
-						["Brotfahrer"] = {
-							["class"] = "MAGE",
-							["level"] = 80,
+						["Ishimura"] = {
+							["level"] = 52,
+							["class"] = "WARRIOR",
 						},
-						["Ermek"] = {
-							["level"] = 79,
-							["class"] = "MAGE",
+						["Krayn"] = {
+							["class"] = "WARLOCK",
+							["level"] = 22,
 						},
 						["Nachtnebel"] = {
 							["level"] = 48,
 							["class"] = "DRUID",
 						},
-						["Gisburn"] = {
-							["class"] = "PRIEST",
-							["level"] = 80,
+						["Tanoi"] = {
+							["class"] = "ROGUE",
+							["level"] = 31,
 						},
 						["Mourtazin"] = {
 							["class"] = "WARRIOR",
 							["level"] = 85,
 						},
-						["Goldir"] = {
-							["class"] = "WARRIOR",
-							["level"] = 85,
+						["Canju"] = {
+							["class"] = "WARLOCK",
+							["level"] = 20,
 						},
 						["Tärren"] = {
 							["class"] = "WARLOCK",
@@ -1053,9 +1073,9 @@ ChatterDB = {
 							["class"] = "WARLOCK",
 							["level"] = 67,
 						},
-						["Arowen"] = {
-							["class"] = "HUNTER",
-							["level"] = 81,
+						["Serona"] = {
+							["class"] = "PRIEST",
+							["level"] = 80,
 						},
 						["Gisburne"] = {
 							["class"] = "HUNTER",
@@ -1069,21 +1089,21 @@ ChatterDB = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
-						["Tanoi"] = {
-							["class"] = "ROGUE",
-							["level"] = 31,
+						["Toratora"] = {
+							["class"] = "HUNTER",
+							["level"] = 80,
 						},
 						["Herki"] = {
 							["level"] = 80,
 							["class"] = "SHAMAN",
 						},
-						["Ishimura"] = {
-							["level"] = 52,
-							["class"] = "WARRIOR",
+						["Leoben"] = {
+							["class"] = "DEATHKNIGHT",
+							["level"] = 85,
 						},
-						["Tschiaah"] = {
-							["class"] = "PRIEST",
-							["level"] = 1,
+						["Cluod"] = {
+							["class"] = "ROGUE",
+							["level"] = 80,
 						},
 						["Nenu"] = {
 							["class"] = "WARRIOR",
@@ -1101,9 +1121,9 @@ ChatterDB = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
-						["Eskadâ"] = {
-							["class"] = "SHAMAN",
-							["level"] = 75,
+						["Tschiaah"] = {
+							["class"] = "PRIEST",
+							["level"] = 1,
 						},
 						["Muqq"] = {
 							["class"] = "PRIEST",
@@ -1125,9 +1145,9 @@ ChatterDB = {
 							["level"] = 85,
 							["class"] = "ROGUE",
 						},
-						["Thungdhil"] = {
+						["Todeskritta"] = {
 							["class"] = "DEATHKNIGHT",
-							["level"] = 80,
+							["level"] = 68,
 						},
 						["Dargol"] = {
 							["level"] = 85,
@@ -1141,9 +1161,9 @@ ChatterDB = {
 							["class"] = "ROGUE",
 							["level"] = 80,
 						},
-						["Resch"] = {
-							["class"] = "ROGUE",
-							["level"] = 12,
+						["Sharif"] = {
+							["class"] = "MAGE",
+							["level"] = 62,
 						},
 						["Hedigroßaxt"] = {
 							["level"] = 80,
@@ -1153,21 +1173,21 @@ ChatterDB = {
 							["level"] = 84,
 							["class"] = "MAGE",
 						},
-						["Cluod"] = {
-							["class"] = "ROGUE",
-							["level"] = 80,
-						},
-						["Sharif"] = {
-							["class"] = "MAGE",
-							["level"] = 62,
-						},
-						["Todeskritta"] = {
-							["class"] = "DEATHKNIGHT",
-							["level"] = 68,
-						},
 						["Amalaida"] = {
 							["class"] = "WARLOCK",
 							["level"] = 4,
+						},
+						["Kelzores"] = {
+							["class"] = "PRIEST",
+							["level"] = 16,
+						},
+						["Riyuna"] = {
+							["class"] = "DEATHKNIGHT",
+							["level"] = 80,
+						},
+						["Lèo"] = {
+							["level"] = 85,
+							["class"] = "MAGE",
 						},
 						["Fruchtbart"] = {
 							["level"] = 80,
@@ -1193,8 +1213,8 @@ ChatterDB = {
 							["class"] = "WARLOCK",
 							["level"] = 72,
 						},
-						["Xerathis"] = {
-							["level"] = 20,
+						["Sasuker"] = {
+							["level"] = "1",
 							["class"] = "PALADIN",
 						},
 						["Lecram"] = {
@@ -1209,17 +1229,17 @@ ChatterDB = {
 							["class"] = "WARRIOR",
 							["level"] = 65,
 						},
-						["Sasuker"] = {
-							["level"] = "1",
+						["Xerathis"] = {
+							["level"] = 20,
 							["class"] = "PALADIN",
-						},
-						["Physios"] = {
-							["level"] = 85,
-							["class"] = "DEATHKNIGHT",
 						},
 						["Surodor"] = {
 							["class"] = "PRIEST",
 							["level"] = 56,
+						},
+						["Physios"] = {
+							["level"] = 85,
+							["class"] = "DEATHKNIGHT",
 						},
 						["Morkin"] = {
 							["class"] = "MAGE",
@@ -1257,53 +1277,53 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "WARLOCK",
 						},
-						["Maches"] = {
-							["class"] = "WARRIOR",
-							["level"] = 75,
+						["Tîtan"] = {
+							["level"] = 85,
+							["class"] = "PALADIN",
 						},
 						["Alkabrazorak"] = {
 							["level"] = 80,
 							["class"] = "SHAMAN",
 						},
-						["Callia"] = {
-							["class"] = "PRIEST",
-							["level"] = 7,
+						["Malwas"] = {
+							["class"] = "ROGUE",
+							["level"] = 85,
 						},
 						["Syriall"] = {
 							["level"] = 75,
 							["class"] = "DRUID",
 						},
-						["Nimion"] = {
-							["class"] = "PALADIN",
-							["level"] = 80,
-						},
-						["Tîtan"] = {
-							["level"] = 85,
-							["class"] = "PALADIN",
-						},
-						["Zurin"] = {
-							["level"] = 85,
-							["class"] = "ROGUE",
-						},
 						["Snizzel"] = {
 							["class"] = "WARLOCK",
 							["level"] = 80,
-						},
-						["Merygold"] = {
-							["class"] = "WARLOCK",
-							["level"] = 14,
 						},
 						["Ragnarek"] = {
 							["class"] = "WARRIOR",
 							["level"] = 41,
 						},
-						["Saromonii"] = {
-							["class"] = "WARLOCK",
-							["level"] = 75,
-						},
 						["Benito"] = {
 							["level"] = 85,
 							["class"] = "PALADIN",
+						},
+						["Farronlotor"] = {
+							["level"] = 80,
+							["class"] = "PALADIN",
+						},
+						["Merygold"] = {
+							["class"] = "WARLOCK",
+							["level"] = 14,
+						},
+						["Burnada"] = {
+							["class"] = "DRUID",
+							["level"] = 80,
+						},
+						["Buffey"] = {
+							["class"] = "PALADIN",
+							["level"] = 60,
+						},
+						["Noze"] = {
+							["class"] = "DEATHKNIGHT",
+							["level"] = 85,
 						},
 						["Telnath"] = {
 							["level"] = 80,
@@ -1317,9 +1337,9 @@ ChatterDB = {
 							["level"] = 74,
 							["class"] = "PALADIN",
 						},
-						["Iberian"] = {
-							["class"] = "ROGUE",
-							["level"] = 80,
+						["Saromonii"] = {
+							["class"] = "WARLOCK",
+							["level"] = 75,
 						},
 						["Ravenscar"] = {
 							["class"] = "WARRIOR",
@@ -1345,8 +1365,8 @@ ChatterDB = {
 							["class"] = "DRUID",
 							["level"] = 32,
 						},
-						["Burnada"] = {
-							["class"] = "DRUID",
+						["Merodethx"] = {
+							["class"] = "WARLOCK",
 							["level"] = 80,
 						},
 						["Kotu"] = {
@@ -1369,21 +1389,21 @@ ChatterDB = {
 							["level"] = 85,
 							["class"] = "ROGUE",
 						},
-						["Dinosure"] = {
-							["class"] = "WARRIOR",
-							["level"] = 72,
+						["Nya"] = {
+							["class"] = "ROGUE",
+							["level"] = 85,
 						},
 						["Malenoa"] = {
 							["class"] = "HUNTER",
 							["level"] = 80,
 						},
-						["Malfurìon"] = {
+						["Cheetoo"] = {
+							["class"] = "PRIEST",
 							["level"] = 80,
-							["class"] = "DRUID",
 						},
-						["Malwas"] = {
-							["class"] = "ROGUE",
+						["Zurin"] = {
 							["level"] = 85,
+							["class"] = "ROGUE",
 						},
 						["Thork"] = {
 							["class"] = "WARRIOR",
@@ -1421,8 +1441,8 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "SHAMAN",
 						},
-						["Gelbezahl"] = {
-							["class"] = "MAGE",
+						["Bresal"] = {
+							["class"] = "HUNTER",
 							["level"] = 85,
 						},
 						["Âsuryan"] = {
@@ -1433,27 +1453,27 @@ ChatterDB = {
 							["class"] = "PALADIN",
 							["level"] = 85,
 						},
-						["Merodethx"] = {
-							["class"] = "WARLOCK",
+						["Tè"] = {
+							["class"] = "MAGE",
 							["level"] = 80,
 						},
 						["Nasiha"] = {
 							["class"] = "HUNTER",
 							["level"] = 80,
 						},
-						["Nya"] = {
-							["class"] = "ROGUE",
-							["level"] = 85,
+						["Nyana"] = {
+							["class"] = "WARRIOR",
+							["level"] = 63,
 						},
 						["Gaea"] = {
 							["class"] = "PRIEST",
 							["level"] = 85,
 						},
-						["Cheetoo"] = {
-							["class"] = "PRIEST",
+						["Koxx"] = {
+							["class"] = "ROGUE",
 							["level"] = 80,
 						},
-						["Melenias"] = {
+						["Malfurìon"] = {
 							["level"] = 80,
 							["class"] = "DRUID",
 						},
@@ -1473,9 +1493,9 @@ ChatterDB = {
 							["level"] = 83,
 							["class"] = "SHAMAN",
 						},
-						["Tè"] = {
-							["class"] = "MAGE",
-							["level"] = 80,
+						["Roqué"] = {
+							["class"] = "WARRIOR",
+							["level"] = 85,
 						},
 						["Redspike"] = {
 							["class"] = "MAGE",
@@ -1493,9 +1513,9 @@ ChatterDB = {
 							["level"] = 81,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Selkét"] = {
-							["level"] = 80,
-							["class"] = "DRUID",
+						["Morfeus"] = {
+							["class"] = "MAGE",
+							["level"] = 77,
 						},
 						["Aialla"] = {
 							["level"] = 37,
@@ -1517,9 +1537,9 @@ ChatterDB = {
 							["class"] = "HUNTER",
 							["level"] = 80,
 						},
-						["Lêandra"] = {
+						["Míla"] = {
 							["level"] = 80,
-							["class"] = "PALADIN",
+							["class"] = "SHAMAN",
 						},
 						["Snaíl"] = {
 							["class"] = "WARRIOR",
@@ -1533,21 +1553,21 @@ ChatterDB = {
 							["level"] = 60,
 							["class"] = "HUNTER",
 						},
+						["Selkét"] = {
+							["level"] = 80,
+							["class"] = "DRUID",
+						},
 						["Bigtiny"] = {
 							["class"] = "MAGE",
 							["level"] = 80,
-						},
-						["Roqué"] = {
-							["class"] = "WARRIOR",
-							["level"] = 85,
 						},
 						["Ragsna"] = {
 							["class"] = "PRIEST",
 							["level"] = 80,
 						},
-						["Míla"] = {
-							["level"] = 80,
+						["Zinzasa"] = {
 							["class"] = "SHAMAN",
+							["level"] = 80,
 						},
 						["Happyminti"] = {
 							["class"] = "ROGUE",
@@ -1555,23 +1575,23 @@ ChatterDB = {
 						},
 						["Kehlbeisser"] = {
 							["class"] = "DEATHKNIGHT",
-							["level"] = 58,
+							["level"] = 59,
 						},
-						["Zinzasa"] = {
-							["class"] = "SHAMAN",
+						["Wölfin"] = {
+							["class"] = "DRUID",
+							["level"] = 9,
+						},
+						["Melenias"] = {
 							["level"] = 80,
+							["class"] = "DRUID",
 						},
-						["Brotfáhrer"] = {
-							["class"] = "MAGE",
-							["level"] = 80,
-						},
-						["Nyana"] = {
+						["Dinosure"] = {
 							["class"] = "WARRIOR",
-							["level"] = 63,
+							["level"] = 72,
 						},
-						["Morfeus"] = {
+						["Gelbezahl"] = {
 							["class"] = "MAGE",
-							["level"] = 77,
+							["level"] = 85,
 						},
 						["Logres"] = {
 							["class"] = "PALADIN",
@@ -1589,37 +1609,37 @@ ChatterDB = {
 							["class"] = "PALADIN",
 							["level"] = 14,
 						},
-						["Koxx"] = {
+						["Iberian"] = {
 							["class"] = "ROGUE",
 							["level"] = 80,
+						},
+						["Kaligula"] = {
+							["class"] = "MAGE",
+							["level"] = 30,
 						},
 						["Herman"] = {
 							["class"] = "PRIEST",
 							["level"] = 75,
 						},
-						["Bresal"] = {
-							["class"] = "HUNTER",
-							["level"] = 85,
+						["Brotfáhrer"] = {
+							["class"] = "MAGE",
+							["level"] = 80,
 						},
-						["Buffey"] = {
-							["class"] = "PALADIN",
-							["level"] = 60,
-						},
-						["Wölfin"] = {
-							["class"] = "DRUID",
-							["level"] = 9,
-						},
-						["Noze"] = {
-							["class"] = "DEATHKNIGHT",
-							["level"] = 85,
-						},
-						["Farronlotor"] = {
+						["Lêandra"] = {
 							["level"] = 80,
 							["class"] = "PALADIN",
 						},
-						["Kaligula"] = {
-							["class"] = "MAGE",
-							["level"] = 30,
+						["Nimion"] = {
+							["class"] = "PALADIN",
+							["level"] = 80,
+						},
+						["Callia"] = {
+							["class"] = "PRIEST",
+							["level"] = 7,
+						},
+						["Maches"] = {
+							["class"] = "WARRIOR",
+							["level"] = 75,
 						},
 						["Nomek"] = {
 							["class"] = "MAGE",
@@ -1649,37 +1669,37 @@ ChatterDB = {
 							["class"] = "HUNTER",
 							["level"] = 52,
 						},
-						["Lèo"] = {
-							["level"] = 85,
-							["class"] = "MAGE",
-						},
-						["Kelzores"] = {
-							["class"] = "PRIEST",
-							["level"] = 16,
-						},
-						["Riyuna"] = {
-							["class"] = "DEATHKNIGHT",
-							["level"] = 80,
-						},
-						["Friitozenfsh"] = {
-							["class"] = "HUNTER",
-							["level"] = 17,
+						["Resch"] = {
+							["class"] = "ROGUE",
+							["level"] = 12,
 						},
 						["Opus"] = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
-						["Spankemall"] = {
-							["level"] = 36,
-							["class"] = "PALADIN",
-						},
 						["Jilarus"] = {
 							["level"] = 80,
 							["class"] = "HUNTER",
 						},
-						["Runá"] = {
+						["Friitozenfsh"] = {
 							["class"] = "HUNTER",
+							["level"] = 17,
+						},
+						["Eskadâ"] = {
+							["class"] = "SHAMAN",
+							["level"] = 75,
+						},
+						["Spankemall"] = {
+							["level"] = 36,
+							["class"] = "PALADIN",
+						},
+						["Gisburn"] = {
+							["class"] = "PRIEST",
 							["level"] = 80,
+						},
+						["Manescha"] = {
+							["class"] = "SHAMAN",
+							["level"] = 85,
 						},
 						["Laudariel"] = {
 							["class"] = "ROGUE",
@@ -1693,8 +1713,8 @@ ChatterDB = {
 							["class"] = "PRIEST",
 							["level"] = 15,
 						},
-						["Leoben"] = {
-							["class"] = "DEATHKNIGHT",
+						["Goldir"] = {
+							["class"] = "WARRIOR",
 							["level"] = 85,
 						},
 						["Isl"] = {
@@ -1705,17 +1725,17 @@ ChatterDB = {
 							["class"] = "WARRIOR",
 							["level"] = 80,
 						},
-						["Serona"] = {
-							["class"] = "PRIEST",
-							["level"] = 80,
+						["Filiasilvae"] = {
+							["class"] = "DRUID",
+							["level"] = 85,
 						},
 						["Magnificâ"] = {
 							["level"] = "1",
 							["class"] = "MAGE",
 						},
-						["Toratora"] = {
-							["class"] = "HUNTER",
-							["level"] = 80,
+						["Fanras"] = {
+							["class"] = "DRUID",
+							["level"] = "70",
 						},
 						["Hirkani"] = {
 							["level"] = 82,
@@ -1725,17 +1745,17 @@ ChatterDB = {
 							["class"] = "HUNTER",
 							["level"] = 73,
 						},
-						["Ohm"] = {
+						["Nuffy"] = {
 							["class"] = "MAGE",
-							["level"] = 85,
+							["level"] = 80,
 						},
-						["Fanras"] = {
-							["class"] = "DRUID",
-							["level"] = "70",
+						["Shizø"] = {
+							["class"] = "MAGE",
+							["level"] = 2,
 						},
-						["Patronne"] = {
-							["level"] = 36,
-							["class"] = "HUNTER",
+						["Nenshi"] = {
+							["level"] = 38,
+							["class"] = "WARLOCK",
 						},
 						["Mârâno"] = {
 							["class"] = "WARRIOR",
@@ -1753,13 +1773,13 @@ ChatterDB = {
 							["class"] = "WARLOCK",
 							["level"] = 80,
 						},
-						["Balandina"] = {
+						["Torgny"] = {
 							["class"] = "PALADIN",
-							["level"] = 26,
+							["level"] = 80,
 						},
-						["Tandras"] = {
-							["level"] = 70,
-							["class"] = "PALADIN",
+						["Désirée"] = {
+							["class"] = "WARRIOR",
+							["level"] = 80,
 						},
 						["Mondsilber"] = {
 							["level"] = 81,
@@ -1781,17 +1801,17 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "PALADIN",
 						},
-						["Caîn"] = {
-							["class"] = "DEATHKNIGHT",
-							["level"] = 57,
+						["Streifschuss"] = {
+							["class"] = "HUNTER",
+							["level"] = 78,
 						},
 						["Bertee"] = {
 							["level"] = 80,
 							["class"] = "SHAMAN",
 						},
-						["Magnifico"] = {
-							["class"] = "MAGE",
-							["level"] = 85,
+						["Gower"] = {
+							["class"] = "PALADIN",
+							["level"] = 80,
 						},
 						["Dornthron"] = {
 							["class"] = "PALADIN",
@@ -1801,9 +1821,9 @@ ChatterDB = {
 							["level"] = 33,
 							["class"] = "PALADIN",
 						},
-						["Makuma"] = {
-							["level"] = 74,
-							["class"] = "SHAMAN",
+						["Deradorn"] = {
+							["level"] = 80,
+							["class"] = "MAGE",
 						},
 						["Chemy"] = {
 							["class"] = "DEATHKNIGHT",
@@ -1813,7 +1833,7 @@ ChatterDB = {
 							["class"] = "MAGE",
 							["level"] = 80,
 						},
-						["Gower"] = {
+						["Losti"] = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
@@ -1821,9 +1841,9 @@ ChatterDB = {
 							["class"] = "DRUID",
 							["level"] = 64,
 						},
-						["Âeówynn"] = {
+						["Nietsolk"] = {
 							["class"] = "WARLOCK",
-							["level"] = 40,
+							["level"] = 68,
 						},
 						["Woffa"] = {
 							["class"] = "WARRIOR",
@@ -1833,17 +1853,17 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "PALADIN",
 						},
-						["Nietsolk"] = {
+						["Jacobi"] = {
+							["class"] = "PALADIN",
+							["level"] = 30,
+						},
+						["Salome"] = {
 							["class"] = "WARLOCK",
-							["level"] = 68,
+							["level"] = 80,
 						},
-						["Aje"] = {
-							["class"] = "ROGUE",
-							["level"] = 39,
-						},
-						["Dreamwâlker"] = {
-							["class"] = "ROGUE",
-							["level"] = 31,
+						["Betek"] = {
+							["level"] = 83,
+							["class"] = "HUNTER",
 						},
 						["Jeez"] = {
 							["class"] = "WARLOCK",
@@ -1853,37 +1873,37 @@ ChatterDB = {
 							["level"] = 28,
 							["class"] = "PALADIN",
 						},
-						["Betek"] = {
-							["level"] = 83,
-							["class"] = "HUNTER",
+						["Neil"] = {
+							["class"] = "WARRIOR",
+							["level"] = 80,
 						},
 						["Nabastro"] = {
 							["class"] = "HUNTER",
 							["level"] = 70,
 						},
-						["Tirijana"] = {
-							["class"] = "HUNTER",
-							["level"] = 32,
+						["Sylwos"] = {
+							["level"] = 80,
+							["class"] = "PALADIN",
 						},
 						["Crascor"] = {
 							["class"] = "PALADIN",
 							["level"] = "12",
 						},
-						["Sarahangel"] = {
-							["class"] = "PRIEST",
-							["level"] = 80,
+						["Infiniti"] = {
+							["class"] = "HUNTER",
+							["level"] = 66,
 						},
-						["Tasmina"] = {
-							["level"] = 80,
+						["Rondraja"] = {
+							["level"] = 42,
+							["class"] = "WARRIOR",
+						},
+						["Draufwienix"] = {
+							["class"] = "WARRIOR",
+							["level"] = 71,
+						},
+						["Sylarus"] = {
 							["class"] = "DRUID",
-						},
-						["Sylwos"] = {
-							["level"] = 80,
-							["class"] = "PALADIN",
-						},
-						["Thálon"] = {
-							["level"] = 85,
-							["class"] = "DRUID",
+							["level"] = 20,
 						},
 						["Calellia"] = {
 							["class"] = "SHAMAN",
@@ -1897,7 +1917,7 @@ ChatterDB = {
 							["class"] = "WARRIOR",
 							["level"] = 23,
 						},
-						["Illasera"] = {
+						["Marcian"] = {
 							["class"] = "PALADIN",
 							["level"] = 80,
 						},
@@ -1933,21 +1953,13 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Medocius"] = {
-							["class"] = "MAGE",
-							["level"] = 80,
+						["Ailuj"] = {
+							["class"] = "PALADIN",
+							["level"] = 12,
 						},
 						["Systox"] = {
 							["level"] = "9",
 							["class"] = "WARRIOR",
-						},
-						["Irfin"] = {
-							["class"] = "PALADIN",
-							["level"] = 85,
-						},
-						["Marcian"] = {
-							["class"] = "PALADIN",
-							["level"] = 80,
 						},
 						["Urgly"] = {
 							["class"] = "SHAMAN",
@@ -1957,25 +1969,33 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "DRUID",
 						},
+						["Aterios"] = {
+							["level"] = 54,
+							["class"] = "PALADIN",
+						},
 						["Lhynora"] = {
 							["level"] = 80,
 							["class"] = "DEATHKNIGHT",
+						},
+						["Yey"] = {
+							["level"] = 67,
+							["class"] = "ROGUE",
 						},
 						["Butteredsoul"] = {
 							["level"] = 80,
 							["class"] = "DEATHKNIGHT",
 						},
-						["Nichapa"] = {
-							["class"] = "DEATHKNIGHT",
-							["level"] = 80,
+						["Boldy"] = {
+							["level"] = 85,
+							["class"] = "PALADIN",
 						},
-						["Shîsou"] = {
-							["class"] = "DRUID",
-							["level"] = 82,
-						},
-						["Sieglinde"] = {
-							["level"] = 48,
+						["Arcbound"] = {
 							["class"] = "MAGE",
+							["level"] = 81,
+						},
+						["Mcneto"] = {
+							["class"] = "WARRIOR",
+							["level"] = 33,
 						},
 						["Reschef"] = {
 							["class"] = "WARLOCK",
@@ -1985,9 +2005,9 @@ ChatterDB = {
 							["class"] = "DRUID",
 							["level"] = 80,
 						},
-						["Navidia"] = {
-							["level"] = 80,
-							["class"] = "MAGE",
+						["Suminorys"] = {
+							["level"] = 82,
+							["class"] = "WARLOCK",
 						},
 						["Swoozle"] = {
 							["level"] = 80,
@@ -1997,8 +2017,8 @@ ChatterDB = {
 							["level"] = 80,
 							["class"] = "SHAMAN",
 						},
-						["Moruck"] = {
-							["class"] = "HUNTER",
+						["Nichapa"] = {
+							["class"] = "DEATHKNIGHT",
 							["level"] = 80,
 						},
 						["Millennium"] = {
@@ -2158,8 +2178,10 @@ ChatterDB = {
 			},
 			["global"] = {
 				["classes"] = {
-					["WARRIOR"] = "Kriegerin",
-					["PRIEST"] = "Priesterin",
+					["MAGE"] = "Magierin",
+					["WARLOCK"] = "Hexenmeisterin",
+					["DRUID"] = "Druidin",
+					["SHAMAN"] = "Schamanin",
 				},
 			},
 			["profiles"] = {
@@ -2455,10 +2477,10 @@ ChatterDB = {
 							["g"] = 0.8588235802017152,
 							["b"] = 0.717647101264447,
 						},
-						["MONSTER_SAY"] = {
+						["Handel"] = {
 							["r"] = 1.000000059138984,
-							["g"] = 1.000000059138984,
-							["b"] = 0.6235294486396015,
+							["g"] = 0.752941220998764,
+							["b"] = 0.752941220998764,
 						},
 						["MONSTER_WHISPER"] = {
 							["r"] = 1.000000059138984,
@@ -2485,10 +2507,10 @@ ChatterDB = {
 							["g"] = 1,
 							["b"] = 0.2509803921568627,
 						},
-						["TRADESKILLS"] = {
+						["RESTRICTED"] = {
 							["r"] = 1.000000059138984,
-							["g"] = 1.000000059138984,
-							["b"] = 1.000000059138984,
+							["g"] = 0,
+							["b"] = 0,
 						},
 						["Party"] = {
 							["r"] = 0.6666666666666666,
@@ -2505,10 +2527,10 @@ ChatterDB = {
 							["g"] = 0.752941220998764,
 							["b"] = 0.752941220998764,
 						},
-						["Handel"] = {
+						["MONSTER_SAY"] = {
 							["r"] = 1.000000059138984,
-							["g"] = 0.752941220998764,
-							["b"] = 0.752941220998764,
+							["g"] = 1.000000059138984,
+							["b"] = 0.6235294486396015,
 						},
 						["Allgemein"] = {
 							["r"] = 1.000000059138984,
@@ -2720,10 +2742,10 @@ ChatterDB = {
 							["g"] = 1.000000059138984,
 							["b"] = 0,
 						},
-						["RESTRICTED"] = {
+						["TRADESKILLS"] = {
 							["r"] = 1.000000059138984,
-							["g"] = 0,
-							["b"] = 0,
+							["g"] = 1.000000059138984,
+							["b"] = 1.000000059138984,
 						},
 						["LokaleVerteidigung"] = {
 							["r"] = 1.000000059138984,
@@ -2910,38 +2932,38 @@ ChatterDB = {
 				},
 				["Der Rat von Dalaran"] = {
 					["history"] = {
-						"/w nomek wie liefs gestern noch?", -- [1]
-						"/w Shags k", -- [2]
-						"/w Shags jo, hab 12 Stück und weiß eh nich was ich damit anfangen soll", -- [3]
-						"/w Shags von mir aus ok, Gnimp war eh nicht so mein Fall", -- [4]
-						"/w Nomek und was die Raids angeht, solange jeder DD gleichmäßig aussetzt, hab ich kein Problem damit", -- [5]
-						"/w Nomek mt", -- [6]
-						"/w Shags und was die Raids angeht, solange jeder DD gleichmäßig aussetzt, hab ich kein Problem damit", -- [7]
-						"/w Shags letztendlich isses mir lieber mal auszusetzen, als dass wir absagen müssen ", -- [8]
-						"/chinchilla", -- [9]
-						"/shadowuf", -- [10]
-						"/shadowuf", -- [11]
-						"/w Shags kann ich dich mal kurz in raid laden?", -- [12]
-						"/w Shags kannste mal was ins ziel nehmen?", -- [13]
-						"/shadowuf", -- [14]
-						"/schlachtzug UI Gefummel", -- [15]
-						"/schlachtzug danke dir", -- [16]
-						"/g bin nochmal off, bis später", -- [17]
-						"/p k", -- [18]
-						"/p danke euch, machts gut", -- [19]
-						"/w Goldira  |cffa335ee|Hitem:70118:4068:3995:0:0:0:0:0:85:144|h[Witwenfänge]|h|r", -- [20]
-						"/g shax0r?", -- [21]
-						"/g hast du feuerdailies schon gemacht?", -- [22]
-						"/w Gelbezahl  |cffffffff|Hitem:10645:0:0:0:0:0:0:2106439552:85:0|h[Gnomentodesstrahl]|h|r |cff1eff00|Hitem:10576:0:0:0:0:0:0:1274588160:85:0|h[Mechanischer Mithrildrachling]|h|r |cff1eff00|Hitem:7506:0:0:0:0:0:0:498188832:85:0|h[Gnomenuniversalfernbedienung]|h|r", -- [23]
-						"/w Gelbezahl  |cff1eff00|Hitem:10716:0:0:0:0:0:0:906760896:85:0|h[Gnomenschrumpfstrahl]|h|r |cff1eff00|Hitem:10720:0:0:0:0:0:0:307245952:85:0|h[Gnomen-Net-o-Matik-Projektor]|h|r |cff1eff00|Hitem:10726:0:0:0:0:0:0:119709584:85:0|h[Gnomische Gedankenkontrollkappe]|h|r", -- [24]
-						"/w Gelbezahl  |cff1eff00|Hitem:18660:0:0:0:0:0:0:1357357184:85:0|h[Weltvergrößerer]|h|r ", -- [25]
-						"/w Gelbezahl  |cffffd000|Henchant:67839|h[Ingenieurskunst: Gedankenverstärkungsschüssel]|h|r", -- [26]
-						"/target gold", -- [27]
-						"/tar gold", -- [28]
-						"/tar goldi", -- [29]
-						"/p *schnauf*", -- [30]
-						"/p ganz schön hektisch, aber guter run :)", -- [31]
-						"/p danke euch, machts gut", -- [32]
+						"/tar Mankrik", -- [1]
+						"/p hi", -- [2]
+						"/p rdy?", -- [3]
+						"/p jo, ich versuchs gleich nochmal", -- [4]
+						" möglicherweise", -- [5]
+						" muss mich mit Benura einigen", -- [6]
+						"/p ich schaumal", -- [7]
+						"/p sieht nicht so aus", -- [8]
+						"/p glaub um die zeit leben die nicht lang", -- [9]
+						"/g isser mittlerweile über den Tod seiner Frau weg?", -- [10]
+						"/p jepp", -- [11]
+						"/p bin grad noch am essen, deswegen etwas slow :)", -- [12]
+						"/p done", -- [13]
+						"/p  |cffffff00|Hachievement:5873:030000000375DDB7:0:0:0:-1:8:0:0:0|h[Allzeit schlachtzugsbereit II]|h|r", -- [14]
+						"/s Lebt denn der alte Runetotem noch, Runetotem noch, Runetotem noch", -- [15]
+						"/wave", -- [16]
+						"/s Like a boxx", -- [17]
+						"/s  |cffffff00|Hachievement:4630:030000000375DDB7:0:0:0:-1:2:0:0:0|h[Heroisch: Die Blutrote Halle (10 Spieler)]|h|r", -- [18]
+						"/s  |cffffff00|Hachievement:4602:030000000375DDB7:0:0:0:-1:32763:0:0:0|h[Ruhm des Schlachtzüglers von Eiskrone (10 Spieler)]|h|r", -- [19]
+						"/s Noze, der Frontorc", -- [20]
+						"/salutieren", -- [21]
+						"/reload", -- [22]
+						"/w Nomekz was soll man schon sagen :)", -- [23]
+						"/who gurke", -- [24]
+						"/wave", -- [25]
+						"/salutieren", -- [26]
+						"/cheer", -- [27]
+						"/wave", -- [28]
+						"/reload", -- [29]
+						"/g :P", -- [30]
+						"/g  |cffffff00|Hachievement:4601:030000000375DDB7:0:0:0:-1:0:0:0:0|h[Darauf hab ich lange genug gewartet (10 Spieler)]|h|r", -- [31]
+						"/w Fynah ok :)", -- [32]
 					},
 				},
 				["Magtheridon"] = {
