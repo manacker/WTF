@@ -1,0 +1,8 @@
+MACRO 16777217 "Energie" INV_Misc_QuestionMark
+#showtooltip Arkane Macht
+/cast Arkane Macht
+/cast Witwenfänge
+/cast Raketebeschuss
+/cast Manaedelstein
+/cast Spiegelbild
+END

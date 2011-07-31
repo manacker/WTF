@@ -1,0 +1,8 @@
+Version: 1
+Frame: MinimapCluster
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -3
+Y: -6
+W: 192
+H: 192

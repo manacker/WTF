@@ -8,9 +8,30 @@ ReforgenatorDB = {
 				[2] = true,
 			},
 		},
+		["Herman - Der Rat von Dalaran"] = {
+			["targetLevelSelection"] = {
+			},
+			["useSandbox"] = {
+			},
+		},
+		["Regar - Der Rat von Dalaran"] = {
+			["targetLevelSelection"] = {
+			},
+			["useSandbox"] = {
+			},
+		},
+		["Mcneto - Der Rat von Dalaran"] = {
+			["useSandbox"] = {
+			},
+			["targetLevelSelection"] = {
+			},
+		},
 	},
 	["profileKeys"] = {
 		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
 	},
 	["global"] = {
 		["models"] = {
@@ -251,10 +272,10 @@ ReforgenatorDB = {
 				},
 				["class"] = "MAGE",
 				["statWeights"] = {
-					["ITEM_MOD_CRIT_RATING_SHORT"] = 1.55,
-					["ITEM_MOD_HASTE_RATING_SHORT"] = 1.59,
-					["ITEM_MOD_MASTERY_RATING_SHORT"] = 1.3,
 					["ITEM_MOD_HIT_RATING_SHORT"] = 2.72,
+					["ITEM_MOD_HASTE_RATING_SHORT"] = 1.59,
+					["ITEM_MOD_CRIT_RATING_SHORT"] = 1.55,
+					["ITEM_MOD_MASTERY_RATING_SHORT"] = 1.3,
 				},
 			},
 			["Warlock, affliction"] = {

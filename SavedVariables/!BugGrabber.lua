@@ -3341,7 +3341,72 @@ BugGrabberDB = {
 			["session"] = 3114,
 			["counter"] = 1,
 		}, -- [443]
+		{
+			["message"] = "SkadaAbsorbs-1.0\\Absorbs.lua:397: attempt to perform arithmetic on field 'healing' (a nil value)\nSkada-1.2-34\\Skada.lua:1834: in function `UpdateDisplay'\nSkada-1.2-34\\Skada.lua:354: in function `DisplayModes'\nSkada-1.2-34\\Skada.lua:395: in function `RightClick'\nSkada-1.2-34\\BarDisplay.lua:356: in function `?'\nCallbackHandler-1.0-6:147: in function <...edia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nSpecializedLibBars-1.0-90001:327: in function <...ib\\SpecializedLibBars-1.0\\SpecializedLibBars-1.0.lua:326>\n",
+			["type"] = "error",
+			["time"] = "2011/07/27 20:42:32",
+			["session"] = 3116,
+			["counter"] = 1,
+		}, -- [444]
+		{
+			["message"] = "SkadaAbsorbs-1.0\\Absorbs.lua:397: attempt to perform arithmetic on field 'healing' (a nil value)\nSkada-1.2-34\\Skada.lua:1834: in function `UpdateDisplay'\nSkada-1.2-34\\Skada.lua:354: in function `DisplayModes'\nSkada-1.2-34\\Skada.lua:359: in function `click'\nSkada-1.2-34\\BarDisplay.lua:99: in function <Interface\\AddOns\\Skada\\BarDisplay.lua:91>\nSkada-1.2-34\\BarDisplay.lua:227: in function <Interface\\AddOns\\Skada\\BarDisplay.lua:227>\n",
+			["type"] = "error",
+			["time"] = "2011/07/27 20:42:37",
+			["locals"] = {
+				"self = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:383\n displays = <table> {\n }\n UpdateDisplay = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1779\n EnableModule = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:348\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:311\n IterateEmbeds = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:458\n windowdefaults = <table> {\n }\n Printf = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceConsole-3.0\\AceConsole-3.0.lua:69\n SetDefaultModulePrototype = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:425\n EndSegment = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1296\n defaultModuleState = true\n IsEnabled = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:467\n Sc", -- [1]
+				"heduleTimer = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:276\n DisableModule = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:366\n AddFeed = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1999\n RegisterMessage = <function> defined @Interface\\AddOns\\LibSharedMedia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:118\n GetArgs = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceConsole-3.0\\AceConsole-3.0.lua:144\n OpenMenu = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:850\n CheckPets = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:621\n DeleteSet = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:836\n RemoveMode = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1990\n db = <table> {\n }\n last = <table> {\n }\n SetEnabledState = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:440\n enabledState = true\n RegisterForCL = <function> defined @Interface\\AddOns", -- [2]
+				"\\Skada\\Skada.lua:1563\n RegisterEvent = <function> defined @Interface\\AddOns\\LibSharedMedia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:118\n ReloadSettings = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1192\n FixPets = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:2045\n profilesFrame = <unnamed> {\n }\n optionsFrame = <unnamed> {\n }\n IterateModules = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:453\n baseName = \"Skada\"\n options = <table> {\n }\n AddSubviewToTooltip = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:2143\n GetFeeds = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1994\n Wipe = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1453\n AddColumnOptions = <function> defined @Interface\\AddOns\\Skada\\Options.lua:77\n defaults = <table> {\n }\n resetoptions = <table> {\n }\n OnDisable = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:2259\n OnEnable = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:", -- [3]
+				"2246\n Enable = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:315\n UnregisterAllEvents = <function> defined @Interface\\AddOns\\LibSharedMedia-3.0\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:202\n OnInitialize = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:2186\n FormatValueText = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:2109\n find_set = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:1492\n GetModule = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:231\n PlayerActiveTime = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:2027\n RefreshMMButton = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:570\n RAID_ROSTER_UPDATE = <function> defined @Interface\\AddOns\\Skada\\Skada.lua:771\n defaultModuleLibraries = <table> {\n }\n TimeLeft = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:363\n SetTooltipPosition = <function> defined @Interface\\AddOns\\Skada\\Skada.lua", -- [4]
+				":2080\n UnregisterChatCommand = <function> defined @Interface\\AddOns\\Archy\\Libs\\AceConsole-3.0\\AceConsole-3.0.lua:111\n total = <table> {\n }\n ScheduleRepeatingTimer = <function>", -- [5]
+			},
+			["session"] = 3116,
+			["counter"] = 1,
+		}, -- [445]
+		{
+			["message"] = "CreateFrame: Can't create 'Button' now:\n<in C code>: ?\n<in C code>: in function `CreateFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:343: in function `CompactRaidFrameContainer_GetUnitFrame':\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:315: in function `CompactRaidFrameContainer_AddUnitFrame':\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:255: in function `CompactRaidFrameContainer_AddPlayers':\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:177: in function `CompactRaidFrameContainer_LayoutFrames':\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:131: in function `CompactRaidFrameContainer_TryUpdate':\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:58: in function `CompactRaidFrameContainer_OnEvent':\n<string>:\"*:OnEvent\":1: in function <[string \"*:OnEvent\"]:1>\n",
+			["type"] = "error",
+			["time"] = "2011/07/28 18:57:02",
+			["locals"] = {
+				"(*temporary) = \"Button\"\n(*temporary) = \"CompactRaidFrame5\"\n(*temporary) = CompactRaidFrameContainer {\n unitFrameUnusedFunc = <function> defined @Interface\\AddOns\\Blizzard_CompactRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:47\n flowSortFunc = <function> defined @Interface\\AddOns\\Blizzard_CompactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:678\n groupMode = \"flush\"\n raidUnits = <table> {\n }\n frameUpdateList = <table> {\n }\n flowOrientation = \"vertical\"\n showBorder = true\n borderFrame = CompactRaidFrameContainerBorderFrame {\n }\n flowFilterFunc = <function> defined @Interface\\AddOns\\Blizzard_CompactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:746\n groupFilterFunc = <function> defined @Interface\\AddOns\\Blizzard_CompactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:776\n partyUnits = <table> {\n }\n flowMaxPrimaryUsed = 72.000002811545\n flowMaxSecondaryUsed = 143.99989765975\n units = <table> {\n }\n flowPauseUpdates = true\n frameReservations = <table> {\n }\n flowFrame", -- [1]
+				"s = <table> {\n }\n 0 = <userdata>\n displayFlaggedMembers = true\n}\n(*temporary) = \"CompactUnitFrameTemplate\"\n", -- [2]
+			},
+			["session"] = 3119,
+			["counter"] = 4,
+		}, -- [446]
+		{
+			["message"] = "Interface\\FrameXML\\UnitFrame.lua:218: Usage: GameTooltip:SetUnit(\"unit\"[, hideStatus]):\nInterface\\FrameXML\\UnitFrame.lua:218: in function `UnitFrame_UpdateTooltip':\nInterface\\FrameXML\\UnitFrame.lua:205: in function <Interface\\FrameXML\\UnitFrame.lua:192>:\n",
+			["type"] = "error",
+			["time"] = "2011/07/28 20:01:18",
+			["locals"] = {
+				"self = CompactRaidFrame12 {\n dispelDebuffFrames = <table> {\n }\n debuffFrames = <table> {\n }\n maxDispelDebuffs = 3\n inUse = false\n inVehicle = false\n background = CompactRaidFrame12Background {\n }\n powerBar = CompactRaidFrame12PowerBar {\n }\n hasDispelPoison = false\n healthBar = CompactRaidFrame12HealthBar {\n }\n horizTopBorder = CompactRaidFrame12HorizTopBorder {\n }\n vertRightBorder = CompactRaidFrame12VertRightBorder {\n }\n name = CompactRaidFrame12Name {\n }\n aggroHighlight = CompactRaidFrame12AggroHighlight {\n }\n incomingResurrectIcon = CompactRaidFrame12IncomingResurrectIcon {\n }\n selectionHighlight = CompactRaidFrame12SelectionHighlight {\n }\n maxDebuffs = 3\n hasDispelDisease = false\n hasDispelMagic = false\n hasDispelCurse = false\n statusText = CompactRaidFrame12StatusText {\n }\n horizDivider = CompactRaidFrame12HorizDivider {\n }\n roleIcon = CompactRaidFrame12RoleIcon {\n }\n 0 = <userdata>\n applyFunc = <function> defined @Interface\\AddOns\\Blizzard_CompactRaidFrames\\Bl", -- [1]
+				"izzard_CompactRaidFrameContainer.lua:322\n buffFrames = <table> {\n }\n optionTable = <table> {\n }\n dropDown = CompactRaidFrame12DropDown {\n }\n menu = <function> defined @Interface\\FrameXML\\CompactUnitFrame.lua:189\n unusedFunc = <function> defined @Interface\\AddOns\\Blizzard_CompactRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:47\n maxBuffs = 3\n vertLeftBorder = CompactRaidFrame12VertLeftBorder {\n }\n horizBottomBorder = CompactRaidFrame12HorizBottomBorder {\n }\n myHealPredictionBar = CompactRaidFrame12MyHealPredictionBar {\n }\n readyCheckIcon = CompactRaidFrame12ReadyCheckIcon {\n }\n otherHealPredictionBar = CompactRaidFrame12OtherHealPredictionBar {\n }\n}\n", -- [2]
+			},
+			["session"] = 3119,
+			["counter"] = 1,
+		}, -- [447]
+		{
+			["message"] = "WeakAurasOptions-1.4.3\\WeakAurasOptions.lua:4324: invalid option in `format'\nWeakAurasOptions-1.4.3\\WeakAurasOptions.lua:4324: in function `member'\nAceConfigDialog-3.0-54:249: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:197>\nAceConfigDialog-3.0-54:539: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:529>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":9: in function <[string \"safecall Dispatcher[2]\"]:5>\n(tail call): ?:\nAceGUI-3.0-33 (Archy):314: in function `Fire'\n...chy\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-EditBox.lua:55: in function <...chy\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-EditBox.lua:54>:\n",
+			["type"] = "error",
+			["time"] = "2011/07/30 14:35:58",
+			["session"] = 3128,
+			["counter"] = 9,
+		}, -- [448]
+		{
+			["message"] = "WeakAurasOptions-1.4.3\\WeakAurasOptions.lua:4324: invalid option in `format'\nWeakAurasOptions-1.4.3\\WeakAurasOptions.lua:4324: in function `desc'\nWeakAurasOptions-1.4.3\\WeakAurasOptions.lua:1705: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:1686>\n(tail call): ?:\nAceConfigDialog-3.0-54:249: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:197>\nAceConfigDialog-3.0-54:539: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:529>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":9: in function <[string \"safecall Dispatcher[2]\"]:5>\n(tail call): ?:\nAceGUI-3.0-33 (Archy):314: in function `Fire'\n...chy\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-EditBox.lua:55: in function <...chy\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-EditBox.lua:54>:\n",
+			["type"] = "error",
+			["time"] = "2011/07/30 14:47:24",
+			["session"] = 3128,
+			["counter"] = 7,
+		}, -- [449]
+		{
+			["message"] = "Blizzard_GuildUI\\Blizzard_GuildNews.lua:133: attempt to concatenate local 'newsType' (a nil value)\nBlizzard_GuildUI\\Blizzard_GuildUI.lua:499: in function `GuildMainFrame_UpdateNewsEvents'\nBlizzard_GuildUI\\Blizzard_GuildUI.lua:454: in function <...terface\\AddOns\\Blizzard_GuildUI\\Blizzard_GuildUI.lua:447>\n",
+			["type"] = "error",
+			["time"] = "2011/07/31 20:50:00",
+			["locals"] = "numNews = 230\nnumEvents = 0\ndivider = 8\nmaxNews = 230\nmaxEvents = 1\nbutton = nil\nbuttons = <table> {\n 1 = GuildUpdatesButton1 {\n }\n 2 = GuildUpdatesButton2 {\n }\n 3 = GuildUpdatesButton3 {\n }\n 4 = GuildUpdatesButton4 {\n }\n 5 = GuildUpdatesButton5 {\n }\n 6 = GuildUpdatesButton6 {\n }\n 7 = GuildUpdatesButton7 {\n }\n 8 = GuildUpdatesButton8 {\n }\n 9 = GuildUpdatesButton9 {\n }\n}\n",
+			["session"] = 3136,
+			["counter"] = 2,
+		}, -- [450]
 	},
 	["save"] = true,
-	["session"] = 3115,
+	["session"] = 3137,
 }

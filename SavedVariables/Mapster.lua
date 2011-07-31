@@ -20,6 +20,7 @@ MapsterDB = {
 		["Magnifico - Der Rat von Dalaran"] = "Default",
 		["Herman - Der Rat von Dalaran"] = "Default",
 		["Sotheby - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
 		["Cowley - Gorgonnash"] = "Default",
 		["Orric - Magtheridon"] = "Default",
 		["Randolph - Gorgonnash"] = "Default",
@@ -29,12 +30,12 @@ MapsterDB = {
 		["Default"] = {
 			["point"] = "TOPLEFT",
 			["scale"] = 0.9178005456924439,
-			["y"] = -78.39967132046695,
-			["x"] = 44.00029376664367,
-			["questObjectives"] = 1,
 			["modules"] = {
 				["FogClear"] = false,
 			},
+			["x"] = 44.00029376664367,
+			["questObjectives"] = 1,
+			["y"] = -78.39967132046695,
 		},
 	},
 }

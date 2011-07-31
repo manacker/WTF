@@ -40,12 +40,20 @@ Chinchilla2DB = {
 		["TrackingDots"] = {
 			["profiles"] = {
 				["Default"] = {
-					["trackingDotStyle"] = "NandiniNew",
 					["enabled"] = false,
+					["trackingDotStyle"] = "NandiniNew",
 				},
 			},
 		},
-		["RangeCircle"] = {
+		["QuestTracker"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enabled"] = true,
+					["frameHeight"] = 500,
+					["showCollapseButton"] = false,
+					["frameWidth"] = 250,
+				},
+			},
 		},
 		["Position"] = {
 			["profiles"] = {
@@ -130,19 +138,12 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["QuestTracker"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = true,
-					["frameHeight"] = 500,
-					["showCollapseButton"] = false,
-					["frameWidth"] = 250,
-				},
-			},
+		["RangeCircle"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Cowley - Gorgonnash"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
 		["Orric - Magtheridon"] = "Default",
 		["Magnifico - Der Rat von Dalaran"] = "Default",
 		["Herman - Der Rat von Dalaran"] = "Default",

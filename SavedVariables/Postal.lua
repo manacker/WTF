@@ -11,12 +11,14 @@ Postal3DB = {
 				"Magnifico|Der Rat von Dalaran|Horde|85|MAGE", -- [6]
 				"Mcneto|Der Rat von Dalaran|Alliance|33|WARRIOR", -- [7]
 				"Randolph|Gorgonnash|Horde|22|WARLOCK", -- [8]
-				"Sotheby|Der Rat von Dalaran|Alliance|5|PALADIN", -- [9]
+				"Regar|Der Rat von Dalaran|Horde|9|SHAMAN", -- [9]
+				"Sotheby|Der Rat von Dalaran|Alliance|5|PALADIN", -- [10]
 			},
 		},
 	},
 	["profileKeys"] = {
 		["Cowley - Gorgonnash"] = "Cowley - Gorgonnash",
+		["Regar - Der Rat von Dalaran"] = "Regar - Der Rat von Dalaran",
 		["Orric - Magtheridon"] = "Orric - Magtheridon",
 		["Sotheby - Der Rat von Dalaran"] = "Sotheby - Der Rat von Dalaran",
 		["Magnifico - Der Rat von Dalaran"] = "Magnifico - Der Rat von Dalaran",
@@ -31,6 +33,8 @@ Postal3DB = {
 	["profiles"] = {
 		["Cowley - Gorgonnash"] = {
 		},
+		["Regar - Der Rat von Dalaran"] = {
+		},
 		["Orric - Magtheridon"] = {
 		},
 		["Sotheby - Der Rat von Dalaran"] = {
@@ -44,11 +48,18 @@ Postal3DB = {
 		["Magnifico - Der Rat von Dalaran"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Gorthuk|Der Rat von Dalaran|Horde", -- [1]
+					"Regar|Der Rat von Dalaran|Horde", -- [1]
+					"Goldira|Der Rat von Dalaran|Horde", -- [2]
+					"Gorthuk|Der Rat von Dalaran|Horde", -- [3]
 				},
 			},
 		},
 		["Herman - Der Rat von Dalaran"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Regar|Der Rat von Dalaran|Alliance", -- [1]
+				},
+			},
 		},
 		["Atrako - Der Rat von Dalaran"] = {
 		},

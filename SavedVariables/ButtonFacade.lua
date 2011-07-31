@@ -16,6 +16,7 @@ ButtonFacadeDB = {
 	},
 	["profileKeys"] = {
 		["Cowley - Gorgonnash"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
 		["Orric - Magtheridon"] = "Default",
 		["Severe - Der Rat von Dalaran"] = "Default",
 		["Sotheby - Der Rat von Dalaran"] = "Default",

@@ -6,11 +6,12 @@ BazookaDB = {
 	},
 	["profileKeys"] = {
 		["Cowley - Gorgonnash"] = "Default",
-		["Herman - Der Rat von Dalaran"] = "Default",
-		["Atrako - Der Rat von Dalaran"] = "Default",
-		["Macneto - Der Rat von Dalaran"] = "Default",
-		["Sotheby - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
 		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
+		["Sotheby - Der Rat von Dalaran"] = "Default",
+		["Macneto - Der Rat von Dalaran"] = "Default",
+		["Atrako - Der Rat von Dalaran"] = "Default",
 		["Randolph - Gorgonnash"] = "Default",
 		["Mcneto - Der Rat von Dalaran"] = "Default",
 	},
@@ -78,6 +79,9 @@ BazookaDB = {
 					["Launcher: Kochkunst"] = {
 						["pos"] = 24,
 					},
+					["GuildXP"] = {
+						["pos"] = 29,
+					},
 					["Broker_Location"] = {
 						["showIcon"] = false,
 						["area"] = "left",
@@ -85,31 +89,34 @@ BazookaDB = {
 						["bar"] = 2,
 					},
 					["Skada"] = {
-						["pos"] = 1,
+						["pos"] = 2,
 					},
-					["GuildXP"] = {
-						["pos"] = 29,
+					["WeakAuras"] = {
+						["pos"] = 1,
 					},
 					["ArkInventory_Pets"] = {
 						["area"] = "left",
 						["pos"] = 17,
 					},
-					["Launcher: Erste Hilfe"] = {
-						["pos"] = 22,
-					},
-					["Launcher: Ingenieurskunst"] = {
-						["pos"] = 23,
-					},
-					["HitCrit"] = {
+					["Broker_DurabilityInfo"] = {
 						["area"] = "left",
-						["pos"] = 18,
+						["pos"] = 6,
+					},
+					["LDBThreat"] = {
+						["area"] = "cleft",
+						["enabled"] = false,
+						["pos"] = 1,
+					},
+					["Broker_Garbage"] = {
+						["area"] = "left",
+						["pos"] = 7,
 					},
 					["|cFFFFB366Ara|r Guild"] = {
 						["pos"] = 10,
 					},
-					["picoGuild"] = {
+					["ElkFactions"] = {
 						["area"] = "left",
-						["pos"] = 5,
+						["pos"] = 22,
 					},
 					["Broker_uClock"] = {
 						["showIcon"] = false,
@@ -120,9 +127,9 @@ BazookaDB = {
 						["area"] = "left",
 						["pos"] = 2,
 					},
-					["ElkFactions"] = {
+					["picoGuild"] = {
 						["area"] = "left",
-						["pos"] = 22,
+						["pos"] = 5,
 					},
 					["ArkInventory_Mounts"] = {
 						["area"] = "left",
@@ -132,27 +139,25 @@ BazookaDB = {
 						["pos"] = 28,
 					},
 					["Launcher: Verhüttung"] = {
+						["enabled"] = false,
 						["pos"] = 25,
 					},
 					["picoFriends"] = {
 						["area"] = "left",
 						["pos"] = 4,
 					},
-					["Broker_DurabilityInfo"] = {
-						["area"] = "left",
-						["pos"] = 6,
+					["Launcher: Erste Hilfe"] = {
+						["pos"] = 22,
 					},
 					["Archy"] = {
 						["pos"] = 26,
 					},
-					["Broker_Garbage"] = {
+					["HitCrit"] = {
 						["area"] = "left",
-						["pos"] = 7,
+						["pos"] = 18,
 					},
-					["LDBThreat"] = {
-						["area"] = "cleft",
-						["enabled"] = false,
-						["pos"] = 1,
+					["Launcher: Ingenieurskunst"] = {
+						["pos"] = 23,
 					},
 				},
 				["launcher"] = {
@@ -207,12 +212,12 @@ BazookaDB = {
 					},
 					["Decursive"] = {
 						["area"] = "right",
-						["pos"] = 2,
-					},
-					["kgPanels"] = {
-						["pos"] = 22,
+						["pos"] = 3,
 					},
 					["BagnonLauncher"] = {
+						["pos"] = 22,
+					},
+					["kgPanels"] = {
 						["pos"] = 22,
 					},
 					["Omen"] = {

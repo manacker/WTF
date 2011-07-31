@@ -2,6 +2,9 @@
 DecursiveDB = {
 	["profileKeys"] = {
 		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
 	},
 	["class"] = {
 		["MAGE"] = {
@@ -15,9 +18,42 @@ DecursiveDB = {
 				[32] = 2,
 			},
 		},
+		["WARRIOR"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["PRIEST"] = {
+			["CureOrder"] = {
+				nil, -- [1]
+				3, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[8] = -15,
+				[16] = 2,
+				[32] = -16,
+			},
+		},
+		["SHAMAN"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1311711655,
+		["LastVersionAnnounce"] = 1312138821,
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -4,8 +4,7 @@ MACRO 37 "cs" INV_Misc_QuestionMark
 /cast Gegenzauber
 END
 MACRO 36 "Decursive" INV_Misc_QuestionMark
-/stopcasting
-/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Verwandlung; [@mouseover,exists,mod:shift] Fluch aufheben
+/script DecursiveRootTable.Dcr:Println('Kein Zauber verfügbar')
 END
 MACRO 12 "Focussheep" INV_Misc_QuestionMark
 # show Verwandlung

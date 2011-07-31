@@ -76,7 +76,12 @@ combusettingstable = {
 		0, -- [3]
 		0.5, -- [4]
 	},
-	["edgeFile"] = "InterfaceTooltipsUI-Tooltip-Border",
+	["textcolorvalid"] = {
+		0, -- [1]
+		1, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
 	["bgFile"] = "InterfaceTooltipsUI-Tooltip-Background",
 	["bgcolornormal"] = {
 		0.25, -- [1]
@@ -90,10 +95,5 @@ combusettingstable = {
 		0.67, -- [3]
 		1, -- [4]
 	},
-	["textcolorvalid"] = {
-		0, -- [1]
-		1, -- [2]
-		0, -- [3]
-		1, -- [4]
-	},
+	["edgeFile"] = "InterfaceTooltipsUI-Tooltip-Border",
 }

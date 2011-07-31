@@ -215,6 +215,6 @@ RaidWatch: disabled
 ReforgeSaver: disabled
 BigWigs_Bastion: disabled
 BigWigs_Throne: disabled
-SkadaEnemies: disabled
-SkadaHealing: disabled
-SkadaPower: disabled
+SkadaEnemies: enabled
+SkadaHealing: enabled
+SkadaPower: enabled

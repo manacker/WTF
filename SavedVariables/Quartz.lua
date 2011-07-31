@@ -76,6 +76,7 @@ Quartz3DB = {
 	},
 	["profileKeys"] = {
 		["Cowley - Gorgonnash"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
 		["Orric - Magtheridon"] = "Default",
 		["Magnifico - Der Rat von Dalaran"] = "Default",
 		["Herman - Der Rat von Dalaran"] = "Default",

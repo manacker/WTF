@@ -5,6 +5,7 @@ uClockDB = {
 		["Herman - Der Rat von Dalaran"] = "Default",
 		["Atrako - Der Rat von Dalaran"] = "Default",
 		["Macneto - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
 		["Sotheby - Der Rat von Dalaran"] = "Default",
 		["Randolph - Gorgonnash"] = "Default",
 		["Mcneto - Der Rat von Dalaran"] = "Default",

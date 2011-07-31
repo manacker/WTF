@@ -102,12 +102,12 @@ ArchyDB = {
 						["looted"] = 3,
 						["counter"] = 1,
 					},
-					[54129] = {
-						["fragments"] = 14,
-						["surveys"] = 9,
-						["keystones"] = 1,
-						["looted"] = 3,
-						["counter"] = 1,
+					[56516] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
 					},
 					[56424] = {
 						["fragments"] = 0,
@@ -158,21 +158,7 @@ ArchyDB = {
 						["looted"] = 3,
 						["counter"] = 1,
 					},
-					[55408] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[55440] = {
-						["fragments"] = 13,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 14,
-					},
-					[56504] = {
+					[54137] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
@@ -186,19 +172,33 @@ ArchyDB = {
 						["looted"] = 3,
 						["counter"] = 0,
 					},
-					[54137] = {
+					[56504] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["counter"] = 0,
 					},
-					[56516] = {
+					[55440] = {
+						["fragments"] = 13,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["surveys"] = 14,
+					},
+					[55408] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["counter"] = 0,
+					},
+					[54129] = {
+						["fragments"] = 14,
+						["surveys"] = 9,
+						["keystones"] = 1,
+						["looted"] = 3,
+						["counter"] = 1,
 					},
 					[55446] = {
 						["fragments"] = 13,
@@ -225,10 +225,10 @@ ArchyDB = {
 					["Ausgrabungsstätte von Shadra'Alor"] = false,
 					["Fossilienbank des Grünen Gürtels"] = false,
 					["Eisenbands Ausgrabungsstätte"] = false,
-					["Untere Teergruben von Lakkari"] = false,
+					["Fossilienbank am Nebelschilfstrand"] = false,
 					["Ausgrabungsstätte der Pyroxebenen"] = false,
 					["Ausgrabungsstätte der Gräber der Wegbereiter"] = false,
-					["Fossilienbank am Nebelschilfstrand"] = false,
+					["Untere Teergruben von Lakkari"] = false,
 					["Thandolübergang"] = false,
 					["Ausgrabungsstätte der Echsennarbe"] = false,
 					["Östliche Ausgrabungsstätte von Zul'Kunda"] = false,
@@ -237,9 +237,36 @@ ArchyDB = {
 				},
 			},
 		},
+		["Herman - Der Rat von Dalaran"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Regar - Der Rat von Dalaran"] = {
+			["digsites"] = {
+				["blacklist"] = {
+				},
+				["stats"] = {
+				},
+			},
+		},
+		["Mcneto - Der Rat von Dalaran"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
 	},
 	["profileKeys"] = {
 		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
 	},
 	["global"] = {
 		["surveyNodes"] = {

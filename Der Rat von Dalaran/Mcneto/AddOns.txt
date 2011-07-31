@@ -13,3 +13,4 @@ Omen: disabled
 TinyTip: enabled
 Broker_DungeonDifficulty: disabled
 guildxp: disabled
+PowerAuras: disabled
