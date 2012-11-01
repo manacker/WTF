@@ -1,16 +1,16 @@
-MACRO 37 "cs" INV_Misc_QuestionMark
+MACRO 37 "cs" "INV_Misc_QuestionMark"
 #showtooltip Gegenzauber
 /stopcasting
 /cast Gegenzauber
 END
-MACRO 36 "Decursive" INV_Misc_QuestionMark
+MACRO 36 "Decursive" "INV_Misc_QuestionMark"
 /script DecursiveRootTable.Dcr:Println('Kein Zauber verfügbar')
 END
-MACRO 12 "Focussheep" INV_Misc_QuestionMark
+MACRO 12 "Focussheep" "INV_Misc_QuestionMark"
 # show Verwandlung
 /focus target
 /cast Verwandlung(Hase)
 END
-MACRO 29 "reload" Ability_Creature_Cursed_04
+MACRO 29 "reload" "Ability_Creature_Cursed_04"
 /console reloadui
 END

@@ -1,23 +1,9 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["Magnifico - Der Rat von Dalaran"] = "Default",
-		["Herman - Der Rat von Dalaran"] = "Default",
-		["Regar - Der Rat von Dalaran"] = "Default",
-		["Mcneto - Der Rat von Dalaran"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1351729412,
 	},
 	["class"] = {
-		["MAGE"] = {
-			["CureOrder"] = {
-				-13, -- [1]
-				-16, -- [2]
-				nil, -- [3]
-				1, -- [4]
-				[8] = -14,
-				[16] = -15,
-				[32] = 2,
-			},
-		},
 		["WARRIOR"] = {
 			["CureOrder"] = {
 				-11, -- [1]
@@ -29,15 +15,15 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
-		["PRIEST"] = {
+		["WARLOCK"] = {
 			["CureOrder"] = {
-				nil, -- [1]
-				3, -- [2]
+				-12, -- [1]
+				-16, -- [2]
 				nil, -- [3]
-				-14, -- [4]
-				[8] = -15,
-				[16] = 2,
-				[32] = -16,
+				-13, -- [4]
+				[8] = -14,
+				[16] = -15,
+				[32] = 1,
 			},
 		},
 		["SHAMAN"] = {
@@ -51,9 +37,52 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
+		["MAGE"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-16, -- [2]
+				nil, -- [3]
+				1, -- [4]
+				[8] = -14,
+				[16] = -15,
+				[32] = 2,
+			},
+		},
+		["ROGUE"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["PRIEST"] = {
+			["CureOrder"] = {
+				-12, -- [1]
+				1, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[8] = -15,
+				[16] = -13,
+				[32] = -16,
+			},
+		},
 	},
-	["global"] = {
-		["LastVersionAnnounce"] = 1312138821,
+	["profileKeys"] = {
+		["Magnifiko - Eredar"] = "Default",
+		["Heinz - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
+		["Retzo - Der Rat von Dalaran"] = "Default",
+		["Zücho - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
+		["Feeble - Eredar"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
+		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Severe - Der Rat von Dalaran"] = "Default",
+		["Ednah - Der Rat von Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

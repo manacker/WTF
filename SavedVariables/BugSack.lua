@@ -6,7 +6,7 @@ BugSackDB = {
 	["currentProfile"] = {
 		["Feeble - Eredar"] = "char",
 	},
-	["mute"] = false,
+	["mute"] = true,
 	["soundMedia"] = "BugSack: Fatality",
 	["chatframe"] = false,
 }

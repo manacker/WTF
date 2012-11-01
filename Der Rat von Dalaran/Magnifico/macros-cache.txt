@@ -1,8 +1,29 @@
-MACRO 16777217 "Energie" INV_Misc_QuestionMark
+MACRO 16777222 "Bombe" "SPELL_FROST_FROSTSHOCK"
+/cast Netherorkan
+/cast Lebende Bombe
+/cast Frostbombe
+END
+MACRO 16777220 "Elem" "SPELL_NATURE_STARFALL"
+/tar Elementiumblitz
+END
+MACRO 16777217 "Energie" "INV_Misc_QuestionMark"
 #showtooltip Arkane Macht
 /cast Arkane Macht
-/cast Witwenfänge
+/cast Feuerfalkenhandschuhe
 /cast Raketebeschuss
 /cast Manaedelstein
 /cast Spiegelbild
+END
+MACRO 16777221 "Extra" "ABILITY_RACIAL_TIMEISMONEY"
+/click ExtraActionButton1
+END
+MACRO 16777223 "Food" "INV_MISC_QUESTIONMARK"
+/use Herbeigezauberter Manapudding;
+/use Herbeigezauberte Manabrötchen
+END
+MACRO 16777218 "Meteor" "Ability_Creature_Cursed_04"
+/target Geschmolzener Meteor
+END
+MACRO 16777219 "Sehne" "ABILITY_RACIAL_BETTERLIVINGTHROUGHCHEMISTRY"
+/tar Brennende Sehnen
 END

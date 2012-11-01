@@ -2,7 +2,9 @@
 TinyTipDB = {
 	["profileKeys"] = {
 		["Magnifiko - Eredar"] = "global",
+		["Heinz - Der Rat von Dalaran"] = "global",
 		["Regar - Der Rat von Dalaran"] = "global",
+		["Retzo - Der Rat von Dalaran"] = "global",
 		["Ащену - Азурегос"] = "global",
 		["Zücho - Der Rat von Dalaran"] = "global",
 		["Magní - Al'Akir"] = "global",
@@ -11,13 +13,15 @@ TinyTipDB = {
 		["Erric - Magtheridon"] = "global",
 		["Opaca - Taerar"] = "global",
 		["Moriturus - Al'Akir"] = "global",
+		["Feeble - Eredar"] = "global",
 		["Magnifico - Der Rat von Dalaran"] = "global",
+		["Zinkun - Vek'nilash"] = "global",
 		["Atrako - Der Rat von Dalaran"] = "global",
 		["Macneto - Der Rat von Dalaran"] = "global",
-		["Zinkun - Vek'nilash"] = "global",
-		["Jinjael - Der Rat von Dalaran"] = "global",
 		["Herman - Der Rat von Dalaran"] = "global",
+		["Jinjael - Der Rat von Dalaran"] = "global",
 		["Severe - Der Rat von Dalaran"] = "global",
+		["Ednah - Der Rat von Dalaran"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {

@@ -1,0 +1,50 @@
+
+DBMScenarioMoP_SavedVars = {
+	["TheramoreFall"] = {
+		["Enabled"] = true,
+		["Schreie, wenn du von $spell:114570 betroffen bist"] = true,
+		["Im Visier der Kriegsmaschine auf >%s<"] = true,
+		["Announce"] = false,
+		["SpeedKillTimer"] = false,
+		["Im Visier der Kriegsmaschine - geh weg"] = true,
+	},
+	["ArenaAnnihilation"] = {
+		["Enabled"] = true,
+		["Flammenwall"] = true,
+		["Flammenwall!"] = true,
+		["SpeedKillTimer"] = false,
+		["Announce"] = false,
+	},
+}
+DBMScenarioMoP_SavedStats = {
+	["TheramoreFall"] = {
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalPulls"] = 0,
+		["heroicPulls"] = 0,
+		["heroic25Kills"] = 0,
+		["heroicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["normal25Kills"] = 0,
+		["challengeKills"] = 0,
+		["normalKills"] = 0,
+		["challengePulls"] = 0,
+	},
+	["ArenaAnnihilation"] = {
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalBestTime"] = 467.8450000000003,
+		["normalPulls"] = 1,
+		["heroicPulls"] = 0,
+		["heroic25Kills"] = 0,
+		["normalLastTime"] = 467.8450000000003,
+		["heroicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["normal25Kills"] = 0,
+		["challengeKills"] = 0,
+		["normalKills"] = 1,
+		["challengePulls"] = 0,
+	},
+}

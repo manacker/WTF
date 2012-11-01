@@ -1,5 +1,30 @@
 
 FuBar_FactionsFuDB = {
+	["chars"] = {
+		["Magnifico - Der Rat von Dalaran"] = {
+			["collapsed"] = {
+				["Classic"] = true,
+				["The Burning Crusade"] = true,
+				["Allianz"] = true,
+				["Sonstige"] = true,
+			},
+		},
+		["Herman - Der Rat von Dalaran"] = {
+			["collapsed"] = {
+				["Inaktiv"] = true,
+			},
+		},
+		["Crowley - Frostwolf"] = {
+			["lastFaction"] = false,
+		},
+		["Opaca - Taerar"] = {
+			["lastFaction"] = "Die Aldor",
+			["collapsed"] = {
+				["Inaktiv"] = true,
+				["Dampfdruckkartell"] = true,
+			},
+		},
+	},
 	["currentProfile"] = {
 		["Feeble - Eredar"] = "char",
 	},
@@ -42,44 +67,19 @@ FuBar_FactionsFuDB = {
 				["Zangarmarschen"] = "Sporeggar",
 				["Die Sklavenunterkünfte"] = "Expedition des Cenarius",
 				["Shattrath"] = "Die Aldor",
-				["Scholomance"] = "Argentumdämmerung",
-				["Arathibecken"] = "Der Bund von Arathor",
+				["Der heulende Fjord"] = "Die Kalu'ak",
+				["Schattenmondtal"] = "Netherschwingen",
 				["Der Blutkessel"] = "Ehrenfeste",
 				["Nethersturm"] = "Das Konsortium",
+				["Arathibecken"] = "Der Bund von Arathor",
 				["Eiskrone"] = "Argentumkreuzzug",
 				["Mechanar"] = "Die Sha'tar",
-				["Schattenmondtal"] = "Netherschwingen",
 				["Höhlen der Zeit"] = "Hüter der Zeit",
 				["Eiskronenzitadelle"] = "Das Äscherne Verdikt",
 				["Drachenöde"] = "Der Wyrmruhpakt",
-				["Der heulende Fjord"] = "Die Kalu'ak",
+				["Scholomance"] = "Argentumdämmerung",
 				["Arkatraz"] = "Die Sha'tar",
 				["Nagrand"] = "Kurenai",
-			},
-		},
-	},
-	["chars"] = {
-		["Magnifico - Der Rat von Dalaran"] = {
-			["collapsed"] = {
-				["Classic"] = true,
-				["The Burning Crusade"] = true,
-				["Allianz"] = true,
-				["Sonstige"] = true,
-			},
-		},
-		["Herman - Der Rat von Dalaran"] = {
-			["collapsed"] = {
-				["Inaktiv"] = true,
-			},
-		},
-		["Crowley - Frostwolf"] = {
-			["lastFaction"] = false,
-		},
-		["Opaca - Taerar"] = {
-			["lastFaction"] = "Die Aldor",
-			["collapsed"] = {
-				["Inaktiv"] = true,
-				["Dampfdruckkartell"] = true,
 			},
 		},
 	},

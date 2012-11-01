@@ -27,13 +27,7 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["Expander"] = {
-			["profiles"] = {
-				["Default"] = {
-					["key"] = "",
-					["scale"] = 7.3,
-				},
-			},
+		["RangeCircle"] = {
 		},
 		["AutoZoom"] = {
 		},
@@ -52,6 +46,21 @@ Chinchilla2DB = {
 					["frameHeight"] = 500,
 					["showCollapseButton"] = false,
 					["frameWidth"] = 250,
+				},
+			},
+		},
+		["WheelZoom"] = {
+		},
+		["ShowHide"] = {
+			["profiles"] = {
+				["Default"] = {
+					["voice"] = false,
+					["clock"] = false,
+					["zoom"] = false,
+					["lfg"] = "mouseover",
+					["locationText"] = false,
+					["map"] = false,
+					["locationBar"] = false,
 				},
 			},
 		},
@@ -97,25 +106,12 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["ShowHide"] = {
-			["profiles"] = {
-				["Default"] = {
-					["clock"] = false,
-					["map"] = false,
-					["zoom"] = false,
-					["locationText"] = false,
-					["locationBar"] = false,
-				},
-			},
-		},
-		["WheelZoom"] = {
-		},
 		["Location"] = {
 			["profiles"] = {
 				["Default"] = {
 					["enabled"] = false,
-					["positionY"] = -75,
 					["scale"] = 0.9500000000000001,
+					["positionY"] = -75,
 				},
 			},
 		},
@@ -126,7 +122,7 @@ Chinchilla2DB = {
 				["Default"] = {
 					["map"] = 136,
 					["radius"] = 75,
-					["lfg"] = 198,
+					["lfg"] = 245,
 					["voice"] = 205,
 					["difficulty"] = 150,
 					["dayNight"] = 30,
@@ -138,21 +134,33 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["RangeCircle"] = {
+		["Expander"] = {
+			["profiles"] = {
+				["Default"] = {
+					["key"] = "",
+					["scale"] = 7.3,
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
-		["Cowley - Gorgonnash"] = "Default",
+		["Magnifiko - Eredar"] = "Default",
+		["Heinz - Der Rat von Dalaran"] = "Default",
 		["Regar - Der Rat von Dalaran"] = "Default",
-		["Orric - Magtheridon"] = "Default",
+		["Retzo - Der Rat von Dalaran"] = "Default",
 		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Severe - Der Rat von Dalaran"] = "Default",
+		["Sotheby - Der Rat von Dalaran"] = "Default",
+		["Randolph - Gorgonnash"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
+		["Cowley - Gorgonnash"] = "Default",
 		["Herman - Der Rat von Dalaran"] = "Default",
 		["Atrako - Der Rat von Dalaran"] = "Default",
 		["Macneto - Der Rat von Dalaran"] = "Default",
-		["Sotheby - Der Rat von Dalaran"] = "Default",
-		["Severe - Der Rat von Dalaran"] = "Default",
-		["Randolph - Gorgonnash"] = "Default",
-		["Mcneto - Der Rat von Dalaran"] = "Default",
+		["Zücho - Der Rat von Dalaran"] = "Default",
+		["Orric - Magtheridon"] = "Default",
+		["Ednah - Der Rat von Dalaran"] = "Default",
+		["Feeble - Eredar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

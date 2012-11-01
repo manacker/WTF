@@ -71,15 +71,15 @@ QuestsFuDB = {
 			["profiles"] = {
 				["Default"] = {
 					["gained"] = true,
+					["maxHeight"] = 400,
 					["subzone"] = false,
 					["minWidth"] = 400,
 					["data"] = {
-						["offsety"] = 371.3999490126239,
 						["anchor"] = "BOTTOMRIGHT",
 						["offsetx"] = -84.79988045308892,
+						["offsety"] = 371.3999490126239,
 						["fontSizePercent"] = 0.9,
 					},
-					["maxHeight"] = 400,
 					["useOwnTracker"] = false,
 				},
 				["char/Feeble - Eredar"] = {
@@ -255,18 +255,18 @@ QuestsFuDB = {
 	["chars"] = {
 		["Magnifico - Der Rat von Dalaran"] = {
 			["hidden"] = {
+				["Shattrath"] = true,
 				["Skettis"] = true,
 				["Zul'Aman"] = false,
-				["Shattrath"] = true,
 			},
 			["questgivers"] = {
 				["Auf der Suche nach Farahlit"] = "Zuben Elgenubi in Nethersturm (43,36)",
 				["Daten der Astralen"] = "Bild von Kommandant Ameer in Nethersturm (56,38)",
 				["Eine dämonische Präsenz"] = "Erzmagier Alturus in Gebirgspass der Totenwinde (46,75)",
 				["Anleitung zur Zerstörung"] = "Professor Dabiri in Nethersturm (60,31)",
+				["Captain Tyralius"] = "Fleischtreiber Viridius in Nethersturm (59,32)",
 				["Elektroschock!"] = "Forscher Navuud in Nethersturm (59,32)",
 				["Den Sternensturz sichern"] = "Tyri in Nethersturm (71,35)",
-				["Captain Tyralius"] = "Fleischtreiber Viridius in Nethersturm (59,32)",
 				["Besondere Dienste"] = "Erzmagierin Leryda in Gebirgspass der Totenwinde (47,75)",
 			},
 		},

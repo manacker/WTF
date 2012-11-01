@@ -13,8 +13,18 @@ GarbageFuDB = {
 		},
 		["Taerar - Horde"] = {
 			["garbageprofit"] = {
-				["Opaca"] = 3006900,
 				["Sotheby"] = 194,
+				["Opaca"] = 3006900,
+			},
+		},
+		["Frostwolf - Horde"] = {
+			["garbageprofit"] = {
+				["Crowley"] = 68219,
+			},
+		},
+		["Al'Akir - Horde"] = {
+			["garbageprofit"] = {
+				["Moriturus"] = 403,
 			},
 		},
 		["Der Rat von Dalaran - Allianz"] = {
@@ -29,16 +39,9 @@ GarbageFuDB = {
 				["Magnifico"] = 60218,
 			},
 		},
-		["Al'Akir - Horde"] = {
-			["garbageprofit"] = {
-				["Moriturus"] = 403,
-			},
-		},
-		["Frostwolf - Horde"] = {
-			["garbageprofit"] = {
-				["Crowley"] = 68219,
-			},
-		},
+	},
+	["currentProfile"] = {
+		["Feeble - Eredar"] = "char",
 	},
 	["profiles"] = {
 		["char/Feeble - Eredar"] = {
@@ -49,7 +52,7 @@ GarbageFuDB = {
 			["showText"] = false,
 			["detachedTooltip"] = {
 			},
-			["version"] = "2.0.55623",
+			["version"] = "2.0.114",
 			["vendoraddonsorder"] = {
 				"-DNU-", -- [1]
 			},
@@ -63,7 +66,8 @@ GarbageFuDB = {
 			["version"] = "2.0.114",
 			["garbageprices"] = true,
 			["vendoraddonsorder"] = {
-				"-DNU-", -- [1]
+				"itemprice", -- [1]
+				"-DNU-", -- [2]
 			},
 			["auctionaddonsorder"] = {
 				"-CA-", -- [1]
@@ -76,8 +80,5 @@ GarbageFuDB = {
 			},
 			["showText"] = false,
 		},
-	},
-	["currentProfile"] = {
-		["Feeble - Eredar"] = "char",
 	},
 }

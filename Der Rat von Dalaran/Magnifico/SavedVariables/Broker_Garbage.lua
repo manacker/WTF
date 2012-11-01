@@ -2,17 +2,25 @@
 BG_LocalDB = {
 	["include"] = {
 	},
-	["moneyEarned"] = 10347951,
+	["moneyEarned"] = 24919872,
 	["autoSellList"] = {
-		[6308] = true,
-		[6289] = true,
-		[17057] = true,
-		[17058] = true,
-		[6291] = true,
+		[81406] = 0,
+		[81405] = 0,
+		[81414] = 0,
+		[6308] = 0,
+		[6289] = 0,
+		[17057] = 0,
+		[17058] = 0,
+		[6291] = 0,
 	},
 	["exclude"] = {
-		["Misc.Reagent.Class.Mage"] = true,
+		["Tradeskill.Tool.Tailoring"] = 0,
+		[81202] = 0,
+		["Misc.Reagent.Class.Mage"] = 0,
+		["Tradeskill.Mat.ByProfession.Tailoring"] = 0,
 	},
-	["moneyLostByDeleting"] = 0,
+	["moneyLostByDeleting"] = 77829,
+	["version"] = 2,
+	["repairGuildBank"] = true,
 	["neverRepairGuildBank"] = false,
 }

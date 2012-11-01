@@ -1,7 +1,8 @@
 
 BGLM_LocalDB = {
-	["itemMinValue"] = 0,
 	["autoDestroy"] = false,
 	["selectiveLooting"] = false,
+	["minItemQuality"] = 0,
+	["itemMinValue"] = 0,
 	["autoDestroyInstant"] = false,
 }

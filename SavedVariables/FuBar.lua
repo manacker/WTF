@@ -1,8 +1,12 @@
 
 FuBar2DB = {
+	["currentProfile"] = {
+		["Feeble - Eredar"] = "char",
+	},
 	["profiles"] = {
 		["char/Feeble - Eredar"] = {
 			["fontSize"] = 12,
+			["skinR"] = 0,
 			["loadOnDemand"] = {
 				["FuBar_DurabilityFu"] = {
 					["title"] = "DurabilityFu",
@@ -105,7 +109,6 @@ FuBar2DB = {
 			["skinG"] = 0,
 			["rightSpacing"] = 3,
 			["leftSpacing"] = 10,
-			["skinR"] = 0,
 			["detached"] = {
 				["GuildFu"] = true,
 				["BattlegroundFu"] = true,
@@ -215,6 +218,29 @@ FuBar2DB = {
 							"Grid_B2F", -- [38]
 							"AVRE_B2F", -- [39]
 							"Broker_Garbage_B2F", -- [40]
+							"ArkInventory_Tracking_Item_B2F", -- [41]
+							"ArkInventory_Mounts_B2F", -- [42]
+							"ArkInventory_Pets_B2F", -- [43]
+							"LDBThreat_B2F", -- [44]
+							"ElkFactions_B2F", -- [45]
+							"ArkInventory_Tracking_Currency_B2F", -- [46]
+							"Broker_Garbage-Restack_B2F", -- [47]
+							"GuildXP_B2F", -- [48]
+							"GatherMate2_B2F", -- [49]
+							"Bazooka_B2F", -- [50]
+							"LFG_B2F", -- [51]
+							"Masque_B2F", -- [52]
+							"Broker_ProfessionsMenu_B2F", -- [53]
+							"Decursive_B2F", -- [54]
+							"Archy_B2F", -- [55]
+							"picoFriends_B2F", -- [56]
+							"picoGuild_B2F", -- [57]
+							"Skada_B2F", -- [58]
+							"DBM-LDB_B2F", -- [59]
+							"WeakAuras_B2F", -- [60]
+							"Reforgenator_B2F", -- [61]
+							"ArkInventory_Bags_B2F", -- [62]
+							"Broker_DurabilityInfo_B2F", -- [63]
 						},
 					},
 					["yPercent"] = 0.983333235866438,
@@ -273,6 +299,10 @@ FuBar2DB = {
 					["title"] = "KTMFu",
 					["category"] = "Raid",
 				},
+				["FuBar_BagFu"] = {
+					["title"] = "BagFu",
+					["category"] = "Inventory",
+				},
 				["FuBar_CRDelayFu"] = {
 					["disabled"] = true,
 					["title"] = "CRDelayFu",
@@ -306,10 +336,6 @@ FuBar2DB = {
 					["title"] = "RegenFu",
 					["category"] = "Combat",
 				},
-				["FuBar_BagFu"] = {
-					["title"] = "BagFu",
-					["category"] = "Inventory",
-				},
 				["FuBar_LocationFu"] = {
 					["title"] = "LocationFu",
 					["category"] = "Map",
@@ -335,31 +361,31 @@ FuBar2DB = {
 				["ArkInventory_Money_B2F"] = true,
 				["AmmoFu"] = true,
 				["Click2Cast_B2F"] = true,
-				["GatherMate_B2F"] = true,
+				["RoutesFu"] = true,
 				["AtlasLoot Enhanced"] = true,
 				["LogFu2"] = true,
 				["BattlegroundFu"] = true,
 				["Prat"] = true,
 				["Mount Me!"] = true,
 				["ToFu"] = true,
-				["Parrot_B2F"] = true,
+				["GatherMate_B2F"] = true,
 				["tcg's Tradeskills"] = true,
 				["HonorFu"] = true,
+				["Parrot_B2F"] = true,
+				["KungFu"] = true,
 				["FuXPFu"] = true,
-				["SWStats2Fu"] = true,
-				["KTMFu"] = true,
-				["ArenaFu"] = true,
+				["Elkano's BuffBars"] = true,
 				["Omen_B2F"] = true,
+				["KTMFu"] = true,
 				["Cooldown Timers 2"] = true,
-				["ArkInventory_Ammo_B2F"] = true,
-				["HitAssist_B2F"] = true,
+				["RegenFu"] = true,
 				["VoiceFu"] = true,
 				["ArkInventory_Taschen_B2F"] = true,
-				["Elkano's BuffBars"] = true,
-				["RoutesFu"] = true,
+				["ArkInventory_Ammo_B2F"] = true,
+				["ArenaFu"] = true,
 				["Broker_Clock_B2F"] = true,
-				["KungFu"] = true,
-				["RegenFu"] = true,
+				["SWStats2Fu"] = true,
+				["HitAssist_B2F"] = true,
 			},
 			["thickness"] = 6,
 			["transparency"] = 0.8,
@@ -367,10 +393,10 @@ FuBar2DB = {
 			["skinG"] = 0,
 			["places"] = {
 				["right"] = {
+					["ClearFont2"] = true,
 					["Cooldown Timers 2"] = true,
 					["RoutesFu"] = true,
 					["FuXPFu"] = true,
-					["ClearFont2"] = true,
 					["Broker_Clock_B2F"] = true,
 					["ToFu"] = true,
 					["tcg's Tradeskills"] = true,
@@ -390,6 +416,7 @@ FuBar2DB = {
 					["KTMFu"] = true,
 					["HonorFu"] = true,
 					["SWStats2Fu"] = true,
+					["RegenFu"] = true,
 					["Elkano's BuffBars"] = true,
 					["Omen_B2F"] = true,
 					["ArkInventory_Ammo_B2F"] = true,
@@ -397,7 +424,6 @@ FuBar2DB = {
 					["VoiceFu"] = true,
 					["ArkInventory_Taschen_B2F"] = true,
 					["CRDelayFu"] = true,
-					["RegenFu"] = true,
 					["KungFu"] = true,
 					["ArenaFu"] = true,
 					["Parrot_B2F"] = true,
@@ -408,8 +434,5 @@ FuBar2DB = {
 	},
 	["account"] = {
 		["firstTimeWoW21"] = true,
-	},
-	["currentProfile"] = {
-		["Feeble - Eredar"] = "char",
 	},
 }

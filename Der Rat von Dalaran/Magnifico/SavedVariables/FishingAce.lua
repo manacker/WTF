@@ -5,6 +5,7 @@ FishingAceDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["action"] = true,
 		},
 	},
 }

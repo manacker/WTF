@@ -34,15 +34,13 @@ ACP_Data = {
 	},
 	["NoChildren"] = true,
 	["collapsed"] = {
-		["Libraries"] = true,
-		["Blizzard Addons"] = true,
-		["FuBar"] = true,
 		["oRA2"] = true,
+		["Libraries"] = true,
 		["Forte"] = true,
-		["Broker"] = true,
 		["ShadowedUnitFrames"] = true,
 		["Wowhead"] = true,
-		["DBM"] = true,
+		["Blizzard Addons"] = true,
+		["FuBar"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,

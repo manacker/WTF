@@ -19,9 +19,7 @@ SLDTDB = {
 				},
 			},
 		},
-		["Honor"] = {
-		},
-		["Currencies"] = {
+		["Exp"] = {
 		},
 		["Coords"] = {
 			["profiles"] = {
@@ -37,29 +35,9 @@ SLDTDB = {
 				},
 			},
 		},
-		["ZoneText"] = {
-		},
-		["GuildList"] = {
-		},
 		["Framerate"] = {
 		},
-		["Memory"] = {
-		},
-		["Clock"] = {
-			["profiles"] = {
-				["Magnifico - Der Rat von Dalaran"] = {
-					["showMeridiem"] = false,
-					["offY"] = "-6",
-					["pulse"] = true,
-					["clockFormat"] = "%H:%M",
-				},
-				["Herman - Der Rat von Dalaran"] = {
-					["showMeridiem"] = false,
-					["offY"] = "-6",
-					["pulse"] = true,
-					["clockFormat"] = "%H:%M",
-				},
-			},
+		["Currency"] = {
 		},
 		["Gold"] = {
 			["realm"] = {
@@ -95,6 +73,38 @@ SLDTDB = {
 				},
 			},
 		},
+		["Clock"] = {
+			["profiles"] = {
+				["Magnifico - Der Rat von Dalaran"] = {
+					["showMeridiem"] = false,
+					["offY"] = "-6",
+					["pulse"] = true,
+					["clockFormat"] = "%H:%M",
+				},
+				["Herman - Der Rat von Dalaran"] = {
+					["showMeridiem"] = false,
+					["offY"] = "-6",
+					["pulse"] = true,
+					["clockFormat"] = "%H:%M",
+				},
+			},
+		},
+		["Honor"] = {
+		},
+		["Currencies"] = {
+		},
+		["GuildList"] = {
+		},
+		["ZoneText"] = {
+		},
+		["FriendList"] = {
+		},
+		["Memory"] = {
+		},
+		["FPS"] = {
+		},
+		["Reputation"] = {
+		},
 		["Mail"] = {
 			["char"] = {
 				["Magnifico - Der Rat von Dalaran"] = {
@@ -120,7 +130,7 @@ SLDTDB = {
 				},
 			},
 		},
-		["FriendList"] = {
+		["Armor"] = {
 		},
 		["Tracking"] = {
 			["profiles"] = {
@@ -158,8 +168,9 @@ SLDTDB = {
 		["Cowley - Gorgonnash"] = "Cowley - Gorgonnash",
 		["Herman - Der Rat von Dalaran"] = "Herman - Der Rat von Dalaran",
 		["Sotheby - Der Rat von Dalaran"] = "Sotheby - Der Rat von Dalaran",
-		["Randolph - Gorgonnash"] = "Randolph - Gorgonnash",
 		["Magnifico - Der Rat von Dalaran"] = "Magnifico - Der Rat von Dalaran",
+		["Randolph - Gorgonnash"] = "Randolph - Gorgonnash",
+		["Magnifiko - Eredar"] = "Magnifiko - Eredar",
 	},
 	["profiles"] = {
 		["Cowley - Gorgonnash"] = {
@@ -178,8 +189,6 @@ SLDTDB = {
 		},
 		["Sotheby - Der Rat von Dalaran"] = {
 		},
-		["Randolph - Gorgonnash"] = {
-		},
 		["Magnifico - Der Rat von Dalaran"] = {
 			["modules"] = {
 				["Durability"] = false,
@@ -192,6 +201,10 @@ SLDTDB = {
 			},
 			["gFont"] = "Myriad Condensed Web",
 			["gColorClass"] = false,
+		},
+		["Randolph - Gorgonnash"] = {
+		},
+		["Magnifiko - Eredar"] = {
 		},
 	},
 }
