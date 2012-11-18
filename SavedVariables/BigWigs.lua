@@ -19,6 +19,8 @@ BigWigs3DB = {
 		},
 		["BigWigs_Bosses_Yor'sahj the Unsleeping"] = {
 		},
+		["BigWigs_Bosses_Garalon"] = {
+		},
 		["BigWigs_Bosses_Gara'jal the Spiritbinder"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
@@ -37,21 +39,27 @@ BigWigs3DB = {
 		},
 		["BigWigs_Bosses_Majordomo Staghelm"] = {
 		},
+		["BigWigs_Bosses_Amber-Shaper Un'sok"] = {
+		},
 		["BigWigs_Bosses_Will of the Emperor"] = {
 		},
 		["BigWigs_Bosses_Imperial Vizier Zor'lok"] = {
 		},
 		["BigWigs_Bosses_The Stone Guard"] = {
 		},
-		["BigWigs_Bosses_Ragnaros"] = {
-		},
 		["BigWigs_Bosses_Occu'thar"] = {
 		},
-		["BigWigs_Plugins_Colors"] = {
+		["BigWigs_Bosses_Ragnaros"] = {
+		},
+		["BigWigs_Bosses_Grand Empress Shek'zeer"] = {
 		},
 		["BigWigs_Bosses_Shannox"] = {
 		},
+		["BigWigs_Plugins_Colors"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Warlord Zon'ozz"] = {
 		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
@@ -62,7 +70,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Warlord Zon'ozz"] = {
+		["BigWigs_Bosses_Wind Lord Mel'jarak"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
@@ -70,17 +78,18 @@ BigWigs3DB = {
 		},
 		["BigWigs_Bosses_Blade Lord Ta'yak"] = {
 		},
-		["BigWigs_Bosses_Warmaster Blackhorn"] = {
-		},
 		["BigWigs_Bosses_Feng the Accursed"] = {
+		},
+		["BigWigs_Bosses_Warmaster Blackhorn"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
-					["posx"] = 823.0399181751594,
+					["posx"] = 343.6800704431516,
 					["fontSize"] = 20.00000028115454,
-					["posy"] = 238.7200418531694,
 					["font"] = "Friz Quadrata TT",
+					["sound"] = false,
+					["posy"] = 326.3999731731419,
 				},
 			},
 		},

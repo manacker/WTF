@@ -10,16 +10,13 @@ MasqueDB = {
 		["Retzo - Der Rat von Dalaran"] = "Default",
 		["Magnifico - Der Rat von Dalaran"] = "Default",
 		["Severe - Der Rat von Dalaran"] = "Default",
-		["Feeble - Eredar"] = "Default",
-		["Zücho - Der Rat von Dalaran"] = "Default",
-		["Mcneto - Der Rat von Dalaran"] = "Default",
 		["Ednah - Der Rat von Dalaran"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
+		["Zücho - Der Rat von Dalaran"] = "Default",
+		["Feeble - Eredar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["LDB"] = {
-				["hide"] = false,
-			},
 			["Groups"] = {
 				["Bartender4_StanceBar"] = {
 					["Inherit"] = false,
@@ -65,11 +62,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_MicroMenu"] = {
+				["Bartender4_PetBar"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_8"] = {
+				["Bartender4_MicroMenu"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
@@ -77,7 +74,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
-				["Bartender4_PetBar"] = {
+				["Bartender4_8"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
@@ -85,6 +82,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Caith",
 				},
+			},
+			["LDB"] = {
+				["hide"] = false,
 			},
 		},
 	},

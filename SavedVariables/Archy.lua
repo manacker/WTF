@@ -3,53 +3,53 @@ ArchyDB = {
 	["char"] = {
 		["Magnifiko - Eredar"] = {
 			["digsites"] = {
-				["blacklist"] = {
-				},
 				["stats"] = {
+				},
+				["blacklist"] = {
 				},
 			},
 		},
 		["Heinz - Der Rat von Dalaran"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
 		["Regar - Der Rat von Dalaran"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
 		["Retzo - Der Rat von Dalaran"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
 		["Zücho - Der Rat von Dalaran"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
 		["Herman - Der Rat von Dalaran"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
-		["Feeble - Eredar"] = {
+		["Ednah - Der Rat von Dalaran"] = {
 			["digsites"] = {
 				["blacklist"] = {
 				},
@@ -57,16 +57,452 @@ ArchyDB = {
 				},
 			},
 		},
-		["Mcneto - Der Rat von Dalaran"] = {
+		["Severe - Der Rat von Dalaran"] = {
 			["digsites"] = {
-				["blacklist"] = {
-				},
 				["stats"] = {
+				},
+				["blacklist"] = {
 				},
 			},
 		},
 		["Magnifico - Der Rat von Dalaran"] = {
 			["digsites"] = {
+				["stats"] = {
+					[54137] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56533] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[67005] = {
+						["fragments"] = 81,
+						["counter"] = 1,
+						["keystones"] = 1,
+						["looted"] = 12,
+						["surveys"] = 47,
+					},
+					[92150] = {
+						["fragments"] = 32,
+						["surveys"] = 22,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[54832] = {
+						["fragments"] = 12,
+						["surveys"] = 8,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[92032] = {
+						["fragments"] = 43,
+						["surveys"] = 20,
+						["keystones"] = 1,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[67025] = {
+						["fragments"] = 39,
+						["counter"] = 0,
+						["keystones"] = 2,
+						["looted"] = 6,
+						["surveys"] = 21,
+					},
+					[55352] = {
+						["fragments"] = 13,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["surveys"] = 12,
+					},
+					[67033] = {
+						["fragments"] = 49,
+						["surveys"] = 23,
+						["keystones"] = 2,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[56364] = {
+						["fragments"] = 12,
+						["surveys"] = 10,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[66789] = {
+						["fragments"] = 41,
+						["surveys"] = 24,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[66935] = {
+						["fragments"] = 40,
+						["surveys"] = 19,
+						["keystones"] = 2,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[66923] = {
+						["fragments"] = 52,
+						["surveys"] = 20,
+						["keystones"] = 0,
+						["looted"] = 7,
+						["counter"] = 1,
+					},
+					[66985] = {
+						["fragments"] = 40,
+						["counter"] = 1,
+						["keystones"] = 1,
+						["looted"] = 6,
+						["surveys"] = 24,
+					},
+					[56504] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54864] = {
+						["fragments"] = 13,
+						["surveys"] = 9,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[56441] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56380] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[92174] = {
+						["fragments"] = 38,
+						["surveys"] = 17,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[66951] = {
+						["fragments"] = 46,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["surveys"] = 23,
+					},
+					[56512] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54127] = {
+						["fragments"] = 30,
+						["surveys"] = 37,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[56516] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55448] = {
+						["fragments"] = 14,
+						["surveys"] = 14,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[66971] = {
+						["fragments"] = 88,
+						["counter"] = 1,
+						["keystones"] = 1,
+						["looted"] = 13,
+						["surveys"] = 47,
+					},
+					[66991] = {
+						["fragments"] = 46,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["surveys"] = 24,
+					},
+					[66767] = {
+						["fragments"] = 130,
+						["counter"] = 1,
+						["keystones"] = 2,
+						["looted"] = 20,
+						["surveys"] = 78,
+					},
+					[67023] = {
+						["fragments"] = 94,
+						["counter"] = 1,
+						["keystones"] = 1,
+						["looted"] = 12,
+						["surveys"] = 53,
+					},
+					[54134] = {
+						["fragments"] = 18,
+						["surveys"] = 11,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[56593] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[54138] = {
+						["fragments"] = 16,
+						["surveys"] = 16,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 0,
+					},
+					[66890] = {
+						["fragments"] = 45,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["surveys"] = 25,
+					},
+					[56410] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55438] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56424] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55408] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[92156] = {
+						["fragments"] = 43,
+						["surveys"] = 18,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[92160] = {
+						["fragments"] = 43,
+						["surveys"] = 17,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[66917] = {
+						["fragments"] = 46,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["surveys"] = 31,
+					},
+					[67031] = {
+						["fragments"] = 90,
+						["counter"] = 1,
+						["keystones"] = 2,
+						["looted"] = 13,
+						["surveys"] = 39,
+					},
+					[67035] = {
+						["fragments"] = 78,
+						["counter"] = 1,
+						["keystones"] = 1,
+						["looted"] = 12,
+						["surveys"] = 57,
+					},
+					[54097] = {
+						["fragments"] = 12,
+						["surveys"] = 10,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[66854] = {
+						["fragments"] = 51,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["surveys"] = 32,
+					},
+					[66795] = {
+						["fragments"] = 101,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 14,
+						["surveys"] = 73,
+					},
+					[56375] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[66929] = {
+						["fragments"] = 78,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 12,
+						["surveys"] = 45,
+					},
+					[66933] = {
+						["fragments"] = 37,
+						["counter"] = 1,
+						["keystones"] = 3,
+						["looted"] = 6,
+						["surveys"] = 23,
+					},
+					[66939] = {
+						["fragments"] = 45,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["surveys"] = 24,
+					},
+					[66941] = {
+						["fragments"] = 45,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["surveys"] = 19,
+					},
+					[66945] = {
+						["fragments"] = 44,
+						["surveys"] = 20,
+						["keystones"] = 0,
+						["looted"] = 7,
+						["counter"] = 1,
+					},
+					[92212] = {
+						["fragments"] = 45,
+						["surveys"] = 18,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 1,
+					},
+					[55440] = {
+						["fragments"] = 13,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["surveys"] = 14,
+					},
+					[56450] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[66961] = {
+						["fragments"] = 51,
+						["surveys"] = 24,
+						["keystones"] = 1,
+						["looted"] = 7,
+						["counter"] = 1,
+					},
+					[55446] = {
+						["fragments"] = 13,
+						["surveys"] = 8,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[66969] = {
+						["fragments"] = 35,
+						["surveys"] = 29,
+						["keystones"] = 1,
+						["looted"] = 5,
+						["counter"] = 1,
+					},
+					[66784] = {
+						["fragments"] = 20,
+						["counter"] = 1,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["surveys"] = 8,
+					},
+					[54129] = {
+						["fragments"] = 14,
+						["surveys"] = 9,
+						["keystones"] = 1,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[55454] = {
+						["fragments"] = 12,
+						["surveys"] = 18,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[54133] = {
+						["fragments"] = 10,
+						["surveys"] = 6,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 1,
+					},
+					[54135] = {
+						["fragments"] = 13,
+						["surveys"] = 16,
+						["keystones"] = 0,
+						["looted"] = 3,
+						["counter"] = 0,
+					},
+					[56356] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+				},
 				["blacklist"] = {
 					["Ausgrabungsstätte am kleinen Tor"] = false,
 					["Ausgrabungsstätte des Arboretums"] = false,
@@ -110,478 +546,34 @@ ArchyDB = {
 					["Südliche Ausgrabungsstätte der Guo-Lai-Ruinen"] = false,
 					["Ausgrabungsstätte des Schreins der Morgensonne"] = false,
 					["Ausgrabungsstätte von Shadra'Alor"] = false,
-					["Östliche Ausgrabungsstätte von Zul'Kunda"] = false,
+					["Ausgrabungsstätte von Tian"] = false,
 					["Ausgrabungsstätte Quälheim"] = false,
-					["Ausgrabungsstätte von Grangol'var"] = false,
-					["Ausgrabungsstätte der Winterastlichtung"] = false,
+					["Südliche Ausgrabungsstätte der großen Mauer"] = false,
+					["Die Grabstätte"] = false,
 					["Ausgrabungsstätte der Terrasse der Zehn Donner"] = false,
-					["Fossilienfeld von Süderstade"] = false,
-					["Ausgrabungsstätte der Gräber der Wegbereiter"] = false,
-					["Ausgrabungsstätte der Provinz Zhu"] = false,
-					["West Summer Fields Digsite"] = false,
+					["Ausgrabungsstätte an der großen Brücke"] = false,
+					["Nördliche Ausgrabungsstätte der Ruinen von Dojan"] = false,
+					["Ausgrabungsstätte der Frosthauchschlucht"] = false,
+					["Ausgrabungsstätte der singenden Marschen"] = false,
 					["Thunderwood Digsite"] = false,
 					["Ausgrabungsstätte am Altar von Zul"] = false,
-					["Ausgrabungsstätte von Skorn"] = false,
-					["North Fruited Fields Digsite"] = false,
-					["Ausgrabungsstätte von Gjalerbron"] = false,
-					["Nördliche Ausgrabungsstätte der fruchttragenden Felder"] = false,
 					["Ausgrabungsstätte der schneebedeckten Hügel"] = false,
+					["North Fruited Fields Digsite"] = false,
+					["Nördliche Ausgrabungsstätte der fruchttragenden Felder"] = false,
+					["Ausgrabungsstätte von Gjalerbron"] = false,
+					["Ausgrabungsstätte von Skorn"] = false,
 					["Westliche Ausgrabungsstätte der Sommerfelder"] = false,
-					["Ausgrabungsstätte der singenden Marschen"] = false,
-					["Ausgrabungsstätte der Frosthauchschlucht"] = false,
-					["Nördliche Ausgrabungsstätte der Ruinen von Dojan"] = false,
-					["Ausgrabungsstätte an der großen Brücke"] = false,
-					["Die Grabstätte"] = false,
-					["Südliche Ausgrabungsstätte der großen Mauer"] = false,
-					["Ausgrabungsstätte von Tian"] = false,
-				},
-				["stats"] = {
-					[54137] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[56533] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[67005] = {
-						["fragments"] = 81,
-						["surveys"] = 47,
-						["keystones"] = 1,
-						["looted"] = 12,
-						["counter"] = 1,
-					},
-					[92150] = {
-						["fragments"] = 32,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 22,
-					},
-					[92032] = {
-						["fragments"] = 43,
-						["counter"] = 1,
-						["keystones"] = 1,
-						["looted"] = 6,
-						["surveys"] = 20,
-					},
-					[56356] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[67025] = {
-						["fragments"] = 39,
-						["surveys"] = 21,
-						["keystones"] = 2,
-						["looted"] = 6,
-						["counter"] = 0,
-					},
-					[55352] = {
-						["fragments"] = 13,
-						["surveys"] = 12,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["counter"] = 1,
-					},
-					[67033] = {
-						["fragments"] = 49,
-						["counter"] = 1,
-						["keystones"] = 2,
-						["looted"] = 6,
-						["surveys"] = 23,
-					},
-					[56364] = {
-						["fragments"] = 12,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 10,
-					},
-					[66789] = {
-						["fragments"] = 41,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 24,
-					},
-					[54864] = {
-						["fragments"] = 13,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 9,
-					},
-					[66923] = {
-						["fragments"] = 52,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 7,
-						["surveys"] = 20,
-					},
-					[54133] = {
-						["fragments"] = 10,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 6,
-					},
-					[56441] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[66935] = {
-						["fragments"] = 40,
-						["counter"] = 1,
-						["keystones"] = 2,
-						["looted"] = 6,
-						["surveys"] = 19,
-					},
-					[56504] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[56380] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[92174] = {
-						["fragments"] = 38,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 17,
-					},
-					[66951] = {
-						["fragments"] = 46,
-						["surveys"] = 23,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["counter"] = 0,
-					},
-					[56512] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[66784] = {
-						["fragments"] = 20,
-						["surveys"] = 8,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["counter"] = 1,
-					},
-					[56516] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[66969] = {
-						["fragments"] = 35,
-						["counter"] = 1,
-						["keystones"] = 1,
-						["looted"] = 5,
-						["surveys"] = 29,
-					},
-					[66971] = {
-						["fragments"] = 88,
-						["surveys"] = 47,
-						["keystones"] = 1,
-						["looted"] = 13,
-						["counter"] = 1,
-					},
-					[56593] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[92156] = {
-						["fragments"] = 43,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 18,
-					},
-					[92160] = {
-						["fragments"] = 43,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 17,
-					},
-					[54134] = {
-						["fragments"] = 18,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 11,
-					},
-					[66991] = {
-						["fragments"] = 46,
-						["surveys"] = 24,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["counter"] = 1,
-					},
-					[54138] = {
-						["fragments"] = 16,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 16,
-					},
-					[55440] = {
-						["fragments"] = 13,
-						["surveys"] = 14,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["counter"] = 1,
-					},
-					[56410] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[92212] = {
-						["fragments"] = 45,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 18,
-					},
-					[67031] = {
-						["fragments"] = 90,
-						["surveys"] = 39,
-						["keystones"] = 2,
-						["looted"] = 13,
-						["counter"] = 1,
-					},
-					[55408] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[66767] = {
-						["fragments"] = 130,
-						["surveys"] = 78,
-						["keystones"] = 2,
-						["looted"] = 20,
-						["counter"] = 1,
-					},
-					[67023] = {
-						["fragments"] = 94,
-						["surveys"] = 53,
-						["keystones"] = 1,
-						["looted"] = 12,
-						["counter"] = 1,
-					},
-					[66854] = {
-						["fragments"] = 51,
-						["surveys"] = 32,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["counter"] = 1,
-					},
-					[56424] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[67035] = {
-						["fragments"] = 78,
-						["surveys"] = 57,
-						["keystones"] = 1,
-						["looted"] = 12,
-						["counter"] = 1,
-					},
-					[54097] = {
-						["fragments"] = 12,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 10,
-					},
-					[66917] = {
-						["fragments"] = 46,
-						["surveys"] = 31,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["counter"] = 1,
-					},
-					[66795] = {
-						["fragments"] = 101,
-						["surveys"] = 73,
-						["keystones"] = 0,
-						["looted"] = 14,
-						["counter"] = 1,
-					},
-					[66939] = {
-						["fragments"] = 45,
-						["surveys"] = 24,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["counter"] = 1,
-					},
-					[66929] = {
-						["fragments"] = 78,
-						["surveys"] = 45,
-						["keystones"] = 0,
-						["looted"] = 12,
-						["counter"] = 1,
-					},
-					[66933] = {
-						["fragments"] = 37,
-						["surveys"] = 23,
-						["keystones"] = 3,
-						["looted"] = 6,
-						["counter"] = 1,
-					},
-					[56375] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[66941] = {
-						["fragments"] = 45,
-						["surveys"] = 19,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["counter"] = 1,
-					},
-					[66945] = {
-						["fragments"] = 44,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 7,
-						["surveys"] = 20,
-					},
-					[55438] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[66890] = {
-						["fragments"] = 45,
-						["surveys"] = 25,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["counter"] = 0,
-					},
-					[56450] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[66961] = {
-						["fragments"] = 51,
-						["counter"] = 1,
-						["keystones"] = 1,
-						["looted"] = 7,
-						["surveys"] = 24,
-					},
-					[55446] = {
-						["fragments"] = 13,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 8,
-					},
-					[55448] = {
-						["fragments"] = 14,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 14,
-					},
-					[54127] = {
-						["fragments"] = 30,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 37,
-					},
-					[54129] = {
-						["fragments"] = 14,
-						["counter"] = 1,
-						["keystones"] = 1,
-						["looted"] = 3,
-						["surveys"] = 9,
-					},
-					[55454] = {
-						["fragments"] = 12,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 18,
-					},
-					[66985] = {
-						["fragments"] = 40,
-						["surveys"] = 24,
-						["keystones"] = 1,
-						["looted"] = 6,
-						["counter"] = 1,
-					},
-					[54135] = {
-						["fragments"] = 13,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 16,
-					},
-					[54832] = {
-						["fragments"] = 12,
-						["counter"] = 1,
-						["keystones"] = 0,
-						["looted"] = 3,
-						["surveys"] = 8,
-					},
+					["West Summer Fields Digsite"] = false,
+					["Ausgrabungsstätte der Provinz Zhu"] = false,
+					["Ausgrabungsstätte der Gräber der Wegbereiter"] = false,
+					["Fossilienfeld von Süderstade"] = false,
+					["Ausgrabungsstätte der Winterastlichtung"] = false,
+					["Ausgrabungsstätte von Grangol'var"] = false,
+					["Östliche Ausgrabungsstätte von Zul'Kunda"] = false,
 				},
 			},
 		},
-		["Severe - Der Rat von Dalaran"] = {
-			["digsites"] = {
-				["blacklist"] = {
-				},
-				["stats"] = {
-				},
-			},
-		},
-		["Ednah - Der Rat von Dalaran"] = {
+		["Mcneto - Der Rat von Dalaran"] = {
 			["digsites"] = {
 				["stats"] = {
 				},
@@ -589,6 +581,27 @@ ArchyDB = {
 				},
 			},
 		},
+		["Feeble - Eredar"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Magnifiko - Eredar"] = "Default",
+		["Heinz - Der Rat von Dalaran"] = "Default",
+		["Regar - Der Rat von Dalaran"] = "Default",
+		["Retzo - Der Rat von Dalaran"] = "Default",
+		["Zücho - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
+		["Ednah - Der Rat von Dalaran"] = "Default",
+		["Severe - Der Rat von Dalaran"] = "Default",
+		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
+		["Feeble - Eredar"] = "Default",
 	},
 	["global"] = {
 		["surveyNodes"] = {
@@ -1142,113 +1155,35 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [3]
 			},
-			[66935] = {
+			[92174] = {
 				{
-					["m"] = 807,
-					["x"] = 0.360796332359314,
-					["y"] = 0.386166512966156,
+					["m"] = 810,
+					["x"] = 0.3516339063644409,
+					["y"] = 0.6230990886688232,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 807,
-					["x"] = 0.3477105498313904,
-					["y"] = 0.4004654884338379,
+					["m"] = 810,
+					["x"] = 0.3566921949386597,
+					["y"] = 0.6147814989089966,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 807,
-					["x"] = 0.3616927266120911,
-					["y"] = 0.4025375843048096,
+					["m"] = 810,
+					["x"] = 0.3580553531646729,
+					["y"] = 0.6229918003082275,
 					["f"] = 0,
 				}, -- [3]
 				{
-					["m"] = 807,
-					["x"] = 0.3392221331596375,
-					["y"] = 0.4017667770385742,
+					["m"] = 810,
+					["x"] = 0.3556884527206421,
+					["y"] = 0.6109703779220581,
 					["f"] = 0,
 				}, -- [4]
 				{
-					["m"] = 807,
-					["x"] = 0.3416637778282166,
-					["y"] = 0.3957630395889282,
-					["f"] = 0,
-				}, -- [5]
-			},
-			[92156] = {
-				{
-					["m"] = 811,
-					["x"] = 0.5028166770935059,
-					["y"] = 0.5497488975524902,
-					["f"] = 0,
-				}, -- [1]
-				{
-					["m"] = 811,
-					["x"] = 0.4778392910957336,
-					["y"] = 0.5696948766708374,
-					["f"] = 0,
-				}, -- [2]
-				{
-					["m"] = 811,
-					["x"] = 0.4691542983055115,
-					["y"] = 0.5512768030166626,
-					["f"] = 0,
-				}, -- [3]
-				{
-					["m"] = 811,
-					["x"] = 0.482819676399231,
-					["y"] = 0.567368745803833,
-					["f"] = 0,
-				}, -- [4]
-				{
-					["m"] = 811,
-					["x"] = 0.4936820268630981,
-					["y"] = 0.5764850378036499,
-					["f"] = 0,
-				}, -- [5]
-			},
-			[54133] = {
-				{
-					["m"] = 40,
-					["x"] = 0.51088547706604,
-					["y"] = 0.1287456750869751,
-					["f"] = 0,
-				}, -- [1]
-				{
-					["m"] = 40,
-					["x"] = 0.5009114146232605,
-					["y"] = 0.1301180124282837,
-					["f"] = 0,
-				}, -- [2]
-			},
-			[92160] = {
-				{
-					["m"] = 811,
-					["x"] = 0.5933300852775574,
-					["y"] = 0.6363332867622376,
-					["f"] = 0,
-				}, -- [1]
-				{
-					["m"] = 811,
-					["x"] = 0.5912001132965088,
-					["y"] = 0.6128254532814026,
-					["f"] = 0,
-				}, -- [2]
-				{
-					["m"] = 811,
-					["x"] = 0.5960458517074585,
-					["y"] = 0.6154937744140625,
-					["f"] = 0,
-				}, -- [3]
-				{
-					["m"] = 811,
-					["x"] = 0.5916913747787476,
-					["y"] = 0.6246117353439331,
-					["f"] = 0,
-				}, -- [4]
-				{
-					["m"] = 811,
-					["x"] = 0.5880451202392578,
-					["y"] = 0.6364099979400635,
+					["m"] = 810,
+					["x"] = 0.3548603057861328,
+					["y"] = 0.6059810519218445,
 					["f"] = 0,
 				}, -- [5]
 			},
@@ -1344,6 +1279,44 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [15]
 			},
+			[66985] = {
+				{
+					["m"] = 809,
+					["x"] = 0.6912075281143189,
+					["y"] = 0.7062066197395325,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 809,
+					["x"] = 0.7110999226570129,
+					["y"] = 0.7134714126586914,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 809,
+					["x"] = 0.697781503200531,
+					["y"] = 0.685411810874939,
+					["f"] = 0,
+				}, -- [3]
+				{
+					["m"] = 809,
+					["x"] = 0.6983076333999634,
+					["y"] = 0.6919989585876465,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 809,
+					["x"] = 0.6911485195159912,
+					["y"] = 0.6965574622154236,
+					["f"] = 0,
+				}, -- [5]
+				{
+					["m"] = 809,
+					["x"] = 0.6985124349594116,
+					["y"] = 0.700817883014679,
+					["f"] = 0,
+				}, -- [6]
+			},
 			[67023] = {
 				{
 					["m"] = 806,
@@ -1412,41 +1385,105 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [11]
 			},
-			[66917] = {
+			[92156] = {
 				{
-					["m"] = 807,
-					["x"] = 0.2641273736953735,
-					["y"] = 0.4328950047492981,
+					["m"] = 811,
+					["x"] = 0.5028166770935059,
+					["y"] = 0.5497488975524902,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 807,
-					["x"] = 0.2376418709754944,
-					["y"] = 0.437830924987793,
+					["m"] = 811,
+					["x"] = 0.4778392910957336,
+					["y"] = 0.5696948766708374,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 807,
-					["x"] = 0.2634781002998352,
-					["y"] = 0.4785615205764771,
+					["m"] = 811,
+					["x"] = 0.4691542983055115,
+					["y"] = 0.5512768030166626,
 					["f"] = 0,
 				}, -- [3]
 				{
-					["m"] = 807,
-					["x"] = 0.2403212785720825,
-					["y"] = 0.4704872965812683,
+					["m"] = 811,
+					["x"] = 0.482819676399231,
+					["y"] = 0.567368745803833,
 					["f"] = 0,
 				}, -- [4]
 				{
-					["m"] = 807,
-					["x"] = 0.2565377950668335,
-					["y"] = 0.4329188466072083,
+					["m"] = 811,
+					["x"] = 0.4936820268630981,
+					["y"] = 0.5764850378036499,
+					["f"] = 0,
+				}, -- [5]
+			},
+			[92160] = {
+				{
+					["m"] = 811,
+					["x"] = 0.5933300852775574,
+					["y"] = 0.6363332867622376,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 811,
+					["x"] = 0.5912001132965088,
+					["y"] = 0.6128254532814026,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 811,
+					["x"] = 0.5960458517074585,
+					["y"] = 0.6154937744140625,
+					["f"] = 0,
+				}, -- [3]
+				{
+					["m"] = 811,
+					["x"] = 0.5916913747787476,
+					["y"] = 0.6246117353439331,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 811,
+					["x"] = 0.5880451202392578,
+					["y"] = 0.6364099979400635,
+					["f"] = 0,
+				}, -- [5]
+			},
+			[66854] = {
+				{
+					["m"] = 806,
+					["x"] = 0.537018895149231,
+					["y"] = 0.4454655647277832,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 806,
+					["x"] = 0.5161263942718506,
+					["y"] = 0.435830295085907,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 806,
+					["x"] = 0.519355058670044,
+					["y"] = 0.4256460070610046,
+					["f"] = 0,
+				}, -- [3]
+				{
+					["m"] = 806,
+					["x"] = 0.5318947434425354,
+					["y"] = 0.4553647637367249,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 806,
+					["x"] = 0.5347797274589539,
+					["y"] = 0.4261220097541809,
 					["f"] = 0,
 				}, -- [5]
 				{
-					["m"] = 807,
-					["x"] = 0.2446433901786804,
-					["y"] = 0.4344884157180786,
+					["m"] = 806,
+					["x"] = 0.5339025259017944,
+					["y"] = 0.4484618306159973,
 					["f"] = 0,
 				}, -- [6]
 			},
@@ -1600,41 +1637,41 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [2]
 			},
-			[66854] = {
+			[66917] = {
 				{
-					["m"] = 806,
-					["x"] = 0.537018895149231,
-					["y"] = 0.4454655647277832,
+					["m"] = 807,
+					["x"] = 0.2641273736953735,
+					["y"] = 0.4328950047492981,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 806,
-					["x"] = 0.5161263942718506,
-					["y"] = 0.435830295085907,
+					["m"] = 807,
+					["x"] = 0.2376418709754944,
+					["y"] = 0.437830924987793,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 806,
-					["x"] = 0.519355058670044,
-					["y"] = 0.4256460070610046,
+					["m"] = 807,
+					["x"] = 0.2634781002998352,
+					["y"] = 0.4785615205764771,
 					["f"] = 0,
 				}, -- [3]
 				{
-					["m"] = 806,
-					["x"] = 0.5318947434425354,
-					["y"] = 0.4553647637367249,
+					["m"] = 807,
+					["x"] = 0.2403212785720825,
+					["y"] = 0.4704872965812683,
 					["f"] = 0,
 				}, -- [4]
 				{
-					["m"] = 806,
-					["x"] = 0.5347797274589539,
-					["y"] = 0.4261220097541809,
+					["m"] = 807,
+					["x"] = 0.2565377950668335,
+					["y"] = 0.4329188466072083,
 					["f"] = 0,
 				}, -- [5]
 				{
-					["m"] = 806,
-					["x"] = 0.5339025259017944,
-					["y"] = 0.4484618306159973,
+					["m"] = 807,
+					["x"] = 0.2446433901786804,
+					["y"] = 0.4344884157180786,
 					["f"] = 0,
 				}, -- [6]
 			},
@@ -1712,25 +1749,37 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [12]
 			},
-			[66784] = {
+			[54127] = {
 				{
-					["m"] = 806,
-					["x"] = 0.4233269095420837,
-					["y"] = 0.2417880296707153,
+					["m"] = 40,
+					["x"] = 0.6680179834365845,
+					["y"] = 0.5122755765914917,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 806,
-					["x"] = 0.4090378880500794,
-					["y"] = 0.2471327781677246,
+					["m"] = 40,
+					["x"] = 0.6469159126281738,
+					["y"] = 0.5560215711593628,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 806,
-					["x"] = 0.4095890522003174,
-					["y"] = 0.241913378238678,
+					["m"] = 40,
+					["x"] = 0.6250607967376709,
+					["y"] = 0.5060441493988037,
 					["f"] = 0,
 				}, -- [3]
+				{
+					["m"] = 40,
+					["x"] = 0.6507937908172607,
+					["y"] = 0.5782878994941711,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 40,
+					["x"] = 0.647657036781311,
+					["y"] = 0.5284571647644043,
+					["f"] = 0,
+				}, -- [5]
 			},
 			[66929] = {
 				{
@@ -1820,37 +1869,25 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [5]
 			},
-			[66969] = {
+			[55448] = {
 				{
-					["m"] = 809,
-					["x"] = 0.3598223924636841,
-					["y"] = 0.5392986536026001,
+					["m"] = 23,
+					["x"] = 0.6357609033584595,
+					["y"] = 0.1149051785469055,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 809,
-					["x"] = 0.3614054918289185,
-					["y"] = 0.5448861122131348,
+					["m"] = 23,
+					["x"] = 0.6405670642852783,
+					["y"] = 0.1022379994392395,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 809,
-					["x"] = 0.3693726658821106,
-					["y"] = 0.5616858601570129,
+					["m"] = 23,
+					["x"] = 0.654204249382019,
+					["y"] = 0.1449302434921265,
 					["f"] = 0,
 				}, -- [3]
-				{
-					["m"] = 809,
-					["x"] = 0.3618466258049011,
-					["y"] = 0.5379865169525147,
-					["f"] = 0,
-				}, -- [4]
-				{
-					["m"] = 809,
-					["x"] = 0.3658636212348938,
-					["y"] = 0.5543196201324463,
-					["f"] = 0,
-				}, -- [5]
 			},
 			[66941] = {
 				{
@@ -2076,57 +2113,57 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [3]
 			},
-			[55448] = {
+			[66969] = {
 				{
-					["m"] = 23,
-					["x"] = 0.6357609033584595,
-					["y"] = 0.1149051785469055,
+					["m"] = 809,
+					["x"] = 0.3598223924636841,
+					["y"] = 0.5392986536026001,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 23,
-					["x"] = 0.6405670642852783,
-					["y"] = 0.1022379994392395,
+					["m"] = 809,
+					["x"] = 0.3614054918289185,
+					["y"] = 0.5448861122131348,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 23,
-					["x"] = 0.654204249382019,
-					["y"] = 0.1449302434921265,
-					["f"] = 0,
-				}, -- [3]
-			},
-			[54127] = {
-				{
-					["m"] = 40,
-					["x"] = 0.6680179834365845,
-					["y"] = 0.5122755765914917,
-					["f"] = 0,
-				}, -- [1]
-				{
-					["m"] = 40,
-					["x"] = 0.6469159126281738,
-					["y"] = 0.5560215711593628,
-					["f"] = 0,
-				}, -- [2]
-				{
-					["m"] = 40,
-					["x"] = 0.6250607967376709,
-					["y"] = 0.5060441493988037,
+					["m"] = 809,
+					["x"] = 0.3693726658821106,
+					["y"] = 0.5616858601570129,
 					["f"] = 0,
 				}, -- [3]
 				{
-					["m"] = 40,
-					["x"] = 0.6507937908172607,
-					["y"] = 0.5782878994941711,
+					["m"] = 809,
+					["x"] = 0.3618466258049011,
+					["y"] = 0.5379865169525147,
 					["f"] = 0,
 				}, -- [4]
 				{
-					["m"] = 40,
-					["x"] = 0.647657036781311,
-					["y"] = 0.5284571647644043,
+					["m"] = 809,
+					["x"] = 0.3658636212348938,
+					["y"] = 0.5543196201324463,
 					["f"] = 0,
 				}, -- [5]
+			},
+			[66784] = {
+				{
+					["m"] = 806,
+					["x"] = 0.4233269095420837,
+					["y"] = 0.2417880296707153,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 806,
+					["x"] = 0.4090378880500794,
+					["y"] = 0.2471327781677246,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 806,
+					["x"] = 0.4095890522003174,
+					["y"] = 0.241913378238678,
+					["f"] = 0,
+				}, -- [3]
 			},
 			[54129] = {
 				{
@@ -2162,43 +2199,19 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [3]
 			},
-			[66985] = {
+			[54133] = {
 				{
-					["m"] = 809,
-					["x"] = 0.6912075281143189,
-					["y"] = 0.7062066197395325,
+					["m"] = 40,
+					["x"] = 0.51088547706604,
+					["y"] = 0.1287456750869751,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 809,
-					["x"] = 0.7110999226570129,
-					["y"] = 0.7134714126586914,
+					["m"] = 40,
+					["x"] = 0.5009114146232605,
+					["y"] = 0.1301180124282837,
 					["f"] = 0,
 				}, -- [2]
-				{
-					["m"] = 809,
-					["x"] = 0.697781503200531,
-					["y"] = 0.685411810874939,
-					["f"] = 0,
-				}, -- [3]
-				{
-					["m"] = 809,
-					["x"] = 0.6983076333999634,
-					["y"] = 0.6919989585876465,
-					["f"] = 0,
-				}, -- [4]
-				{
-					["m"] = 809,
-					["x"] = 0.6911485195159912,
-					["y"] = 0.6965574622154236,
-					["f"] = 0,
-				}, -- [5]
-				{
-					["m"] = 809,
-					["x"] = 0.6985124349594116,
-					["y"] = 0.700817883014679,
-					["f"] = 0,
-				}, -- [6]
 			},
 			[54135] = {
 				{
@@ -2220,52 +2233,39 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [3]
 			},
-			[92174] = {
+			[66935] = {
 				{
-					["m"] = 810,
-					["x"] = 0.3516339063644409,
-					["y"] = 0.6230990886688232,
+					["m"] = 807,
+					["x"] = 0.360796332359314,
+					["y"] = 0.386166512966156,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 810,
-					["x"] = 0.3566921949386597,
-					["y"] = 0.6147814989089966,
+					["m"] = 807,
+					["x"] = 0.3477105498313904,
+					["y"] = 0.4004654884338379,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 810,
-					["x"] = 0.3580553531646729,
-					["y"] = 0.6229918003082275,
+					["m"] = 807,
+					["x"] = 0.3616927266120911,
+					["y"] = 0.4025375843048096,
 					["f"] = 0,
 				}, -- [3]
 				{
-					["m"] = 810,
-					["x"] = 0.3556884527206421,
-					["y"] = 0.6109703779220581,
+					["m"] = 807,
+					["x"] = 0.3392221331596375,
+					["y"] = 0.4017667770385742,
 					["f"] = 0,
 				}, -- [4]
 				{
-					["m"] = 810,
-					["x"] = 0.3548603057861328,
-					["y"] = 0.6059810519218445,
+					["m"] = 807,
+					["x"] = 0.3416637778282166,
+					["y"] = 0.3957630395889282,
 					["f"] = 0,
 				}, -- [5]
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Magnifiko - Eredar"] = "Default",
-		["Heinz - Der Rat von Dalaran"] = "Default",
-		["Regar - Der Rat von Dalaran"] = "Default",
-		["Retzo - Der Rat von Dalaran"] = "Default",
-		["Zücho - Der Rat von Dalaran"] = "Default",
-		["Herman - Der Rat von Dalaran"] = "Default",
-		["Feeble - Eredar"] = "Default",
-		["Mcneto - Der Rat von Dalaran"] = "Default",
-		["Magnifico - Der Rat von Dalaran"] = "Default",
-		["Severe - Der Rat von Dalaran"] = "Default",
-		["Ednah - Der Rat von Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

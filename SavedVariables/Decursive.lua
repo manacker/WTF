@@ -1,7 +1,7 @@
 
 DecursiveDB = {
 	["global"] = {
-		["LastVersionAnnounce"] = 1351729412,
+		["LastVersionAnnounce"] = 1353255776,
 	},
 	["class"] = {
 		["WARRIOR"] = {
@@ -86,15 +86,17 @@ DecursiveDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["DebuffsFrameContainer_y"] = 119.7186774208427,
+			["DebuffsFrameXSpacing"] = 2,
+			["DebuffsFrameContainer_y"] = 224.6787706047835,
 			["DebuffsFrameYSpacing"] = 2,
 			["DebuffsFrameElemScale"] = 1.26,
 			["DebuffsFrameGrowToTop"] = true,
 			["MainBarX"] = 614.4000179363367,
 			["MainBarY"] = -96.00000712108627,
-			["DebuffsFrameContainer_x"] = 389.7603074488969,
-			["DebuffsFrameElemBorderAlpha"] = 0.175,
-			["DebuffsFrameXSpacing"] = 2,
+			["DebuffsFrameElemBorderShow"] = false,
+			["DebuffsFrameElemAlpha"] = 0.7,
+			["DebuffsFrameContainer_x"] = 402.5603536486888,
+			["DebuffsFrameElemBorderAlpha"] = 0.35,
 			["HideLiveList"] = true,
 		},
 	},

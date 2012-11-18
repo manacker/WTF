@@ -24,8 +24,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -34,8 +34,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -91,8 +91,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -101,8 +101,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -181,16 +181,16 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["rows"] = 12,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -22.35773302562836,
 								["x"] = -41.99990004956044,
 								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
 							},
 						}, -- [3]
 						{
@@ -216,28 +216,28 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["enabled"] = false,
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
 							["position"] = {
 								["y"] = -75.4999360021975,
 								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
 							},
-							["version"] = 3,
+						}, -- [5]
+						{
+							["enabled"] = false,
 							["skin"] = {
 								["ID"] = "NotCaith",
 								["Backdrop"] = false,
 							},
-						}, -- [5]
-						{
-							["enabled"] = false,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -42.73997077820275,
 								["x"] = -445.8999645112681,
 								["point"] = "CENTER",
-							},
-							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
 							},
 						}, -- [6]
 						{
@@ -260,14 +260,14 @@ Bartender4DB = {
 							},
 						}, -- [7]
 						{
+							["skin"] = {
+								["ID"] = "NotCaith",
+							},
+							["version"] = 3,
 							["position"] = {
 								["y"] = 38.50005232988906,
 								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
-							},
-							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
 							},
 						}, -- [8]
 						{
@@ -276,13 +276,13 @@ Bartender4DB = {
 							["skin"] = {
 								["ID"] = "NotCaith",
 							},
+							["buttons"] = 4,
 							["position"] = {
 								["y"] = 30,
 								["x"] = -457,
 								["point"] = "BOTTOMRIGHT",
 								["scale"] = 0.800000011920929,
 							},
-							["buttons"] = 4,
 						}, -- [9]
 						{
 							["enabled"] = true,
@@ -625,8 +625,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -635,8 +635,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -714,16 +714,16 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
-							},
-							["rows"] = 12,
-							["version"] = 3,
 							["position"] = {
 								["y"] = -7.090294678777696,
 								["x"] = -39.00010255111897,
 								["point"] = "RIGHT",
+							},
+							["rows"] = 12,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
 							},
 						}, -- [3]
 						{
@@ -748,28 +748,28 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["enabled"] = false,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
-							},
-							["version"] = 3,
 							["position"] = {
 								["y"] = -75.4999360021975,
 								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
 							},
-						}, -- [5]
-						{
-							["enabled"] = false,
+							["version"] = 3,
 							["skin"] = {
 								["ID"] = "NotCaith",
 								["Backdrop"] = false,
 							},
-							["version"] = 3,
+						}, -- [5]
+						{
+							["enabled"] = false,
 							["position"] = {
 								["y"] = -37.49993389353847,
 								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
+							},
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
 							},
 						}, -- [6]
 						{
@@ -932,154 +932,128 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Magní - Al'Akir"] = {
+				["Ednah - Der Rat von Dalaran"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -204.9999787025435,
-								["x"] = -231.4999503410791,
-								["point"] = "CENTER",
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
 							},
 						}, -- [1]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.49995132512,
-								["x"] = -231.4999503410791,
+								["y"] = -189.5000502915186,
+								["x"] = -231.5000403105323,
 								["point"] = "CENTER",
 							},
 						}, -- [2]
 						{
+							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -151.4999582134063,
-								["x"] = -231.4999503410791,
-								["point"] = "CENTER",
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
 							},
 						}, -- [3]
 						{
+							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -113.4999201169659,
-								["x"] = -231.4999503410791,
-								["point"] = "CENTER",
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
 							},
 						}, -- [4]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -75.4999360021975,
-								["x"] = -231.4999503410791,
-								["point"] = "CENTER",
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
 							},
 						}, -- [5]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.49993389353847,
-								["x"] = -231.4999503410791,
-								["point"] = "CENTER",
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
 							},
 						}, -- [6]
 						{
 						}, -- [7]
-						[9] = {
-						},
+						{
+						}, -- [8]
 						[10] = {
 						},
 					},
 				},
-				["Herman - Der Rat von Dalaran"] = {
+				["Retzo - Der Rat von Dalaran"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 6,
 							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
-							},
-							["buttons"] = 10,
-							["padding"] = 4,
 							["position"] = {
-								["y"] = 34,
-								["x"] = -183,
+								["y"] = 43.99999746960913,
+								["x"] = -197.3401503937815,
 								["point"] = "BOTTOM",
-								["scale"] = 0.9,
-							},
-							["states"] = {
-								["stance"] = {
-									["PRIEST"] = {
-										["shadowform"] = 6,
-									},
-								},
 							},
 						}, -- [1]
 						{
+							["enabled"] = false,
 							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
-							},
-							["buttons"] = 10,
-							["padding"] = 4,
 							["position"] = {
-								["y"] = 69,
-								["x"] = -183,
-								["point"] = "BOTTOM",
-								["scale"] = 0.9,
-							},
-							["states"] = {
-								["enabled"] = true,
-								["shift"] = 5,
+								["y"] = -189.5000502915186,
+								["x"] = -231.5000403105323,
+								["point"] = "CENTER",
 							},
 						}, -- [2]
 						{
-							["position"] = {
-								["y"] = -26.79751006173092,
-								["x"] = -31.60015738102334,
-								["point"] = "RIGHT",
-								["scale"] = 0.800000011920929,
-							},
+							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
 							},
 						}, -- [3]
 						{
+							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
-							},
-							["rows"] = 3,
-							["visibility"] = {
-								["vehicle"] = true,
-							},
 							["position"] = {
-								["y"] = 91,
-								["x"] = 179,
-								["point"] = "BOTTOM",
-								["scale"] = 0.800000011920929,
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
 							},
 						}, -- [4]
 						{
-							["enabled"] = false,
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -75.4999360021975,
-								["x"] = -231.4999503410791,
-								["point"] = "CENTER",
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
 							},
 						}, -- [5]
 						{
-							["enabled"] = false,
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.49993389353847,
-								["x"] = -231.4999503410791,
-								["point"] = "CENTER",
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
 							},
 						}, -- [6]
 						{
@@ -1135,16 +1109,16 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["rows"] = 12,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -7.090294678777696,
 								["x"] = -39.00010255111897,
 								["point"] = "RIGHT",
-							},
-							["rows"] = 12,
-							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
 							},
 						}, -- [3]
 						{
@@ -1169,28 +1143,28 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["enabled"] = false,
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
 							["position"] = {
 								["y"] = -75.4999360021975,
 								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
 							},
-							["version"] = 3,
+						}, -- [5]
+						{
+							["enabled"] = false,
 							["skin"] = {
 								["ID"] = "NotCaith",
 								["Backdrop"] = false,
 							},
-						}, -- [5]
-						{
-							["enabled"] = false,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -37.49993389353847,
 								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
-							},
-							["version"] = 3,
-							["skin"] = {
-								["ID"] = "NotCaith",
-								["Backdrop"] = false,
 							},
 						}, -- [6]
 						{
@@ -1377,11 +1351,11 @@ Bartender4DB = {
 								["ID"] = "NotCaith",
 								["Backdrop"] = false,
 							},
-							["buttons"] = 8,
+							["buttons"] = 10,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 120.0196673157761,
-								["x"] = -124.8000018596649,
+								["x"] = -155.2000145196917,
 								["point"] = "BOTTOM",
 								["scale"] = 0.800000011920929,
 							},
@@ -1393,11 +1367,15 @@ Bartender4DB = {
 							},
 							["buttons"] = 10,
 							["version"] = 3,
+							["fadeoutalpha"] = 0.300000011920929,
 							["position"] = {
 								["y"] = 90,
 								["x"] = -232.79999,
 								["point"] = "BOTTOM",
 								["scale"] = 1.2,
+							},
+							["visibility"] = {
+								["nocombat"] = false,
 							},
 							["states"] = {
 								["enabled"] = true,
@@ -1527,62 +1505,96 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Retzo - Der Rat von Dalaran"] = {
+				["Herman - Der Rat von Dalaran"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
 							["version"] = 3,
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["buttons"] = 10,
+							["padding"] = 4,
 							["position"] = {
-								["y"] = 43.99999746960913,
-								["x"] = -197.3401503937815,
+								["y"] = 34,
+								["x"] = -183,
 								["point"] = "BOTTOM",
+								["scale"] = 0.9,
+							},
+							["states"] = {
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 6,
+									},
+								},
 							},
 						}, -- [1]
+						{
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["buttons"] = 10,
+							["padding"] = 4,
+							["position"] = {
+								["y"] = 69,
+								["x"] = -183,
+								["point"] = "BOTTOM",
+								["scale"] = 0.9,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["shift"] = 5,
+							},
+						}, -- [2]
+						{
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -26.79751006173092,
+								["x"] = -31.60015738102334,
+								["point"] = "RIGHT",
+								["scale"] = 0.800000011920929,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "NotCaith",
+								["Backdrop"] = false,
+							},
+							["rows"] = 3,
+							["visibility"] = {
+								["vehicle"] = true,
+							},
+							["position"] = {
+								["y"] = 91,
+								["x"] = 179,
+								["point"] = "BOTTOM",
+								["scale"] = 0.800000011920929,
+							},
+						}, -- [4]
 						{
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.5000502915186,
-								["x"] = -231.5000403105323,
+								["y"] = -75.4999360021975,
+								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
-								["point"] = "BOTTOM",
 							},
 						}, -- [5]
 						{
-							["padding"] = 6,
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = -37.49993389353847,
+								["x"] = -231.4999503410791,
+								["point"] = "CENTER",
 							},
 						}, -- [6]
 						{
@@ -1594,68 +1606,60 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Ednah - Der Rat von Dalaran"] = {
+				["Magní - Al'Akir"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = -204.9999787025435,
+								["x"] = -231.4999503410791,
+								["point"] = "CENTER",
 							},
 						}, -- [1]
 						{
-							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.5000502915186,
-								["x"] = -231.5000403105323,
+								["y"] = -189.49995132512,
+								["x"] = -231.4999503410791,
 								["point"] = "CENTER",
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = -151.4999582134063,
+								["x"] = -231.4999503410791,
+								["point"] = "CENTER",
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = -113.4999201169659,
+								["x"] = -231.4999503410791,
+								["point"] = "CENTER",
 							},
 						}, -- [4]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
-								["point"] = "BOTTOM",
+								["y"] = -75.4999360021975,
+								["x"] = -231.4999503410791,
+								["point"] = "CENTER",
 							},
 						}, -- [5]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = -37.49993389353847,
+								["x"] = -231.4999503410791,
+								["point"] = "CENTER",
 							},
 						}, -- [6]
 						{
 						}, -- [7]
-						{
-						}, -- [8]
+						[9] = {
+						},
 						[10] = {
 						},
 					},
@@ -1690,23 +1694,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Mcneto - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223,
-						["x"] = -31.49996948242188,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Magnifiko - Eredar"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223,
-						["x"] = -31.49996948242188,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Retzo - Der Rat von Dalaran"] = {
+				["Ednah - Der Rat von Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999962747023,
@@ -1722,11 +1710,27 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Ednah - Der Rat von Dalaran"] = {
+				["Retzo - Der Rat von Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999962747023,
 						["x"] = -31.49996102495175,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Magnifiko - Eredar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223,
+						["x"] = -31.49996948242188,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Mcneto - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223,
+						["x"] = -31.49996948242188,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -1753,11 +1757,8 @@ Bartender4DB = {
 					},
 				},
 				["Regar - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
 					["fadeoutalpha"] = 0.5,
+					["version"] = 3,
 					["position"] = {
 						["y"] = -25,
 						["growVertical"] = "UP",
@@ -1770,7 +1771,10 @@ Bartender4DB = {
 					["visibility"] = {
 						["vehicleui"] = false,
 					},
-					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
 				},
 				["Orric - Magtheridon"] = {
 					["version"] = 3,
@@ -1782,10 +1786,7 @@ Bartender4DB = {
 					},
 				},
 				["Magnifico - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
+					["version"] = 3,
 					["fadeout"] = true,
 					["position"] = {
 						["y"] = -25,
@@ -1794,12 +1795,15 @@ Bartender4DB = {
 						["scale"] = 0.9,
 						["x"] = -340,
 					},
-					["version"] = 3,
+					["fadeoutalpha"] = 0.5,
 					["padding"] = -2,
 					["visibility"] = {
 						["vehicleui"] = false,
 					},
-					["fadeoutalpha"] = 0.5,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
 				},
 				["Herman - Der Rat von Dalaran"] = {
 					["fadeout"] = true,
@@ -1807,6 +1811,9 @@ Bartender4DB = {
 						["ID"] = "NotCaith",
 						["Backdrop"] = false,
 					},
+					["version"] = 3,
+					["rows"] = 2,
+					["padding"] = -2,
 					["position"] = {
 						["y"] = -20,
 						["x"] = -131,
@@ -1814,9 +1821,6 @@ Bartender4DB = {
 						["scale"] = 0.7000000000000001,
 						["growVertical"] = "UP",
 					},
-					["rows"] = 2,
-					["padding"] = -2,
-					["version"] = 3,
 				},
 				["Sotheby - Der Rat von Dalaran"] = {
 					["version"] = 3,
@@ -1853,21 +1857,13 @@ Bartender4DB = {
 						["relPoint"] = "CENTER",
 					},
 				},
-				["Mcneto - Der Rat von Dalaran"] = {
+				["Magní - Al'Akir"] = {
 					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-					["fadeout"] = true,
-					["rows"] = 2,
-					["padding"] = -2,
 					["position"] = {
-						["y"] = -28.16003400845333,
-						["growVertical"] = "UP",
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 1,
-						["x"] = -186.4999109091548,
+						["scale"] = 0.800000011920929,
+						["x"] = -188.8000253327157,
+						["point"] = "CENTER",
+						["y"] = 42.40008476448156,
 					},
 				},
 				["Atrako - Der Rat von Dalaran"] = {
@@ -1876,6 +1872,9 @@ Bartender4DB = {
 						["ID"] = "NotCaith",
 						["Backdrop"] = false,
 					},
+					["fadeout"] = true,
+					["rows"] = 2,
+					["padding"] = -2,
 					["position"] = {
 						["y"] = -28.16003400845333,
 						["growVertical"] = "UP",
@@ -1883,9 +1882,6 @@ Bartender4DB = {
 						["scale"] = 1,
 						["x"] = -186.4999109091548,
 					},
-					["rows"] = 2,
-					["padding"] = -2,
-					["fadeout"] = true,
 				},
 				["Macneto - Der Rat von Dalaran"] = {
 					["version"] = 3,
@@ -1894,24 +1890,6 @@ Bartender4DB = {
 						["x"] = -188.7999936814674,
 						["point"] = "CENTER",
 						["y"] = 42.39992820638133,
-					},
-				},
-				["Retzo - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 40.4999833064491,
-						["x"] = -400.260134303307,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 1,
-					},
-				},
-				["Zücho - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 40.00010277884053,
-						["x"] = -188.8000253327157,
-						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
 					},
 				},
 				["Severe - Der Rat von Dalaran"] = {
@@ -1923,14 +1901,40 @@ Bartender4DB = {
 						["y"] = 42.39975322484679,
 					},
 				},
-				["Magní - Al'Akir"] = {
+				["Zücho - Der Rat von Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 0.800000011920929,
+						["y"] = 40.00010277884053,
 						["x"] = -188.8000253327157,
 						["point"] = "CENTER",
-						["y"] = 42.40008476448156,
+						["scale"] = 0.800000011920929,
 					},
+				},
+				["Retzo - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 40.4999833064491,
+						["x"] = -400.260134303307,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 1,
+					},
+				},
+				["Mcneto - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+					["position"] = {
+						["y"] = -28.16003400845333,
+						["growVertical"] = "UP",
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 1,
+						["x"] = -186.4999109091548,
+					},
+					["rows"] = 2,
+					["padding"] = -2,
+					["fadeout"] = true,
 				},
 			},
 		},
@@ -1988,20 +1992,20 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Regar - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 77.2000077879808,
-						["x"] = -232.2999407255938,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Ednah - Der Rat von Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 19.50001528777818,
 						["x"] = -114.5000565472071,
 						["point"] = "CENTER",
+					},
+				},
+				["Regar - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 77.2000077879808,
+						["x"] = -232.2999407255938,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -2091,17 +2095,17 @@ Bartender4DB = {
 					},
 				},
 				["Regar - Der Rat von Dalaran"] = {
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+					["onebag"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 49,
 						["x"] = -52,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1.5,
-					},
-					["onebag"] = true,
-					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
 					},
 				},
 				["Orric - Magtheridon"] = {
@@ -2127,16 +2131,16 @@ Bartender4DB = {
 					},
 				},
 				["Herman - Der Rat von Dalaran"] = {
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+					["onebag"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 35.99999915653638,
 						["x"] = -35.99987319930187,
 						["point"] = "BOTTOMRIGHT",
-					},
-					["onebag"] = true,
-					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
 					},
 				},
 				["Sotheby - Der Rat von Dalaran"] = {
@@ -2174,32 +2178,26 @@ Bartender4DB = {
 						["relPoint"] = "CENTER",
 					},
 				},
-				["Mcneto - Der Rat von Dalaran"] = {
-					["position"] = {
-						["y"] = 54.00000885636806,
-						["x"] = -54.00009770120323,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 1.5,
-					},
-					["onebag"] = true,
+				["Magní - Al'Akir"] = {
 					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
+					["position"] = {
+						["y"] = 1.500042700346,
+						["x"] = 58.50015382667857,
+						["point"] = "CENTER",
 					},
 				},
 				["Atrako - Der Rat von Dalaran"] = {
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+					["onebag"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 54.00000885636806,
 						["x"] = -54.00009770120323,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1.5,
-					},
-					["onebag"] = true,
-					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
 					},
 				},
 				["Macneto - Der Rat von Dalaran"] = {
@@ -2207,6 +2205,22 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 1.500006712564641,
 						["x"] = 58.50000987555336,
+						["point"] = "CENTER",
+					},
+				},
+				["Severe - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.5,
+						["x"] = 58.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Zücho - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.500042700346,
+						["x"] = 58.50015382667857,
 						["point"] = "CENTER",
 					},
 				},
@@ -2219,187 +2233,18 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Zücho - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.500042700346,
-						["x"] = 58.50015382667857,
-						["point"] = "CENTER",
-					},
-				},
-				["Severe - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.5,
-						["x"] = 58.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Magní - Al'Akir"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.500042700346,
-						["x"] = 58.50015382667857,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["Magnifiko - Eredar"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15.00003814697266,
-						["x"] = -82.49996948242188,
-						["point"] = "CENTER",
-					},
-				},
-				["Heinz - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15.00001525878906,
-						["x"] = -82.49996948242188,
-						["point"] = "CENTER",
-					},
-				},
-				["Regar - Der Rat von Dalaran"] = {
-					["position"] = {
-						["y"] = 29.19979261950202,
-						["x"] = -268.8299606935283,
-						["point"] = "BOTTOM",
-						["scale"] = 0.949999988079071,
-					},
-					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-				},
-				["Orric - Magtheridon"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.25009076020047,
-						["x"] = -111.7499152846222,
-						["point"] = "CENTER",
-					},
-				},
-				["Magnifico - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 29.19979261950202,
-						["x"] = -268.8299606935283,
-						["point"] = "BOTTOM",
-						["scale"] = 0.949999988079071,
-					},
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-				},
-				["Herman - Der Rat von Dalaran"] = {
-					["position"] = {
-						["y"] = 48,
-						["x"] = -240,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-				},
-				["Sotheby - Der Rat von Dalaran"] = {
-					["enabled"] = false,
-				},
-				["Randolph - Gorgonnash"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15.00003113786545,
-						["x"] = -82.49998232240819,
-						["point"] = "CENTER",
-					},
-				},
-				["Ednah - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15.00003113786545,
-						["x"] = -82.49998232240819,
-						["point"] = "CENTER",
-					},
-				},
-				["Moriturus - Al'Akir"] = {
-					["position"] = {
-						["y"] = -11.99999945343698,
-						["x"] = -65.99999631913252,
-						["point"] = "CENTER",
-						["relPoint"] = "CENTER",
-					},
-				},
 				["Mcneto - Der Rat von Dalaran"] = {
-					["position"] = {
-						["y"] = 28.05000281452187,
-						["x"] = -325.4250013504641,
-						["point"] = "BOTTOM",
-						["scale"] = 0.949999988079071,
-					},
-					["version"] = 3,
 					["skin"] = {
 						["ID"] = "NotCaith",
 						["Backdrop"] = false,
 					},
-				},
-				["Atrako - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
+					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 29.19979261950202,
-						["x"] = -268.8299606935283,
-						["point"] = "BOTTOM",
-						["scale"] = 0.949999988079071,
-					},
-				},
-				["Macneto - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.24993781212982,
-						["x"] = -111.7500322449116,
-						["point"] = "CENTER",
-					},
-				},
-				["Retzo - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15.00003113786545,
-						["x"] = -82.49998232240819,
-						["point"] = "CENTER",
-					},
-				},
-				["Zücho - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.25009076020047,
-						["x"] = -111.7499152846222,
-						["point"] = "CENTER",
-					},
-				},
-				["Severe - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99996948242188,
-						["x"] = -82.49996948242188,
-						["point"] = "CENTER",
-					},
-				},
-				["Magní - Al'Akir"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99995916230284,
-						["x"] = -82.49997332546286,
-						["point"] = "CENTER",
+						["y"] = 54.00000885636806,
+						["x"] = -54.00009770120323,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 1.5,
 					},
 				},
 			},
@@ -2423,16 +2268,16 @@ Bartender4DB = {
 					},
 				},
 				["Regar - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = 40.16987318233657,
 						["x"] = 240.6425267509144,
 						["point"] = "BOTTOM",
 						["scale"] = 0.949999988079071,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
 					},
 				},
 				["Orric - Magtheridon"] = {
@@ -2452,16 +2297,16 @@ Bartender4DB = {
 					},
 				},
 				["Herman - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = 39.59990140826721,
 						["x"] = 178.914569024259,
 						["point"] = "BOTTOM",
 						["scale"] = 0.949999988079071,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
 					},
 				},
 				["Sotheby - Der Rat von Dalaran"] = {
@@ -2496,49 +2341,33 @@ Bartender4DB = {
 						["relPoint"] = "CENTER",
 					},
 				},
-				["Mcneto - Der Rat von Dalaran"] = {
+				["Magnifico - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
 					["position"] = {
 						["y"] = 40.16987318233657,
 						["x"] = 240.6425267509144,
 						["point"] = "BOTTOM",
 						["scale"] = 0.949999988079071,
-					},
-					["version"] = 3,
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
 					},
 				},
 				["Atrako - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = 40.16987318233657,
 						["x"] = 240.6425267509144,
 						["point"] = "BOTTOM",
 						["scale"] = 0.949999988079071,
 					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
 				},
 				["Macneto - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 51.49999054617854,
-						["x"] = 53.50001149219179,
-						["point"] = "CENTER",
-					},
-				},
-				["Magní - Al'Akir"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 51.50002653395995,
-						["x"] = 53.50001149219179,
-						["point"] = "CENTER",
-					},
-				},
-				["Retzo - Der Rat von Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 51.49999054617854,
@@ -2554,7 +2383,27 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Magnifico - Der Rat von Dalaran"] = {
+				["Retzo - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49999054617854,
+						["x"] = 53.50001149219179,
+						["point"] = "CENTER",
+					},
+				},
+				["Magní - Al'Akir"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.50002653395995,
+						["x"] = 53.50001149219179,
+						["point"] = "CENTER",
+					},
+				},
+				["Mcneto - Der Rat von Dalaran"] = {
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
 					["version"] = 3,
 					["position"] = {
 						["y"] = 40.16987318233657,
@@ -2562,9 +2411,164 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 						["scale"] = 0.949999988079071,
 					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Magnifiko - Eredar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00003814697266,
+						["x"] = -82.49996948242188,
+						["point"] = "CENTER",
+					},
+				},
+				["Heinz - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00001525878906,
+						["x"] = -82.49996948242188,
+						["point"] = "CENTER",
+					},
+				},
+				["Regar - Der Rat von Dalaran"] = {
 					["skin"] = {
 						["ID"] = "NotCaith",
 						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 29.19979261950202,
+						["x"] = -268.8299606935283,
+						["point"] = "BOTTOM",
+						["scale"] = 0.949999988079071,
+					},
+				},
+				["Orric - Magtheridon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25009076020047,
+						["x"] = -111.7499152846222,
+						["point"] = "CENTER",
+					},
+				},
+				["Magnifico - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+					["position"] = {
+						["y"] = 29.19979261950202,
+						["x"] = -268.8299606935283,
+						["point"] = "BOTTOM",
+						["scale"] = 0.949999988079071,
+					},
+				},
+				["Herman - Der Rat von Dalaran"] = {
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 48,
+						["x"] = -240,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Sotheby - Der Rat von Dalaran"] = {
+					["enabled"] = false,
+				},
+				["Randolph - Gorgonnash"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00003113786545,
+						["x"] = -82.49998232240819,
+						["point"] = "CENTER",
+					},
+				},
+				["Ednah - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00003113786545,
+						["x"] = -82.49998232240819,
+						["point"] = "CENTER",
+					},
+				},
+				["Moriturus - Al'Akir"] = {
+					["position"] = {
+						["y"] = -11.99999945343698,
+						["x"] = -65.99999631913252,
+						["point"] = "CENTER",
+						["relPoint"] = "CENTER",
+					},
+				},
+				["Magní - Al'Akir"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99995916230284,
+						["x"] = -82.49997332546286,
+						["point"] = "CENTER",
+					},
+				},
+				["Atrako - Der Rat von Dalaran"] = {
+					["position"] = {
+						["y"] = 29.19979261950202,
+						["x"] = -268.8299606935283,
+						["point"] = "BOTTOM",
+						["scale"] = 0.949999988079071,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+				},
+				["Macneto - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24993781212982,
+						["x"] = -111.7500322449116,
+						["point"] = "CENTER",
+					},
+				},
+				["Severe - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996948242188,
+						["x"] = -82.49996948242188,
+						["point"] = "CENTER",
+					},
+				},
+				["Zücho - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25009076020047,
+						["x"] = -111.7499152846222,
+						["point"] = "CENTER",
+					},
+				},
+				["Retzo - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00003113786545,
+						["x"] = -82.49998232240819,
+						["point"] = "CENTER",
+					},
+				},
+				["Mcneto - Der Rat von Dalaran"] = {
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 28.05000281452187,
+						["x"] = -325.4250013504641,
+						["point"] = "BOTTOM",
+						["scale"] = 0.949999988079071,
 					},
 				},
 			},
@@ -2588,15 +2592,15 @@ Bartender4DB = {
 					},
 				},
 				["Regar - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = 257.40168809404,
 						["x"] = -355.3047377140913,
 						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
 					},
 				},
 				["Orric - Magtheridon"] = {
@@ -2620,15 +2624,15 @@ Bartender4DB = {
 					},
 				},
 				["Herman - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = -183.059937860629,
 						["x"] = -147.8198117093978,
 						["point"] = "CENTER",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
 					},
 				},
 				["Sotheby - Der Rat von Dalaran"] = {
@@ -2658,28 +2662,24 @@ Bartender4DB = {
 						["relPoint"] = "CENTER",
 					},
 				},
-				["Mcneto - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
+				["Magní - Al'Akir"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -183.059937860629,
-						["x"] = -147.8198117093978,
+						["y"] = 89.50011861207213,
+						["x"] = -163.4999039505798,
 						["point"] = "CENTER",
 					},
 				},
 				["Atrako - Der Rat von Dalaran"] = {
-					["skin"] = {
-						["ID"] = "NotCaith",
-						["Backdrop"] = false,
-					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = -183.059937860629,
 						["x"] = -147.8198117093978,
 						["point"] = "CENTER",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
 					},
 				},
 				["Macneto - Der Rat von Dalaran"] = {
@@ -2687,22 +2687,6 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 89.49999265483768,
 						["x"] = -163.5000479017051,
-						["point"] = "CENTER",
-					},
-				},
-				["Retzo - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -220.7400175904339,
-						["x"] = -445.8200716367714,
-						["point"] = "CENTER",
-					},
-				},
-				["Zücho - Der Rat von Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 89.50011861207213,
-						["x"] = -163.4999039505798,
 						["point"] = "CENTER",
 					},
 				},
@@ -2714,12 +2698,32 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Magní - Al'Akir"] = {
+				["Zücho - Der Rat von Dalaran"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 89.50011861207213,
 						["x"] = -163.4999039505798,
 						["point"] = "CENTER",
+					},
+				},
+				["Retzo - Der Rat von Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -220.7400175904339,
+						["x"] = -445.8200716367714,
+						["point"] = "CENTER",
+					},
+				},
+				["Mcneto - Der Rat von Dalaran"] = {
+					["position"] = {
+						["y"] = -183.059937860629,
+						["x"] = -147.8198117093978,
+						["point"] = "CENTER",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "NotCaith",
+						["Backdrop"] = false,
 					},
 				},
 			},
@@ -2741,15 +2745,15 @@ Bartender4DB = {
 		["Cowley - Gorgonnash"] = "Cowley - Gorgonnash",
 		["Erric - Magtheridon"] = "Erric - Magtheridon",
 		["Moriturus - Al'Akir"] = "Moriturus - Al'Akir",
-		["Feeble - Eredar"] = "Feeble - Eredar",
-		["Magní - Al'Akir"] = "Magní - Al'Akir",
+		["Ednah - Der Rat von Dalaran"] = "Ednah - Der Rat von Dalaran",
+		["Retzo - Der Rat von Dalaran"] = "Retzo - Der Rat von Dalaran",
 		["Magnifico - Der Rat von Dalaran"] = "Magnifico - Der Rat von Dalaran",
 		["Atrako - Der Rat von Dalaran"] = "Atrako - Der Rat von Dalaran",
 		["Macneto - Der Rat von Dalaran"] = "Macneto - Der Rat von Dalaran",
 		["Severe - Der Rat von Dalaran"] = "Severe - Der Rat von Dalaran",
 		["Jinjael - Der Rat von Dalaran"] = "Jinjael - Der Rat von Dalaran",
-		["Retzo - Der Rat von Dalaran"] = "Retzo - Der Rat von Dalaran",
-		["Ednah - Der Rat von Dalaran"] = "Ednah - Der Rat von Dalaran",
+		["Magní - Al'Akir"] = "Magní - Al'Akir",
+		["Feeble - Eredar"] = "Feeble - Eredar",
 	},
 	["profiles"] = {
 		["Magnifiko - Eredar"] = {
@@ -2815,9 +2819,16 @@ Bartender4DB = {
 				["radius"] = 80,
 			},
 		},
-		["Feeble - Eredar"] = {
+		["Ednah - Der Rat von Dalaran"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
 		},
-		["Magní - Al'Akir"] = {
+		["Retzo - Der Rat von Dalaran"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+			["buttonlock"] = true,
 		},
 		["Severe - Der Rat von Dalaran"] = {
 		},
@@ -2838,16 +2849,9 @@ Bartender4DB = {
 		},
 		["Jinjael - Der Rat von Dalaran"] = {
 		},
-		["Retzo - Der Rat von Dalaran"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["buttonlock"] = true,
-			["outofrange"] = "hotkey",
+		["Magní - Al'Akir"] = {
 		},
-		["Ednah - Der Rat von Dalaran"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
+		["Feeble - Eredar"] = {
 		},
 	},
 }

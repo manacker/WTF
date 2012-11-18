@@ -3,7 +3,12 @@ combusettingstable = {
 	["combuignitereport"] = true,
 	["combutrack"] = true,
 	["combuflamestrike"] = true,
-	["combufontname"] = "Calibri",
+	["bgcolorwarning"] = {
+		0.7, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.5, -- [4]
+	},
 	["combuffb"] = false,
 	["combureport"] = true,
 	["combuwaitfade"] = 86,
@@ -14,81 +19,41 @@ combusettingstable = {
 		0, -- [3]
 		0.5, -- [4]
 	},
-	["bgcolorcombustion"] = {
-		0, -- [1]
-		0.7, -- [2]
-		0, -- [3]
-		0.5, -- [4]
-	},
 	["combuautohide"] = 2,
+	["MageBombTrackerPosition"] = "upside",
 	["textcolorvalid"] = {
 		0, -- [1]
 		1, -- [2]
 		0, -- [3]
 		1, -- [4]
 	},
-	["combuchat"] = true,
-	["barcolorwarning"] = {
-		1, -- [1]
-		0, -- [2]
-		0, -- [3]
-		1, -- [4]
-	},
-	["language"] = "English",
+	["combulbleft"] = false,
 	["combusoundname"] = "CombustionHelper Volcano",
+	["language"] = "English",
+	["insets"] = 3,
 	["combuimpact"] = true,
 	["hotstreak"] = true,
-	["tileSize"] = 4,
+	["combutexturename"] = "Striped",
 	["combulbtracker"] = true,
 	["textfont"] = "FontsFRIZQT__.TTF",
 	["layout"] = "Reg",
 	["tile"] = true,
-	["combulbup"] = true,
-	["combufadeinspeed"] = 2,
 	["edgecolornormal"] = {
 		0.67, -- [1]
 		0.67, -- [2]
 		0.67, -- [3]
 		1, -- [4]
 	},
+	["combufadeinspeed"] = 2,
+	["combulbup"] = true,
 	["combuignitedelta"] = 0,
-	["buttontexturevalid"] = "InterfaceAddOnsCombustionHelperImagesCombustionon",
-	["textcolornormal"] = {
-		1, -- [1]
-		1, -- [2]
-		1, -- [3]
-		1, -- [4]
-	},
+	["combuignitepredict"] = true,
+	["combufadealpha"] = 0,
 	["combubarwidth"] = 10,
-	["comburefreshmode"] = true,
-	["bartexture"] = "InterfaceAddOnsCombustionHelperImagescombubarblack",
+	["combutimervalue"] = 1.5,
+	["combubafterfade"] = 15,
 	["combufadeoutspeed"] = 2,
-	["combubeforefade"] = 15,
-	["combulbtarget"] = true,
-	["combureportmunching"] = true,
-	["combubartimers"] = false,
-	["textcolorwarning"] = {
-		1, -- [1]
-		0, -- [2]
-		0, -- [3]
-		1, -- [4]
-	},
 	["combuafterfade"] = 15,
-	["combuscale"] = 1.419999957084656,
-	["combureportvalue"] = 30000,
-	["edgeSize"] = 17,
-	["bgcolornormal"] = {
-		0.25, -- [1]
-		0.25, -- [2]
-		0.25, -- [3]
-		0.5, -- [4]
-	},
-	["combutickpredict"] = true,
-	["combucrit"] = true,
-	["combulbright"] = false,
-	["edgeFile"] = "ArkInventory Square 1",
-	["combulbdown"] = false,
-	["combureportthreshold"] = true,
 	["bgFile"] = "Solid",
 	["barcolornormal"] = {
 		0, -- [1]
@@ -96,24 +61,59 @@ combusettingstable = {
 		0.8, -- [3]
 		1, -- [4]
 	},
-	["combuignitepredict"] = true,
-	["combutimervalue"] = 1.5,
-	["combubafterfade"] = 15,
-	["combufadealpha"] = 0,
+	["combuscale"] = 1.419999957084656,
+	["textcolorwarning"] = {
+		1, -- [1]
+		0, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["combureportmunching"] = true,
+	["combubartimers"] = false,
+	["combureportvalue"] = 30000,
+	["combutickpredict"] = true,
+	["combulbright"] = false,
+	["edgeFile"] = "ArkInventory Square 1",
+	["combucrit"] = true,
+	["bgcolornormal"] = {
+		0.25, -- [1]
+		0.25, -- [2]
+		0.25, -- [3]
+		0.5, -- [4]
+	},
+	["edgeSize"] = 17,
+	["combulbdown"] = false,
+	["combureportthreshold"] = true,
+	["combulbtarget"] = true,
+	["combubeforefade"] = 15,
+	["bartexture"] = "InterfaceAddOnsCombustionHelperImagescombubarblack",
+	["comburefreshmode"] = true,
+	["textcolornormal"] = {
+		1, -- [1]
+		1, -- [2]
+		1, -- [3]
+		1, -- [4]
+	},
+	["buttontexturevalid"] = "InterfaceAddOnsCombustionHelperImagesCombustionon",
 	["combulock"] = true,
 	["combureportpyro"] = true,
 	["buttontexturewarning"] = "InterfaceAddOnsCombustionHelperImagesCombustionoff",
-	["combutexturename"] = "Striped",
-	["insets"] = 3,
-	["combulbleft"] = false,
-	["MageBombTrackerPosition"] = "upside",
-	["thresholdalert"] = true,
-	["bgcolorwarning"] = {
-		0.7, -- [1]
+	["tileSize"] = 4,
+	["barcolorwarning"] = {
+		1, -- [1]
 		0, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["combuchat"] = true,
+	["bgcolorcombustion"] = {
+		0, -- [1]
+		0.7, -- [2]
 		0, -- [3]
 		0.5, -- [4]
 	},
+	["thresholdalert"] = true,
+	["combufontname"] = "Calibri",
 }
 CombuCautlevelvar = 10
 CombuCautscalevar = 1
@@ -170,19 +170,19 @@ combumbtrackersettingstable = {
 	["bgFile"] = "Blizzard Tooltip",
 	["tile"] = true,
 	["combumbtrackerrefreshmode"] = true,
-	["combumbtrackerenable"] = true,
-	["combumbtrackertimervalue"] = 2,
-	["edgeSize"] = 16,
 	["combumbtrackerscale"] = 1.200000047683716,
+	["combumbtrackerflamestrike"] = true,
 	["combumbtrackerchat"] = true,
-	["combumbtrackerautohide"] = 3,
-	["combumbtrackerfontname"] = "Myriad Condensed Web",
-	["combumbtrackertexturename"] = "CombuBar",
 	["edgecolornormal"] = {
 		0.67, -- [1]
 		0.67, -- [2]
 		0.67, -- [3]
 		1, -- [4]
 	},
-	["combumbtrackerflamestrike"] = true,
+	["combumbtrackertexturename"] = "CombuBar",
+	["combumbtrackerautohide"] = 3,
+	["combumbtrackerfontname"] = "Myriad Condensed Web",
+	["edgeSize"] = 16,
+	["combumbtrackertimervalue"] = 2,
+	["combumbtrackerenable"] = true,
 }

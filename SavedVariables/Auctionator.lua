@@ -1,19 +1,15 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_200000"] = 1000,
-	["_50000"] = 500,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["_50000"] = 500,
 	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
 	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
-	["Große kosmische Essenz"] = {
-		["is"] = "34055:0",
-		["2211869"] = "69500:6",
-	},
 	["Große Planaressenz"] = {
 		["is"] = "22446:0",
 		["2211868"] = "69500:1",
@@ -26,6 +22,22 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "34053:0",
 		["2211869"] = "15600:1",
 	},
+	["Kaschierender Gürtel"] = {
+		["is"] = "87502:0",
+		["2240387"] = "12990000:1",
+	},
+	["Große kosmische Essenz"] = {
+		["is"] = "34055:0",
+		["2211869"] = "69500:6",
+	},
+	["Windwollschultern des Gespenstes"] = {
+		["is"] = "90478:-153:197002028",
+		["2217624"] = "1990000:1",
+	},
+	["Magiestoff"] = {
+		["is"] = "4338:0",
+		["2257958"] = "19600:20",
+	},
 	["Don Guerreros gloreicher Halsreif"] = {
 		["is"] = "90583:0",
 		["2221742"] = "199990000:1",
@@ -35,14 +47,14 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["2211869"] = "28400:7",
 		["is"] = "34054:0",
 	},
-	["Windwollschultern des Gespenstes"] = {
-		["is"] = "90478:-153:197002028",
-		["2217624"] = "1990000:1",
-	},
 	["Fürst von Schmetternichs Todeszielfernrohr"] = {
 		["2236329"] = "24990000:1",
-		["is"] = "77529:0",
+		["2245127"] = "12990000:1",
 		["2237139"] = "21990000:1",
+		["is"] = "77529:0",
+		["2243517"] = "7990000:1",
+		["2240259"] = "17990000:1",
+		["2241729"] = "8990000:1",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
@@ -137,11 +149,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 39999,
 		},
 		["Glänzender Rubellit"] = {
+			["mr"] = 1482525,
+			["sc"] = 1,
+			["id"] = "76694",
 			["H716"] = 1482525,
 			["cc"] = 8,
-			["id"] = "76694",
-			["sc"] = 1,
-			["mr"] = 1482525,
 		},
 		["Verzauberter Thoriumbarren"] = {
 			["H699"] = 3000,
@@ -376,10 +388,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 79499,
 		},
 		["Magiestoff"] = {
-			["mr"] = 3370,
+			["H731"] = 19800,
+			["mr"] = 19800,
 			["cc"] = 6,
 			["id"] = "4338",
-			["H699"] = 3370,
 			["sc"] = 2,
 		},
 		["Jaspis des Mentors"] = {
@@ -783,11 +795,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 1497089,
 		},
 		["Rubellit"] = {
+			["mr"] = 990000,
+			["sc"] = 1,
+			["id"] = "76131",
 			["H716"] = 990000,
 			["cc"] = 8,
-			["id"] = "76131",
-			["sc"] = 1,
-			["mr"] = 990000,
 		},
 		["Kein der Anstand"] = {
 			["H699"] = 9990000,
@@ -1155,9 +1167,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Dioptas"] = {
 			["mr"] = 2185000,
-			["L699"] = 2185000,
-			["id"] = "76139",
 			["sc"] = 5,
+			["id"] = "76139",
+			["L699"] = 2185000,
 			["H699"] = 2187400,
 			["cc"] = 8,
 		},
@@ -1525,10 +1537,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 2166945,
 		},
 		["Magiestoffballen"] = {
-			["mr"] = 2089,
+			["H731"] = 49950,
+			["mr"] = 49950,
 			["cc"] = 6,
 			["id"] = "4339",
-			["H699"] = 2089,
 			["sc"] = 2,
 		},
 		["Vorlage: Blitzender Jaspis"] = {
@@ -2528,11 +2540,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 8000,
 		},
 		["Scheinender Rubellit"] = {
+			["mr"] = 99899,
+			["sc"] = 1,
+			["id"] = "76695",
 			["H716"] = 99899,
 			["cc"] = 8,
-			["id"] = "76695",
-			["sc"] = 1,
-			["mr"] = 99899,
 		},
 		["Rittsyns Ruinensprenger"] = {
 			["H699"] = 180000000,
@@ -2607,12 +2619,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 14999,
 		},
 		["Fürst von Schmetternichs Todeszielfernrohr"] = {
-			["H716"] = 24999999,
+			["mr"] = 29990499,
 			["cc"] = 6,
+			["H723"] = 29990499,
 			["id"] = "77529",
 			["sc"] = 10,
-			["H717"] = 24980000,
-			["mr"] = 24980000,
 		},
 		["Goldbarren"] = {
 			["H699"] = 4900,
@@ -3817,11 +3828,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 300000,
 		},
 		["Klobiger Rubellit"] = {
+			["mr"] = 1299999,
+			["sc"] = 1,
+			["id"] = "76696",
 			["H716"] = 1299999,
 			["cc"] = 8,
-			["id"] = "76696",
-			["sc"] = 1,
-			["mr"] = 1299999,
 		},
 		["Hessonit"] = {
 			["H699"] = 98500,
@@ -4432,9 +4443,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Trilliumbarren"] = {
 			["mr"] = 990000,
-			["L699"] = 990000,
-			["id"] = "72095",
 			["sc"] = 4,
+			["id"] = "72095",
+			["L699"] = 990000,
 			["H699"] = 1197400,
 			["cc"] = 6,
 		},
@@ -4597,6 +4608,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Geistergeschmiedete Armschienen des Helden"] = {
 			["H699"] = 490000,
 			["mr"] = 490000,
+		},
+		["Lavendelfarbenes Magiestoffhemd"] = {
+			["H731"] = 1127479,
+			["mr"] = 1127479,
+			["sc"] = 1,
+			["id"] = "10054",
+			["cc"] = 2,
 		},
 		["Kleiner Traumsplitter"] = {
 			["mr"] = 15721,
@@ -4921,21 +4939,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 74500,
 			["mr"] = 74500,
 		},
-		["Zinnerz"] = {
-			["H699"] = 9999,
-			["mr"] = 9999,
+		["Verschneite Beinplatten der Bestie"] = {
+			["H699"] = 3558900,
+			["mr"] = 3558900,
+		},
+		["Muster: Verzauberter Magiestoffbeutel"] = {
+			["H731"] = 149900,
+			["mr"] = 149900,
+			["sc"] = 3,
+			["id"] = "22307",
+			["cc"] = 7,
+		},
+		["Bauplan: Schneemeister 9000"] = {
+			["H699"] = 4000000,
+			["mr"] = 4000000,
 		},
 		["Rezept: Gerösteter Raptor"] = {
 			["H699"] = 149900,
 			["mr"] = 149900,
 		},
-		["Ausbalancierter Alexandrit"] = {
-			["H699"] = 739900,
-			["mr"] = 739900,
+		["Weiße Rübe"] = {
+			["H699"] = 260000,
+			["mr"] = 260000,
 		},
-		["Teufelsbalg"] = {
-			["H699"] = 19008,
-			["mr"] = 19008,
+		["Armschiene - Große Werte"] = {
+			["H699"] = 100000,
+			["mr"] = 100000,
 		},
 		["Windwollverband"] = {
 			["H699"] = 49500,
@@ -4949,9 +4978,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1461500,
 			["mr"] = 1461500,
 		},
-		["Glyphe 'Aasschwarm'"] = {
-			["H699"] = 998998,
-			["mr"] = 998998,
+		["Feiner Lederumhang"] = {
+			["H699"] = 1710,
+			["mr"] = 1710,
 		},
 		["Geringe Mystikeressenz"] = {
 			["H699"] = 2000,
@@ -4973,13 +5002,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 613998,
 			["mr"] = 613998,
 		},
-		["Kleine irisierende Perle"] = {
-			["H699"] = 60000,
-			["mr"] = 60000,
+		["Geistergeschmiedete Schultern der Verkörperung"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
-		["Verwirbelte Nebelsuppe"] = {
-			["H699"] = 100005,
-			["mr"] = 100005,
+		["Gewandter Chiastolith"] = {
+			["H699"] = 205498,
+			["mr"] = 205498,
 		},
 		["Stürmischer Lapislazuli"] = {
 			["H699"] = 89899,
@@ -4997,25 +5026,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Schwarzes Trilliumerz"] = {
-			["H699"] = 280000,
-			["mr"] = 280000,
+		["Formel: Waffe - Unheilig"] = {
+			["H699"] = 445498,
+			["mr"] = 445498,
 		},
 		["Mystikercape"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Umhang - Erhebliche Beweglichkeit"] = {
-			["H699"] = 2077945,
-			["mr"] = 2077945,
+		["Chalzedon"] = {
+			["H699"] = 14850,
+			["mr"] = 14850,
 		},
 		["Adamantitbarren"] = {
 			["H699"] = 65384,
 			["mr"] = 65384,
 		},
-		["Räubergürtel des Gorillas"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Ziegelbrustplatte des Tigers"] = {
+			["H699"] = 3990000,
+			["mr"] = 3990000,
 		},
 		["Düstermalgamaschen des Mistrals"] = {
 			["H699"] = 250000,
@@ -5029,9 +5058,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000,
 			["mr"] = 5000,
 		},
-		["Unbekannte Pflanzenteile"] = {
-			["H699"] = 4983,
-			["mr"] = 4983,
+		["Feinmaschige Sandalen des Feuersturms"] = {
+			["H699"] = 2899900,
+			["mr"] = 2899900,
 		},
 		["Teufelssaurierleder"] = {
 			["H699"] = 55000,
@@ -5045,20 +5074,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 278189,
 			["mr"] = 278189,
 		},
-		["Vereiste Spinnenseide"] = {
-			["H699"] = 85000,
-			["mr"] = 85000,
+		["Räubergürtel des Gorillas"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Mal der Illidari"] = {
 			["H699"] = 9800,
 			["mr"] = 9800,
 		},
-		["Große Planaressenz"] = {
-			["mr"] = 69999,
-			["cc"] = 6,
-			["id"] = "22446",
-			["H699"] = 69999,
-			["sc"] = 7,
+		["Unbekannte Pflanzenteile"] = {
+			["H699"] = 4983,
+			["mr"] = 4983,
 		},
 		["Kristallisierte Erde"] = {
 			["H699"] = 16379,
@@ -5068,13 +5094,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 512169,
 			["mr"] = 512169,
 		},
-		["Tiefsteinsalz"] = {
-			["H699"] = 44500,
-			["mr"] = 44500,
+		["Stiefel - Große Präzision"] = {
+			["H699"] = 639185,
+			["mr"] = 639185,
 		},
-		["Saurokarmschienen des Schützen"] = {
-			["H699"] = 3990000,
-			["mr"] = 3990000,
+		["Lederhelm des Rivalen"] = {
+			["H699"] = 13990000,
+			["mr"] = 13990000,
 		},
 		["Windwollarmschienen des Hais"] = {
 			["H699"] = 2500000,
@@ -5088,9 +5114,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 87311,
 			["mr"] = 87311,
 		},
-		["Trank der Jadeschlange"] = {
-			["H699"] = 99998,
-			["mr"] = 99998,
+		["Schuppenhandschuhe des Rivalen"] = {
+			["H699"] = 9950000,
+			["mr"] = 9950000,
 		},
 		["Geisterhafter Schädel"] = {
 			["H699"] = 1000000,
@@ -5104,9 +5130,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 770000,
 			["mr"] = 770000,
 		},
-		["Fünf der Tiger"] = {
-			["H699"] = 67990000,
-			["mr"] = 67990000,
+		["Feinmaschige Kordel der Bestie"] = {
+			["H699"] = 1899800,
+			["mr"] = 1899800,
 		},
 		["Irdener Trank"] = {
 			["H699"] = 50000,
@@ -5120,24 +5146,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1490972,
 			["mr"] = 1490972,
 		},
-		["Umhang - Überragender kritischer Trefferwert"] = {
-			["H699"] = 3327500,
-			["mr"] = 3327500,
+		["Windwollkapuze des Windes"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
 		["Feingeschliffener Rubellit"] = {
+			["mr"] = 1470051,
+			["sc"] = 1,
+			["id"] = "76692",
 			["H716"] = 1470051,
 			["cc"] = 8,
-			["id"] = "76692",
-			["sc"] = 1,
-			["mr"] = 1470051,
 		},
 		["Mauerbrustplatte des Tafelgebirges"] = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Elementarfeuer"] = {
-			["H699"] = 1890,
-			["mr"] = 1890,
+		["Rotes Kampfhemd"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Brust - Erstklassige Werte"] = {
 			["H699"] = 2154578,
@@ -5159,21 +5185,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 4966,
 			["mr"] = 4966,
 		},
-		["Stammesrundschild"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Fläschchen Portwein"] = {
+			["H699"] = 100000,
+			["mr"] = 100000,
 		},
-		["Gravierter Riesencitrin"] = {
-			["H699"] = 118750,
-			["mr"] = 118750,
+		["Verzauberter Besen"] = {
+			["H699"] = 25000000,
+			["mr"] = 25000000,
 		},
 		["Vitales Cape der Willenskraft"] = {
 			["H699"] = 12900,
 			["mr"] = 12900,
 		},
-		["Glänzender Cinnabarit"] = {
-			["H699"] = 28957,
-			["mr"] = 28957,
+		["Kundschaftermanschetten des Bären"] = {
+			["H699"] = 20000,
+			["mr"] = 20000,
 		},
 		["Schwerer Glutseidenverband"] = {
 			["H699"] = 2200,
@@ -5195,9 +5221,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 6440000,
 			["mr"] = 6440000,
 		},
-		["Glyphe 'Arkane Macht'"] = {
-			["H699"] = 198499,
-			["mr"] = 198499,
+		["Geistergeschmiedete Armschienen des Avatars"] = {
+			["H699"] = 490000,
+			["mr"] = 490000,
 		},
 		["Dicke Spinnenseide"] = {
 			["H699"] = 21689,
@@ -5207,17 +5233,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 22949998,
 			["mr"] = 22949998,
 		},
+		["Kriegsbemalungsgürtelbund"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
+		},
 		["Seidenkraut"] = {
 			["H699"] = 123500,
 			["mr"] = 123500,
 		},
-		["Azsharas Schleier"] = {
-			["H699"] = 12200,
-			["mr"] = 12200,
-		},
-		["Rohes Krabbenfleisch"] = {
-			["H699"] = 400000,
-			["mr"] = 400000,
+		["Loderflammenzauberstab"] = {
+			["H699"] = 4900,
+			["mr"] = 4900,
 		},
 		["Robuster Stein"] = {
 			["H699"] = 486,
@@ -5235,21 +5261,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 499500,
 			["mr"] = 499500,
 		},
-		["Klobiger Blutstein"] = {
-			["H699"] = 113000,
-			["mr"] = 113000,
+		["Nebelbalghandschuhe der Bora"] = {
+			["H699"] = 1490000,
+			["mr"] = 1490000,
 		},
 		["Stab mit Silberintarsien"] = {
 			["H699"] = 8880000,
 			["mr"] = 8880000,
 		},
-		["Glyphe 'Markerschütternder Ruf'"] = {
-			["H699"] = 666828,
-			["mr"] = 666828,
+		["Vorlage: Wilder Hessonit"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
-		["Schlüssel zur Ebene"] = {
-			["H699"] = 2500000,
-			["mr"] = 2500000,
+		["Nebelbalghelm des Sciroccos"] = {
+			["H699"] = 1700000,
+			["mr"] = 1700000,
 		},
 		["Muster: Feste Skorpidgamaschen"] = {
 			["H699"] = 12500,
@@ -5267,9 +5293,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000,
 			["mr"] = 5000,
 		},
-		["Geringe ewige Essenz"] = {
-			["H699"] = 10100,
-			["mr"] = 10100,
+		["Göttlicher Begleiter"] = {
+			["H699"] = 1500000,
+			["mr"] = 1500000,
 		},
 		["Glyphe 'Sprengfalle'"] = {
 			["H699"] = 1489436,
@@ -5291,9 +5317,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 50000,
 			["mr"] = 50000,
 		},
-		["Weidenschiftung des Schützen"] = {
-			["H699"] = 1758957,
-			["mr"] = 1758957,
+		["Bauplan: Krachbummroboter"] = {
+			["H699"] = 25000000,
+			["mr"] = 25000000,
 		},
 		["Bruchfester Riesencitrin"] = {
 			["H699"] = 19988,
@@ -5303,25 +5329,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Höhengipfelschulterstücke des Bären"] = {
-			["H699"] = 3111900,
-			["mr"] = 3111900,
+		["Mahlstromkristall"] = {
+			["H699"] = 180500,
+			["mr"] = 180500,
 		},
 		["Kupfererz"] = {
 			["H699"] = 2299,
 			["mr"] = 2299,
 		},
-		["Flüchtiges Leben"] = {
-			["H699"] = 21582,
-			["mr"] = 21582,
+		["Großer leuchtender Splitter"] = {
+			["H699"] = 2100,
+			["mr"] = 2100,
 		},
 		["Glyphe 'Schnelles Teleportieren'"] = {
 			["H699"] = 499996,
 			["mr"] = 499996,
 		},
-		["Tiefenschachtschild der Wirbelströmung"] = {
-			["H699"] = 190000,
-			["mr"] = 190000,
+		["Muster: Azurblauer Seidenumhang"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Tempelunterarmschienen der Bestie"] = {
 			["H699"] = 707200,
@@ -5347,17 +5373,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 600000,
 			["mr"] = 600000,
 		},
-		["Großer leuchtender Splitter"] = {
-			["H699"] = 2100,
-			["mr"] = 2100,
+		["Brennende Glutspäne"] = {
+			["H699"] = 521500,
+			["mr"] = 521500,
 		},
 		["Perlenbesetzter Zauberstab der Intelligenz"] = {
 			["H699"] = 189855,
 			["mr"] = 189855,
 		},
-		["Muster: Azurblauer Seidenumhang"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Traumstaub"] = {
+			["H699"] = 7699,
+			["mr"] = 7699,
 		},
 		["Muster: Flinkschlagschultern"] = {
 			["H699"] = 2500000,
@@ -5383,37 +5409,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 3999999,
 			["mr"] = 3999999,
 		},
-		["Muster: Teufelssaurierstulpen"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Stulpen aus uraltem Stahl"] = {
+			["H699"] = 600000000,
+			["mr"] = 600000000,
 		},
-		["Rezept: Elixier des Dämonentötens"] = {
-			["H699"] = 1982622,
-			["mr"] = 1982622,
+		["Weidenschiftung des Mistrals"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
 		["Glyphe 'Wasserschild'"] = {
 			["H699"] = 767998,
 			["mr"] = 767998,
 		},
-		["Rezept: Eisen in Gold transmutieren"] = {
+		["Muster: Blaue Leinenweste"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Pläne: Bronzene Brustplatte mit Versilberung"] = {
-			["H699"] = 350000,
-			["mr"] = 350000,
+		["Nesselfisch"] = {
+			["H699"] = 4991,
+			["mr"] = 4991,
 		},
-		["Kobrajunges"] = {
-			["H699"] = 49900,
-			["mr"] = 49900,
+		["Oberbrigadiergamaschen"] = {
+			["H699"] = 24990000,
+			["mr"] = 24990000,
 		},
 		["Kraftvoller Nephrit"] = {
 			["H699"] = 126999,
 			["mr"] = 126999,
 		},
-		["Glänzender Umhang von Wu dem Jüngeren"] = {
-			["H699"] = 19900000,
-			["mr"] = 19900000,
+		["Tigerauge"] = {
+			["H699"] = 400,
+			["mr"] = 400,
 		},
 		["Glyphe 'Wildgeist'"] = {
 			["H699"] = 516516,
@@ -5427,9 +5453,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1130000,
 			["mr"] = 1130000,
 		},
-		["Verschneite Unterarmschienen des Champions"] = {
-			["H699"] = 2400000,
-			["mr"] = 2400000,
+		["Glyphe 'Himmelsfeuer'"] = {
+			["H699"] = 1495987,
+			["mr"] = 1495987,
 		},
 		["Flüsterkniehosen des Schützen"] = {
 			["H699"] = 240000,
@@ -5439,9 +5465,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 549749,
 			["mr"] = 549749,
 		},
-		["Feinmaschige Sandalen der Flammenlohe"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Perfekter glatter Alazit"] = {
+			["H699"] = 241312,
+			["mr"] = 241312,
 		},
 		["Feuerstuhl"] = {
 			["H699"] = 293254175,
@@ -5459,13 +5485,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 897194,
 			["mr"] = 897194,
 		},
-		["Kupferbarren"] = {
-			["H699"] = 3900,
-			["mr"] = 3900,
+		["Muster: Magieerfüllte Netherstofftasche"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
-		["Glyphe 'Todesmantel'"] = {
-			["H699"] = 399998,
-			["mr"] = 399998,
+		["Bauplan: Gnomischer Alarm-o-Bot"] = {
+			["H699"] = 62802565,
+			["mr"] = 62802565,
 		},
 		["Glyphe 'Fernsicht'"] = {
 			["H699"] = 293515,
@@ -5479,13 +5505,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 550000,
 			["mr"] = 550000,
 		},
-		["Muster: Zauberstoff"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Kleiner himmlischer Splitter"] = {
+			["H699"] = 9000,
+			["mr"] = 9000,
 		},
-		["Schattenfeuerhalskette des Lauffeuers"] = {
-			["H699"] = 1200000,
-			["mr"] = 1200000,
+		["Fledermäuschen aus Tirisfal"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
 		["Jadekürbis"] = {
 			["H699"] = 190000,
@@ -5503,17 +5529,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2200000,
 			["mr"] = 2200000,
 		},
-		["Glyphe 'Nachwachsen'"] = {
-			["H699"] = 948998,
-			["mr"] = 948998,
+		["Schattenfeuerhalskette des Lauffeuers"] = {
+			["H699"] = 1200000,
+			["mr"] = 1200000,
+		},
+		["Grummelring der Bestie"] = {
+			["H699"] = 806345,
+			["mr"] = 806345,
 		},
 		["Umhang - Großer Schutz"] = {
 			["H699"] = 2997500,
 			["mr"] = 2997500,
-		},
-		["Elixier der unmöglichen Präzision"] = {
-			["H699"] = 39800,
-			["mr"] = 39800,
 		},
 		["Öliges Schwarzmaul"] = {
 			["H699"] = 4000,
@@ -5535,9 +5561,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 74000,
 			["mr"] = 74000,
 		},
-		["Handschuhe der Schöpfung"] = {
-			["H699"] = 90000000,
-			["mr"] = 90000000,
+		["Belebender Bergkristall"] = {
+			["H699"] = 19980000,
+			["mr"] = 19980000,
 		},
 		["Kaiserlachs"] = {
 			["H699"] = 74000,
@@ -5547,17 +5573,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1000000,
 			["mr"] = 1000000,
 		},
-		["Geistergeschmiedete Stulpen der Schildwache"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
+		["Glyphe 'Zenflug'"] = {
+			["H699"] = 989000,
+			["mr"] = 989000,
 		},
 		["Windwollstiefel des Skorpions"] = {
 			["H699"] = 967761,
 			["mr"] = 967761,
 		},
-		["Obsidiumhenker"] = {
-			["H699"] = 1222222,
-			["mr"] = 1222222,
+		["Rezept: Elixier der Seelenstärke"] = {
+			["H699"] = 230000,
+			["mr"] = 230000,
 		},
 		["Lebhafter Alexandrit"] = {
 			["H699"] = 2130000,
@@ -5575,13 +5601,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 109500,
 			["mr"] = 109500,
 		},
-		["Rezept: Elixier der Tarnung"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
-		},
 		["Windwollschultern des Meisters"] = {
 			["H699"] = 1100000,
 			["mr"] = 1100000,
+		},
+		["Rolle der Willenskraft VII"] = {
+			["H699"] = 4900,
+			["mr"] = 4900,
 		},
 		["Hochgeborenenschriftrolle"] = {
 			["H699"] = 542998,
@@ -5607,9 +5633,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 249900,
 			["mr"] = 249900,
 		},
-		["Perlmuttzauberfaden"] = {
-			["H699"] = 749000,
-			["mr"] = 749000,
+		["Yakbeinschützer des Mistrals"] = {
+			["H699"] = 800000,
+			["mr"] = 800000,
 		},
 		["Urschatten"] = {
 			["H699"] = 90500,
@@ -5627,69 +5653,69 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2899800,
 			["mr"] = 2899800,
 		},
-		["Saurokstulpen des Mistrals"] = {
-			["H699"] = 4990000,
-			["mr"] = 4990000,
-		},
-		["Stahlbarren"] = {
-			["H699"] = 16000,
-			["mr"] = 16000,
+		["Perlmuttzauberfaden"] = {
+			["H699"] = 749000,
+			["mr"] = 749000,
 		},
 		["Purpurrote Natter"] = {
 			["H699"] = 3599,
 			["mr"] = 3599,
 		},
+		["Stahlbarren"] = {
+			["H699"] = 16000,
+			["mr"] = 16000,
+		},
 		["Perfekter geladener Alexandrit"] = {
 			["H699"] = 4497400,
 			["mr"] = 4497400,
 		},
-		["Handschuhe - Außergewöhnliche Stärke"] = {
-			["H699"] = 70000,
-			["mr"] = 70000,
+		["Geschickter Alexandrit"] = {
+			["H699"] = 149899,
+			["mr"] = 149899,
 		},
-		["Heiliges Mojo"] = {
-			["H699"] = 49500,
-			["mr"] = 49500,
+		["Schlangenhelm des Schützen"] = {
+			["H699"] = 2407853,
+			["mr"] = 2407853,
 		},
-		["Glyphe 'Adrenalinrausch'"] = {
-			["H699"] = 146023,
-			["mr"] = 146023,
+		["Handschuhe - Große Stärke"] = {
+			["H699"] = 4865633,
+			["mr"] = 4865633,
 		},
-		["Handgenähte Lederweste"] = {
-			["H699"] = 3312,
-			["mr"] = 3312,
+		["Schlangenstulpen des Banditen"] = {
+			["H699"] = 1490000,
+			["mr"] = 1490000,
 		},
 		["Nebelbalgschultern des Mistrals"] = {
 			["H699"] = 1800000,
 			["mr"] = 1800000,
 		},
-		["Kunstloses Zielfernrohr"] = {
-			["H699"] = 29900,
-			["mr"] = 29900,
+		["Perfekter kunstvoller Chiastolith"] = {
+			["H699"] = 2222999,
+			["mr"] = 2222999,
 		},
 		["Stattlicher Kunzit"] = {
 			["H699"] = 120000,
 			["mr"] = 120000,
 		},
-		["Waffe - Koloss"] = {
-			["H699"] = 2899999,
-			["mr"] = 2899999,
+		["Handschuhe - Außergewöhnliche Zaubermacht"] = {
+			["H699"] = 132500,
+			["mr"] = 132500,
 		},
 		["Moosachat"] = {
 			["H699"] = 7500,
 			["mr"] = 7500,
 		},
-		["Foliant des klaren Geistes"] = {
-			["H699"] = 70000,
-			["mr"] = 70000,
+		["Jormungarschuppe"] = {
+			["H699"] = 30000,
+			["mr"] = 30000,
 		},
 		["Glyphe 'Steinhaut'"] = {
 			["H699"] = 200000,
 			["mr"] = 200000,
 		},
-		["Sturmschuppenarmschienen des Mistrals"] = {
-			["H699"] = 2490000,
-			["mr"] = 2490000,
+		["Golembrustplatte der Gewandtheit"] = {
+			["H699"] = 149999,
+			["mr"] = 149999,
 		},
 		["Kriecherklaue"] = {
 			["H699"] = 1133,
@@ -5699,21 +5725,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 7400,
 			["mr"] = 7400,
 		},
-		["Kunzit des Wächters"] = {
-			["H699"] = 679998,
-			["mr"] = 679998,
+		["Brust - Glorreiche Werte"] = {
+			["H699"] = 2152500,
+			["mr"] = 2152500,
 		},
-		["Saurokweste des Affen"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
+		["Hexenbeeren"] = {
+			["H699"] = 94999,
+			["mr"] = 94999,
 		},
 		["Peitschennarbenschiftung der Intelligenz"] = {
 			["H699"] = 3000000,
 			["mr"] = 3000000,
 		},
-		["Juwelengeschmückter Ring der Bestie"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
+		["Saurokweste des Affen"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
 		},
 		["Bruchfester Chiastolith"] = {
 			["H699"] = 47800,
@@ -5731,29 +5757,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Schnitzmesser der Intelligenz"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Juwelendanio"] = {
+			["H699"] = 80000,
+			["mr"] = 80000,
 		},
-		["Polierter Chiastolith"] = {
-			["H699"] = 1972500,
-			["mr"] = 1972500,
+		["Glyphe 'Wucherwurzeln'"] = {
+			["H699"] = 987967,
+			["mr"] = 987967,
 		},
 		["Umhang - Kritischer Trefferwert"] = {
 			["H699"] = 40000,
 			["mr"] = 40000,
 		},
-		["Tempelschulterstücke der Bestie"] = {
-			["H699"] = 3590000,
-			["mr"] = 3590000,
+		["Polierter Schlagring des Soldaten"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
 		["Valanos' Langbogen"] = {
 			["H699"] = 2220800,
 			["mr"] = 2220800,
 		},
-		["Tuch aus wehender Gaze"] = {
-			["H699"] = 30000000,
-			["mr"] = 30000000,
+		["Söldnerschwert des Wolfs"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Pläne: Beinplatten des unaufhaltsamen Zerstörers"] = {
 			["H699"] = 24900000,
@@ -5767,9 +5793,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 13990000,
 			["mr"] = 13990000,
 		},
-		["Titanerz"] = {
-			["H699"] = 99333,
-			["mr"] = 99333,
+		["Tempelschulterstücke der Bestie"] = {
+			["H699"] = 3590000,
+			["mr"] = 3590000,
 		},
 		["Leinenstoffballen"] = {
 			["H699"] = 9582,
@@ -5783,17 +5809,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 342900,
 			["mr"] = 342900,
 		},
-		["Eine Handvoll Teufelseisenbolzen"] = {
-			["H699"] = 19499,
-			["mr"] = 19499,
+		["Jadehexenbräu"] = {
+			["H699"] = 49998,
+			["mr"] = 49998,
 		},
 		["Zähes Fleisch"] = {
 			["H699"] = 7500,
 			["mr"] = 7500,
 		},
-		["Grober Stein"] = {
-			["H699"] = 919,
-			["mr"] = 919,
+		["Glyphe 'Weitreichende Stöße'"] = {
+			["H699"] = 993983,
+			["mr"] = 993983,
 		},
 		["Rezept: Erheblicher Trank des traumlosen Schlafs"] = {
 			["H699"] = 750000,
@@ -5815,9 +5841,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1100000,
 			["mr"] = 1100000,
 		},
-		["Transparenter Chiastolith"] = {
-			["H699"] = 2200000,
-			["mr"] = 2200000,
+		["Sturmschuppenhelm des Sciroccos"] = {
+			["H699"] = 3800000,
+			["mr"] = 3800000,
 		},
 		["Glyphe 'Göttlichkeit'"] = {
 			["H699"] = 997998,
@@ -5851,9 +5877,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Schlachtschmiedeumhang des Bären"] = {
-			["H699"] = 7200,
-			["mr"] = 7200,
+		["Alptraumträne"] = {
+			["H699"] = 4499899,
+			["mr"] = 4499899,
 		},
 		["Jaggalmuschelfleisch"] = {
 			["H699"] = 10000,
@@ -5867,9 +5893,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 150000,
 			["mr"] = 150000,
 		},
-		["Jungtier aus Gundrak"] = {
-			["H699"] = 99999999,
-			["mr"] = 99999999,
+		["Glyphe 'Wütende Eile'"] = {
+			["H699"] = 311100,
+			["mr"] = 311100,
 		},
 		["Blitzender Dioptas"] = {
 			["H699"] = 950000,
@@ -5879,13 +5905,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 8000000,
 			["mr"] = 8000000,
 		},
-		["Verschneite Brustplatte der Verwerfung"] = {
-			["H699"] = 1500000,
-			["mr"] = 1500000,
+		["Tsunamigürtel der Wirbelströmung"] = {
+			["H699"] = 499999,
+			["mr"] = 499999,
 		},
-		["Drachenleibarmschienen"] = {
-			["H699"] = 50000000,
-			["mr"] = 50000000,
+		["Goblindrachengewehr - Nr. II"] = {
+			["H699"] = 800000,
+			["mr"] = 800000,
 		},
 		["Nebelbalgbrustschutz der Schaumkrone"] = {
 			["H699"] = 519999,
@@ -5919,9 +5945,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2397500,
 			["mr"] = 2397500,
 		},
-		["Goldklee"] = {
-			["H699"] = 7500,
-			["mr"] = 7500,
+		["Wandererhut des Affen"] = {
+			["H699"] = 499999,
+			["mr"] = 499999,
 		},
 		["Fragiler Sonnenstein"] = {
 			["H699"] = 44800,
@@ -5943,21 +5969,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 28800,
 			["mr"] = 28800,
 		},
-		["Gebirgsschiftung des Affen"] = {
-			["H699"] = 200000,
-			["mr"] = 200000,
+		["Imposanter Elfenperidot"] = {
+			["H699"] = 1253258,
+			["mr"] = 1253258,
 		},
 		["Grünkohl"] = {
 			["H699"] = 408000,
 			["mr"] = 408000,
 		},
-		["Imposanter Elfenperidot"] = {
-			["H699"] = 1253258,
-			["mr"] = 1253258,
+		["Gebirgsschiftung des Affen"] = {
+			["H699"] = 200000,
+			["mr"] = 200000,
 		},
-		["Sumpfstiefel der Schaumkrone"] = {
-			["H699"] = 190000,
-			["mr"] = 190000,
+		["Glyphe 'Regenguss'"] = {
+			["H699"] = 175000,
+			["mr"] = 175000,
 		},
 		["Bestien 7"] = {
 			["H699"] = 15499,
@@ -5975,9 +6001,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 9999900,
 			["mr"] = 9999900,
 		},
-		["Sturmschuppenarmschienen des Zephirs"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Gamaschen des verbrannten Mannes"] = {
+			["H699"] = 25000000,
+			["mr"] = 25000000,
 		},
 		["Nachtsäblerjunges"] = {
 			["H699"] = 75000000,
@@ -6003,13 +6029,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1490000,
 			["mr"] = 1490000,
 		},
-		["Nebliger Alexandrit"] = {
-			["H699"] = 1997500,
-			["mr"] = 1997500,
+		["Imposanter Dioptas"] = {
+			["H699"] = 900000,
+			["mr"] = 900000,
 		},
-		["Sturmschuppengamaschen des Orkans"] = {
-			["H699"] = 699999,
-			["mr"] = 699999,
+		["Nebelbalghelm der Wirbelströmung"] = {
+			["H699"] = 499000,
+			["mr"] = 499000,
 		},
 		["Schlangenfleisch"] = {
 			["H699"] = 26616,
@@ -6027,17 +6053,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 249999,
 			["mr"] = 249999,
 		},
-		["Nebelbalghelm der Wirbelströmung"] = {
-			["H699"] = 499000,
-			["mr"] = 499000,
+		["Sturmschuppengamaschen des Orkans"] = {
+			["H699"] = 699999,
+			["mr"] = 699999,
 		},
 		["Stachelfisch"] = {
 			["H699"] = 199500,
 			["mr"] = 199500,
 		},
-		["Raptorpunsch"] = {
-			["H699"] = 3466,
-			["mr"] = 3466,
+		["Gürtel des Cenarius"] = {
+			["H699"] = 2500000,
+			["mr"] = 2500000,
 		},
 		["Rolle der Stärke VIII"] = {
 			["H699"] = 4400,
@@ -6047,41 +6073,41 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Gravierter Echtsilberring"] = {
-			["H699"] = 30000,
-			["mr"] = 30000,
+		["Windwollhandschuhe des Windes"] = {
+			["H699"] = 1013064,
+			["mr"] = 1013064,
 		},
-		["Elementiumschildstachel"] = {
-			["H699"] = 260000,
-			["mr"] = 260000,
+		["Ritualgamaschen der Eule"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
-		["Kunstvoller Hessonit"] = {
-			["H699"] = 18600,
-			["mr"] = 18600,
+		["Golderz"] = {
+			["H699"] = 7500,
+			["mr"] = 7500,
 		},
-		["Perfekter akkurater Charoit"] = {
-			["H699"] = 400000,
-			["mr"] = 400000,
+		["Vorlage: Geläuterter Nachtstein"] = {
+			["H699"] = 600000,
+			["mr"] = 600000,
 		},
 		["Sturmschuppenarmschienen der Schaumkrone"] = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Glyphe 'Wildwuchs'"] = {
-			["H699"] = 1489970,
-			["mr"] = 1489970,
+		["Perfekter gediegener Lapislazuli"] = {
+			["H699"] = 409999,
+			["mr"] = 409999,
 		},
 		["Glyphe 'Fluch aufheben'"] = {
 			["H699"] = 1489971,
 			["mr"] = 1489971,
 		},
-		["Glyphe 'Wildes Brüllen'"] = {
-			["H699"] = 646998,
-			["mr"] = 646998,
+		["Drescherstiefel des Affen"] = {
+			["H699"] = 1490000,
+			["mr"] = 1490000,
 		},
-		["Echtsilberbarren"] = {
-			["H699"] = 15600,
-			["mr"] = 15600,
+		["Mystischer Goldberyll"] = {
+			["H699"] = 78500,
+			["mr"] = 78500,
 		},
 		["Elixier des Gurus"] = {
 			["H699"] = 10000,
@@ -6091,12 +6117,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 490000,
 			["mr"] = 490000,
 		},
-		["Runenstoffballen"] = {
-			["mr"] = 59900,
-			["cc"] = 6,
-			["id"] = "14048",
-			["H699"] = 59900,
-			["sc"] = 2,
+		["Blauer Machtkristall"] = {
+			["H699"] = 6272,
+			["mr"] = 6272,
 		},
 		["Blanchierte Nadelpilze"] = {
 			["H699"] = 3705,
@@ -6106,25 +6129,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Urzeitliche Gamaschen der Willenskraft"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Armschiene - Außergewöhnliche Willenskraft"] = {
+			["H699"] = 2646131,
+			["mr"] = 2646131,
 		},
 		["Vier der Winde"] = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Voodoostatuette"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
-		},
-		["Wasserfallgamaschen des Feuersturms"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Tödlicher Aragonit"] = {
+			["H699"] = 4397400,
+			["mr"] = 4397400,
 		},
 		["Gewandter Aragonit"] = {
 			["H699"] = 1497499,
 			["mr"] = 1497499,
+		},
+		["Perfekter Schattenkristall des Wächters"] = {
+			["H699"] = 69500,
+			["mr"] = 69500,
 		},
 		["Tödliche Lavakoralle"] = {
 			["H699"] = 9463644,
@@ -6146,25 +6169,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 439999,
 			["mr"] = 439999,
 		},
-		["Cinnabarit"] = {
-			["H699"] = 35000,
-			["mr"] = 35000,
+		["Waffe - Erdrutsch"] = {
+			["H699"] = 8900000,
+			["mr"] = 8900000,
 		},
 		["Klagegeistbrustplatte des Rivalen"] = {
 			["H699"] = 8999999,
 			["mr"] = 8999999,
 		},
-		["Glyphe 'Anstacheln'"] = {
-			["H699"] = 289999,
-			["mr"] = 289999,
+		["Lebensspendende Saat"] = {
+			["H699"] = 29500,
+			["mr"] = 29500,
 		},
 		["Formel: Stiefel - Schwache Beweglichkeit"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Pyriumbarren"] = {
-			["H699"] = 71000,
-			["mr"] = 71000,
+		["Ass der Kraniche"] = {
+			["H699"] = 80000000,
+			["mr"] = 80000000,
 		},
 		["Rezept: Schwarzgebratener Basilisk"] = {
 			["H699"] = 750000,
@@ -6174,9 +6197,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 798567,
 			["mr"] = 798567,
 		},
-		["Ass der Kraniche"] = {
-			["H699"] = 80000000,
-			["mr"] = 80000000,
+		["Brauner Präriehund"] = {
+			["H699"] = 29900,
+			["mr"] = 29900,
 		},
 		["Orangefarbene Tigerkatze"] = {
 			["H699"] = 999900,
@@ -6210,9 +6233,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 115000,
 			["mr"] = 115000,
 		},
-		["Wildfennhand der Eule"] = {
-			["H699"] = 67974,
-			["mr"] = 67974,
+		["Wilder Gluttopas"] = {
+			["H699"] = 200000,
+			["mr"] = 200000,
 		},
 		["Schädelmanschetten des Magus"] = {
 			["H699"] = 139000,
@@ -6222,21 +6245,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2990000,
 			["mr"] = 2990000,
 		},
-		["Wasserfallsandalen des Wals"] = {
-			["H699"] = 2898998,
-			["mr"] = 2898998,
+		["Weidenbeinschützer des Schützen"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
 		["Meerschaumstulpen"] = {
 			["H699"] = 100000,
 			["mr"] = 100000,
 		},
-		["Sturmgeschmiedete Beinschützer"] = {
-			["H699"] = 351106,
-			["mr"] = 351106,
+		["Perfekter listiger Chiastolith"] = {
+			["H699"] = 6999998,
+			["mr"] = 6999998,
 		},
-		["Glyphe 'Gunst des Geistwandlers'"] = {
-			["H699"] = 246698,
-			["mr"] = 246698,
+		["Weidengürtel des Orkans"] = {
+			["H699"] = 1490000,
+			["mr"] = 1490000,
 		},
 		["Mogukürbis"] = {
 			["H699"] = 159000,
@@ -6258,9 +6281,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1129951,
 			["mr"] = 1129951,
 		},
-		["Magicuszauberstab der Intelligenz"] = {
-			["H699"] = 139377,
-			["mr"] = 139377,
+		["Löwenfleisch"] = {
+			["H699"] = 12665,
+			["mr"] = 12665,
 		},
 		["Muster: Feste Skorpidbrustplatte"] = {
 			["H699"] = 1000000,
@@ -6274,9 +6297,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1760,
 			["mr"] = 1760,
 		},
-		["Weinrebenbindungen der Bora"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Glyphe 'Vampirblut'"] = {
+			["H699"] = 550000,
+			["mr"] = 550000,
 		},
 		["Schwesternkittel von Dalaran"] = {
 			["H699"] = 750000,
@@ -6310,29 +6333,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 9000,
 			["mr"] = 9000,
 		},
-		["Fossiles Jungtier"] = {
-			["H699"] = 50000000,
-			["mr"] = 50000000,
+		["Glyphe 'Überwältigen'"] = {
+			["H699"] = 74999,
+			["mr"] = 74999,
 		},
-		["Glyphe 'Seelenbrunnen'"] = {
-			["H699"] = 1493973,
-			["mr"] = 1493973,
+		["Glyphe 'Unendliche Wut'"] = {
+			["H699"] = 2988990,
+			["mr"] = 2988990,
 		},
 		["Glyphe 'Blutsturz'"] = {
 			["H699"] = 988266,
 			["mr"] = 988266,
 		},
-		["Perfekter glatter Sonnenstein"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Geistergeschmiedete Schultern des Avatars"] = {
+			["H699"] = 1190000,
+			["mr"] = 1190000,
 		},
-		["Windwollarmschienen des Meisters"] = {
-			["H699"] = 2497500,
-			["mr"] = 2497500,
+		["Gediegener Ozeansaphir"] = {
+			["H699"] = 199000,
+			["mr"] = 199000,
 		},
-		["Protodrachenwelpe"] = {
-			["H699"] = 2500000,
-			["mr"] = 2500000,
+		["Magieerfüllter Froststoffballen"] = {
+			["H699"] = 100000,
+			["mr"] = 100000,
 		},
 		["Transparenter Gluttopas"] = {
 			["H699"] = 130424,
@@ -6342,57 +6365,57 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1400000,
 			["mr"] = 1400000,
 		},
-		["Teufelsherzgürtel"] = {
-			["H699"] = 2500000,
-			["mr"] = 2500000,
-		},
-		["Stiefel - Große Willenskraft"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
-		},
-		["Feinmaschige Schulterpolster des Wals"] = {
-			["H699"] = 1690000,
-			["mr"] = 1690000,
-		},
-		["Perfekter präziser Cinnabarit"] = {
-			["H699"] = 1379800,
-			["mr"] = 1379800,
+		["Glyphe 'Tellurische Ströme'"] = {
+			["H699"] = 25000,
+			["mr"] = 25000,
 		},
 		["Wilder Chiastolith"] = {
 			["H699"] = 313000,
 			["mr"] = 313000,
 		},
+		["Stiefel - Große Willenskraft"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
+		},
+		["Perfekter präziser Cinnabarit"] = {
+			["H699"] = 1379800,
+			["mr"] = 1379800,
+		},
 		["Glyphe 'Unsichtbarkeit'"] = {
 			["H699"] = 1487436,
 			["mr"] = 1487436,
-		},
-		["Rattan Bo des Champions"] = {
-			["H699"] = 1501294,
-			["mr"] = 1501294,
-		},
-		["Glyphe 'Unheilige Raserei'"] = {
-			["H699"] = 750149,
-			["mr"] = 750149,
 		},
 		["Gebirgsstulpen der Schaumkrone"] = {
 			["H699"] = 3199900,
 			["mr"] = 3199900,
 		},
-		["Vorlage: Goldener Hase"] = {
-			["H699"] = 502500,
-			["mr"] = 502500,
+		["Versengte Beinrüstung"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
+		},
+		["Glyphe 'Unheilige Raserei'"] = {
+			["H699"] = 750149,
+			["mr"] = 750149,
+		},
+		["Zwei der Schurken"] = {
+			["H699"] = 239000,
+			["mr"] = 239000,
+		},
+		["Rattan Bo des Champions"] = {
+			["H699"] = 1501294,
+			["mr"] = 1501294,
 		},
 		["Fünf des Chaos"] = {
 			["H699"] = 1299999,
 			["mr"] = 1299999,
 		},
-		["Winterflossenbrustharnisch des Wals"] = {
-			["H699"] = 169068,
-			["mr"] = 169068,
+		["Glyphe 'Donner'"] = {
+			["H699"] = 1489969,
+			["mr"] = 1489969,
 		},
-		["Nebliger Nephrit"] = {
-			["H699"] = 99700,
-			["mr"] = 99700,
+		["Segen 7"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
 		},
 		["Hessonitband des Felsgrunds"] = {
 			["H699"] = 1512386,
@@ -6410,9 +6433,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1158295,
 			["mr"] = 1158295,
 		},
-		["Armschienen des Spektralwolfs"] = {
-			["H699"] = 34000000,
-			["mr"] = 34000000,
+		["Tonskarabäus"] = {
+			["H699"] = 90000,
+			["mr"] = 90000,
 		},
 		["Ass der Tiger"] = {
 			["H699"] = 74990000,
@@ -6426,9 +6449,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 29900,
 			["mr"] = 29900,
 		},
-		["Nachtsteinhalsreif der Schaumkrone"] = {
-			["H699"] = 1100814,
-			["mr"] = 1100814,
+		["Königinnengranat"] = {
+			["H699"] = 1222222,
+			["mr"] = 1222222,
 		},
 		["Gnomisches Armeemesser"] = {
 			["H699"] = 1250000,
@@ -6438,9 +6461,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Kampfkettenhose"] = {
-			["H699"] = 9400,
-			["mr"] = 9400,
+		["Armschienen des Spektralwolfs"] = {
+			["H699"] = 34000000,
+			["mr"] = 34000000,
 		},
 		["Blutbespritzter Übermantel des Wals"] = {
 			["H699"] = 2500,
@@ -6450,9 +6473,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 17500,
 			["mr"] = 17500,
 		},
-		["Grüne Helferbox"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Steppengürtel des Banditen"] = {
+			["H699"] = 163518,
+			["mr"] = 163518,
 		},
 		["Glyphe 'Dunkle Bindung'"] = {
 			["H699"] = 449999,
@@ -6470,29 +6493,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 49900,
 			["mr"] = 49900,
 		},
+		["Grüne Helferbox"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
+		},
+		["Senegal"] = {
+			["H699"] = 4999,
+			["mr"] = 4999,
+		},
 		["Gebackener Mantarochen"] = {
 			["H699"] = 3937,
 			["mr"] = 3937,
-		},
-		["Glyphe 'Geisterpfoten'"] = {
-			["H699"] = 1271643,
-			["mr"] = 1271643,
-		},
-		["Saftigleckere Karotte"] = {
-			["H699"] = 244000,
-			["mr"] = 244000,
 		},
 		["Muster: Mondstoffrobe"] = {
 			["H699"] = 155555,
 			["mr"] = 155555,
 		},
-		["Schreckensfelsunterarmschienen des Ältesten"] = {
-			["H699"] = 195000,
-			["mr"] = 195000,
+		["Präziser Rubellit"] = {
+			["mr"] = 165000,
+			["sc"] = 1,
+			["id"] = "76693",
+			["H716"] = 165000,
+			["cc"] = 8,
 		},
-		["Glyphe 'Verzweiflung'"] = {
-			["H699"] = 487484,
-			["mr"] = 487484,
+		["Glyphe 'Urteil des Templers'"] = {
+			["H699"] = 600000,
+			["mr"] = 600000,
 		},
 		["Primitiver Umhang"] = {
 			["H699"] = 1490000,
@@ -6518,29 +6544,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 31990000,
 			["mr"] = 31990000,
 		},
-		["Glyphe 'Urteil des Templers'"] = {
-			["H699"] = 600000,
-			["mr"] = 600000,
+		["Tigerfleisch"] = {
+			["H699"] = 1115,
+			["mr"] = 1115,
 		},
-		["Glyphe 'Tod von oben'"] = {
-			["H699"] = 1493976,
-			["mr"] = 1493976,
+		["Glyphe 'Schurkenhandel'"] = {
+			["H699"] = 1240677,
+			["mr"] = 1240677,
 		},
-		["Charoitschattenband"] = {
-			["H699"] = 14680000,
-			["mr"] = 14680000,
+		["Rolle der Ausdauer VIII"] = {
+			["H699"] = 3700,
+			["mr"] = 3700,
 		},
 		["Gravierter Chiastolith"] = {
 			["H699"] = 59997,
 			["mr"] = 59997,
 		},
-		["Glyphe 'Tod und Verfall'"] = {
-			["H699"] = 1393175,
-			["mr"] = 1393175,
+		["Glyphe 'Stellung halten'"] = {
+			["H699"] = 74999,
+			["mr"] = 74999,
 		},
-		["Glyphe 'Tanzende Runenwaffe'"] = {
-			["H699"] = 923527,
-			["mr"] = 923527,
+		["Potente Rüstung des Affen"] = {
+			["H699"] = 110000,
+			["mr"] = 110000,
 		},
 		["Stiefel - Willenskraft"] = {
 			["H699"] = 2581815,
@@ -6550,21 +6576,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 80000,
 			["mr"] = 80000,
 		},
-		["Meisterhafter Geisterklingendezimator"] = {
-			["H699"] = 149990000,
-			["mr"] = 149990000,
+		["Mithrilerz"] = {
+			["H699"] = 11085,
+			["mr"] = 11085,
 		},
-		["Energiegetränkter Kristall"] = {
-			["H699"] = 2500000,
-			["mr"] = 2500000,
+		["Fragiler Sonnenkristall"] = {
+			["H699"] = 78900,
+			["mr"] = 78900,
 		},
 		["Glyphe 'Stampede'"] = {
 			["H699"] = 454543,
 			["mr"] = 454543,
 		},
-		["Stiefel - Pandarenpfoten"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Muschelfleisch"] = {
+			["H699"] = 31555,
+			["mr"] = 31555,
 		},
 		["Glyphe 'Heilige Pein'"] = {
 			["H699"] = 99280,
@@ -6578,17 +6604,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 100000,
 			["mr"] = 100000,
 		},
-		["Glyphe 'Strangulieren'"] = {
-			["H699"] = 137495,
-			["mr"] = 137495,
+		["Formel: Stiefel - Geringe Willenskraft"] = {
+			["H699"] = 999000,
+			["mr"] = 999000,
 		},
 		["Blutgehärtete Schiftung"] = {
 			["H699"] = 965250,
 			["mr"] = 965250,
 		},
-		["Speerfischsashimi"] = {
-			["H699"] = 2179,
-			["mr"] = 2179,
+		["Massiver Chrysokoll"] = {
+			["H699"] = 619000,
+			["mr"] = 619000,
 		},
 		["Rezept: Goldfischstäbchen"] = {
 			["H699"] = 750000,
@@ -6610,9 +6636,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 179496,
 			["mr"] = 179496,
 		},
-		["Massiver Chrysokoll"] = {
-			["H699"] = 619000,
-			["mr"] = 619000,
+		["Speerfischsashimi"] = {
+			["H699"] = 2179,
+			["mr"] = 2179,
 		},
 		["Glyphe 'Knisternder Tigerblitz'"] = {
 			["H699"] = 732794,
@@ -6622,29 +6648,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 18976,
 			["mr"] = 18976,
 		},
-		["Zaubermachtschutzbrille Xtrem"] = {
-			["H699"] = 80000,
-			["mr"] = 80000,
+		["Formel: Handschuhe - Hochentwickelter Bergbau"] = {
+			["H699"] = 100000000,
+			["mr"] = 100000000,
+		},
+		["Braunes Kaninchen"] = {
+			["H699"] = 19400,
+			["mr"] = 19400,
 		},
 		["Bauplan: Tödliches Zielfernrohr"] = {
 			["H699"] = 2684035,
 			["mr"] = 2684035,
 		},
-		["Glyphe 'Heiliges Feuer'"] = {
-			["H699"] = 929107,
-			["mr"] = 929107,
-		},
-		["Glyphe 'Weitreichender Sturmangriff'"] = {
-			["H699"] = 1440394,
-			["mr"] = 1440394,
+		["Schlachtbarrikade der Yaungol"] = {
+			["H699"] = 99990000,
+			["mr"] = 99990000,
 		},
 		["Sieben der Schlangen"] = {
 			["H699"] = 100000000,
 			["mr"] = 100000000,
 		},
-		["Glyphe 'Doppelbestrafung'"] = {
-			["H699"] = 454988,
-			["mr"] = 454988,
+		["Schuppenstiefel des Rivalen"] = {
+			["H699"] = 9950000,
+			["mr"] = 9950000,
 		},
 		["Alazit"] = {
 			["H699"] = 9600,
@@ -6654,17 +6680,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Silbrige Pigmente"] = {
-			["H699"] = 14666,
-			["mr"] = 14666,
+		["Glyphe 'Weitreichender Sturmangriff'"] = {
+			["H699"] = 1440394,
+			["mr"] = 1440394,
 		},
-		["Fünf der Winde"] = {
-			["H699"] = 3000000,
-			["mr"] = 3000000,
+		["Geistergeschmiedete Brustplatte des Avatars"] = {
+			["H699"] = 1190000,
+			["mr"] = 1190000,
 		},
-		["Stachelige Keule der Intelligenz"] = {
-			["H699"] = 17500,
-			["mr"] = 17500,
+		["Muster: Robe des ewigen Lichts"] = {
+			["H699"] = 100000000,
+			["mr"] = 100000000,
 		},
 		["Blutstein"] = {
 			["H699"] = 500000,
@@ -6678,17 +6704,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2974499,
 			["mr"] = 2974499,
 		},
-		["Umhang - Überragende Intelligenz"] = {
-			["H699"] = 3687500,
-			["mr"] = 3687500,
+		["Yakschienbeinschützer des Affen"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Elementiumerz"] = {
-			["H699"] = 16400,
-			["mr"] = 16400,
+		["Golembrecheramulett"] = {
+			["H699"] = 8780000,
+			["mr"] = 8780000,
 		},
-		["Drachenschuppenstiefel des Rivalen"] = {
-			["H699"] = 12490000,
-			["mr"] = 12490000,
+		["Gesteppte Kordel des Ältesten"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Gebirgsweste des Affen"] = {
 			["H699"] = 1000000,
@@ -6698,45 +6724,45 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 71390,
 			["mr"] = 71390,
 		},
-		["Weinrebenstiefel des Schützen"] = {
-			["H699"] = 3287500,
-			["mr"] = 3287500,
+		["Polierter Gluttopas"] = {
+			["H699"] = 130424,
+			["mr"] = 130424,
 		},
-		["Rezept: Heißer Hetzer"] = {
-			["H699"] = 199899,
-			["mr"] = 199899,
+		["Bergarbeiterschulterstücke des Ältesten"] = {
+			["H699"] = 1500000,
+			["mr"] = 1500000,
 		},
-		["Glyphe 'Arkane Sprache'"] = {
-			["H699"] = 1482593,
-			["mr"] = 1482593,
+		["Windwollarmschienen des Skorpions"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
 		},
-		["Glyphe 'Spektralwolf'"] = {
-			["H699"] = 1448242,
-			["mr"] = 1448242,
+		["Muster: Magieerfüllte Netherstoffhose"] = {
+			["H699"] = 748997,
+			["mr"] = 748997,
 		},
-		["Glyphe 'Sparring'"] = {
-			["H699"] = 540088,
-			["mr"] = 540088,
+		["Acht der Kraniche"] = {
+			["H699"] = 79900000,
+			["mr"] = 79900000,
 		},
-		["Dolchfennflickhose der Eule"] = {
-			["H699"] = 172412,
-			["mr"] = 172412,
+		["Muster: Magieerfüllte Netherstoffstiefel"] = {
+			["H699"] = 748997,
+			["mr"] = 748997,
 		},
 		["Netherweberseide"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Glyphe 'Seelenverzehrung'"] = {
-			["H699"] = 651254,
-			["mr"] = 651254,
+		["Nebelbalgarmschienen des Orkans"] = {
+			["H699"] = 999999,
+			["mr"] = 999999,
 		},
-		["Glyphe 'Seelentausch'"] = {
-			["H699"] = 71998,
-			["mr"] = 71998,
+		["Rezept: Elixier der Entdeckung geringer Unsichtbarkeit"] = {
+			["H699"] = 20000,
+			["mr"] = 20000,
 		},
-		["Glyphe 'Seelenstein'"] = {
-			["H699"] = 96998,
-			["mr"] = 96998,
+		["Formel: Waffe - Schwacher Wildtiertöter"] = {
+			["H699"] = 50000,
+			["mr"] = 50000,
 		},
 		["Elixier des Mönchs"] = {
 			["H699"] = 143000,
@@ -6746,25 +6772,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 3000000,
 			["mr"] = 3000000,
 		},
-		["Erdnuss"] = {
-			["H699"] = 9999900,
-			["mr"] = 9999900,
+		["Gerösteter Gerstentee"] = {
+			["H699"] = 2800,
+			["mr"] = 2800,
 		},
 		["Vorlage: Tödlicher Flammenspessarit"] = {
 			["H699"] = 5540000,
 			["mr"] = 5540000,
 		},
-		["Blutgichtamulett"] = {
-			["H699"] = 2490000,
-			["mr"] = 2490000,
+		["Fragiler Heliodor"] = {
+			["H699"] = 47808,
+			["mr"] = 47808,
 		},
 		["Präzises Tüftlergetriebe"] = {
 			["H699"] = 2500000,
 			["mr"] = 2500000,
 		},
-		["Azurmondstein"] = {
-			["H699"] = 80000,
-			["mr"] = 80000,
+		["Perfekter geschickter Alexandrit"] = {
+			["H699"] = 1399792,
+			["mr"] = 1399792,
 		},
 		["Glyphe 'Überlebensinstinkte'"] = {
 			["H699"] = 1481498,
@@ -6778,21 +6804,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 65540000,
 			["mr"] = 65540000,
 		},
-		["Armschiene - Präzision"] = {
-			["H699"] = 100000,
-			["mr"] = 100000,
+		["Gürtel der Tiefen"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
+		},
+		["Nebelbalghandschuhe der Schaumkrone"] = {
+			["H699"] = 1490000,
+			["mr"] = 1490000,
 		},
 		["Trank des wahnsinnigen Alchemisten"] = {
 			["H699"] = 20000,
 			["mr"] = 20000,
 		},
-		["Glyphe 'Lebensentzug'"] = {
-			["H699"] = 845164,
-			["mr"] = 845164,
-		},
-		["Glyphe 'Streuung'"] = {
-			["H699"] = 596086,
-			["mr"] = 596086,
+		["Silbernes Drachenfalkenjunges"] = {
+			["H699"] = 1999900,
+			["mr"] = 1999900,
 		},
 		["Geist des Sommers"] = {
 			["H699"] = 9990000,
@@ -6802,17 +6828,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 500000,
 			["mr"] = 500000,
 		},
-		["Nebelbalghandschuhe des Orkans"] = {
-			["H699"] = 1090000,
-			["mr"] = 1090000,
+		["Dolchbuchtschiftung des Ältesten"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Rezept: Muschelsuppe"] = {
 			["H699"] = 99999,
 			["mr"] = 99999,
 		},
-		["Dolchbuchtschiftung des Ältesten"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Lebensechte Kröte"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
 		},
 		["Umhang des Krieges"] = {
 			["H699"] = 4000000,
@@ -6829,49 +6855,49 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 4999,
 			["sc"] = 2,
 		},
-		["Glyphe 'Schwarzes Eis'"] = {
-			["H699"] = 608899,
-			["mr"] = 608899,
+		["Schorfreißerhalskette"] = {
+			["H699"] = 14900000,
+			["mr"] = 14900000,
 		},
 		["Glühender Alexandrit"] = {
 			["H699"] = 2200000,
 			["mr"] = 2200000,
 		},
-		["Schattenfeuerhalskette des Erderschütterers"] = {
-			["H699"] = 1200000,
-			["mr"] = 1200000,
-		},
-		["Geräuchertes Talbukwildbret"] = {
-			["H699"] = 6900,
-			["mr"] = 6900,
+		["Drachenauge"] = {
+			["H699"] = 42818,
+			["mr"] = 42818,
 		},
 		["Niedergangshammer"] = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
+		["Muster: Große Voodoomaske"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
+		},
 		["Ring des gestrandeten Prinzen"] = {
 			["H699"] = 350000000,
 			["mr"] = 350000000,
+		},
+		["Glänzender Infernorubin"] = {
+			["H699"] = 250000,
+			["mr"] = 250000,
 		},
 		["Glyphe 'Hinterhalt'"] = {
 			["H699"] = 116431,
 			["mr"] = 116431,
 		},
-		["Armschiene - Erhebliches Ausweichen"] = {
-			["H699"] = 23400,
-			["mr"] = 23400,
-		},
-		["Muster: Schattenstoff"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Geistergeschmiedete Armschienen des Bewahrers"] = {
+			["H699"] = 490000,
+			["mr"] = 490000,
 		},
 		["Konsortiumkristall des Adlers"] = {
 			["H699"] = 96000,
 			["mr"] = 96000,
 		},
-		["Erdenkern"] = {
-			["H699"] = 9000,
-			["mr"] = 9000,
+		["Glyphe 'Stieren des Ochsen'"] = {
+			["H699"] = 750088,
+			["mr"] = 750088,
 		},
 		["Zangarischer Sporenfisch"] = {
 			["H699"] = 25000,
@@ -6885,9 +6911,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 24950,
 			["mr"] = 24950,
 		},
-		["Erricks Wundenverbinderstulpen"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Schneidender Aragonit"] = {
+			["H699"] = 650000,
+			["mr"] = 650000,
 		},
 		["Stiefel - Präzision"] = {
 			["H699"] = 100000,
@@ -6897,27 +6923,39 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 300000,
 			["mr"] = 300000,
 		},
+		["Moosfellschultern des Schützen"] = {
+			["H699"] = 5500000,
+			["mr"] = 5500000,
+		},
 		["Tiefenperidot"] = {
 			["H699"] = 98901,
 			["mr"] = 98901,
 		},
-		["Gebirgsschiftung der Wirbelströmung"] = {
-			["H699"] = 255000,
-			["mr"] = 255000,
+		["Perfekter fachkundiger Hessonit"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
-		["Schattenstaub"] = {
-			["H699"] = 30000,
-			["mr"] = 30000,
-		},
-		["Dämonenauge des Verteidigers"] = {
-			["H699"] = 999000,
-			["mr"] = 999000,
+		["Thalliumhalsreif der Eule"] = {
+			["H699"] = 20000,
+			["mr"] = 20000,
 		},
 		["Geladener Dioptas"] = {
 			["H699"] = 2999999,
 			["mr"] = 2999999,
 		},
-		["Perfekter fachkundiger Hessonit"] = {
+		["Kleiner rosafarbener Dickhäuter"] = {
+			["H699"] = 7000000,
+			["mr"] = 7000000,
+		},
+		["Glutseidenstoff"] = {
+			["H699"] = 41400,
+			["mr"] = 41400,
+		},
+		["Waffe - Windweise"] = {
+			["H699"] = 3497500,
+			["mr"] = 3497500,
+		},
+		["Stampfreiskuchen"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
@@ -6925,33 +6963,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 3690,
 			["mr"] = 3690,
 		},
-		["Teepflanze"] = {
-			["H699"] = 22175,
-			["mr"] = 22175,
-		},
-		["Stampfreiskuchen"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
-		},
-		["Glyphe 'Fallender Meteor'"] = {
-			["H699"] = 99999,
-			["mr"] = 99999,
-		},
 		["Zwei der Winde"] = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Kleiner strahlender Splitter"] = {
-			["H699"] = 19750,
-			["mr"] = 19750,
-		},
-		["Beschrifteter roter Fächer"] = {
-			["H699"] = 245000000,
-			["mr"] = 245000000,
+		["Glyphe 'Lichtbrunnen'"] = {
+			["H699"] = 798000,
+			["mr"] = 798000,
 		},
 		["Sechs der Kraniche"] = {
 			["H699"] = 87750000,
 			["mr"] = 87750000,
+		},
+		["Beschrifteter roter Fächer"] = {
+			["H699"] = 245000000,
+			["mr"] = 245000000,
 		},
 		["Armschienen der Gerechtigkeit"] = {
 			["H699"] = 1000000,
@@ -6965,9 +6991,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2812500,
 			["mr"] = 2812500,
 		},
-		["Glyphe 'Verstohlenheit'"] = {
-			["H699"] = 1279240,
-			["mr"] = 1279240,
+		["Nebelbalggamaschen der Schaumkrone"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
 		["Große himmlische Essenz"] = {
 			["H699"] = 94999,
@@ -6977,17 +7003,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 499500,
 			["mr"] = 499500,
 		},
-		["Finsterblutbrustharnisch der Intelligenz"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Glyphe 'Verstohlenheit'"] = {
+			["H699"] = 1279240,
+			["mr"] = 1279240,
 		},
-		["Soliantis Insektenklatsche"] = {
-			["H699"] = 40000000,
-			["mr"] = 40000000,
+		["Kyparit"] = {
+			["H699"] = 34995,
+			["mr"] = 34995,
 		},
-		["Brust - Mächtige Willenskraft"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Glyphe 'Mahnende Worte'"] = {
+			["H699"] = 1499999,
+			["mr"] = 1499999,
 		},
 		["Umhang - Intelligenz"] = {
 			["H699"] = 2707410,
@@ -6997,17 +7023,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 29000,
 			["mr"] = 29000,
 		},
-		["Rolle der Ausdauer VII"] = {
-			["H699"] = 4300,
-			["mr"] = 4300,
+		["Leise Schultern des Affen"] = {
+			["H699"] = 400000,
+			["mr"] = 400000,
+		},
+		["Albinonatter"] = {
+			["H699"] = 494900,
+			["mr"] = 494900,
 		},
 		["Schwarze Tigerkatze"] = {
 			["H699"] = 7500000,
 			["mr"] = 7500000,
-		},
-		["Drescherwams des Schützen"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
 		},
 		["Zerstörerdolch der Ausdauer"] = {
 			["H699"] = 201413,
@@ -7017,9 +7043,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 324,
 			["mr"] = 324,
 		},
-		["Talandras Rose"] = {
-			["H699"] = 5555,
-			["mr"] = 5555,
+		["Bauplan: Verschmorte Verkabelung"] = {
+			["H699"] = 497999,
+			["mr"] = 497999,
 		},
 		["Geistergeschmiedete Armschienen des Exempels"] = {
 			["H699"] = 499500,
@@ -7029,17 +7055,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 44000000,
 			["mr"] = 44000000,
 		},
+		["Wyrmbalgstiefel des Rivalen"] = {
+			["H699"] = 6990000,
+			["mr"] = 6990000,
+		},
 		["Funkelnde Scherbe"] = {
 			["H699"] = 299999,
 			["mr"] = 299999,
 		},
-		["Wachsende Handwickel des Ältesten"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
-		},
-		["Matsubas Brotmacher"] = {
-			["H699"] = 22500000,
-			["mr"] = 22500000,
+		["Runenverzierte Lederarmschienen"] = {
+			["H699"] = 21560,
+			["mr"] = 21560,
 		},
 		["Glühender Irrlichtdiamant"] = {
 			["H699"] = 3990000,
@@ -7049,65 +7075,65 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 510902,
 			["mr"] = 510902,
 		},
-		["Windwollstiefel des Meisters"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Rätselhafter Bergkristall"] = {
+			["H699"] = 28000000,
+			["mr"] = 28000000,
 		},
 		["Bauplan: EZ-Thro-Dynamit II"] = {
 			["H699"] = 500000,
 			["mr"] = 500000,
 		},
-		["Grummelkristall der Bestie"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Vorlage: Tödlicher Hessonit"] = {
+			["H699"] = 805553,
+			["mr"] = 805553,
 		},
 		["Sarsaparilla-Bombe"] = {
 			["H699"] = 99999,
 			["mr"] = 99999,
 		},
-		["Myrmidonensignet"] = {
-			["H699"] = 2497500,
-			["mr"] = 2497500,
-		},
-		["Armschiene - Geschwindigkeit"] = {
-			["H699"] = 250000,
-			["mr"] = 250000,
+		["Grummelkristall der Bestie"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
 		},
 		["Glyphe 'Gedankenschinden'"] = {
 			["H699"] = 2986500,
 			["mr"] = 2986500,
 		},
+		["Großer strahlender Splitter"] = {
+			["H699"] = 711157,
+			["mr"] = 711157,
+		},
+		["Kantiges Bastardschwert des Bären"] = {
+			["H699"] = 773465,
+			["mr"] = 773465,
+		},
+		["Tollkühner Gluttopas"] = {
+			["H699"] = 280000,
+			["mr"] = 280000,
+		},
 		["Grüne Eisengamaschen"] = {
 			["H699"] = 50000,
 			["mr"] = 50000,
 		},
-		["Großer strahlender Splitter"] = {
-			["H699"] = 711157,
-			["mr"] = 711157,
+		["Bauplan: Goblinüberbrückungskabel"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
 		},
 		["Urflechte"] = {
 			["H699"] = 24999,
 			["mr"] = 24999,
 		},
-		["Versierter Aragonit"] = {
-			["H699"] = 1897500,
-			["mr"] = 1897500,
-		},
-		["Blitzender Alexandrit"] = {
-			["H699"] = 147498,
-			["mr"] = 147498,
-		},
 		["Schamanischer Kristall des Lauffeuers"] = {
 			["H699"] = 225000,
 			["mr"] = 225000,
 		},
-		["Muster: Sturmschleierhose"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Klobiger Cinnabarit"] = {
+			["H699"] = 18600,
+			["mr"] = 18600,
 		},
-		["Glyphe 'Rückzug'"] = {
-			["H699"] = 499998,
-			["mr"] = 499998,
+		["Perfekter Charoit des Verteidigers"] = {
+			["H699"] = 509997,
+			["mr"] = 509997,
 		},
 		["Feinmaschige Schulterpolster des Hitzeschocks"] = {
 			["H699"] = 3289800,
@@ -7117,21 +7143,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 148999,
 			["mr"] = 148999,
 		},
-		["Belebender Ananaspunsch"] = {
-			["H699"] = 2500,
-			["mr"] = 2500,
+		["Froststofftasche"] = {
+			["H699"] = 4439999,
+			["mr"] = 4439999,
 		},
 		["Gerps perfekter Pfeil"] = {
 			["H699"] = 19990000,
 			["mr"] = 19990000,
 		},
-		["Chiastolith des Champions"] = {
-			["H699"] = 747000,
-			["mr"] = 747000,
+		["Glyphe 'Rückzug'"] = {
+			["H699"] = 499998,
+			["mr"] = 499998,
 		},
-		["Eldr'naangürtel des Zauberers"] = {
-			["H699"] = 117798,
-			["mr"] = 117798,
+		["Glyphe 'Leichenexplosion'"] = {
+			["H699"] = 850000,
+			["mr"] = 850000,
 		},
 		["Nebelbalgstiefel des Sciroccos"] = {
 			["H699"] = 2000000,
@@ -7165,17 +7191,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 3705139,
 			["mr"] = 3705139,
 		},
+		["R19-Bedrohungsfinder"] = {
+			["H699"] = 950000,
+			["mr"] = 950000,
+		},
+		["Bauplan: Goblinlandmine"] = {
+			["H699"] = 999999,
+			["mr"] = 999999,
+		},
 		["Kristalladerunterarmschienen des Soldaten"] = {
 			["H699"] = 1532688,
 			["mr"] = 1532688,
-		},
-		["Glyphe 'Lavapeitsche'"] = {
-			["H699"] = 169998,
-			["mr"] = 169998,
-		},
-		["Muster: Grünes Festtagshemd"] = {
-			["H699"] = 949999,
-			["mr"] = 949999,
 		},
 		["Glyphe 'Wiedergeburt'"] = {
 			["H699"] = 202997,
@@ -7189,45 +7215,45 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 250000,
 			["mr"] = 250000,
 		},
-		["Höhengipfelsabatons der Verwerfung"] = {
-			["H699"] = 770000,
-			["mr"] = 770000,
+		["Billiges Bier"] = {
+			["H699"] = 25000,
+			["mr"] = 25000,
 		},
-		["Glyphe 'Raubtier'"] = {
-			["H699"] = 1499998,
-			["mr"] = 1499998,
+		["Medizinstab des Wolfs"] = {
+			["H699"] = 4000,
+			["mr"] = 4000,
 		},
 		["Yakbeinschützer der Wirbelströmung"] = {
 			["H699"] = 983253,
 			["mr"] = 983253,
 		},
-		["Glyphe 'Orientierung'"] = {
-			["H699"] = 49200,
-			["mr"] = 49200,
+		["Imposanter Alexandrit"] = {
+			["H699"] = 149000,
+			["mr"] = 149000,
+		},
+		["Birkenholzschlägel des Bären"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
+		},
+		["Glyphe 'Nachsinnen'"] = {
+			["H699"] = 1349536,
+			["mr"] = 1349536,
 		},
 		["Handschuhe - Tempo"] = {
 			["H699"] = 77777,
 			["mr"] = 77777,
 		},
-		["Klagegeiststulpen des Rivalen"] = {
-			["H699"] = 8999999,
-			["mr"] = 8999999,
-		},
-		["Sternrubin"] = {
-			["H699"] = 40000,
-			["mr"] = 40000,
-		},
-		["Glyphe 'Wallender Nebel'"] = {
-			["H699"] = 1298176,
-			["mr"] = 1298176,
+		["Akkurater Nachtstein"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Glyphe 'Mächtiger Sieg'"] = {
 			["H699"] = 1481499,
 			["mr"] = 1481499,
 		},
-		["Feinmaschige Handgelenkwickel des Ältesten"] = {
-			["H699"] = 3282563,
-			["mr"] = 3282563,
+		["Gelbes Mottenei"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
 		["Flammenkappe"] = {
 			["H699"] = 1111,
@@ -7249,9 +7275,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Nebelbalgstiefel der Bora"] = {
-			["H699"] = 2500000,
-			["mr"] = 2500000,
+		["Hessonitband des Zauberers"] = {
+			["H699"] = 210000,
+			["mr"] = 210000,
 		},
 		["Barbarischer Lendenschurz"] = {
 			["H699"] = 5000,
@@ -7265,17 +7291,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 23000000,
 			["mr"] = 23000000,
 		},
-		["Große Astralessenz"] = {
-			["H699"] = 19600,
-			["mr"] = 19600,
+		["Vater Winters Helfer"] = {
+			["H699"] = 490000,
+			["mr"] = 490000,
 		},
 		["Inschrift der Kranichschwinge"] = {
 			["H699"] = 219000,
 			["mr"] = 219000,
 		},
-		["Vater Winters Helfer"] = {
-			["H699"] = 490000,
-			["mr"] = 490000,
+		["Kunzit des Assassinen"] = {
+			["H699"] = 1872489,
+			["mr"] = 1872489,
 		},
 		["Hühnchenspieß mit Erdnusssoße"] = {
 			["H699"] = 15000,
@@ -7297,13 +7323,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 83226090,
 			["mr"] = 83226090,
 		},
-		["Feinmaschige Handwickel des Hitzeschocks"] = {
-			["H699"] = 1999900,
-			["mr"] = 1999900,
+		["Brackwasserstiefel"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
-		["Kunzit des Assassinen"] = {
-			["H699"] = 1872489,
-			["mr"] = 1872489,
+		["Krasaranglöffelstör"] = {
+			["H699"] = 219999,
+			["mr"] = 219999,
 		},
 		["Zwillingsklingenaxt des Tigers"] = {
 			["H699"] = 8888,
@@ -7321,9 +7347,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2600000,
 			["mr"] = 2600000,
 		},
-		["Azerothischer Diamant"] = {
-			["H699"] = 33333,
-			["mr"] = 33333,
+		["Triliumlangstreckenpräzisionsgewehr"] = {
+			["H699"] = 45990000,
+			["mr"] = 45990000,
 		},
 		["Nachtauge"] = {
 			["H699"] = 138900,
@@ -7333,92 +7359,89 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000,
 			["mr"] = 5000,
 		},
-		["Südstromgürtel des Affen"] = {
-			["H699"] = 173535,
-			["mr"] = 173535,
+		["Feinmaschige Handwickel des Hitzeschocks"] = {
+			["H699"] = 1999900,
+			["mr"] = 1999900,
+		},
+		["Azerothischer Diamant"] = {
+			["H699"] = 33333,
+			["mr"] = 33333,
+		},
+		["Waffe - Zaubermacht"] = {
+			["H699"] = 9803375,
+			["mr"] = 9803375,
+		},
+		["Retrostachelkolben der Eule"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
+		},
+		["Rezept: Großer Steinschildtrank"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
 		["Formel: Schild - Ausdauer"] = {
 			["H699"] = 1250000,
 			["mr"] = 1250000,
 		},
-		["Handschuhe - Überragende Meisterschaft"] = {
-			["H699"] = 3990000,
-			["mr"] = 3990000,
-		},
-		["Primitives Leder"] = {
-			["H699"] = 89990,
-			["mr"] = 89990,
-		},
-		["Persönlicher Weltenzerstörer"] = {
-			["H699"] = 2499999,
-			["mr"] = 2499999,
-		},
-		["Gehärteter Adamantitbarren"] = {
-			["H699"] = 122222,
-			["mr"] = 122222,
-		},
-		["Glyphe 'Licht der Morgendämmerung'"] = {
-			["H699"] = 887050,
-			["mr"] = 887050,
+		["Adelsbrustplatte des Affen"] = {
+			["H699"] = 199900,
+			["mr"] = 199900,
 		},
 		["Pläne: Goldene Schuppenschultern"] = {
 			["H699"] = 14499999,
 			["mr"] = 14499999,
 		},
-		["Glühender Dioptas"] = {
-			["H699"] = 799998,
-			["mr"] = 799998,
+		["Glyphe 'Licht der Morgendämmerung'"] = {
+			["H699"] = 887050,
+			["mr"] = 887050,
 		},
-		["Bauplan: Adamantitgewehr"] = {
-			["H699"] = 498998,
-			["mr"] = 498998,
+		["Ekelhafter Schlammling"] = {
+			["H699"] = 99999999,
+			["mr"] = 99999999,
 		},
 		["Filigranes bernsteinfarbenes Wams"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Muster: Bunter Kilt"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Glühender Dioptas"] = {
+			["H699"] = 799998,
+			["mr"] = 799998,
 		},
-		["Blutdistel"] = {
-			["H699"] = 90,
-			["mr"] = 90,
+		["Dreschergürtelbund des Zephirs"] = {
+			["H699"] = 499500,
+			["mr"] = 499500,
 		},
 		["Geistergeschmiedeter Helm des Helden"] = {
 			["H699"] = 800000,
 			["mr"] = 800000,
 		},
-		["Vorlage: Rubinmonokel des Juweliers"] = {
-			["H699"] = 50000000,
-			["mr"] = 50000000,
+		["Blutgarnele"] = {
+			["H699"] = 6300,
+			["mr"] = 6300,
 		},
-		["Glyphe 'Machtwort: Schild'"] = {
-			["H699"] = 122998,
-			["mr"] = 122998,
+		["Glyphe 'Leben nach dem Tode'"] = {
+			["H699"] = 2990000,
+			["mr"] = 2990000,
 		},
-		["Traumtinte"] = {
-			["H699"] = 493000,
-			["mr"] = 493000,
+		["Glyphe 'Kleinere Proportionen'"] = {
+			["H699"] = 1490970,
+			["mr"] = 1490970,
 		},
 		["Goldener Sansam"] = {
 			["H699"] = 4444,
 			["mr"] = 4444,
 		},
-		["Elementiumgeode"] = {
-			["H699"] = 10000000,
-			["mr"] = 10000000,
+		["Kleiner leuchtender Splitter"] = {
+			["H699"] = 8900,
+			["mr"] = 8900,
 		},
-		["Hasenkäfig (Braun)"] = {
-			["H699"] = 3333333,
-			["mr"] = 3333333,
+		["Glyphe 'Verkrüppelndes Gift'"] = {
+			["H699"] = 496972,
+			["mr"] = 496972,
 		},
-		["Lebendiger Stahl"] = {
-			["mr"] = 12000000,
-			["cc"] = 6,
-			["id"] = "72104",
-			["H699"] = 12000000,
-			["sc"] = 4,
+		["Herz der Erde"] = {
+			["H699"] = 7490000,
+			["mr"] = 7490000,
 		},
 		["Drei der Winde"] = {
 			["H699"] = 900000,
@@ -7440,17 +7463,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 79808,
 			["mr"] = 79808,
 		},
-		["Rezept: Trank der freien Aktion"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Perfekter tödlicher Chiastolith"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
 		},
 		["Glyphe 'Illumination'"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Brust - Erhebliche Willenskraft"] = {
-			["H699"] = 7000,
-			["mr"] = 7000,
+		["Beinchen"] = {
+			["H699"] = 99990000,
+			["mr"] = 99990000,
 		},
 		["Glyphe 'Lichtblitz'"] = {
 			["H699"] = 1446221,
@@ -7468,73 +7491,73 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 12000000,
 			["mr"] = 12000000,
 		},
-		["Geläuterter Schattenspinell"] = {
-			["H699"] = 5064534,
-			["mr"] = 5064534,
+		["Magischer Zauberfaden"] = {
+			["H699"] = 550000,
+			["mr"] = 550000,
 		},
 		["Manadistel"] = {
 			["H699"] = 50000,
 			["mr"] = 50000,
 		},
-		["Glyphe 'Lebenskokon'"] = {
-			["H699"] = 749998,
-			["mr"] = 749998,
+		["Flammenspessarit"] = {
+			["H699"] = 60000,
+			["mr"] = 60000,
 		},
 		["Flüsterstiefel des Banditen"] = {
 			["H699"] = 1150000,
 			["mr"] = 1150000,
 		},
-		["Makelloser Balg"] = {
-			["H699"] = 2099999,
-			["mr"] = 2099999,
+		["Glyphe 'Reflektierender Schild'"] = {
+			["H699"] = 1486927,
+			["mr"] = 1486927,
 		},
-		["Schneeball"] = {
-			["H699"] = 2667812,
-			["mr"] = 2667812,
+		["Glyphe 'Krähenschmaus'"] = {
+			["H699"] = 2499000,
+			["mr"] = 2499000,
 		},
-		["Rezept: Schwarzgebratener Sporenfisch"] = {
-			["H699"] = 748997,
-			["mr"] = 748997,
+		["Glyphe 'Entdeckung'"] = {
+			["H699"] = 300000,
+			["mr"] = 300000,
 		},
 		["Hessonitband des Wals"] = {
 			["H699"] = 210000,
 			["mr"] = 210000,
 		},
-		["Glyphe 'Inneres Sanktum'"] = {
-			["H699"] = 128176,
-			["mr"] = 128176,
+		["Glyphe 'Instabile Erde'"] = {
+			["H699"] = 1442328,
+			["mr"] = 1442328,
 		},
-		["Herrlicher Aragonit"] = {
-			["H699"] = 1220000,
-			["mr"] = 1220000,
+		["Jaspis"] = {
+			["H699"] = 166315,
+			["mr"] = 166315,
 		},
 		["Buch des Blutes"] = {
 			["H699"] = 220000,
 			["mr"] = 220000,
 		},
-		["Geistergeschmiedete Schultern des Verteidigers"] = {
-			["H699"] = 800000,
-			["mr"] = 800000,
+		["Weinrebenstiefel der Wirbelströmung"] = {
+			["H699"] = 2006842,
+			["mr"] = 2006842,
 		},
-		["Geistergeschmiedete Armschienen des Verteidigers"] = {
-			["H699"] = 499500,
-			["mr"] = 499500,
+		["Blaue Motte"] = {
+			["H699"] = 34900,
+			["mr"] = 34900,
 		},
 		["Glyphe 'Fallender Rächer'"] = {
 			["H699"] = 499999,
 			["mr"] = 499999,
 		},
-		["Flüsterschultern des Schützen"] = {
-			["H699"] = 3990000,
-			["mr"] = 3990000,
+		["Klagegeisthelm des Rivalen"] = {
+			["H699"] = 8999999,
+			["mr"] = 8999999,
 		},
-		["Muster: Rote Wolltasche"] = {
-			["H699"] = 149999,
-			["mr"] = 149999,
+		["Glyphe 'Innerer Fokus'"] = {
+			["H699"] = 1443310,
+			["mr"] = 1443310,
 		},
-		["Wachsende Sandalen des Adlers"] = {
-			["H699"] = 1300000,
-			["mr"] = 1300000,
+		["Glyphe 'Kettenblitzschlag'"] = {
+			["H699"] = 1135344,
+			["mr"] = 1135344,
 		},
 		["Glyphe 'Körperteilung'"] = {
 			["H699"] = 349999,
@@ -7544,37 +7567,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2400,
 			["mr"] = 2400,
 		},
-		["Dauerfrostdolch der Intelligenz"] = {
-			["H699"] = 2324000,
-			["mr"] = 2324000,
+		["Pläne: Goldene Schuppenhelmkappe"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
-		["Vorderlader des Jägers"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Glyphe 'Gesundheitsstein'"] = {
+			["H699"] = 93998,
+			["mr"] = 93998,
 		},
 		["Stechender Alexandrit"] = {
 			["H699"] = 1207498,
 			["mr"] = 1207498,
 		},
-		["Mauerhelm des Söldners"] = {
-			["H699"] = 3990000,
-			["mr"] = 3990000,
+		["Brust - Große Ausdauer"] = {
+			["H699"] = 702250,
+			["mr"] = 702250,
 		},
-		["Wildschweinschenkel"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Verziertes Band des Felssturzes"] = {
+			["H699"] = 1200000,
+			["mr"] = 1200000,
 		},
 		["Zottelkappe"] = {
 			["H699"] = 134498,
 			["mr"] = 134498,
 		},
-		["Bestien 8"] = {
-			["H699"] = 1165855,
-			["mr"] = 1165855,
+		["Lebendiger Funken"] = {
+			["H699"] = 299000,
+			["mr"] = 299000,
 		},
-		["Pläne: Adamantitschlägel"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Massiver Schlagring des Affen"] = {
+			["H699"] = 999999,
+			["mr"] = 999999,
 		},
 		["Irrlichtdiamant"] = {
 			["H699"] = 490937,
@@ -7584,13 +7607,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 499000,
 			["mr"] = 499000,
 		},
-		["Verziertes Band des Felssturzes"] = {
-			["H699"] = 1200000,
-			["mr"] = 1200000,
+		["Traumsplitter"] = {
+			["H699"] = 2000,
+			["mr"] = 2000,
 		},
-		["Fachkundiger Hessonit"] = {
-			["H699"] = 19602,
-			["mr"] = 19602,
+		["Bestien 8"] = {
+			["H699"] = 1165855,
+			["mr"] = 1165855,
 		},
 		["Hyjalbärenjunges"] = {
 			["H699"] = 50000000,
@@ -7604,37 +7627,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 50000,
 			["mr"] = 50000,
 		},
+		["Schuppenhelm des Rivalen"] = {
+			["H699"] = 9950000,
+			["mr"] = 9950000,
+		},
 		["Glyphe 'Kampfstellung'"] = {
 			["H699"] = 499998,
 			["mr"] = 499998,
-		},
-		["Bauplan: Mächtige Zephyriumladung"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
 		},
 		["Glyphe 'Spurt'"] = {
 			["H699"] = 1445498,
 			["mr"] = 1445498,
 		},
-		["Glyphe 'Zornige Vergeltung'"] = {
-			["H699"] = 293038,
-			["mr"] = 293038,
+		["Raptorfleisch"] = {
+			["H699"] = 8594,
+			["mr"] = 8594,
 		},
 		["Drescherkapuze des Affen"] = {
 			["H699"] = 5990000,
 			["mr"] = 5990000,
 		},
-		["Dreschergürtelbund des Banditen"] = {
-			["H699"] = 1809053,
-			["mr"] = 1809053,
+		["Bauplan: Mächtige Zephyriumladung"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
 		},
-		["Glyphe 'Geisterwolf'"] = {
-			["H699"] = 447086,
-			["mr"] = 447086,
+		["Versierte Lavakoralle"] = {
+			["H699"] = 9124786,
+			["mr"] = 9124786,
 		},
-		["Dr. Wackel"] = {
-			["H699"] = 55550000,
-			["mr"] = 55550000,
+		["Glyphe 'Hieb'"] = {
+			["H699"] = 1200000,
+			["mr"] = 1200000,
 		},
 		["Veredelter Stab des Zauberers"] = {
 			["H699"] = 1000000,
@@ -7652,9 +7675,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1700000,
 			["mr"] = 1700000,
 		},
-		["Glyphe 'Klaffende Wunde'"] = {
-			["H699"] = 2419363,
-			["mr"] = 2419363,
+		["Drachenflanke"] = {
+			["H699"] = 19999,
+			["mr"] = 19999,
 		},
 		["Gediegener Chrysokoll"] = {
 			["H699"] = 900000,
@@ -7676,29 +7699,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 329176,
 			["mr"] = 329176,
 		},
-		["Gehärteter Elementiumbarren"] = {
-			["H699"] = 290000,
-			["mr"] = 290000,
-		},
-		["Tigeraugenband"] = {
-			["H699"] = 3050,
-			["mr"] = 3050,
-		},
-		["Klafteraal"] = {
-			["H699"] = 25000,
-			["mr"] = 25000,
+		["Kleiner gleißender Splitter"] = {
+			["H699"] = 1900,
+			["mr"] = 1900,
 		},
 		["Schattenfeuerhalskette des Berglands"] = {
 			["H699"] = 3000000,
 			["mr"] = 3000000,
 		},
-		["Pfeilschnelles Jungtier"] = {
-			["H699"] = 3989999,
-			["mr"] = 3989999,
+		["Klafteraal"] = {
+			["H699"] = 25000,
+			["mr"] = 25000,
 		},
-		["Boreanisches Leder"] = {
-			["H699"] = 4499,
-			["mr"] = 4499,
+		["Tigeraugenband"] = {
+			["H699"] = 3050,
+			["mr"] = 3050,
+		},
+		["Glyphe 'Flamme des Glaubens'"] = {
+			["H699"] = 427948,
+			["mr"] = 427948,
+		},
+		["Klebriges Spinnenbein"] = {
+			["H699"] = 8333,
+			["mr"] = 8333,
 		},
 		["Elementaristentunika des Schattenschutzes"] = {
 			["H699"] = 157863,
@@ -7716,9 +7739,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 998998,
 			["mr"] = 998998,
 		},
-		["Ewiger Bergkristall"] = {
-			["H699"] = 23980000,
-			["mr"] = 23980000,
+		["Perfekter massiver Zephyrit"] = {
+			["H699"] = 22222,
+			["mr"] = 22222,
 		},
 		["Glyphe 'Verblassen'"] = {
 			["H699"] = 499982,
@@ -7740,21 +7763,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 11990000,
 			["mr"] = 11990000,
 		},
-		["Glyphe 'Horn des Winters'"] = {
-			["H699"] = 1286321,
-			["mr"] = 1286321,
+		["Glyphe 'Finstere Seele'"] = {
+			["H699"] = 1450118,
+			["mr"] = 1450118,
 		},
-		["Gesteppte Gamaschen des Sehers"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
+		["Präziser Cinnabarit"] = {
+			["H699"] = 108500,
+			["mr"] = 108500,
 		},
 		["Lichtgeschmiedeter Elementiumhammer"] = {
 			["H699"] = 40500000,
 			["mr"] = 40500000,
 		},
-		["Präziser Cinnabarit"] = {
-			["H699"] = 108500,
-			["mr"] = 108500,
+		["Gesteppte Gamaschen des Sehers"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
 		["Roher Steinschuppenkabeljau"] = {
 			["H699"] = 10000,
@@ -7776,13 +7799,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 389997,
 			["mr"] = 389997,
 		},
-		["Glyphe 'Hirsch'"] = {
-			["H699"] = 713999,
-			["mr"] = 713999,
+		["Schweres Leder"] = {
+			["H699"] = 24950,
+			["mr"] = 24950,
 		},
-		["Dunkelmondspezialmischung"] = {
-			["H699"] = 25000,
-			["mr"] = 25000,
+		["Glyphe 'Knisternder Jadeblitz'"] = {
+			["H699"] = 149999,
+			["mr"] = 149999,
 		},
 		["Mechanischer Pandarendrachling"] = {
 			["H699"] = 44990000,
@@ -7792,13 +7815,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 27800,
 			["mr"] = 27800,
 		},
-		["Glyphe 'Erneuerung'"] = {
-			["H699"] = 24000,
-			["mr"] = 24000,
+		["Glyphe 'Frostschock'"] = {
+			["H699"] = 137998,
+			["mr"] = 137998,
 		},
-		["Glyphe 'Heilender Sturm'"] = {
-			["H699"] = 1442330,
-			["mr"] = 1442330,
+		["Dunkelwelpling"] = {
+			["H699"] = 99999999,
+			["mr"] = 99999999,
 		},
 		["Elixier der Perfektion"] = {
 			["H699"] = 47499,
@@ -7808,13 +7831,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 180000000,
 			["mr"] = 180000000,
 		},
-		["Glyphe 'Feuerodem'"] = {
-			["H699"] = 489205,
-			["mr"] = 489205,
+		["Eisiger Sprengzünder"] = {
+			["H699"] = 19833,
+			["mr"] = 19833,
 		},
-		["Glyphe 'Fokussierter Zorn'"] = {
-			["H699"] = 299999,
-			["mr"] = 299999,
+		["Glyphe 'Gesegnetes Leben'"] = {
+			["H699"] = 1295806,
+			["mr"] = 1295806,
 		},
 		["Muster: Seelenbeutel"] = {
 			["H699"] = 750000,
@@ -7828,9 +7851,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Brust - Außergewöhnliche Abhärtung"] = {
-			["H699"] = 304000,
-			["mr"] = 304000,
+		["Muster: Feine Lederstiefel"] = {
+			["H699"] = 26500,
+			["mr"] = 26500,
 		},
 		["Kaputte Halskette"] = {
 			["H699"] = 2500000,
@@ -7848,9 +7871,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 39800,
 			["mr"] = 39800,
 		},
-		["Eigenartiges Fleisch"] = {
-			["H699"] = 1475,
-			["mr"] = 1475,
+		["Glyphe 'Furorfäuste'"] = {
+			["H699"] = 1465683,
+			["mr"] = 1465683,
 		},
 		["Bruchstück einer Mogustatue"] = {
 			["H699"] = 900000,
@@ -7872,33 +7895,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Ritterumhang des Gorillas"] = {
-			["H699"] = 15900,
-			["mr"] = 15900,
-		},
-		["Glyphe 'Furchtzauberschutz'"] = {
-			["H699"] = 449989,
-			["mr"] = 449989,
-		},
 		["Perfekter herrlicher Chiastolith"] = {
 			["H699"] = 1590000,
 			["mr"] = 1590000,
+		},
+		["Elixier der Meisterschaft"] = {
+			["H699"] = 34800,
+			["mr"] = 34800,
+		},
+		["Zartes Krokiliskenfleisch"] = {
+			["H699"] = 2222,
+			["mr"] = 2222,
 		},
 		["Glasiger Chiastolith"] = {
 			["H699"] = 1479900,
 			["mr"] = 1479900,
 		},
-		["Glyphe 'Feuerschlag'"] = {
-			["H699"] = 2900000,
-			["mr"] = 2900000,
+		["Glyphe 'Ursocs Macht'"] = {
+			["H699"] = 1491974,
+			["mr"] = 1491974,
 		},
 		["Armschiene - Große Geschwindigkeit"] = {
 			["H699"] = 3480210,
 			["mr"] = 3480210,
 		},
-		["Glyphe 'Ursocs Macht'"] = {
-			["H699"] = 1491974,
-			["mr"] = 1491974,
+		["Täuschungskugel"] = {
+			["H699"] = 29990000,
+			["mr"] = 29990000,
 		},
 		["Höhengipfelschulterstücke des Tigers"] = {
 			["H699"] = 2000000,
@@ -7906,9 +7929,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Schleierstaub"] = {
 			["mr"] = 28400,
-			["L699"] = 28400,
-			["id"] = "34054",
 			["cc"] = 6,
+			["id"] = "34054",
+			["L699"] = 28400,
 			["H699"] = 28500,
 			["sc"] = 7,
 		},
@@ -7940,9 +7963,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 155555,
 			["mr"] = 155555,
 		},
-		["Glyphe 'Frostfeuerblitz'"] = {
-			["H699"] = 618999,
-			["mr"] = 618999,
+		["Schamanischer Kristall der Bestie"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Silberne Tigerkatze"] = {
 			["H699"] = 49400,
@@ -7952,13 +7975,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 110000,
 			["mr"] = 110000,
 		},
-		["Rezept: Erheblicher Verjüngungstrank"] = {
-			["H699"] = 5150167,
-			["mr"] = 5150167,
+		["Glyphe 'Frostfeuerblitz'"] = {
+			["H699"] = 618999,
+			["mr"] = 618999,
 		},
-		["Glyphe 'Frostnova'"] = {
-			["H699"] = 998999,
-			["mr"] = 998999,
+		["Glyphe 'Finte'"] = {
+			["H699"] = 125000,
+			["mr"] = 125000,
 		},
 		["Glyphe 'Frostfalle'"] = {
 			["H699"] = 1329162,
@@ -7976,9 +7999,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 34999900,
 			["mr"] = 34999900,
 		},
-		["Pandarische Tonscherbe"] = {
-			["H699"] = 1390000,
-			["mr"] = 1390000,
+		["Brust - Überragende Ausdauer"] = {
+			["H699"] = 549000,
+			["mr"] = 549000,
 		},
 		["Flüchtige Kugel"] = {
 			["H699"] = 46000,
@@ -7992,13 +8015,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 9998,
 			["mr"] = 9998,
 		},
-		["Vorlage: Agiler Irrlichtdiamant"] = {
-			["H699"] = 12500000,
-			["mr"] = 12500000,
+		["Pandarische Tonscherbe"] = {
+			["H699"] = 1390000,
+			["mr"] = 1390000,
 		},
-		["Glyphe 'Eisige Gegenwehr'"] = {
-			["H699"] = 78999,
-			["mr"] = 78999,
+		["Glyphe 'Endloser Zorn'"] = {
+			["H699"] = 439989,
+			["mr"] = 439989,
 		},
 		["Nebelbalghelm der Schaumkrone"] = {
 			["H699"] = 1250000,
@@ -8012,9 +8035,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 991985,
 			["mr"] = 991985,
 		},
-		["Glyphe 'Fliegender Schlangentritt'"] = {
-			["H699"] = 322088,
-			["mr"] = 322088,
+		["Glyphe 'Eiskältefalle'"] = {
+			["H699"] = 357998,
+			["mr"] = 357998,
 		},
 		["Gravierter Aragonit"] = {
 			["H699"] = 1759000,
@@ -8028,9 +8051,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 24800000,
 			["mr"] = 24800000,
 		},
-		["Entweihtes Kraut"] = {
-			["H699"] = 19999,
-			["mr"] = 19999,
+		["Schwerer Geodenstreitkolben"] = {
+			["H699"] = 1752820,
+			["mr"] = 1752820,
 		},
 		["Glyphe 'Feuersbrunst'"] = {
 			["H699"] = 475594,
@@ -8044,21 +8067,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 61000,
 			["mr"] = 61000,
 		},
-		["Räuberkurzschwert der Stärke"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Seelenstaub"] = {
+			["H699"] = 1900,
+			["mr"] = 1900,
 		},
 		["Majestätischer Tiefenperidot"] = {
 			["H699"] = 49950,
 			["mr"] = 49950,
 		},
+		["Glyphe 'Psychisches Entsetzen'"] = {
+			["H699"] = 1487972,
+			["mr"] = 1487972,
+		},
 		["Windwollkapuze des Meisters"] = {
 			["H699"] = 2500000,
 			["mr"] = 2500000,
 		},
-		["Seelenstaub"] = {
-			["H699"] = 1900,
-			["mr"] = 1900,
+		["Geistergeschmiedete Armschienen der Wirbelströmung"] = {
+			["H699"] = 490000,
+			["mr"] = 490000,
 		},
 		["Frakturiertes Tüftlergetriebe"] = {
 			["H699"] = 2500000,
@@ -8068,17 +8095,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 324000,
 			["mr"] = 324000,
 		},
-		["Stürmerrüstung des Wals"] = {
-			["H699"] = 1100,
-			["mr"] = 1100,
-		},
 		["Glyphe 'Erdrosseln'"] = {
 			["H699"] = 935953,
 			["mr"] = 935953,
 		},
-		["Saftiges Muschelfleisch"] = {
-			["H699"] = 25000,
-			["mr"] = 25000,
+		["Mechanisches Eichhörnchen"] = {
+			["H699"] = 99900,
+			["mr"] = 99900,
 		},
 		["Funkelnder Zephyrit"] = {
 			["H699"] = 69900,
@@ -8088,53 +8111,53 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 9999,
 			["mr"] = 9999,
 		},
-		["Nerubische Beinschützer"] = {
-			["H699"] = 112198,
-			["mr"] = 112198,
-		},
-		["Mechanisches Eichhörnchen"] = {
-			["H699"] = 99900,
-			["mr"] = 99900,
-		},
-		["Glyphe 'Massenexorzismus'"] = {
-			["H699"] = 1900000,
-			["mr"] = 1900000,
-		},
-		["Grünflügelara"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
-		},
-		["Handschuhe - Präzision"] = {
-			["H699"] = 150000,
-			["mr"] = 150000,
-		},
-		["Muster: Rote Wollstiefel"] = {
-			["H699"] = 12222,
-			["mr"] = 12222,
-		},
-		["Muster: Flimmerkernwickeltücher"] = {
-			["H699"] = 999000,
-			["mr"] = 999000,
-		},
 		["Handbuch der Dungeonerkundung"] = {
 			["H699"] = 1500000,
 			["mr"] = 1500000,
 		},
-		["Serpentin"] = {
-			["H699"] = 97020,
-			["mr"] = 97020,
+		["Glyphe 'Transzendenz'"] = {
+			["H699"] = 1098999,
+			["mr"] = 1098999,
 		},
 		["Schimmernde Beinkleider des Adlers"] = {
 			["H699"] = 49900,
 			["mr"] = 49900,
 		},
+		["Grünflügelara"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
+		},
+		["Nerubische Beinschützer"] = {
+			["H699"] = 112198,
+			["mr"] = 112198,
+		},
+		["Glyphe 'Heilige Nova'"] = {
+			["H699"] = 1491498,
+			["mr"] = 1491498,
+		},
+		["Muster: Flimmerkernwickeltücher"] = {
+			["H699"] = 999000,
+			["mr"] = 999000,
+		},
+		["Glyphe 'Richtungsweiser'"] = {
+			["H699"] = 1977500,
+			["mr"] = 1977500,
+		},
+		["Serpentin"] = {
+			["H699"] = 97020,
+			["mr"] = 97020,
+		},
+		["Handschuhe - Präzision"] = {
+			["H699"] = 150000,
+			["mr"] = 150000,
+		},
 		["Glyphe 'Totemischer Rückruf'"] = {
 			["H699"] = 95998,
 			["mr"] = 95998,
 		},
-		["Kurzes Bastardschwert des Tigers"] = {
-			["H699"] = 10100,
-			["mr"] = 10100,
+		["Muster: Rote Wollstiefel"] = {
+			["H699"] = 12222,
+			["mr"] = 12222,
 		},
 		["Sha-berührte Beinrüstung"] = {
 			["H699"] = 7550000,
@@ -8148,21 +8171,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 39800,
 			["mr"] = 39800,
 		},
-		["Grummelzauberklinge der Bestie"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
+		["Verziertes Band der Schaumkrone"] = {
+			["H699"] = 1200000,
+			["mr"] = 1200000,
 		},
-		["Urfeuer"] = {
-			["H699"] = 44444,
-			["mr"] = 44444,
+		["Exotisches Leder"] = {
+			["H699"] = 16666,
+			["mr"] = 16666,
 		},
-		["Glyphe 'Entrinnen'"] = {
-			["H699"] = 145000,
-			["mr"] = 145000,
+		["Verschneite Sabatons der Bestie"] = {
+			["H699"] = 1007313,
+			["mr"] = 1007313,
 		},
-		["Glyphe 'Einäschern'"] = {
-			["H699"] = 1502620,
-			["mr"] = 1502620,
+		["Glyphe 'Feenfeuer'"] = {
+			["H699"] = 50000,
+			["mr"] = 50000,
 		},
 		["Vorlage: Brennender Irrlichtdiamant"] = {
 			["H699"] = 12500000,
@@ -8172,37 +8195,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 59400,
 			["mr"] = 59400,
 		},
-		["Scharfes Muschelfleisch"] = {
-			["H699"] = 13000,
-			["mr"] = 13000,
+		["Glyphe 'Entrinnen'"] = {
+			["H699"] = 145000,
+			["mr"] = 145000,
 		},
 		["Glyphe 'Erbauung'"] = {
 			["H699"] = 748999,
 			["mr"] = 748999,
 		},
+		["Glyphe 'Eisketten'"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
+		},
 		["Handschuhe - Sturmangriff"] = {
 			["H699"] = 29900,
 			["mr"] = 29900,
 		},
-		["Elixier der Waffentechnik"] = {
-			["H699"] = 97499,
-			["mr"] = 97499,
+		["Gugel eines Schattenhammerkultisten"] = {
+			["H699"] = 150000,
+			["mr"] = 150000,
 		},
 		["Glyphe 'Ruf des Meisters'"] = {
 			["H699"] = 502979,
 			["mr"] = 502979,
 		},
-		["Prächtiger Balg"] = {
-			["H699"] = 2350000,
-			["mr"] = 2350000,
+		["Elementarwasser"] = {
+			["H699"] = 9999,
+			["mr"] = 9999,
 		},
-		["Filigranes goldenes Hemd"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
-		},
-		["Glyphe 'Eislanze'"] = {
-			["H699"] = 268998,
-			["mr"] = 268998,
+		["Glyphe 'Eisige Pfade'"] = {
+			["H699"] = 1499999,
+			["mr"] = 1499999,
 		},
 		["Leichtes Leder"] = {
 			["H699"] = 9000,
@@ -8212,9 +8235,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 19800,
 			["mr"] = 19800,
 		},
-		["Glyphe 'Seelensplitter'"] = {
-			["H699"] = 795985,
-			["mr"] = 795985,
+		["Filigranes goldenes Hemd"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Veredelter Schlagring der Bora"] = {
 			["H699"] = 3000000,
@@ -8224,25 +8247,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 98010,
 			["mr"] = 98010,
 		},
-		["Kleiner ätherischer Splitter"] = {
-			["H699"] = 200000,
-			["mr"] = 200000,
+		["Machtvoller Aragonit"] = {
+			["H699"] = 1400000,
+			["mr"] = 1400000,
 		},
-		["Feingeschliffener Königinnengranat"] = {
-			["H699"] = 17199999,
-			["mr"] = 17199999,
+		["Luftpartikel"] = {
+			["H699"] = 37500,
+			["mr"] = 37500,
 		},
-		["Netherpirscherbeinschützer der Willenskraft"] = {
-			["H699"] = 991039,
-			["mr"] = 991039,
+		["Frakturierter Alazit"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Glyphe 'Säule des Frosts'"] = {
 			["H699"] = 296998,
 			["mr"] = 296998,
 		},
-		["Goldlotus"] = {
-			["H699"] = 4445100,
-			["mr"] = 4445100,
+		["Netherpirscherbeinschützer der Willenskraft"] = {
+			["H699"] = 991039,
+			["mr"] = 991039,
 		},
 		["Zwei der Schlangen"] = {
 			["H699"] = 48000000,
@@ -8252,37 +8275,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 98000000,
 			["mr"] = 98000000,
 		},
-		["Luftpartikel"] = {
-			["H699"] = 37500,
-			["mr"] = 37500,
+		["Muster: Modisches blaues Hemd"] = {
+			["H699"] = 10000000,
+			["mr"] = 10000000,
 		},
 		["Perfekter gezackter Alexandrit"] = {
 			["H699"] = 899900,
 			["mr"] = 899900,
 		},
-		["Rabenholdtkapuze des Affen"] = {
-			["H699"] = 400000,
-			["mr"] = 400000,
+		["Roben der Schöpfung"] = {
+			["H699"] = 120000000,
+			["mr"] = 120000000,
 		},
 		["Yakgürtel des Sciroccos"] = {
 			["H699"] = 490000,
 			["mr"] = 490000,
 		},
-		["Wyrmbalgschultern des Rivalen"] = {
-			["H699"] = 7490000,
-			["mr"] = 7490000,
+		["Brustschutz des sorgsamen Pandaren"] = {
+			["H699"] = 25000000,
+			["mr"] = 25000000,
 		},
-		["Eingeborenenhose des Adlers"] = {
-			["H699"] = 6610,
-			["mr"] = 6610,
+		["Yakbeinschützer des Banditen"] = {
+			["H699"] = 1500000,
+			["mr"] = 1500000,
 		},
 		["Winzige wandelnde Bombe"] = {
 			["H699"] = 789900,
 			["mr"] = 789900,
 		},
-		["Vier der Wellen"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Eingeborenenhose des Adlers"] = {
+			["H699"] = 6610,
+			["mr"] = 6610,
 		},
 		["Transparenter Aragonit"] = {
 			["H699"] = 597000,
@@ -8300,21 +8323,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 666666,
 			["mr"] = 666666,
 		},
-		["Brustschutz des sorgsamen Pandaren"] = {
-			["H699"] = 25000000,
-			["mr"] = 25000000,
+		["Rabenholdtkapuze des Affen"] = {
+			["H699"] = 400000,
+			["mr"] = 400000,
 		},
-		["Glyphe 'Stachelschwein'"] = {
-			["H699"] = 1454548,
-			["mr"] = 1454548,
+		["Mächtiger geisterhafter Zauberfaden"] = {
+			["H699"] = 1650000,
+			["mr"] = 1650000,
 		},
-		["Delirium Ass"] = {
-			["H699"] = 1999989,
-			["mr"] = 1999989,
+		["Steinskarabäus"] = {
+			["H699"] = 74500,
+			["mr"] = 74500,
 		},
-		["Roben der Schöpfung"] = {
-			["H699"] = 120000000,
-			["mr"] = 120000000,
+		["Wasserfallschulterpolster des Adlers"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
 		["Obsidiumerz"] = {
 			["H699"] = 19800,
@@ -8324,9 +8347,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 7000,
 			["mr"] = 7000,
 		},
-		["Umhang - Geringe Macht"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Glutzauberstab der Eule"] = {
+			["H699"] = 39000,
+			["mr"] = 39000,
 		},
 		["Elementiumbarren"] = {
 			["H699"] = 31250,
@@ -8340,17 +8363,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 3289800,
 			["mr"] = 3289800,
 		},
-		["Agiler Irrlichtdiamant"] = {
-			["H699"] = 2997500,
-			["mr"] = 2997500,
+		["Brust - Mächtige Gesundheit"] = {
+			["H699"] = 500000,
+			["mr"] = 500000,
 		},
-		["Geistergeschmiedete Brustplatte der Schildwache"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
+		["Vier der Wellen"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
 		},
-		["Wasserfallschulterpolster des Adlers"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Delirium Ass"] = {
+			["H699"] = 1999989,
+			["mr"] = 1999989,
 		},
 		["Perfekter stattlicher Charoit"] = {
 			["H699"] = 4499899,
@@ -8360,29 +8383,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 789999,
 			["mr"] = 789999,
 		},
-		["Geistersplitter"] = {
-			["H699"] = 14900000,
-			["mr"] = 14900000,
+		["Umhang - Geringe Macht"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
-		["Steinskarabäus"] = {
-			["H699"] = 74500,
-			["mr"] = 74500,
-		},
-		["Dioptas des Mentors"] = {
-			["H699"] = 1880000,
-			["mr"] = 1880000,
+		["Agiler Irrlichtdiamant"] = {
+			["H699"] = 2997500,
+			["mr"] = 2997500,
 		},
 		["Blauer Aufziehraketenbot"] = {
 			["H699"] = 44439900,
 			["mr"] = 44439900,
 		},
-		["Formel: Zweihandwaffe - Erhebliche Willenskraft"] = {
-			["H699"] = 949998,
-			["mr"] = 949998,
+		["Geistergeschmiedete Schultern des Exempels"] = {
+			["H699"] = 1200000,
+			["mr"] = 1200000,
 		},
 		["Glyphe 'Schutz'"] = {
 			["H699"] = 249000,
 			["mr"] = 249000,
+		},
+		["Formel: Zweihandwaffe - Erhebliche Willenskraft"] = {
+			["H699"] = 949998,
+			["mr"] = 949998,
 		},
 		["Grillbankett"] = {
 			["H699"] = 250000,
@@ -8392,9 +8415,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 150000,
 			["mr"] = 150000,
 		},
-		["Scharfzähniges Jungtier"] = {
-			["H699"] = 2380000,
-			["mr"] = 2380000,
+		["Glänzender Karneol"] = {
+			["H699"] = 150000,
+			["mr"] = 150000,
 		},
 		["Trauermoos"] = {
 			["H699"] = 29900,
@@ -8420,21 +8443,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 299500,
 			["mr"] = 299500,
 		},
-		["Formel: Armschiene - Große Willenskraft"] = {
-			["H699"] = 1243749,
-			["mr"] = 1243749,
+		["Nebelbalgarmschienen der Wirbelströmung"] = {
+			["H699"] = 930000,
+			["mr"] = 930000,
 		},
-		["Adamantiterz"] = {
-			["H699"] = 49999,
-			["mr"] = 49999,
+		["Glyphe 'Wirbelnder Kranichtritt'"] = {
+			["H699"] = 2881827,
+			["mr"] = 2881827,
 		},
 		["Armschienen des Zielsuchers"] = {
 			["H699"] = 48000000,
 			["mr"] = 48000000,
 		},
-		["Glyphe 'Wirbelnder Kranichtritt'"] = {
-			["H699"] = 2881827,
-			["mr"] = 2881827,
+		["Armschiene - Muskelkraft"] = {
+			["H699"] = 7000,
+			["mr"] = 7000,
 		},
 		["Muster: Schildkrötenschuppenhandschuhe"] = {
 			["H699"] = 750000,
@@ -8444,37 +8467,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 500000,
 			["mr"] = 500000,
 		},
+		["Makelloses Amulett des Banditen"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
+		},
+		["Windgeküsste Handwickel"] = {
+			["H699"] = 50000000,
+			["mr"] = 50000000,
+		},
 		["Nebelbalggamaschen der Bora"] = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Basiliskbrocken"] = {
-			["H699"] = 500,
-			["mr"] = 500,
+		["Waffe - Elementarkraft"] = {
+			["H699"] = 3497500,
+			["mr"] = 3497500,
 		},
-		["Flüchtige Luft"] = {
-			["H699"] = 50000,
-			["mr"] = 50000,
+		["Stulpen der ehrwürdigen Aufgabe"] = {
+			["H699"] = 14900000,
+			["mr"] = 14900000,
 		},
-		["Glyphe 'Donnerschlag'"] = {
-			["H699"] = 2988990,
-			["mr"] = 2988990,
-		},
-		["Beständiger Dioptas"] = {
-			["H699"] = 647000,
-			["mr"] = 647000,
-		},
-		["Jaggalperle"] = {
-			["H699"] = 19800,
-			["mr"] = 19800,
+		["Kreuzfahrerarmschützer des Falken"] = {
+			["H699"] = 10000000,
+			["mr"] = 10000000,
 		},
 		["Zwillingsklingenaxt des Bären"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Perlenbesetzter Zauberstab des Zauberers"] = {
-			["H699"] = 189855,
-			["mr"] = 189855,
+		["Fläschchen der endlosen Wut"] = {
+			["H699"] = 50000,
+			["mr"] = 50000,
 		},
 		["Glyphe 'Solarplexus'"] = {
 			["H699"] = 129499,
@@ -8488,9 +8511,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Fernhainfußpolster des Herbeirufers"] = {
-			["H699"] = 1201000,
-			["mr"] = 1201000,
+		["Glyphe 'Dunkler Erzengel'"] = {
+			["H699"] = 1500000,
+			["mr"] = 1500000,
 		},
 		["Rolle der Intelligenz VIII"] = {
 			["H699"] = 4400,
@@ -8500,35 +8523,35 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 4490000,
 			["mr"] = 4490000,
 		},
-		["Wachsende Gugel des Wals"] = {
-			["H699"] = 2890000,
-			["mr"] = 2890000,
+		["Lebhafter Elfenperidot"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
 		["Mushanlederwams des Schützen"] = {
 			["H699"] = 550000,
 			["mr"] = 550000,
 		},
-		["Ritterarmschienen des Ebers"] = {
-			["H699"] = 12900,
-			["mr"] = 12900,
+		["Schändlicher Zerschnitzler"] = {
+			["H699"] = 149999,
+			["mr"] = 149999,
 		},
 		["Kristallisiertes Wasser"] = {
 			["H699"] = 1745,
 			["mr"] = 1745,
 		},
-		["Glyphe 'Lichtquell'"] = {
-			["H699"] = 2984000,
-			["mr"] = 2984000,
+		["Sieben der Steine"] = {
+			["H699"] = 9989999,
+			["mr"] = 9989999,
 		},
-		["Vorlage: Gravierter Edeltopas"] = {
-			["H699"] = 3005070,
-			["mr"] = 3005070,
+		["Peitschling aus dem Am'mental"] = {
+			["H699"] = 40010000,
+			["mr"] = 40010000,
 		},
-		["Glyphe 'Drohruf'"] = {
-			["H699"] = 1500000,
-			["mr"] = 1500000,
+		["Nebelbalgbrustschutz der Bora"] = {
+			["H699"] = 519999,
+			["mr"] = 519999,
 		},
-		["Hexerhand des Falken"] = {
+		["Fachkundiger Gluttopas"] = {
 			["H699"] = 290000,
 			["mr"] = 290000,
 		},
@@ -8544,65 +8567,65 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1190000,
 			["mr"] = 1190000,
 		},
-		["Nebelbalgbrustschutz der Bora"] = {
-			["H699"] = 519999,
-			["mr"] = 519999,
+		["Umhang - Große Intelligenz"] = {
+			["H699"] = 3150000,
+			["mr"] = 3150000,
 		},
-		["Buch der Glyphenbeherrschung"] = {
-			["H699"] = 10000000,
-			["mr"] = 10000000,
-		},
-		["Formel: Brust - Geringes Mana"] = {
-			["H699"] = 749994,
-			["mr"] = 749994,
+		["Glyphe 'Rasendes Zerreißen'"] = {
+			["H699"] = 1455549,
+			["mr"] = 1455549,
 		},
 		["Flüsterhandschuhe des Orkans"] = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Juwelengeschmücktes Szepter der Wirbelströmung"] = {
-			["H699"] = 3000000,
-			["mr"] = 3000000,
-		},
-		["Masse von McGowan"] = {
-			["H699"] = 383500,
-			["mr"] = 383500,
+		["Furien 5"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
 		},
 		["Schlangenzunge"] = {
 			["H699"] = 8332,
 			["mr"] = 8332,
 		},
-		["Fläschchen des fließenden Wassers"] = {
-			["H699"] = 97000,
-			["mr"] = 97000,
+		["Glyphe 'Vendetta'"] = {
+			["H699"] = 496972,
+			["mr"] = 496972,
 		},
-		["Glyphe 'Chronische Gebrechen'"] = {
-			["H699"] = 772253,
-			["mr"] = 772253,
+		["Masse von McGowan"] = {
+			["H699"] = 383500,
+			["mr"] = 383500,
 		},
-		["Quecksilberadamantit"] = {
-			["H699"] = 999999,
-			["mr"] = 999999,
+		["Fläschchen des Frostwyrms"] = {
+			["H699"] = 481772,
+			["mr"] = 481772,
+		},
+		["Glyphe 'Blutdurst'"] = {
+			["H699"] = 511177,
+			["mr"] = 511177,
+		},
+		["Stürmischer Ozeansaphir"] = {
+			["H699"] = 288799,
+			["mr"] = 288799,
 		},
 		["Blütenfischfilet"] = {
 			["H699"] = 275000,
 			["mr"] = 275000,
 		},
-		["Formel: Waffe - Lebensdiebstahl"] = {
-			["H699"] = 9999999,
-			["mr"] = 9999999,
+		["Glyphe 'Blutige Verbannung'"] = {
+			["H699"] = 149997,
+			["mr"] = 149997,
 		},
-		["Neumorgenarmschienen"] = {
-			["H699"] = 6990000,
-			["mr"] = 6990000,
+		["Flitzdistel"] = {
+			["H699"] = 5900,
+			["mr"] = 5900,
 		},
-		["Glyphe 'Dämonischer Zirkel'"] = {
-			["H699"] = 446986,
-			["mr"] = 446986,
+		["Trank von Tiefenheim"] = {
+			["H699"] = 20000,
+			["mr"] = 20000,
 		},
-		["Brust - Unvergleichliche Werte"] = {
-			["H699"] = 1249999,
-			["mr"] = 1249999,
+		["Konsortiummantelung der Willenskraft"] = {
+			["H699"] = 69103,
+			["mr"] = 69103,
 		},
 		["Leuchtsternrute des Ebers"] = {
 			["H699"] = 450000,
@@ -8620,25 +8643,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 32899,
 			["mr"] = 32899,
 		},
-		["Trank von Tiefenheim"] = {
-			["H699"] = 20000,
-			["mr"] = 20000,
+		["Wasserfallhandwickel des Feuersturms"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Glyphe 'Heiliger Schock'"] = {
 			["H699"] = 1499999,
 			["mr"] = 1499999,
 		},
-		["Glyphe 'Blutige Verbannung'"] = {
-			["H699"] = 149997,
-			["mr"] = 149997,
+		["Glyphe 'Schattenhafte Freunde'"] = {
+			["H699"] = 294999,
+			["mr"] = 294999,
 		},
 		["Orangefarbenes Kampfhemd"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Glyphe 'Schattenhafte Freunde'"] = {
-			["H699"] = 294999,
-			["mr"] = 294999,
+		["Wilde draenische Stiefel"] = {
+			["H699"] = 150000,
+			["mr"] = 150000,
 		},
 		["Handschuhe - Große Waffenkunde"] = {
 			["H699"] = 20000,
@@ -8648,9 +8671,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5540000,
 			["mr"] = 5540000,
 		},
-		["Glyphe 'Böses vertreiben'"] = {
-			["H699"] = 1152484,
-			["mr"] = 1152484,
+		["Flasche mit Nethergonenergie"] = {
+			["H699"] = 25500,
+			["mr"] = 25500,
 		},
 		["Feuerpartikel"] = {
 			["H699"] = 4500,
@@ -8660,37 +8683,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 7000,
 			["mr"] = 7000,
 		},
-		["Flasche mit Nethergonenergie"] = {
-			["H699"] = 25500,
-			["mr"] = 25500,
-		},
 		["Geistergeschmiedeter Gürtel des Helden"] = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
+		},
+		["Schattenfeuerhalskette des Feuersturms"] = {
+			["H699"] = 1200000,
+			["mr"] = 1200000,
 		},
 		["Schlachtschmiedestulpen des Ebers"] = {
 			["H699"] = 30000,
 			["mr"] = 30000,
 		},
-		["Grüne Eisenarmschienen"] = {
-			["H699"] = 50000,
-			["mr"] = 50000,
+		["Steinwerkschulterstücke des Söldners"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Juwelengeschmückte Zauberklinge des Wals"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Mal von Kil'jaeden"] = {
+			["H699"] = 35999,
+			["mr"] = 35999,
 		},
-		["Essenz der Zerstörung"] = {
-			["H699"] = 249000,
-			["mr"] = 249000,
+		["Perfekter glasiger Chiastolith"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Mauersabatons des Tigers"] = {
 			["H699"] = 200000,
 			["mr"] = 200000,
 		},
-		["Hessonitband des Soldaten"] = {
-			["H699"] = 210000,
-			["mr"] = 210000,
+		["Nadelpilze"] = {
+			["H699"] = 50000,
+			["mr"] = 50000,
 		},
 		["Flüsterkniehosen des Affen"] = {
 			["H699"] = 300000,
@@ -8700,53 +8723,53 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1241716,
 			["mr"] = 1241716,
 		},
-		["Schattenfeuerhalskette des Feuersturms"] = {
-			["H699"] = 1200000,
-			["mr"] = 1200000,
+		["Wachsende Sandalen des Wals"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Tuurikfackel der Ausdauer"] = {
 			["H699"] = 111708,
 			["mr"] = 111708,
 		},
-		["Glyphe 'Tritt'"] = {
-			["H699"] = 1489970,
-			["mr"] = 1489970,
+		["Klagegeistgürtel des Rivalen"] = {
+			["H699"] = 8990000,
+			["mr"] = 8990000,
 		},
 		["Armschiene - Sturmangriff"] = {
 			["H699"] = 71500,
 			["mr"] = 71500,
 		},
-		["Mal von Kil'jaeden"] = {
-			["H699"] = 35999,
-			["mr"] = 35999,
+		["Juwelengeschmückte Zauberklinge des Wals"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
-		["Schattenkristall des Wächters"] = {
-			["H699"] = 149900,
-			["mr"] = 149900,
+		["Kühles Fleisch"] = {
+			["H699"] = 10500,
+			["mr"] = 10500,
 		},
-		["Elixier der Mantis"] = {
-			["H699"] = 15000,
-			["mr"] = 15000,
+		["Scheinende Armschienen der Wärme"] = {
+			["H699"] = 35000000,
+			["mr"] = 35000000,
 		},
-		["Nadelpilze"] = {
-			["H699"] = 50000,
-			["mr"] = 50000,
+		["Großer Schattenschutztrank"] = {
+			["H699"] = 5000,
+			["mr"] = 5000,
 		},
 		["Geistergeschmiedete Schultern der Schildwache"] = {
 			["H699"] = 3550000,
 			["mr"] = 3550000,
 		},
-		["Pfirsichpastete"] = {
-			["H699"] = 34509,
-			["mr"] = 34509,
+		["Flüsterwams des Affen"] = {
+			["H699"] = 1197500,
+			["mr"] = 1197500,
 		},
 		["Graviertes Schwert des Schützen"] = {
 			["H699"] = 775674,
 			["mr"] = 775674,
 		},
-		["Perfekter glasiger Chiastolith"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Verzauberte Laterne"] = {
+			["H699"] = 3700000,
+			["mr"] = 3700000,
 		},
 		["Schattenfeuerhalskette des Felssturzes"] = {
 			["H699"] = 3097500,
@@ -8756,9 +8779,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 6900,
 			["mr"] = 6900,
 		},
-		["Flüsterwams des Affen"] = {
-			["H699"] = 1197500,
-			["mr"] = 1197500,
+		["Pfirsichpastete"] = {
+			["H699"] = 34509,
+			["mr"] = 34509,
 		},
 		["Lotuswasser"] = {
 			["H699"] = 388000,
@@ -8768,21 +8791,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 4500,
 			["mr"] = 4500,
 		},
-		["Muster: Modisches grünes Hemd"] = {
-			["H699"] = 9990000,
-			["mr"] = 9990000,
+		["Mystikerwollwäsche"] = {
+			["H699"] = 3000,
+			["mr"] = 3000,
 		},
-		["Flüchtiges Wasser"] = {
-			["H699"] = 28710,
-			["mr"] = 28710,
+		["Glyphe 'Blitz'"] = {
+			["H699"] = 1396987,
+			["mr"] = 1396987,
 		},
 		["Drei des Chaos"] = {
 			["H699"] = 1899999,
 			["mr"] = 1899999,
 		},
-		["Glyphe 'Göttlicher Schutz'"] = {
-			["H699"] = 50000,
-			["mr"] = 50000,
+		["Juwelenbesetzter Zauberstab des Hitzeschocks"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Jaspisminenbrustplatte der Verwerfung"] = {
 			["H699"] = 5500000,
@@ -8792,13 +8815,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 30000,
 			["mr"] = 30000,
 		},
-		["Flüchtiges Feuer"] = {
-			["H699"] = 10063,
-			["mr"] = 10063,
-		},
 		["Frakturierte Lichtgemme"] = {
 			["H699"] = 12499900,
 			["mr"] = 12499900,
+		},
+		["Schamanischer Ring der Talsohle"] = {
+			["H699"] = 180000,
+			["mr"] = 180000,
 		},
 		["Traumblatt"] = {
 			["H699"] = 19300,
@@ -8808,25 +8831,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 492344,
 			["mr"] = 492344,
 		},
-		["Sumpfbindungen des Affen"] = {
-			["H699"] = 1490000,
-			["mr"] = 1490000,
+		["Umhang - Präzision"] = {
+			["H699"] = 1047500,
+			["mr"] = 1047500,
 		},
 		["Nachtsteinhalsreif des Banditen"] = {
 			["H699"] = 210000,
 			["mr"] = 210000,
 		},
+		["Sieben der Ochsen"] = {
+			["H699"] = 119998462,
+			["mr"] = 119998462,
+		},
 		["Gesteppte Gamaschen des Ältesten"] = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Vorlage: Massiver Stern der Elune"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
-		},
-		["Schamanischer Ring der Talsohle"] = {
-			["H699"] = 180000,
-			["mr"] = 180000,
+		["Saronitbarren"] = {
+			["H699"] = 19999,
+			["mr"] = 19999,
 		},
 		["Schwarze Königsnatter"] = {
 			["H699"] = 4899,
@@ -8836,39 +8859,35 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 27026,
 			["mr"] = 27026,
 		},
-		["Glyphe 'Verwehrende Stöße'"] = {
-			["H699"] = 114499,
-			["mr"] = 114499,
+		["Hammelkoteletts"] = {
+			["H699"] = 5000,
+			["mr"] = 5000,
 		},
 		["Orcafußlappen der Intelligenz"] = {
 			["H699"] = 1208500,
 			["mr"] = 1208500,
 		},
-		["Knotenhautleder"] = {
-			["H699"] = 12800,
-			["mr"] = 12800,
+		["Rosa Rübe"] = {
+			["H699"] = 93500,
+			["mr"] = 93500,
+		},
+		["Glyphe 'Verwehrende Stöße'"] = {
+			["H699"] = 114499,
+			["mr"] = 114499,
 		},
 		["Tagebuch des Abenteurers"] = {
 			["H699"] = 39764,
 			["mr"] = 39764,
 		},
-		["Nerubische Schultern"] = {
-			["H699"] = 218875,
-			["mr"] = 218875,
-		},
-		["Trank der Mogukraft"] = {
-			["H699"] = 119500,
-			["mr"] = 119500,
-		},
 		["Ominöser Dolch der Eule"] = {
 			["H699"] = 4500000,
 			["mr"] = 4500000,
 		},
-		["Formel: Großer Prismasplitter"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Knotenhautleder"] = {
+			["H699"] = 12800,
+			["mr"] = 12800,
 		},
-		["Filigranes scharlachrotes Hemd"] = {
+		["Formel: Großer Prismasplitter"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
@@ -8876,9 +8895,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1498999,
 			["mr"] = 1498999,
 		},
-		["Glyphe 'Mantel der Schatten'"] = {
-			["H699"] = 1447220,
-			["mr"] = 1447220,
+		["Formel: Schwaches Manaöl"] = {
+			["H699"] = 731249,
+			["mr"] = 731249,
+		},
+		["Glyphe 'Rechtschaffener Rückzug'"] = {
+			["H699"] = 1500000,
+			["mr"] = 1500000,
 		},
 		["Bruchfester Aragonit"] = {
 			["H699"] = 988000,
@@ -8892,41 +8915,41 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1497499,
 			["mr"] = 1497499,
 		},
-		["Pläne: Thoriumrüstung"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Glyphe 'Verwandlung'"] = {
+			["H699"] = 1499999,
+			["mr"] = 1499999,
 		},
-		["Glyphe 'Rechtschaffener Rückzug'"] = {
-			["H699"] = 1500000,
-			["mr"] = 1500000,
+		["Barbarische Schultern"] = {
+			["H699"] = 99999,
+			["mr"] = 99999,
 		},
 		["Aragonit"] = {
 			["mr"] = 4452400,
-			["L699"] = 4452400,
-			["id"] = "76140",
 			["sc"] = 6,
+			["id"] = "76140",
+			["L699"] = 4452400,
 			["H699"] = 4497400,
 			["cc"] = 8,
 		},
-		["Katzentransportkorb (Siamkatze)"] = {
-			["H699"] = 4444444,
-			["mr"] = 4444444,
+		["Dickes Grollhufleder"] = {
+			["H699"] = 31728,
+			["mr"] = 31728,
 		},
 		["Pläne: Dunkelrunenbrustplatte"] = {
 			["H699"] = 10000000,
 			["mr"] = 10000000,
 		},
-		["Glyphe 'Verwandlung'"] = {
-			["H699"] = 1499999,
-			["mr"] = 1499999,
+		["Pläne: Thoriumrüstung"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
-		["Verschmorte Verkabelung"] = {
-			["H699"] = 49980,
-			["mr"] = 49980,
+		["Formel: Überragendes Manaöl"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
-		["Dills' urzeitliche Gamaschen"] = {
-			["H699"] = 15000000,
-			["mr"] = 15000000,
+		["Pläne: Thoriumgürtel"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Armschiene - Intelligenz"] = {
 			["H699"] = 5000,
@@ -8940,53 +8963,53 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 895802,
 			["mr"] = 895802,
 		},
-		["Juwelenbesetzter Zauberstab des Herbeirufers"] = {
-			["H699"] = 280000,
-			["mr"] = 280000,
+		["Adelsbeinschützer des Frostwiderstands"] = {
+			["H699"] = 199900,
+			["mr"] = 199900,
 		},
-		["Glyphe 'Blenden'"] = {
-			["H699"] = 1499999,
-			["mr"] = 1499999,
+		["Geheimnisvoller Zauberfoliant"] = {
+			["H699"] = 2222222,
+			["mr"] = 2222222,
 		},
 		["Glyphe 'Eisige Berührung'"] = {
 			["H699"] = 87499,
 			["mr"] = 87499,
 		},
-		["Glyphe 'Betäubender Schild'"] = {
-			["H699"] = 1498998,
-			["mr"] = 1498998,
+		["Höhengipfelunterarmschienen der Bestie"] = {
+			["H699"] = 699800,
+			["mr"] = 699800,
 		},
-		["Kraftvoller Dioptas"] = {
-			["H699"] = 87708,
-			["mr"] = 87708,
+		["Formel: Umhang - Überragende Verteidigung"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
-		["Juwelengeschmückte Zauberklinge der Wirbelströmung"] = {
-			["H699"] = 769999,
-			["mr"] = 769999,
+		["Formel: Zweihandwaffe - Geringe Intelligenz"] = {
+			["H699"] = 500,
+			["mr"] = 500,
 		},
-		["Mauerstulpen des Söldners"] = {
-			["H699"] = 1224997,
-			["mr"] = 1224997,
+		["Konsortiumstiefel des Adlers"] = {
+			["H699"] = 110223,
+			["mr"] = 110223,
 		},
 		["Glyphe 'Beichte'"] = {
 			["H699"] = 1200000,
 			["mr"] = 1200000,
 		},
-		["Glyphe 'Baumrinde'"] = {
-			["H699"] = 1499999,
-			["mr"] = 1499999,
+		["Frakturierter Sonnenstein"] = {
+			["H699"] = 28029,
+			["mr"] = 28029,
 		},
-		["Glyphe 'Aspekt des Rudels'"] = {
-			["H699"] = 493317,
-			["mr"] = 493317,
+		["Schattenfeuerhalskette der Wirbelströmung"] = {
+			["H699"] = 10000000,
+			["mr"] = 10000000,
 		},
 		["Glyphe 'Ausbruch'"] = {
 			["H699"] = 69999,
 			["mr"] = 69999,
 		},
-		["Glyphe 'Auf die Hörner nehmen'"] = {
-			["H699"] = 643177,
-			["mr"] = 643177,
+		["Glyphe 'Anregen'"] = {
+			["H699"] = 1499999,
+			["mr"] = 1499999,
 		},
 		["Sekret des Untodes"] = {
 			["H699"] = 11000,
@@ -9008,17 +9031,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 340200,
 			["mr"] = 340200,
 		},
-		["Schneller Blumenstrauß"] = {
-			["H699"] = 79500000,
-			["mr"] = 79500000,
+		["Glyphe 'Anhaltende Infektion'"] = {
+			["H699"] = 484175,
+			["mr"] = 484175,
 		},
-		["Flüsterschultern des Banditen"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Vier der Kraniche"] = {
+			["H699"] = 74999999,
+			["mr"] = 74999999,
 		},
-		["Zerstörerischer Bergkristall"] = {
-			["H699"] = 17657845,
-			["mr"] = 17657845,
+		["Muster: Sonnengetränkter Schuppenbrustschutz"] = {
+			["H699"] = 75000000,
+			["mr"] = 75000000,
 		},
 		["Khoriumerz"] = {
 			["H699"] = 49999,
@@ -9032,65 +9055,65 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1887394,
 			["mr"] = 1887394,
 		},
-		["Nerubische Stiefel"] = {
-			["H699"] = 97292,
-			["mr"] = 97292,
+		["Juwelenbesetztes Szepter des Wals"] = {
+			["H699"] = 3000000,
+			["mr"] = 3000000,
 		},
 		["G91-Landhai"] = {
 			["H699"] = 138000,
 			["mr"] = 138000,
 		},
-		["Dunkelgrundperle"] = {
-			["H699"] = 300000,
-			["mr"] = 300000,
-		},
-		["Yakbeinschützer des Affen"] = {
-			["H699"] = 2857500,
-			["mr"] = 2857500,
-		},
-		["Zerschmetterter Dioptas"] = {
-			["H699"] = 1449898,
-			["mr"] = 1449898,
-		},
-		["Wahrsagerrunen"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
-		},
-		["Muster: Kernteufelsstofftasche"] = {
-			["H699"] = 1249999,
-			["mr"] = 1249999,
-		},
-		["Sechs der Funken"] = {
-			["H699"] = 20000000,
-			["mr"] = 20000000,
-		},
-		["Thermischer Amboss"] = {
-			["H699"] = 74250,
-			["mr"] = 74250,
-		},
-		["Rezept: Glänzender Kleinfisch"] = {
-			["H699"] = 144400,
-			["mr"] = 144400,
+		["Vorlage: Majestätischer Jaspis"] = {
+			["H699"] = 949000,
+			["mr"] = 949000,
 		},
 		["Bombaykatze"] = {
 			["H699"] = 44900,
 			["mr"] = 44900,
 		},
+		["Geistergeschmiedeter Gürtel der Schildwache"] = {
+			["H699"] = 3550000,
+			["mr"] = 3550000,
+		},
+		["Wahrsagerrunen"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
+		},
+		["Rezept: Glänzender Kleinfisch"] = {
+			["H699"] = 144400,
+			["mr"] = 144400,
+		},
+		["Yakbeinschützer des Affen"] = {
+			["H699"] = 2857500,
+			["mr"] = 2857500,
+		},
+		["Garnelenklößchen"] = {
+			["H699"] = 200000,
+			["mr"] = 200000,
+		},
+		["Weidenhelm des Affen"] = {
+			["H699"] = 369894,
+			["mr"] = 369894,
+		},
+		["Schlangenweste des Schützen"] = {
+			["H699"] = 3399800,
+			["mr"] = 3399800,
+		},
 		["Sumpfbindungen des Schützen"] = {
 			["H699"] = 1999900,
 			["mr"] = 1999900,
 		},
-		["Armschiene - Erhebliche Intelligenz"] = {
-			["H699"] = 15000,
-			["mr"] = 15000,
+		["Muster: Barbarische Armschienen"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Glyphe 'Inquisition'"] = {
 			["H699"] = 2985976,
 			["mr"] = 2985976,
 		},
-		["Muster: Barbarische Armschienen"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Kristallskarabäus"] = {
+			["H699"] = 174500,
+			["mr"] = 174500,
 		},
 		["Vier der Ochsen"] = {
 			["H699"] = 15499999,
@@ -9112,21 +9135,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2988990,
 			["mr"] = 2988990,
 		},
-		["Blutritterschlägel der Beweglichkeit"] = {
-			["H699"] = 268683,
-			["mr"] = 268683,
+		["Entwaffneter mechanischer Begleiter"] = {
+			["H699"] = 9980000,
+			["mr"] = 9980000,
 		},
 		["Teufelsblüte"] = {
 			["H699"] = 21000,
 			["mr"] = 21000,
 		},
-		["Gebratene Karotten"] = {
-			["H699"] = 200000,
-			["mr"] = 200000,
+		["Äscherne Pigmente"] = {
+			["H699"] = 7300,
+			["mr"] = 7300,
 		},
-		["Glyphe 'Verschwimmen'"] = {
-			["H699"] = 349998,
-			["mr"] = 349998,
+		["Gegerbte Lederstiefel"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Meisterhafter Geisterwachenhelm"] = {
 			["H699"] = 9999999,
@@ -9144,17 +9167,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2997500,
 			["mr"] = 2997500,
 		},
-		["Glyphe 'Aderlass'"] = {
-			["H699"] = 474000,
-			["mr"] = 474000,
+		["Winzige Schieferspinne"] = {
+			["H699"] = 35000002,
+			["mr"] = 35000002,
 		},
 		["Glyphe 'Totem des heilenden Flusses'"] = {
 			["H699"] = 125998,
 			["mr"] = 125998,
 		},
-		["Erdwurzel"] = {
-			["H699"] = 8900,
-			["mr"] = 8900,
+		["Eingefangene Flamme"] = {
+			["H699"] = 30000000,
+			["mr"] = 30000000,
 		},
 		["Geheimnisvoller Kunzit"] = {
 			["H699"] = 1980000,
@@ -9164,29 +9187,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 249999999,
 			["mr"] = 249999999,
 		},
-		["Brauereihandgelenkwickel des Feuersturms"] = {
-			["H699"] = 300000,
-			["mr"] = 300000,
-		},
-		["Arktischer Pelz"] = {
-			["H699"] = 220000,
-			["mr"] = 220000,
+		["Segen 6"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
 		},
 		["Tasche der endlosen Fächer"] = {
 			["H699"] = 2500000,
 			["mr"] = 2500000,
 		},
-		["Rezept: Geröstete Mondweidenlenden"] = {
-			["H699"] = 4990000,
-			["mr"] = 4990000,
+		["Nebelbalgbrustschutz des Mistrals"] = {
+			["H699"] = 900000,
+			["mr"] = 900000,
+		},
+		["Kavans abgelegte Treter"] = {
+			["H699"] = 9990000,
+			["mr"] = 9990000,
 		},
 		["Elegantes Kleid"] = {
 			["H699"] = 120000,
 			["mr"] = 120000,
 		},
-		["Glutseidenverband"] = {
-			["H699"] = 5300,
-			["mr"] = 5300,
+		["Bauplan: Empfindlicher Arkanitwandler"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Mystischer Foliant"] = {
 			["H699"] = 18800,
@@ -9196,9 +9219,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Sumpfbindungen der Bora"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
+		["Hieroglyphen der Tol'vir"] = {
+			["H699"] = 400000,
+			["mr"] = 400000,
 		},
 		["Worgschenkel"] = {
 			["H699"] = 8134,
@@ -9216,13 +9239,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1099999,
 			["mr"] = 1099999,
 		},
-		["Muster: Runenverzierte stygische Gamaschen"] = {
-			["H699"] = 10000000,
-			["mr"] = 10000000,
+		["Sonnensteinpanther"] = {
+			["H699"] = 395000000,
+			["mr"] = 395000000,
 		},
-		["Getrocknete Pfirsiche"] = {
-			["H699"] = 5544,
-			["mr"] = 5544,
+		["Veredelter Malachitring"] = {
+			["H699"] = 4550,
+			["mr"] = 4550,
 		},
 		["Schattenfeuerhalskette der Schaumkrone"] = {
 			["H699"] = 3000000,
@@ -9244,9 +9267,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Geschwindigkeitstrank"] = {
-			["H699"] = 29800,
-			["mr"] = 29800,
+		["Nebelbalggürtel des Zephirs"] = {
+			["H699"] = 9500000,
+			["mr"] = 9500000,
 		},
 		["Echtgold"] = {
 			["H699"] = 1999999,
@@ -9272,29 +9295,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 989998,
 			["mr"] = 989998,
 		},
-		["Filigranes himmelblaues Hemd"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Geisterpilz"] = {
+			["H699"] = 16650,
+			["mr"] = 16650,
 		},
-		["Fernhainhose der Ausdauer"] = {
-			["H699"] = 179127,
-			["mr"] = 179127,
+		["Wachsende Sandalen des Hitzeschocks"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Pläne: Sturmstulpen"] = {
 			["H699"] = 999996,
 			["mr"] = 999996,
 		},
-		["Talasit"] = {
-			["H699"] = 60275,
-			["mr"] = 60275,
+		["Geisterstaub"] = {
+			["H699"] = 77499,
+			["mr"] = 77499,
 		},
 		["Formel: Armschiene - Ausweichen"] = {
 			["H699"] = 4039790,
 			["mr"] = 4039790,
 		},
-		["Pläne: Hammer der Titanen"] = {
-			["H699"] = 3000796,
-			["mr"] = 3000796,
+		["Armschiene - Erhebliche Willenskraft"] = {
+			["H699"] = 250000,
+			["mr"] = 250000,
 		},
 		["Gleißendes Claymore des Ebers"] = {
 			["H699"] = 8070,
@@ -9304,13 +9327,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 17500,
 			["mr"] = 17500,
 		},
-		["Armschiene - Erhebliche Willenskraft"] = {
-			["H699"] = 250000,
-			["mr"] = 250000,
+		["Elixier der mächtigen Seelenstärke"] = {
+			["H699"] = 19800,
+			["mr"] = 19800,
 		},
-		["Geringer Manatrank"] = {
-			["H699"] = 1750,
-			["mr"] = 1750,
+		["Präziser Infernorubin"] = {
+			["H699"] = 132096,
+			["mr"] = 132096,
 		},
 		["Zerbrechliche Klinge der Bedeutung"] = {
 			["H699"] = 3900000,
@@ -9336,25 +9359,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 990000,
 			["mr"] = 990000,
 		},
-		["Graviertes Schwert der Bestie"] = {
-			["H699"] = 3000000,
-			["mr"] = 3000000,
+		["Polierter Stab des Wals"] = {
+			["H699"] = 1478440,
+			["mr"] = 1478440,
 		},
 		["Spiegelnder Goldberyll"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Gebirgsbeinschützer des Affen"] = {
-			["H699"] = 2699800,
-			["mr"] = 2699800,
-		},
-		["Pläne: Mithrilschuppenarmschienen"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Graviertes Schwert der Bestie"] = {
+			["H699"] = 3000000,
+			["mr"] = 3000000,
 		},
 		["Massiver Zephyrit"] = {
 			["H699"] = 206000,
 			["mr"] = 206000,
+		},
+		["Gebirgsbeinschützer des Affen"] = {
+			["H699"] = 2699800,
+			["mr"] = 2699800,
 		},
 		["Elfenperidot"] = {
 			["H699"] = 120000,
@@ -9364,9 +9387,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 163192,
 			["mr"] = 163192,
 		},
-		["Äonenerde"] = {
-			["H699"] = 128500,
-			["mr"] = 128500,
+		["Fischi"] = {
+			["H699"] = 250000,
+			["mr"] = 250000,
 		},
 		["Purpurpeitscher"] = {
 			["H699"] = 25000000,
@@ -9380,9 +9403,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1599800,
 			["mr"] = 1599800,
 		},
-		["Einfädler"] = {
-			["H699"] = 125000,
-			["mr"] = 125000,
+		["Große kosmische Essenz"] = {
+			["mr"] = 69500,
+			["cc"] = 6,
+			["id"] = "34055",
+			["L699"] = 69500,
+			["H699"] = 70000,
+			["sc"] = 7,
 		},
 		["Phasenverschobenes Fleisch"] = {
 			["H699"] = 1725,
@@ -9392,37 +9419,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 100100,
 			["mr"] = 100100,
 		},
-		["Muster: Cape der Entschlossenheit"] = {
-			["H699"] = 35000000,
-			["mr"] = 35000000,
-		},
-		["Brust - Erhebliche Gesundheit"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Zwei der Funken"] = {
+			["H699"] = 900000,
+			["mr"] = 900000,
 		},
 		["Gelber Machtkristall"] = {
 			["H699"] = 149228,
 			["mr"] = 149228,
 		},
-		["Zwei der Funken"] = {
-			["H699"] = 900000,
-			["mr"] = 900000,
+		["Brust - Erhebliche Gesundheit"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
-		["Große kosmische Essenz"] = {
-			["mr"] = 69500,
-			["L699"] = 69500,
-			["id"] = "34055",
-			["cc"] = 6,
-			["H699"] = 70000,
-			["sc"] = 7,
+		["Muster: Cape der Entschlossenheit"] = {
+			["H699"] = 35000000,
+			["mr"] = 35000000,
+		},
+		["Einfädler"] = {
+			["H699"] = 125000,
+			["mr"] = 125000,
 		},
 		["Glorreicher Gürtel des Tigers"] = {
 			["H699"] = 86268,
 			["mr"] = 86268,
 		},
-		["Fischi"] = {
-			["H699"] = 250000,
-			["mr"] = 250000,
+		["Äonenerde"] = {
+			["H699"] = 128500,
+			["mr"] = 128500,
 		},
 		["Vorlage: Rubinschlange"] = {
 			["H699"] = 1440000,
@@ -9436,33 +9459,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 14000000,
 			["mr"] = 14000000,
 		},
-		["Polierter Stab des Wals"] = {
-			["H699"] = 1478440,
-			["mr"] = 1478440,
+		["Pläne: Mithrilschuppenarmschienen"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Nebelbalghandschuhe des Mistrals"] = {
 			["H699"] = 1490000,
 			["mr"] = 1490000,
 		},
-		["Präziser Infernorubin"] = {
-			["H699"] = 132096,
-			["mr"] = 132096,
+		["Geringer Manatrank"] = {
+			["H699"] = 1750,
+			["mr"] = 1750,
 		},
-		["Geisterstaub"] = {
-			["H699"] = 77499,
-			["mr"] = 77499,
+		["Fernhainhose der Ausdauer"] = {
+			["H699"] = 179127,
+			["mr"] = 179127,
 		},
-		["Geisterpilz"] = {
-			["H699"] = 16650,
-			["mr"] = 16650,
+		["Talasit"] = {
+			["H699"] = 60275,
+			["mr"] = 60275,
 		},
-		["Wachsende Sandalen des Hitzeschocks"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Pläne: Hammer der Titanen"] = {
+			["H699"] = 3000796,
+			["mr"] = 3000796,
 		},
-		["Elixier der mächtigen Seelenstärke"] = {
-			["H699"] = 19800,
-			["mr"] = 19800,
+		["Filigranes himmelblaues Hemd"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Knuspriges Spinnenbein"] = {
 			["H699"] = 14455,
@@ -9472,9 +9495,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 25000000,
 			["mr"] = 25000000,
 		},
-		["Nebelbalggürtel des Zephirs"] = {
-			["H699"] = 9500000,
-			["mr"] = 9500000,
+		["Geschwindigkeitstrank"] = {
+			["H699"] = 29800,
+			["mr"] = 29800,
 		},
 		["Katzentransportkorb (Weißes Kätzchen)"] = {
 			["H699"] = 9789999,
@@ -9484,65 +9507,65 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 96069,
 			["mr"] = 96069,
 		},
-		["Veredelter Malachitring"] = {
-			["H699"] = 4550,
-			["mr"] = 4550,
+		["Getrocknete Pfirsiche"] = {
+			["H699"] = 5544,
+			["mr"] = 5544,
 		},
-		["Sonnensteinpanther"] = {
-			["H699"] = 395000000,
-			["mr"] = 395000000,
+		["Muster: Runenverzierte stygische Gamaschen"] = {
+			["H699"] = 10000000,
+			["mr"] = 10000000,
 		},
 		["Bergsilbersalbei"] = {
 			["H699"] = 27999,
 			["mr"] = 27999,
 		},
-		["Hieroglyphen der Tol'vir"] = {
-			["H699"] = 400000,
-			["mr"] = 400000,
+		["Glutseidenverband"] = {
+			["H699"] = 5300,
+			["mr"] = 5300,
 		},
 		["Thoriumerz"] = {
 			["H699"] = 11111,
 			["mr"] = 11111,
 		},
-		["Kavans abgelegte Treter"] = {
-			["H699"] = 9990000,
-			["mr"] = 9990000,
+		["Sumpfbindungen der Bora"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
-		["Bauplan: Empfindlicher Arkanitwandler"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Rezept: Geröstete Mondweidenlenden"] = {
+			["H699"] = 4990000,
+			["mr"] = 4990000,
 		},
-		["Segen 6"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Arktischer Pelz"] = {
+			["H699"] = 220000,
+			["mr"] = 220000,
 		},
-		["Eingefangene Flamme"] = {
-			["H699"] = 30000000,
-			["mr"] = 30000000,
+		["Brauereihandgelenkwickel des Feuersturms"] = {
+			["H699"] = 300000,
+			["mr"] = 300000,
 		},
-		["Nebelbalgbrustschutz des Mistrals"] = {
-			["H699"] = 900000,
-			["mr"] = 900000,
+		["Erdwurzel"] = {
+			["H699"] = 8900,
+			["mr"] = 8900,
 		},
-		["Winzige Schieferspinne"] = {
-			["H699"] = 35000002,
-			["mr"] = 35000002,
+		["Glyphe 'Aderlass'"] = {
+			["H699"] = 474000,
+			["mr"] = 474000,
 		},
 		["Katzentransportkorb (Orangefarbene Tigerkatze)"] = {
 			["H699"] = 1000000,
 			["mr"] = 1000000,
 		},
-		["Gegerbte Lederstiefel"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Glyphe 'Verschwimmen'"] = {
+			["H699"] = 349998,
+			["mr"] = 349998,
 		},
-		["Äscherne Pigmente"] = {
-			["H699"] = 7300,
-			["mr"] = 7300,
+		["Gebratene Karotten"] = {
+			["H699"] = 200000,
+			["mr"] = 200000,
 		},
-		["Entwaffneter mechanischer Begleiter"] = {
-			["H699"] = 9980000,
-			["mr"] = 9980000,
+		["Blutritterschlägel der Beweglichkeit"] = {
+			["H699"] = 268683,
+			["mr"] = 268683,
 		},
 		["Enokianischer Wuschschulterschutz"] = {
 			["H699"] = 5990000,
@@ -9552,57 +9575,57 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 24799,
 			["mr"] = 24799,
 		},
-		["Garnelenklößchen"] = {
-			["H699"] = 200000,
-			["mr"] = 200000,
+		["Armschiene - Erhebliche Intelligenz"] = {
+			["H699"] = 15000,
+			["mr"] = 15000,
 		},
 		["Geistergeschmiedete Brustplatte des Helden"] = {
 			["H699"] = 940000,
 			["mr"] = 940000,
 		},
-		["Kristallskarabäus"] = {
-			["H699"] = 174500,
-			["mr"] = 174500,
+		["Muster: Kernteufelsstofftasche"] = {
+			["H699"] = 1249999,
+			["mr"] = 1249999,
 		},
-		["Schlangenweste des Schützen"] = {
-			["H699"] = 3399800,
-			["mr"] = 3399800,
+		["Sechs der Funken"] = {
+			["H699"] = 20000000,
+			["mr"] = 20000000,
 		},
-		["Geistergeschmiedeter Gürtel der Schildwache"] = {
-			["H699"] = 3550000,
-			["mr"] = 3550000,
+		["Thermischer Amboss"] = {
+			["H699"] = 74250,
+			["mr"] = 74250,
 		},
-		["Weidenhelm des Affen"] = {
-			["H699"] = 369894,
-			["mr"] = 369894,
+		["Nerubische Stiefel"] = {
+			["H699"] = 97292,
+			["mr"] = 97292,
 		},
-		["Vorlage: Majestätischer Jaspis"] = {
-			["H699"] = 949000,
-			["mr"] = 949000,
+		["Zerschmetterter Dioptas"] = {
+			["H699"] = 1449898,
+			["mr"] = 1449898,
 		},
 		["Machtvoller Chiastolith"] = {
 			["H699"] = 2189999,
 			["mr"] = 2189999,
 		},
-		["Juwelenbesetztes Szepter des Wals"] = {
-			["H699"] = 3000000,
-			["mr"] = 3000000,
+		["Dunkelgrundperle"] = {
+			["H699"] = 300000,
+			["mr"] = 300000,
 		},
 		["Urerde"] = {
 			["H699"] = 9000,
 			["mr"] = 9000,
 		},
-		["Muster: Sonnengetränkter Schuppenbrustschutz"] = {
-			["H699"] = 75000000,
-			["mr"] = 75000000,
+		["Zerstörerischer Bergkristall"] = {
+			["H699"] = 17657845,
+			["mr"] = 17657845,
 		},
-		["Vier der Kraniche"] = {
-			["H699"] = 74999999,
-			["mr"] = 74999999,
+		["Flüsterschultern des Banditen"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Glyphe 'Anhaltende Infektion'"] = {
-			["H699"] = 484175,
-			["mr"] = 484175,
+		["Schneller Blumenstrauß"] = {
+			["H699"] = 79500000,
+			["mr"] = 79500000,
 		},
 		["Sonnenstein"] = {
 			["H699"] = 59400,
@@ -9612,77 +9635,77 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1250000,
 			["mr"] = 1250000,
 		},
-		["Glyphe 'Anregen'"] = {
-			["H699"] = 1499999,
-			["mr"] = 1499999,
+		["Glyphe 'Auf die Hörner nehmen'"] = {
+			["H699"] = 643177,
+			["mr"] = 643177,
 		},
 		["Glyphe 'Feenstille'"] = {
 			["H699"] = 30000,
 			["mr"] = 30000,
 		},
-		["Schattenfeuerhalskette der Wirbelströmung"] = {
-			["H699"] = 10000000,
-			["mr"] = 10000000,
+		["Glyphe 'Aspekt des Rudels'"] = {
+			["H699"] = 493317,
+			["mr"] = 493317,
 		},
-		["Frakturierter Sonnenstein"] = {
-			["H699"] = 28029,
-			["mr"] = 28029,
+		["Glyphe 'Baumrinde'"] = {
+			["H699"] = 1499999,
+			["mr"] = 1499999,
 		},
 		["Glyphe 'Geistbande'"] = {
 			["H699"] = 998999,
 			["mr"] = 998999,
 		},
-		["Konsortiumstiefel des Adlers"] = {
-			["H699"] = 110223,
-			["mr"] = 110223,
+		["Mauerstulpen des Söldners"] = {
+			["H699"] = 1224997,
+			["mr"] = 1224997,
 		},
-		["Formel: Zweihandwaffe - Geringe Intelligenz"] = {
-			["H699"] = 500,
-			["mr"] = 500,
+		["Juwelengeschmückte Zauberklinge der Wirbelströmung"] = {
+			["H699"] = 769999,
+			["mr"] = 769999,
 		},
-		["Formel: Umhang - Überragende Verteidigung"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Kraftvoller Dioptas"] = {
+			["H699"] = 87708,
+			["mr"] = 87708,
 		},
-		["Höhengipfelunterarmschienen der Bestie"] = {
-			["H699"] = 699800,
-			["mr"] = 699800,
+		["Glyphe 'Betäubender Schild'"] = {
+			["H699"] = 1498998,
+			["mr"] = 1498998,
 		},
-		["Geheimnisvoller Zauberfoliant"] = {
-			["H699"] = 2222222,
-			["mr"] = 2222222,
+		["Glyphe 'Blenden'"] = {
+			["H699"] = 1499999,
+			["mr"] = 1499999,
 		},
-		["Adelsbeinschützer des Frostwiderstands"] = {
-			["H699"] = 199900,
-			["mr"] = 199900,
+		["Juwelenbesetzter Zauberstab des Herbeirufers"] = {
+			["H699"] = 280000,
+			["mr"] = 280000,
 		},
-		["Pläne: Thoriumgürtel"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Verschmorte Verkabelung"] = {
+			["H699"] = 49980,
+			["mr"] = 49980,
 		},
-		["Formel: Überragendes Manaöl"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Katzentransportkorb (Siamkatze)"] = {
+			["H699"] = 4444444,
+			["mr"] = 4444444,
 		},
-		["Dickes Grollhufleder"] = {
-			["H699"] = 31728,
-			["mr"] = 31728,
-		},
-		["Formel: Schwaches Manaöl"] = {
-			["H699"] = 731249,
-			["mr"] = 731249,
+		["Dills' urzeitliche Gamaschen"] = {
+			["H699"] = 15000000,
+			["mr"] = 15000000,
 		},
 		["Majestätischer Traumsmaragd"] = {
 			["H699"] = 289883,
 			["mr"] = 289883,
 		},
+		["Glyphe 'Mantel der Schatten'"] = {
+			["H699"] = 1447220,
+			["mr"] = 1447220,
+		},
 		["Mushanlederschultern des Schützen"] = {
 			["H699"] = 1215500,
 			["mr"] = 1215500,
 		},
-		["Barbarische Schultern"] = {
-			["H699"] = 99999,
-			["mr"] = 99999,
+		["Filigranes scharlachrotes Hemd"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Astralanische Kugel der Willenskraft"] = {
 			["H699"] = 109104,
@@ -9696,49 +9719,49 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 972,
 			["mr"] = 972,
 		},
-		["Rosa Rübe"] = {
-			["H699"] = 93500,
-			["mr"] = 93500,
+		["Trank der Mogukraft"] = {
+			["H699"] = 119500,
+			["mr"] = 119500,
 		},
-		["Sieben der Ochsen"] = {
-			["H699"] = 119998462,
-			["mr"] = 119998462,
+		["Nerubische Schultern"] = {
+			["H699"] = 218875,
+			["mr"] = 218875,
 		},
 		["Schattenfeuerhalskette des Hitzeschocks"] = {
 			["H699"] = 10000000,
 			["mr"] = 10000000,
 		},
-		["Hammelkoteletts"] = {
-			["H699"] = 5000,
-			["mr"] = 5000,
+		["Vorlage: Massiver Stern der Elune"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
-		["Saronitbarren"] = {
-			["H699"] = 19999,
-			["mr"] = 19999,
+		["Sumpfbindungen des Affen"] = {
+			["H699"] = 1490000,
+			["mr"] = 1490000,
 		},
 		["Glyphe 'Schattenwandeln'"] = {
 			["H699"] = 1489970,
 			["mr"] = 1489970,
 		},
-		["Umhang - Präzision"] = {
-			["H699"] = 1047500,
-			["mr"] = 1047500,
+		["Flüchtiges Feuer"] = {
+			["H699"] = 10063,
+			["mr"] = 10063,
 		},
 		["Tücher des Drachenschreins"] = {
 			["H699"] = 10000000,
 			["mr"] = 10000000,
 		},
-		["Juwelenbesetzter Zauberstab des Hitzeschocks"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Glyphe 'Göttlicher Schutz'"] = {
+			["H699"] = 50000,
+			["mr"] = 50000,
 		},
-		["Glyphe 'Blitz'"] = {
-			["H699"] = 1396987,
-			["mr"] = 1396987,
+		["Flüchtiges Wasser"] = {
+			["H699"] = 28710,
+			["mr"] = 28710,
 		},
-		["Mystikerwollwäsche"] = {
-			["H699"] = 3000,
-			["mr"] = 3000,
+		["Muster: Modisches grünes Hemd"] = {
+			["H699"] = 9990000,
+			["mr"] = 9990000,
 		},
 		["Nebelbalgarmschienen des Mistrals"] = {
 			["H699"] = 1180000,
@@ -9748,33 +9771,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1100000,
 			["mr"] = 1100000,
 		},
-		["Kühles Fleisch"] = {
-			["H699"] = 10500,
-			["mr"] = 10500,
+		["Schattenkristall des Wächters"] = {
+			["H699"] = 149900,
+			["mr"] = 149900,
 		},
-		["Verzauberte Laterne"] = {
-			["H699"] = 3700000,
-			["mr"] = 3700000,
+		["Glyphe 'Tritt'"] = {
+			["H699"] = 1489970,
+			["mr"] = 1489970,
 		},
-		["Klagegeistgürtel des Rivalen"] = {
-			["H699"] = 8990000,
-			["mr"] = 8990000,
+		["Elixier der Mantis"] = {
+			["H699"] = 15000,
+			["mr"] = 15000,
 		},
-		["Scheinende Armschienen der Wärme"] = {
-			["H699"] = 35000000,
-			["mr"] = 35000000,
+		["Hessonitband des Soldaten"] = {
+			["H699"] = 210000,
+			["mr"] = 210000,
 		},
 		["Glyphe 'Berührung des Todes'"] = {
 			["H699"] = 1500000,
 			["mr"] = 1500000,
 		},
-		["Großer Schattenschutztrank"] = {
-			["H699"] = 5000,
-			["mr"] = 5000,
+		["Grüne Eisenarmschienen"] = {
+			["H699"] = 50000,
+			["mr"] = 50000,
 		},
-		["Steinwerkschulterstücke des Söldners"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Essenz der Zerstörung"] = {
+			["H699"] = 249000,
+			["mr"] = 249000,
 		},
 		["Rolle der Stärke V"] = {
 			["H699"] = 2000,
@@ -9784,97 +9807,97 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Wachsende Sandalen des Wals"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
-		},
-		["Flitzdistel"] = {
-			["H699"] = 5900,
-			["mr"] = 5900,
-		},
-		["Stumpfklingengroßumhang"] = {
-			["H699"] = 40009213,
-			["mr"] = 40009213,
-		},
-		["Konsortiummantelung der Willenskraft"] = {
-			["H699"] = 69103,
-			["mr"] = 69103,
-		},
-		["Wilde draenische Stiefel"] = {
-			["H699"] = 150000,
-			["mr"] = 150000,
+		["Glyphe 'Böses vertreiben'"] = {
+			["H699"] = 1152484,
+			["mr"] = 1152484,
 		},
 		["Arakkoafeder"] = {
 			["H699"] = 9999,
 			["mr"] = 9999,
 		},
-		["Wasserfallhandwickel des Feuersturms"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Stumpfklingengroßumhang"] = {
+			["H699"] = 40009213,
+			["mr"] = 40009213,
 		},
-		["Stürmischer Ozeansaphir"] = {
-			["H699"] = 288799,
-			["mr"] = 288799,
+		["Brust - Unvergleichliche Werte"] = {
+			["H699"] = 1249999,
+			["mr"] = 1249999,
 		},
-		["Glyphe 'Blutdurst'"] = {
-			["H699"] = 511177,
-			["mr"] = 511177,
+		["Glyphe 'Dämonischer Zirkel'"] = {
+			["H699"] = 446986,
+			["mr"] = 446986,
 		},
-		["Fläschchen des Frostwyrms"] = {
-			["H699"] = 481772,
-			["mr"] = 481772,
+		["Neumorgenarmschienen"] = {
+			["H699"] = 6990000,
+			["mr"] = 6990000,
+		},
+		["Formel: Waffe - Lebensdiebstahl"] = {
+			["H699"] = 9999999,
+			["mr"] = 9999999,
+		},
+		["Quecksilberadamantit"] = {
+			["H699"] = 999999,
+			["mr"] = 999999,
+		},
+		["Glyphe 'Chronische Gebrechen'"] = {
+			["H699"] = 772253,
+			["mr"] = 772253,
+		},
+		["Fläschchen des fließenden Wassers"] = {
+			["H699"] = 97000,
+			["mr"] = 97000,
 		},
 		["Glyphe 'Anspringen'"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Furien 5"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Juwelengeschmücktes Szepter der Wirbelströmung"] = {
+			["H699"] = 3000000,
+			["mr"] = 3000000,
 		},
 		["Glyphe 'Schattenwort: Tod'"] = {
 			["H699"] = 2997499,
 			["mr"] = 2997499,
 		},
-		["Glyphe 'Vendetta'"] = {
-			["H699"] = 496972,
-			["mr"] = 496972,
-		},
-		["Glyphe 'Rasendes Zerreißen'"] = {
-			["H699"] = 1455549,
-			["mr"] = 1455549,
-		},
-		["Fachkundiger Gluttopas"] = {
+		["Hexerhand des Falken"] = {
 			["H699"] = 290000,
 			["mr"] = 290000,
 		},
-		["Peitschling aus dem Am'mental"] = {
-			["H699"] = 40010000,
-			["mr"] = 40010000,
+		["Buch der Glyphenbeherrschung"] = {
+			["H699"] = 10000000,
+			["mr"] = 10000000,
 		},
-		["Umhang - Große Intelligenz"] = {
-			["H699"] = 3150000,
-			["mr"] = 3150000,
+		["Formel: Brust - Geringes Mana"] = {
+			["H699"] = 749994,
+			["mr"] = 749994,
 		},
-		["Sieben der Steine"] = {
-			["H699"] = 9989999,
-			["mr"] = 9989999,
+		["Glyphe 'Drohruf'"] = {
+			["H699"] = 1500000,
+			["mr"] = 1500000,
 		},
-		["Schändlicher Zerschnitzler"] = {
-			["H699"] = 149999,
-			["mr"] = 149999,
+		["Vorlage: Gravierter Edeltopas"] = {
+			["H699"] = 3005070,
+			["mr"] = 3005070,
 		},
-		["Lebhafter Elfenperidot"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Glyphe 'Lichtquell'"] = {
+			["H699"] = 2984000,
+			["mr"] = 2984000,
+		},
+		["Wachsende Gugel des Wals"] = {
+			["H699"] = 2890000,
+			["mr"] = 2890000,
+		},
+		["Ritterarmschienen des Ebers"] = {
+			["H699"] = 12900,
+			["mr"] = 12900,
 		},
 		["Boshafte Lederschultern"] = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Glyphe 'Dunkler Erzengel'"] = {
-			["H699"] = 1500000,
-			["mr"] = 1500000,
+		["Fernhainfußpolster des Herbeirufers"] = {
+			["H699"] = 1201000,
+			["mr"] = 1201000,
 		},
 		["Glyphe 'Kniesehne'"] = {
 			["H699"] = 25000,
@@ -9884,69 +9907,69 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 28399,
 			["mr"] = 28399,
 		},
-		["Fläschchen der endlosen Wut"] = {
-			["H699"] = 50000,
-			["mr"] = 50000,
+		["Jaggalperle"] = {
+			["H699"] = 19800,
+			["mr"] = 19800,
 		},
 		["Schattenpartikel"] = {
 			["H699"] = 2400,
 			["mr"] = 2400,
 		},
-		["Kreuzfahrerarmschützer des Falken"] = {
-			["H699"] = 10000000,
-			["mr"] = 10000000,
+		["Perlenbesetzter Zauberstab des Zauberers"] = {
+			["H699"] = 189855,
+			["mr"] = 189855,
 		},
-		["Stulpen der ehrwürdigen Aufgabe"] = {
-			["H699"] = 14900000,
-			["mr"] = 14900000,
+		["Beständiger Dioptas"] = {
+			["H699"] = 647000,
+			["mr"] = 647000,
 		},
-		["Waffe - Elementarkraft"] = {
-			["H699"] = 3497500,
-			["mr"] = 3497500,
+		["Glyphe 'Donnerschlag'"] = {
+			["H699"] = 2988990,
+			["mr"] = 2988990,
 		},
 		["Glyphe 'Hurrikan'"] = {
 			["H699"] = 850587,
 			["mr"] = 850587,
 		},
-		["Windgeküsste Handwickel"] = {
-			["H699"] = 50000000,
-			["mr"] = 50000000,
+		["Basiliskbrocken"] = {
+			["H699"] = 500,
+			["mr"] = 500,
 		},
-		["Makelloses Amulett des Banditen"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Flüchtige Luft"] = {
+			["H699"] = 50000,
+			["mr"] = 50000,
 		},
-		["Nebelbalgarmschienen der Wirbelströmung"] = {
-			["H699"] = 930000,
-			["mr"] = 930000,
+		["Adamantiterz"] = {
+			["H699"] = 49999,
+			["mr"] = 49999,
 		},
-		["Glänzender Karneol"] = {
-			["H699"] = 150000,
-			["mr"] = 150000,
+		["Formel: Armschiene - Große Willenskraft"] = {
+			["H699"] = 1243749,
+			["mr"] = 1243749,
 		},
-		["Armschiene - Muskelkraft"] = {
-			["H699"] = 7000,
-			["mr"] = 7000,
+		["Scharfzähniges Jungtier"] = {
+			["H699"] = 2380000,
+			["mr"] = 2380000,
 		},
 		["Polierter Stab der Bestie"] = {
 			["H699"] = 1000001,
 			["mr"] = 1000001,
 		},
-		["Frakturierter Alazit"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Geistergeschmiedete Brustplatte der Schildwache"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
 		["Geätzter Charoit"] = {
 			["H699"] = 18000,
 			["mr"] = 18000,
 		},
-		["Brust - Mächtige Gesundheit"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
+		["Dioptas des Mentors"] = {
+			["H699"] = 1880000,
+			["mr"] = 1880000,
 		},
-		["Geistergeschmiedete Schultern des Exempels"] = {
-			["H699"] = 1200000,
-			["mr"] = 1200000,
+		["Geistersplitter"] = {
+			["H699"] = 14900000,
+			["mr"] = 14900000,
 		},
 		["Vorlage: Edelsteinbesetztes Band"] = {
 			["H699"] = 280000,
@@ -9960,25 +9983,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 900000,
 			["mr"] = 900000,
 		},
-		["Mächtiger geisterhafter Zauberfaden"] = {
-			["H699"] = 1650000,
-			["mr"] = 1650000,
+		["Wyrmbalgschultern des Rivalen"] = {
+			["H699"] = 7490000,
+			["mr"] = 7490000,
 		},
 		["Glyphe 'Fluch der Erschöpfung'"] = {
 			["H699"] = 1484419,
 			["mr"] = 1484419,
 		},
-		["Yakbeinschützer des Banditen"] = {
-			["H699"] = 1500000,
-			["mr"] = 1500000,
+		["Glyphe 'Stachelschwein'"] = {
+			["H699"] = 1454548,
+			["mr"] = 1454548,
 		},
 		["Mysteriöser Trank"] = {
 			["H699"] = 15333,
 			["mr"] = 15333,
 		},
-		["Glutzauberstab der Eule"] = {
-			["H699"] = 39000,
-			["mr"] = 39000,
+		["Goldlotus"] = {
+			["H699"] = 4445100,
+			["mr"] = 4445100,
 		},
 		["Zweihandwaffe - Beweglichkeit"] = {
 			["H699"] = 24262875,
@@ -9988,13 +10011,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 12800,
 			["mr"] = 12800,
 		},
-		["Muster: Modisches blaues Hemd"] = {
-			["H699"] = 10000000,
-			["mr"] = 10000000,
+		["Feingeschliffener Königinnengranat"] = {
+			["H699"] = 17199999,
+			["mr"] = 17199999,
 		},
-		["Machtvoller Aragonit"] = {
-			["H699"] = 1400000,
-			["mr"] = 1400000,
+		["Kleiner ätherischer Splitter"] = {
+			["H699"] = 200000,
+			["mr"] = 200000,
 		},
 		["Hose des Nachtschleichers"] = {
 			["H699"] = 77100,
@@ -10004,21 +10027,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2990000,
 			["mr"] = 2990000,
 		},
-		["Glyphe 'Eisige Pfade'"] = {
-			["H699"] = 1499999,
-			["mr"] = 1499999,
+		["Glyphe 'Eislanze'"] = {
+			["H699"] = 268998,
+			["mr"] = 268998,
 		},
-		["Elementarwasser"] = {
-			["H699"] = 9999,
-			["mr"] = 9999,
+		["Glyphe 'Seelensplitter'"] = {
+			["H699"] = 795985,
+			["mr"] = 795985,
 		},
-		["Gugel eines Schattenhammerkultisten"] = {
-			["H699"] = 150000,
-			["mr"] = 150000,
+		["Prächtiger Balg"] = {
+			["H699"] = 2350000,
+			["mr"] = 2350000,
 		},
-		["Glyphe 'Eisketten'"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Elixier der Waffentechnik"] = {
+			["H699"] = 97499,
+			["mr"] = 97499,
 		},
 		["Große Inschrift der Kranichschwinge"] = {
 			["H699"] = 3412500,
@@ -10028,21 +10051,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 14400,
 			["mr"] = 14400,
 		},
-		["Glyphe 'Feenfeuer'"] = {
-			["H699"] = 50000,
-			["mr"] = 50000,
+		["Glyphe 'Einäschern'"] = {
+			["H699"] = 1502620,
+			["mr"] = 1502620,
 		},
-		["Verschneite Sabatons der Bestie"] = {
-			["H699"] = 1007313,
-			["mr"] = 1007313,
+		["Scharfes Muschelfleisch"] = {
+			["H699"] = 13000,
+			["mr"] = 13000,
 		},
-		["Exotisches Leder"] = {
-			["H699"] = 16666,
-			["mr"] = 16666,
+		["Urfeuer"] = {
+			["H699"] = 44444,
+			["mr"] = 44444,
 		},
-		["Verziertes Band der Schaumkrone"] = {
-			["H699"] = 1200000,
-			["mr"] = 1200000,
+		["Grummelzauberklinge der Bestie"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
 		["Sturmschuppengamaschen der Schaumkrone"] = {
 			["H699"] = 699999,
@@ -10052,9 +10075,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 100000,
 			["mr"] = 100000,
 		},
-		["Glyphe 'Heilige Nova'"] = {
-			["H699"] = 1491498,
-			["mr"] = 1491498,
+		["Kurzes Bastardschwert des Tigers"] = {
+			["H699"] = 10100,
+			["mr"] = 10100,
 		},
 		["Weiße Motte"] = {
 			["H699"] = 3000000,
@@ -10068,49 +10091,49 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 286762,
 			["mr"] = 286762,
 		},
-		["Glyphe 'Richtungsweiser'"] = {
-			["H699"] = 1977500,
-			["mr"] = 1977500,
+		["Glyphe 'Massenexorzismus'"] = {
+			["H699"] = 1900000,
+			["mr"] = 1900000,
 		},
 		["Rezept: Weisenfisch Supreme"] = {
 			["H699"] = 143300,
 			["mr"] = 143300,
 		},
-		["Glyphe 'Transzendenz'"] = {
-			["H699"] = 1098999,
-			["mr"] = 1098999,
+		["Stürmerrüstung des Wals"] = {
+			["H699"] = 1100,
+			["mr"] = 1100,
 		},
-		["Geistergeschmiedete Armschienen der Wirbelströmung"] = {
-			["H699"] = 490000,
-			["mr"] = 490000,
+		["Saftiges Muschelfleisch"] = {
+			["H699"] = 25000,
+			["mr"] = 25000,
 		},
 		["Erzmagierarmreife des Sehers"] = {
 			["H699"] = 76707,
 			["mr"] = 76707,
 		},
-		["Schwerer Geodenstreitkolben"] = {
-			["H699"] = 1752820,
-			["mr"] = 1752820,
+		["Räuberkurzschwert der Stärke"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Teufelsstoff"] = {
 			["H699"] = 20000,
 			["mr"] = 20000,
 		},
-		["Glyphe 'Psychisches Entsetzen'"] = {
-			["H699"] = 1487972,
-			["mr"] = 1487972,
+		["Entweihtes Kraut"] = {
+			["H699"] = 19999,
+			["mr"] = 19999,
 		},
 		["Verschneite schulterstücke des Felssturzes"] = {
 			["H699"] = 2111111,
 			["mr"] = 2111111,
 		},
-		["Glyphe 'Eiskältefalle'"] = {
-			["H699"] = 357998,
-			["mr"] = 357998,
+		["Glyphe 'Fliegender Schlangentritt'"] = {
+			["H699"] = 322088,
+			["mr"] = 322088,
 		},
-		["Glyphe 'Endloser Zorn'"] = {
-			["H699"] = 439989,
-			["mr"] = 439989,
+		["Glyphe 'Eisige Gegenwehr'"] = {
+			["H699"] = 78999,
+			["mr"] = 78999,
 		},
 		["Dicker Balg"] = {
 			["H699"] = 11000,
@@ -10120,17 +10143,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 500000,
 			["mr"] = 500000,
 		},
-		["Brust - Überragende Ausdauer"] = {
-			["H699"] = 549000,
-			["mr"] = 549000,
+		["Vorlage: Agiler Irrlichtdiamant"] = {
+			["H699"] = 12500000,
+			["mr"] = 12500000,
 		},
 		["Leise Bindungen des Banditen"] = {
 			["H699"] = 999990,
 			["mr"] = 999990,
 		},
-		["Glyphe 'Finte'"] = {
-			["H699"] = 125000,
-			["mr"] = 125000,
+		["Glyphe 'Frostnova'"] = {
+			["H699"] = 998999,
+			["mr"] = 998999,
 		},
 		["Kunzit des Verteidigers"] = {
 			["H699"] = 459000,
@@ -10140,9 +10163,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 40000000,
 			["mr"] = 40000000,
 		},
-		["Schamanischer Kristall der Bestie"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Rezept: Erheblicher Verjüngungstrank"] = {
+			["H699"] = 5150167,
+			["mr"] = 5150167,
 		},
 		["Perfekter funkelnder Lapislazuli"] = {
 			["H699"] = 1500000,
@@ -10156,57 +10179,57 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Elixier der Meisterschaft"] = {
-			["H699"] = 34800,
-			["mr"] = 34800,
+		["Glyphe 'Feuerschlag'"] = {
+			["H699"] = 2900000,
+			["mr"] = 2900000,
 		},
 		["Sulfuronwasser"] = {
 			["H699"] = 280000,
 			["mr"] = 280000,
 		},
-		["Täuschungskugel"] = {
-			["H699"] = 29990000,
-			["mr"] = 29990000,
+		["Glyphe 'Furchtzauberschutz'"] = {
+			["H699"] = 449989,
+			["mr"] = 449989,
 		},
-		["Zartes Krokiliskenfleisch"] = {
-			["H699"] = 2222,
-			["mr"] = 2222,
+		["Ritterumhang des Gorillas"] = {
+			["H699"] = 15900,
+			["mr"] = 15900,
 		},
-		["Glyphe 'Furorfäuste'"] = {
-			["H699"] = 1465683,
-			["mr"] = 1465683,
+		["Eigenartiges Fleisch"] = {
+			["H699"] = 1475,
+			["mr"] = 1475,
 		},
-		["Muster: Feine Lederstiefel"] = {
-			["H699"] = 26500,
-			["mr"] = 26500,
+		["Brust - Außergewöhnliche Abhärtung"] = {
+			["H699"] = 304000,
+			["mr"] = 304000,
 		},
 		["Perfekter imposanter Jaspis"] = {
 			["H699"] = 178999,
 			["mr"] = 178999,
 		},
-		["Glyphe 'Gesegnetes Leben'"] = {
-			["H699"] = 1295806,
-			["mr"] = 1295806,
+		["Glyphe 'Fokussierter Zorn'"] = {
+			["H699"] = 299999,
+			["mr"] = 299999,
 		},
-		["Eisiger Sprengzünder"] = {
-			["H699"] = 19833,
-			["mr"] = 19833,
+		["Glyphe 'Feuerodem'"] = {
+			["H699"] = 489205,
+			["mr"] = 489205,
 		},
-		["Dunkelwelpling"] = {
-			["H699"] = 99999999,
-			["mr"] = 99999999,
+		["Glyphe 'Erneuerung'"] = {
+			["H699"] = 24000,
+			["mr"] = 24000,
 		},
-		["Glyphe 'Frostschock'"] = {
-			["H699"] = 137998,
-			["mr"] = 137998,
+		["Dunkelmondspezialmischung"] = {
+			["H699"] = 25000,
+			["mr"] = 25000,
 		},
-		["Schweres Leder"] = {
-			["H699"] = 24950,
-			["mr"] = 24950,
+		["Glyphe 'Heilender Sturm'"] = {
+			["H699"] = 1442330,
+			["mr"] = 1442330,
 		},
-		["Glyphe 'Knisternder Jadeblitz'"] = {
-			["H699"] = 149999,
-			["mr"] = 149999,
+		["Glyphe 'Hirsch'"] = {
+			["H699"] = 713999,
+			["mr"] = 713999,
 		},
 		["Glyphe 'Geisterrolle'"] = {
 			["H699"] = 1499000,
@@ -10220,9 +10243,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 149489,
 			["mr"] = 149489,
 		},
-		["Glyphe 'Finstere Seele'"] = {
-			["H699"] = 1450118,
-			["mr"] = 1450118,
+		["Glyphe 'Horn des Winters'"] = {
+			["H699"] = 1286321,
+			["mr"] = 1286321,
 		},
 		["Teufelseisenbarren"] = {
 			["H699"] = 3166,
@@ -10232,29 +10255,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 400000,
 			["mr"] = 400000,
 		},
-		["Perfekter massiver Zephyrit"] = {
-			["H699"] = 22222,
-			["mr"] = 22222,
+		["Ewiger Bergkristall"] = {
+			["H699"] = 23980000,
+			["mr"] = 23980000,
 		},
 		["Muster: Grünwelpenarmschienen"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Klebriges Spinnenbein"] = {
-			["H699"] = 8333,
-			["mr"] = 8333,
+		["Boreanisches Leder"] = {
+			["H699"] = 4499,
+			["mr"] = 4499,
 		},
-		["Glyphe 'Flamme des Glaubens'"] = {
-			["H699"] = 427948,
-			["mr"] = 427948,
+		["Pfeilschnelles Jungtier"] = {
+			["H699"] = 3989999,
+			["mr"] = 3989999,
 		},
 		["Glyphe 'Wassergestalt'"] = {
 			["H699"] = 1443324,
 			["mr"] = 1443324,
 		},
-		["Kleiner gleißender Splitter"] = {
-			["H699"] = 1900,
-			["mr"] = 1900,
+		["Gehärteter Elementiumbarren"] = {
+			["H699"] = 290000,
+			["mr"] = 290000,
 		},
 		["Glyphe 'Schattenflamme'"] = {
 			["H699"] = 1477499,
@@ -10268,189 +10291,192 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Drachenflanke"] = {
-			["H699"] = 19999,
-			["mr"] = 19999,
+		["Glyphe 'Klaffende Wunde'"] = {
+			["H699"] = 2419363,
+			["mr"] = 2419363,
 		},
 		["Nebelbalggürtel des Mistrals"] = {
 			["H699"] = 1800000,
 			["mr"] = 1800000,
 		},
-		["Glyphe 'Hieb'"] = {
-			["H699"] = 1200000,
-			["mr"] = 1200000,
+		["Dr. Wackel"] = {
+			["H699"] = 55550000,
+			["mr"] = 55550000,
 		},
-		["Versierte Lavakoralle"] = {
-			["H699"] = 9124786,
-			["mr"] = 9124786,
+		["Glyphe 'Geisterwolf'"] = {
+			["H699"] = 447086,
+			["mr"] = 447086,
 		},
-		["Raptorfleisch"] = {
-			["H699"] = 8594,
-			["mr"] = 8594,
+		["Dreschergürtelbund des Banditen"] = {
+			["H699"] = 1809053,
+			["mr"] = 1809053,
 		},
 		["Juwelengeschmückter Ring des Wals"] = {
 			["H699"] = 889349,
 			["mr"] = 889349,
 		},
-		["Schuppenhelm des Rivalen"] = {
-			["H699"] = 9950000,
-			["mr"] = 9950000,
+		["Glyphe 'Zornige Vergeltung'"] = {
+			["H699"] = 293038,
+			["mr"] = 293038,
 		},
 		["Eldr'naanwams der Willenskraft"] = {
 			["H699"] = 152925,
 			["mr"] = 152925,
 		},
-		["Brust - Große Ausdauer"] = {
-			["H699"] = 702250,
-			["mr"] = 702250,
-		},
-		["Lebendiger Funken"] = {
-			["H699"] = 299000,
-			["mr"] = 299000,
-		},
-		["Traumsplitter"] = {
-			["H699"] = 2000,
-			["mr"] = 2000,
-		},
-		["Massiver Schlagring des Affen"] = {
-			["H699"] = 999999,
-			["mr"] = 999999,
-		},
-		["Glyphe 'Gesundheitsstein'"] = {
-			["H699"] = 93998,
-			["mr"] = 93998,
-		},
-		["Pläne: Goldene Schuppenhelmkappe"] = {
+		["Pläne: Adamantitschlägel"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Glyphe 'Kettenblitzschlag'"] = {
-			["H699"] = 1135344,
-			["mr"] = 1135344,
+		["Fachkundiger Hessonit"] = {
+			["H699"] = 19602,
+			["mr"] = 19602,
 		},
-		["Glyphe 'Innerer Fokus'"] = {
-			["H699"] = 1443310,
-			["mr"] = 1443310,
+		["Wildschweinschenkel"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
-		["Klagegeisthelm des Rivalen"] = {
-			["H699"] = 8999999,
-			["mr"] = 8999999,
+		["Mauerhelm des Söldners"] = {
+			["H699"] = 3990000,
+			["mr"] = 3990000,
 		},
-		["Blaue Motte"] = {
-			["H699"] = 34900,
-			["mr"] = 34900,
+		["Vorderlader des Jägers"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
-		["Weinrebenstiefel der Wirbelströmung"] = {
-			["H699"] = 2006842,
-			["mr"] = 2006842,
+		["Dauerfrostdolch der Intelligenz"] = {
+			["H699"] = 2324000,
+			["mr"] = 2324000,
 		},
-		["Jaspis"] = {
-			["H699"] = 166315,
-			["mr"] = 166315,
+		["Wachsende Sandalen des Adlers"] = {
+			["H699"] = 1300000,
+			["mr"] = 1300000,
 		},
-		["Glyphe 'Instabile Erde'"] = {
-			["H699"] = 1442328,
-			["mr"] = 1442328,
+		["Herrlicher Aragonit"] = {
+			["H699"] = 1220000,
+			["mr"] = 1220000,
+		},
+		["Flüsterschultern des Schützen"] = {
+			["H699"] = 3990000,
+			["mr"] = 3990000,
+		},
+		["Muster: Rote Wolltasche"] = {
+			["H699"] = 149999,
+			["mr"] = 149999,
+		},
+		["Geistergeschmiedete Schultern des Verteidigers"] = {
+			["H699"] = 800000,
+			["mr"] = 800000,
+		},
+		["Geistergeschmiedete Armschienen des Verteidigers"] = {
+			["H699"] = 499500,
+			["mr"] = 499500,
+		},
+		["Glyphe 'Inneres Sanktum'"] = {
+			["H699"] = 128176,
+			["mr"] = 128176,
 		},
 		["Blauer Saphir"] = {
 			["H699"] = 15384,
 			["mr"] = 15384,
 		},
-		["Glyphe 'Entdeckung'"] = {
-			["H699"] = 300000,
-			["mr"] = 300000,
+		["Geläuterter Schattenspinell"] = {
+			["H699"] = 5064534,
+			["mr"] = 5064534,
 		},
-		["Glyphe 'Krähenschmaus'"] = {
-			["H699"] = 2499000,
-			["mr"] = 2499000,
+		["Schneeball"] = {
+			["H699"] = 2667812,
+			["mr"] = 2667812,
 		},
-		["Flammenspessarit"] = {
-			["H699"] = 60000,
-			["mr"] = 60000,
+		["Rezept: Schwarzgebratener Sporenfisch"] = {
+			["H699"] = 748997,
+			["mr"] = 748997,
 		},
-		["Glyphe 'Reflektierender Schild'"] = {
-			["H699"] = 1486927,
-			["mr"] = 1486927,
+		["Glyphe 'Lebenskokon'"] = {
+			["H699"] = 749998,
+			["mr"] = 749998,
 		},
-		["Magischer Zauberfaden"] = {
-			["H699"] = 550000,
-			["mr"] = 550000,
+		["Makelloser Balg"] = {
+			["H699"] = 2099999,
+			["mr"] = 2099999,
 		},
-		["Beinchen"] = {
-			["H699"] = 99990000,
-			["mr"] = 99990000,
+		["Brust - Erhebliche Willenskraft"] = {
+			["H699"] = 7000,
+			["mr"] = 7000,
 		},
-		["Perfekter tödlicher Chiastolith"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Rezept: Trank der freien Aktion"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
 		["Fragiler Goldberyll"] = {
 			["H699"] = 91000,
 			["mr"] = 91000,
 		},
-		["Herz der Erde"] = {
-			["H699"] = 7490000,
-			["mr"] = 7490000,
+		["Lebendiger Stahl"] = {
+			["mr"] = 12000000,
+			["cc"] = 6,
+			["id"] = "72104",
+			["H699"] = 12000000,
+			["sc"] = 4,
 		},
-		["Glyphe 'Verkrüppelndes Gift'"] = {
-			["H699"] = 496972,
-			["mr"] = 496972,
+		["Hasenkäfig (Braun)"] = {
+			["H699"] = 3333333,
+			["mr"] = 3333333,
 		},
-		["Kleiner leuchtender Splitter"] = {
-			["H699"] = 8900,
-			["mr"] = 8900,
+		["Elementiumgeode"] = {
+			["H699"] = 10000000,
+			["mr"] = 10000000,
 		},
-		["Glyphe 'Kleinere Proportionen'"] = {
-			["H699"] = 1490970,
-			["mr"] = 1490970,
+		["Traumtinte"] = {
+			["H699"] = 493000,
+			["mr"] = 493000,
 		},
-		["Glyphe 'Leben nach dem Tode'"] = {
-			["H699"] = 2990000,
-			["mr"] = 2990000,
+		["Glyphe 'Machtwort: Schild'"] = {
+			["H699"] = 122998,
+			["mr"] = 122998,
 		},
-		["Blutgarnele"] = {
-			["H699"] = 6300,
-			["mr"] = 6300,
+		["Vorlage: Rubinmonokel des Juweliers"] = {
+			["H699"] = 50000000,
+			["mr"] = 50000000,
 		},
-		["Dreschergürtelbund des Zephirs"] = {
-			["H699"] = 499500,
-			["mr"] = 499500,
+		["Blutdistel"] = {
+			["H699"] = 90,
+			["mr"] = 90,
 		},
-		["Ekelhafter Schlammling"] = {
-			["H699"] = 99999999,
-			["mr"] = 99999999,
+		["Muster: Bunter Kilt"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Rauer Wetzstein"] = {
 			["H699"] = 406,
 			["mr"] = 406,
 		},
-		["Adelsbrustplatte des Affen"] = {
-			["H699"] = 199900,
-			["mr"] = 199900,
+		["Bauplan: Adamantitgewehr"] = {
+			["H699"] = 498998,
+			["mr"] = 498998,
 		},
 		["Blaues Mottenei"] = {
 			["H699"] = 1000000,
 			["mr"] = 1000000,
 		},
-		["Rezept: Großer Steinschildtrank"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Südstromgürtel des Affen"] = {
+			["H699"] = 173535,
+			["mr"] = 173535,
 		},
-		["Retrostachelkolben der Eule"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Gehärteter Adamantitbarren"] = {
+			["H699"] = 122222,
+			["mr"] = 122222,
 		},
-		["Waffe - Zaubermacht"] = {
-			["H699"] = 9803375,
-			["mr"] = 9803375,
+		["Persönlicher Weltenzerstörer"] = {
+			["H699"] = 2499999,
+			["mr"] = 2499999,
 		},
-		["Triliumlangstreckenpräzisionsgewehr"] = {
-			["H699"] = 45990000,
-			["mr"] = 45990000,
+		["Primitives Leder"] = {
+			["H699"] = 89990,
+			["mr"] = 89990,
 		},
-		["Brackwasserstiefel"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Handschuhe - Überragende Meisterschaft"] = {
+			["H699"] = 3990000,
+			["mr"] = 3990000,
 		},
 		["Acht der Tiger"] = {
 			["H699"] = 35000000,
@@ -10460,53 +10486,53 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 3999999,
 			["mr"] = 3999999,
 		},
-		["Krasaranglöffelstör"] = {
-			["H699"] = 219999,
-			["mr"] = 219999,
+		["Große Astralessenz"] = {
+			["H699"] = 19600,
+			["mr"] = 19600,
 		},
 		["Gezackter Jaspis"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Hessonitband des Zauberers"] = {
-			["H699"] = 210000,
-			["mr"] = 210000,
+		["Nebelbalgstiefel der Bora"] = {
+			["H699"] = 2500000,
+			["mr"] = 2500000,
 		},
 		["Fragiles Tüftlergetriebe"] = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Gelbes Mottenei"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Feinmaschige Handgelenkwickel des Ältesten"] = {
+			["H699"] = 3282563,
+			["mr"] = 3282563,
 		},
-		["Akkurater Nachtstein"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Glyphe 'Orientierung'"] = {
+			["H699"] = 49200,
+			["mr"] = 49200,
 		},
-		["Glyphe 'Nachsinnen'"] = {
-			["H699"] = 1349536,
-			["mr"] = 1349536,
+		["Sternrubin"] = {
+			["H699"] = 40000,
+			["mr"] = 40000,
 		},
-		["Birkenholzschlägel des Bären"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Glyphe 'Wallender Nebel'"] = {
+			["H699"] = 1298176,
+			["mr"] = 1298176,
 		},
-		["Imposanter Alexandrit"] = {
-			["H699"] = 149000,
-			["mr"] = 149000,
+		["Klagegeiststulpen des Rivalen"] = {
+			["H699"] = 8999999,
+			["mr"] = 8999999,
 		},
 		["Glyphe 'Jindujun'"] = {
 			["H699"] = 749999,
 			["mr"] = 749999,
 		},
-		["Medizinstab des Wolfs"] = {
-			["H699"] = 4000,
-			["mr"] = 4000,
+		["Glyphe 'Raubtier'"] = {
+			["H699"] = 1499998,
+			["mr"] = 1499998,
 		},
-		["Billiges Bier"] = {
-			["H699"] = 25000,
-			["mr"] = 25000,
+		["Höhengipfelsabatons der Verwerfung"] = {
+			["H699"] = 770000,
+			["mr"] = 770000,
 		},
 		["Formel: Handschuhe - Kürschnerei"] = {
 			["H699"] = 10000000,
@@ -10516,13 +10542,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 2899900,
 			["mr"] = 2899900,
 		},
-		["Bauplan: Goblinlandmine"] = {
-			["H699"] = 999999,
-			["mr"] = 999999,
+		["Glyphe 'Lavapeitsche'"] = {
+			["H699"] = 169998,
+			["mr"] = 169998,
 		},
-		["R19-Bedrohungsfinder"] = {
-			["H699"] = 950000,
-			["mr"] = 950000,
+		["Muster: Grünes Festtagshemd"] = {
+			["H699"] = 949999,
+			["mr"] = 949999,
 		},
 		["Fürstliches Signet"] = {
 			["H699"] = 25790000,
@@ -10536,97 +10562,97 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 297088,
 			["mr"] = 297088,
 		},
-		["Glyphe 'Leichenexplosion'"] = {
-			["H699"] = 850000,
-			["mr"] = 850000,
+		["Eldr'naangürtel des Zauberers"] = {
+			["H699"] = 117798,
+			["mr"] = 117798,
 		},
 		["Seidene Gugel des Rivalen"] = {
 			["H699"] = 4000000,
 			["mr"] = 4000000,
 		},
-		["Froststofftasche"] = {
-			["H699"] = 4439999,
-			["mr"] = 4439999,
+		["Belebender Ananaspunsch"] = {
+			["H699"] = 2500,
+			["mr"] = 2500,
 		},
-		["Perfekter Charoit des Verteidigers"] = {
-			["H699"] = 509997,
-			["mr"] = 509997,
+		["Chiastolith des Champions"] = {
+			["H699"] = 747000,
+			["mr"] = 747000,
 		},
-		["Klobiger Cinnabarit"] = {
-			["H699"] = 18600,
-			["mr"] = 18600,
+		["Muster: Sturmschleierhose"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
-		["Bauplan: Goblinüberbrückungskabel"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
+		["Blitzender Alexandrit"] = {
+			["H699"] = 147498,
+			["mr"] = 147498,
 		},
 		["Rolle der Willenskraft VI"] = {
 			["H699"] = 1930,
 			["mr"] = 1930,
 		},
-		["Kantiges Bastardschwert des Bären"] = {
-			["H699"] = 773465,
-			["mr"] = 773465,
+		["Versierter Aragonit"] = {
+			["H699"] = 1897500,
+			["mr"] = 1897500,
 		},
 		["Großer Arkanschutztrank"] = {
 			["H699"] = 5000,
 			["mr"] = 5000,
 		},
-		["Tollkühner Gluttopas"] = {
-			["H699"] = 280000,
-			["mr"] = 280000,
+		["Armschiene - Geschwindigkeit"] = {
+			["H699"] = 250000,
+			["mr"] = 250000,
 		},
 		["Sha-berührtes Leder"] = {
 			["H699"] = 13888,
 			["mr"] = 13888,
 		},
-		["Vorlage: Tödlicher Hessonit"] = {
-			["H699"] = 805553,
-			["mr"] = 805553,
+		["Myrmidonensignet"] = {
+			["H699"] = 2497500,
+			["mr"] = 2497500,
 		},
 		["Gewichtige Kürbislaterne"] = {
 			["H699"] = 9900,
 			["mr"] = 9900,
 		},
-		["Rätselhafter Bergkristall"] = {
-			["H699"] = 28000000,
-			["mr"] = 28000000,
+		["Windwollstiefel des Meisters"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
-		["Runenverzierte Lederarmschienen"] = {
-			["H699"] = 21560,
-			["mr"] = 21560,
+		["Matsubas Brotmacher"] = {
+			["H699"] = 22500000,
+			["mr"] = 22500000,
 		},
-		["Wyrmbalgstiefel des Rivalen"] = {
-			["H699"] = 6990000,
-			["mr"] = 6990000,
+		["Wachsende Handwickel des Ältesten"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Bauplan: Verschmorte Verkabelung"] = {
-			["H699"] = 497999,
-			["mr"] = 497999,
+		["Soliantis Insektenklatsche"] = {
+			["H699"] = 40000000,
+			["mr"] = 40000000,
 		},
 		["Runenschriftrolle der Seelenstärke II"] = {
 			["H699"] = 100000,
 			["mr"] = 100000,
 		},
-		["Albinonatter"] = {
-			["H699"] = 494900,
-			["mr"] = 494900,
+		["Talandras Rose"] = {
+			["H699"] = 5555,
+			["mr"] = 5555,
 		},
-		["Leise Schultern des Affen"] = {
-			["H699"] = 400000,
-			["mr"] = 400000,
+		["Drescherwams des Schützen"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Glyphe 'Mahnende Worte'"] = {
-			["H699"] = 1499999,
-			["mr"] = 1499999,
+		["Finsterblutbrustharnisch der Intelligenz"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Kyparit"] = {
-			["H699"] = 34995,
-			["mr"] = 34995,
+		["Rolle der Ausdauer VII"] = {
+			["H699"] = 4300,
+			["mr"] = 4300,
 		},
-		["Nebelbalggamaschen der Schaumkrone"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Brust - Mächtige Willenskraft"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Topfbankett"] = {
 			["H699"] = 399000,
@@ -10636,169 +10662,169 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 10000000,
 			["mr"] = 10000000,
 		},
-		["Glyphe 'Lichtbrunnen'"] = {
-			["H699"] = 798000,
-			["mr"] = 798000,
+		["Kleiner strahlender Splitter"] = {
+			["H699"] = 19750,
+			["mr"] = 19750,
 		},
 		["Verjüngung des Alchemisten"] = {
 			["H699"] = 17325,
 			["mr"] = 17325,
 		},
-		["Waffe - Windweise"] = {
-			["H699"] = 3497500,
-			["mr"] = 3497500,
+		["Dämonenauge des Verteidigers"] = {
+			["H699"] = 999000,
+			["mr"] = 999000,
 		},
-		["Glutseidenstoff"] = {
-			["H699"] = 41400,
-			["mr"] = 41400,
+		["Glyphe 'Fallender Meteor'"] = {
+			["H699"] = 99999,
+			["mr"] = 99999,
 		},
-		["Thalliumhalsreif der Eule"] = {
-			["H699"] = 20000,
-			["mr"] = 20000,
+		["Teepflanze"] = {
+			["H699"] = 22175,
+			["mr"] = 22175,
 		},
 		["Wechselhafter Irrlichtdiamant"] = {
 			["H699"] = 3000000,
 			["mr"] = 3000000,
 		},
-		["Kleiner rosafarbener Dickhäuter"] = {
-			["H699"] = 7000000,
-			["mr"] = 7000000,
+		["Gebirgsschiftung der Wirbelströmung"] = {
+			["H699"] = 255000,
+			["mr"] = 255000,
 		},
-		["Moosfellschultern des Schützen"] = {
-			["H699"] = 5500000,
-			["mr"] = 5500000,
+		["Schattenstaub"] = {
+			["H699"] = 30000,
+			["mr"] = 30000,
 		},
-		["Schneidender Aragonit"] = {
-			["H699"] = 650000,
-			["mr"] = 650000,
+		["Erricks Wundenverbinderstulpen"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Glyphe 'Stieren des Ochsen'"] = {
-			["H699"] = 750088,
-			["mr"] = 750088,
+		["Erdenkern"] = {
+			["H699"] = 9000,
+			["mr"] = 9000,
 		},
 		["Ass der Funken"] = {
 			["H699"] = 14899999,
 			["mr"] = 14899999,
 		},
-		["Geistergeschmiedete Armschienen des Bewahrers"] = {
-			["H699"] = 490000,
-			["mr"] = 490000,
+		["Muster: Schattenstoff"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
-		["Glänzender Infernorubin"] = {
-			["H699"] = 250000,
-			["mr"] = 250000,
+		["Armschiene - Erhebliches Ausweichen"] = {
+			["H699"] = 23400,
+			["mr"] = 23400,
 		},
-		["Drachenauge"] = {
-			["H699"] = 42818,
-			["mr"] = 42818,
+		["Glyphe 'Schwarzes Eis'"] = {
+			["H699"] = 608899,
+			["mr"] = 608899,
 		},
 		["Glyphe 'Rüstungen'"] = {
 			["H699"] = 499999,
 			["mr"] = 499999,
 		},
-		["Schorfreißerhalskette"] = {
-			["H699"] = 14900000,
-			["mr"] = 14900000,
+		["Geräuchertes Talbukwildbret"] = {
+			["H699"] = 6900,
+			["mr"] = 6900,
 		},
-		["Silbernes Drachenfalkenjunges"] = {
-			["H699"] = 1999900,
-			["mr"] = 1999900,
+		["Schattenfeuerhalskette des Erderschütterers"] = {
+			["H699"] = 1200000,
+			["mr"] = 1200000,
 		},
-		["Muster: Große Voodoomaske"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Nebelbalghandschuhe des Orkans"] = {
+			["H699"] = 1090000,
+			["mr"] = 1090000,
 		},
-		["Lebensechte Kröte"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
+		["Glyphe 'Streuung'"] = {
+			["H699"] = 596086,
+			["mr"] = 596086,
 		},
-		["Nebelbalghandschuhe der Schaumkrone"] = {
-			["H699"] = 1490000,
-			["mr"] = 1490000,
+		["Glyphe 'Lebensentzug'"] = {
+			["H699"] = 845164,
+			["mr"] = 845164,
 		},
-		["Gürtel der Tiefen"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Armschiene - Präzision"] = {
+			["H699"] = 100000,
+			["mr"] = 100000,
 		},
 		["Raues Schießeisen"] = {
 			["H699"] = 5000,
 			["mr"] = 5000,
 		},
-		["Perfekter geschickter Alexandrit"] = {
-			["H699"] = 1399792,
-			["mr"] = 1399792,
+		["Azurmondstein"] = {
+			["H699"] = 80000,
+			["mr"] = 80000,
 		},
 		["Rabenkronengurt der Talsohle"] = {
 			["H699"] = 2000000,
 			["mr"] = 2000000,
 		},
-		["Fragiler Heliodor"] = {
-			["H699"] = 47808,
-			["mr"] = 47808,
+		["Blutgichtamulett"] = {
+			["H699"] = 2490000,
+			["mr"] = 2490000,
 		},
-		["Gerösteter Gerstentee"] = {
-			["H699"] = 2800,
-			["mr"] = 2800,
+		["Erdnuss"] = {
+			["H699"] = 9999900,
+			["mr"] = 9999900,
 		},
-		["Formel: Waffe - Schwacher Wildtiertöter"] = {
-			["H699"] = 50000,
-			["mr"] = 50000,
+		["Glyphe 'Seelenstein'"] = {
+			["H699"] = 96998,
+			["mr"] = 96998,
 		},
-		["Rezept: Elixier der Entdeckung geringer Unsichtbarkeit"] = {
-			["H699"] = 20000,
-			["mr"] = 20000,
+		["Glyphe 'Seelentausch'"] = {
+			["H699"] = 71998,
+			["mr"] = 71998,
 		},
-		["Nebelbalgarmschienen des Orkans"] = {
-			["H699"] = 999999,
-			["mr"] = 999999,
+		["Glyphe 'Seelenverzehrung'"] = {
+			["H699"] = 651254,
+			["mr"] = 651254,
 		},
-		["Muster: Magieerfüllte Netherstoffstiefel"] = {
-			["H699"] = 748997,
-			["mr"] = 748997,
+		["Dolchfennflickhose der Eule"] = {
+			["H699"] = 172412,
+			["mr"] = 172412,
 		},
-		["Acht der Kraniche"] = {
-			["H699"] = 79900000,
-			["mr"] = 79900000,
+		["Glyphe 'Sparring'"] = {
+			["H699"] = 540088,
+			["mr"] = 540088,
 		},
-		["Muster: Magieerfüllte Netherstoffhose"] = {
-			["H699"] = 748997,
-			["mr"] = 748997,
+		["Glyphe 'Spektralwolf'"] = {
+			["H699"] = 1448242,
+			["mr"] = 1448242,
 		},
-		["Windwollarmschienen des Skorpions"] = {
-			["H699"] = 500000,
-			["mr"] = 500000,
+		["Glyphe 'Arkane Sprache'"] = {
+			["H699"] = 1482593,
+			["mr"] = 1482593,
 		},
-		["Bergarbeiterschulterstücke des Ältesten"] = {
-			["H699"] = 1500000,
-			["mr"] = 1500000,
+		["Drachenschuppenstiefel des Rivalen"] = {
+			["H699"] = 12490000,
+			["mr"] = 12490000,
 		},
-		["Polierter Gluttopas"] = {
-			["H699"] = 130424,
-			["mr"] = 130424,
+		["Weinrebenstiefel des Schützen"] = {
+			["H699"] = 3287500,
+			["mr"] = 3287500,
 		},
-		["Gesteppte Kordel des Ältesten"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Rezept: Heißer Hetzer"] = {
+			["H699"] = 199899,
+			["mr"] = 199899,
 		},
-		["Golembrecheramulett"] = {
-			["H699"] = 8780000,
-			["mr"] = 8780000,
+		["Elementiumerz"] = {
+			["H699"] = 16400,
+			["mr"] = 16400,
 		},
-		["Yakschienbeinschützer des Affen"] = {
-			["H699"] = 2000000,
-			["mr"] = 2000000,
+		["Umhang - Überragende Intelligenz"] = {
+			["H699"] = 3687500,
+			["mr"] = 3687500,
 		},
 		["Frostgewirkte Gugel"] = {
 			["H699"] = 500000,
 			["mr"] = 500000,
 		},
-		["Muster: Robe des ewigen Lichts"] = {
-			["H699"] = 100000000,
-			["mr"] = 100000000,
+		["Stachelige Keule der Intelligenz"] = {
+			["H699"] = 17500,
+			["mr"] = 17500,
 		},
-		["Geistergeschmiedete Brustplatte des Avatars"] = {
-			["H699"] = 1190000,
-			["mr"] = 1190000,
+		["Fünf der Winde"] = {
+			["H699"] = 3000000,
+			["mr"] = 3000000,
 		},
 		["Glyphe 'Reinigen'"] = {
 			["H699"] = 821781,
@@ -10808,92 +10834,89 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 25000000,
 			["mr"] = 25000000,
 		},
-		["Schuppenstiefel des Rivalen"] = {
-			["H699"] = 9950000,
-			["mr"] = 9950000,
+		["Silbrige Pigmente"] = {
+			["H699"] = 14666,
+			["mr"] = 14666,
 		},
 		["Blutbespritzte Schärpe des Bären"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Schlachtbarrikade der Yaungol"] = {
-			["H699"] = 99990000,
-			["mr"] = 99990000,
+		["Glyphe 'Doppelbestrafung'"] = {
+			["H699"] = 454988,
+			["mr"] = 454988,
 		},
-		["Braunes Kaninchen"] = {
-			["H699"] = 19400,
-			["mr"] = 19400,
+		["Glyphe 'Heiliges Feuer'"] = {
+			["H699"] = 929107,
+			["mr"] = 929107,
 		},
-		["Formel: Handschuhe - Hochentwickelter Bergbau"] = {
-			["H699"] = 100000000,
-			["mr"] = 100000000,
+		["Zaubermachtschutzbrille Xtrem"] = {
+			["H699"] = 80000,
+			["mr"] = 80000,
 		},
 		["Glyphe 'Anstachelndes Gebrüll'"] = {
 			["H699"] = 1102080,
 			["mr"] = 1102080,
 		},
-		["Muschelfleisch"] = {
-			["H699"] = 31555,
-			["mr"] = 31555,
+		["Glyphe 'Strangulieren'"] = {
+			["H699"] = 137495,
+			["mr"] = 137495,
 		},
-		["Formel: Stiefel - Geringe Willenskraft"] = {
-			["H699"] = 999000,
-			["mr"] = 999000,
+		["Stiefel - Pandarenpfoten"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
 		["Stürmischer Chrysokoll"] = {
 			["H699"] = 450000,
 			["mr"] = 450000,
 		},
-		["Fragiler Sonnenkristall"] = {
-			["H699"] = 78900,
-			["mr"] = 78900,
+		["Energiegetränkter Kristall"] = {
+			["H699"] = 2500000,
+			["mr"] = 2500000,
 		},
-		["Mithrilerz"] = {
-			["H699"] = 11085,
-			["mr"] = 11085,
+		["Glyphe 'Tanzende Runenwaffe'"] = {
+			["H699"] = 923527,
+			["mr"] = 923527,
 		},
 		["Windwollarmschienen des Gespenstes"] = {
 			["H699"] = 3800000,
 			["mr"] = 3800000,
 		},
-		["Potente Rüstung des Affen"] = {
-			["H699"] = 110000,
-			["mr"] = 110000,
+		["Meisterhafter Geisterklingendezimator"] = {
+			["H699"] = 149990000,
+			["mr"] = 149990000,
 		},
-		["Glyphe 'Stellung halten'"] = {
-			["H699"] = 74999,
-			["mr"] = 74999,
+		["Glyphe 'Tod und Verfall'"] = {
+			["H699"] = 1393175,
+			["mr"] = 1393175,
 		},
-		["Rolle der Ausdauer VIII"] = {
-			["H699"] = 3700,
-			["mr"] = 3700,
+		["Charoitschattenband"] = {
+			["H699"] = 14680000,
+			["mr"] = 14680000,
 		},
-		["Glyphe 'Schurkenhandel'"] = {
-			["H699"] = 1240677,
-			["mr"] = 1240677,
+		["Glyphe 'Tod von oben'"] = {
+			["H699"] = 1493976,
+			["mr"] = 1493976,
 		},
-		["Präziser Rubellit"] = {
-			["H716"] = 165000,
-			["cc"] = 8,
-			["id"] = "76693",
-			["sc"] = 1,
-			["mr"] = 165000,
+		["Glyphe 'Verzweiflung'"] = {
+			["H699"] = 487484,
+			["mr"] = 487484,
 		},
-		["Senegal"] = {
-			["H699"] = 4999,
-			["mr"] = 4999,
+		["Schreckensfelsunterarmschienen des Ältesten"] = {
+			["H699"] = 195000,
+			["mr"] = 195000,
 		},
-		["Tigerfleisch"] = {
-			["H699"] = 1115,
-			["mr"] = 1115,
+		["Saftigleckere Karotte"] = {
+			["H699"] = 244000,
+			["mr"] = 244000,
 		},
 		["Schattenseide"] = {
 			["H699"] = 17086,
 			["mr"] = 17086,
 		},
-		["Steppengürtel des Banditen"] = {
-			["H699"] = 163518,
-			["mr"] = 163518,
+		["Glyphe 'Geisterpfoten'"] = {
+			["H699"] = 1271643,
+			["mr"] = 1271643,
 		},
 		["Nebelbalgarmschienen der Bora"] = {
 			["H699"] = 699999,
@@ -10907,25 +10930,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 120000,
 			["mr"] = 120000,
 		},
-		["Tonskarabäus"] = {
-			["H699"] = 90000,
-			["mr"] = 90000,
+		["Kampfkettenhose"] = {
+			["H699"] = 9400,
+			["mr"] = 9400,
 		},
-		["Königinnengranat"] = {
-			["H699"] = 1222222,
-			["mr"] = 1222222,
+		["Vorlage: Goldener Hase"] = {
+			["H699"] = 502500,
+			["mr"] = 502500,
 		},
-		["Segen 7"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Nachtsteinhalsreif der Schaumkrone"] = {
+			["H699"] = 1100814,
+			["mr"] = 1100814,
 		},
-		["Glyphe 'Donner'"] = {
-			["H699"] = 1489969,
-			["mr"] = 1489969,
+		["Winterflossenbrustharnisch des Wals"] = {
+			["H699"] = 169068,
+			["mr"] = 169068,
 		},
-		["Versengte Beinrüstung"] = {
-			["H699"] = 990000,
-			["mr"] = 990000,
+		["Nebliger Nephrit"] = {
+			["H699"] = 99700,
+			["mr"] = 99700,
 		},
 		["Juwelengeschmückte Zauberklinge des Lauffeuers"] = {
 			["H699"] = 998553,
@@ -10935,37 +10958,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 299000,
 			["mr"] = 299000,
 		},
-		["Zwei der Schurken"] = {
-			["H699"] = 239000,
-			["mr"] = 239000,
+		["Feinmaschige Schulterpolster des Wals"] = {
+			["H699"] = 1690000,
+			["mr"] = 1690000,
 		},
-		["Glyphe 'Tellurische Ströme'"] = {
-			["H699"] = 25000,
-			["mr"] = 25000,
+		["Teufelsherzgürtel"] = {
+			["H699"] = 2500000,
+			["mr"] = 2500000,
 		},
 		["Beständiger Alexandrit"] = {
 			["H699"] = 1047500,
 			["mr"] = 1047500,
 		},
-		["Magieerfüllter Froststoffballen"] = {
-			["H699"] = 100000,
-			["mr"] = 100000,
+		["Protodrachenwelpe"] = {
+			["H699"] = 2500000,
+			["mr"] = 2500000,
 		},
-		["Gediegener Ozeansaphir"] = {
-			["H699"] = 199000,
-			["mr"] = 199000,
+		["Windwollarmschienen des Meisters"] = {
+			["H699"] = 2497500,
+			["mr"] = 2497500,
 		},
-		["Geistergeschmiedete Schultern des Avatars"] = {
-			["H699"] = 1190000,
-			["mr"] = 1190000,
+		["Perfekter glatter Sonnenstein"] = {
+			["H699"] = 990000,
+			["mr"] = 990000,
 		},
-		["Glyphe 'Unendliche Wut'"] = {
-			["H699"] = 2988990,
-			["mr"] = 2988990,
+		["Glyphe 'Seelenbrunnen'"] = {
+			["H699"] = 1493973,
+			["mr"] = 1493973,
 		},
-		["Glyphe 'Überwältigen'"] = {
-			["H699"] = 74999,
-			["mr"] = 74999,
+		["Fossiles Jungtier"] = {
+			["H699"] = 50000000,
+			["mr"] = 50000000,
 		},
 		["Barbarenstreitkolben des Tigers"] = {
 			["H699"] = 9999900,
@@ -10975,9 +10998,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 396999,
 			["mr"] = 396999,
 		},
-		["Glyphe 'Vampirblut'"] = {
-			["H699"] = 550000,
-			["mr"] = 550000,
+		["Weinrebenbindungen der Bora"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Rezept: Mithril in Echtsilber transmutieren"] = {
 			["H699"] = 750000,
@@ -10987,117 +11010,120 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 5000,
 			["mr"] = 5000,
 		},
-		["Löwenfleisch"] = {
-			["H699"] = 12665,
-			["mr"] = 12665,
+		["Magicuszauberstab der Intelligenz"] = {
+			["H699"] = 139377,
+			["mr"] = 139377,
 		},
 		["Essenz des Untodes"] = {
 			["H699"] = 60000,
 			["mr"] = 60000,
 		},
-		["Weidengürtel des Orkans"] = {
-			["H699"] = 1490000,
-			["mr"] = 1490000,
+		["Glyphe 'Gunst des Geistwandlers'"] = {
+			["H699"] = 246698,
+			["mr"] = 246698,
 		},
-		["Perfekter listiger Chiastolith"] = {
-			["H699"] = 6999998,
-			["mr"] = 6999998,
+		["Sturmgeschmiedete Beinschützer"] = {
+			["H699"] = 351106,
+			["mr"] = 351106,
 		},
-		["Weidenbeinschützer des Schützen"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
+		["Wasserfallsandalen des Wals"] = {
+			["H699"] = 2898998,
+			["mr"] = 2898998,
 		},
 		["Je'Tzes Glocke"] = {
 			["H699"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Wilder Gluttopas"] = {
-			["H699"] = 200000,
-			["mr"] = 200000,
+		["Wildfennhand der Eule"] = {
+			["H699"] = 67974,
+			["mr"] = 67974,
 		},
 		["Herrlicher Chiastolith"] = {
 			["H699"] = 1289900,
 			["mr"] = 1289900,
 		},
-		["Waffe - Erdrutsch"] = {
-			["H699"] = 8900000,
-			["mr"] = 8900000,
+		["Pyriumbarren"] = {
+			["H699"] = 71000,
+			["mr"] = 71000,
 		},
 		["Eisblauflosse"] = {
 			["H699"] = 25000,
 			["mr"] = 25000,
 		},
-		["Brauner Präriehund"] = {
-			["H699"] = 29900,
-			["mr"] = 29900,
+		["Cinnabarit"] = {
+			["H699"] = 35000,
+			["mr"] = 35000,
 		},
-		["Perfekter Schattenkristall des Wächters"] = {
-			["H699"] = 69500,
-			["mr"] = 69500,
+		["Glyphe 'Anstacheln'"] = {
+			["H699"] = 289999,
+			["mr"] = 289999,
 		},
-		["Lebensspendende Saat"] = {
-			["H699"] = 29500,
-			["mr"] = 29500,
+		["Wasserfallgamaschen des Feuersturms"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
-		["Tödlicher Aragonit"] = {
-			["H699"] = 4397400,
-			["mr"] = 4397400,
+		["Voodoostatuette"] = {
+			["H699"] = 5000000,
+			["mr"] = 5000000,
 		},
-		["Armschiene - Außergewöhnliche Willenskraft"] = {
-			["H699"] = 2646131,
-			["mr"] = 2646131,
+		["Urzeitliche Gamaschen der Willenskraft"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
 		["Rezept: Elixier des Riesenwuchses"] = {
 			["H699"] = 482,
 			["mr"] = 482,
 		},
-		["Blauer Machtkristall"] = {
-			["H699"] = 6272,
-			["mr"] = 6272,
+		["Runenstoffballen"] = {
+			["mr"] = 59900,
+			["cc"] = 6,
+			["id"] = "14048",
+			["H699"] = 59900,
+			["sc"] = 2,
 		},
-		["Mystischer Goldberyll"] = {
-			["H699"] = 78500,
-			["mr"] = 78500,
+		["Echtsilberbarren"] = {
+			["H699"] = 15600,
+			["mr"] = 15600,
 		},
-		["Drescherstiefel des Affen"] = {
-			["H699"] = 1490000,
-			["mr"] = 1490000,
+		["Glyphe 'Wildes Brüllen'"] = {
+			["H699"] = 646998,
+			["mr"] = 646998,
 		},
-		["Perfekter gediegener Lapislazuli"] = {
-			["H699"] = 409999,
-			["mr"] = 409999,
+		["Glyphe 'Wildwuchs'"] = {
+			["H699"] = 1489970,
+			["mr"] = 1489970,
 		},
-		["Vorlage: Geläuterter Nachtstein"] = {
-			["H699"] = 600000,
-			["mr"] = 600000,
+		["Perfekter akkurater Charoit"] = {
+			["H699"] = 400000,
+			["mr"] = 400000,
 		},
-		["Golderz"] = {
-			["H699"] = 7500,
-			["mr"] = 7500,
+		["Kunstvoller Hessonit"] = {
+			["H699"] = 18600,
+			["mr"] = 18600,
 		},
-		["Ritualgamaschen der Eule"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Elementiumschildstachel"] = {
+			["H699"] = 260000,
+			["mr"] = 260000,
 		},
-		["Windwollhandschuhe des Windes"] = {
-			["H699"] = 1013064,
-			["mr"] = 1013064,
+		["Gravierter Echtsilberring"] = {
+			["H699"] = 30000,
+			["mr"] = 30000,
 		},
 		["Monströse Klaue"] = {
 			["H699"] = 9900,
 			["mr"] = 9900,
 		},
-		["Gürtel des Cenarius"] = {
-			["H699"] = 2500000,
-			["mr"] = 2500000,
+		["Raptorpunsch"] = {
+			["H699"] = 3466,
+			["mr"] = 3466,
 		},
 		["Geistergeschmiedete Armschienen der Verkörperung"] = {
 			["H699"] = 499500,
 			["mr"] = 499500,
 		},
-		["Imposanter Dioptas"] = {
-			["H699"] = 900000,
-			["mr"] = 900000,
+		["Nebliger Alexandrit"] = {
+			["H699"] = 1997500,
+			["mr"] = 1997500,
 		},
 		["Großes Pandarenfestmahl"] = {
 			["H699"] = 1000000,
@@ -11107,9 +11133,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 49999900,
 			["mr"] = 49999900,
 		},
-		["Gamaschen des verbrannten Mannes"] = {
-			["H699"] = 25000000,
-			["mr"] = 25000000,
+		["Sturmschuppenarmschienen des Zephirs"] = {
+			["H699"] = 2000000,
+			["mr"] = 2000000,
 		},
 		["Schwerer Schleifstein"] = {
 			["H699"] = 17210,
@@ -11119,9 +11145,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 70000,
 			["mr"] = 70000,
 		},
-		["Glyphe 'Regenguss'"] = {
-			["H699"] = 175000,
-			["mr"] = 175000,
+		["Sumpfstiefel der Schaumkrone"] = {
+			["H699"] = 190000,
+			["mr"] = 190000,
 		},
 		["Waffe - Windwandler"] = {
 			["H699"] = 8999900,
@@ -11135,29 +11161,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 10000,
 			["mr"] = 10000,
 		},
-		["Wandererhut des Affen"] = {
-			["H699"] = 499999,
-			["mr"] = 499999,
+		["Goldklee"] = {
+			["H699"] = 7500,
+			["mr"] = 7500,
 		},
 		["Diamantgeschliffenes Linsenzielfernrohr"] = {
 			["H699"] = 49800,
 			["mr"] = 49800,
 		},
-		["Goblindrachengewehr - Nr. II"] = {
-			["H699"] = 800000,
-			["mr"] = 800000,
+		["Drachenleibarmschienen"] = {
+			["H699"] = 50000000,
+			["mr"] = 50000000,
 		},
-		["Tsunamigürtel der Wirbelströmung"] = {
-			["H699"] = 499999,
-			["mr"] = 499999,
+		["Verschneite Brustplatte der Verwerfung"] = {
+			["H699"] = 1500000,
+			["mr"] = 1500000,
 		},
 		["Don Carlos' treibender Schild"] = {
 			["H699"] = 25000000,
 			["mr"] = 25000000,
 		},
-		["Glyphe 'Wütende Eile'"] = {
-			["H699"] = 311100,
-			["mr"] = 311100,
+		["Jungtier aus Gundrak"] = {
+			["H699"] = 99999999,
+			["mr"] = 99999999,
 		},
 		["Lichblüte"] = {
 			["H699"] = 14141,
@@ -11167,109 +11193,112 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1009500,
 			["mr"] = 1009500,
 		},
-		["Alptraumträne"] = {
-			["H699"] = 4499899,
-			["mr"] = 4499899,
+		["Schlachtschmiedeumhang des Bären"] = {
+			["H699"] = 7200,
+			["mr"] = 7200,
 		},
-		["Verschneite Beinplatten der Bestie"] = {
-			["H699"] = 3558900,
-			["mr"] = 3558900,
+		["Muster: Rote Magiestoffweste"] = {
+			["H731"] = 22256,
+			["mr"] = 22256,
+			["sc"] = 3,
+			["id"] = "10300",
+			["cc"] = 7,
 		},
 		["Glyphe 'Wasserrolle'"] = {
 			["H699"] = 220000,
 			["mr"] = 220000,
 		},
-		["Sturmschuppenhelm des Sciroccos"] = {
-			["H699"] = 3800000,
-			["mr"] = 3800000,
+		["Transparenter Chiastolith"] = {
+			["H699"] = 2200000,
+			["mr"] = 2200000,
 		},
 		["Glyphe 'Dämonisches Training'"] = {
 			["H699"] = 995887,
 			["mr"] = 995887,
 		},
-		["Glyphe 'Weitreichende Stöße'"] = {
-			["H699"] = 993983,
-			["mr"] = 993983,
+		["Grober Stein"] = {
+			["H699"] = 919,
+			["mr"] = 919,
 		},
-		["Jadehexenbräu"] = {
-			["H699"] = 49998,
-			["mr"] = 49998,
+		["Tuch aus wehender Gaze"] = {
+			["H699"] = 30000000,
+			["mr"] = 30000000,
 		},
 		["Wachsende Gamaschen des Lauffeuers"] = {
 			["H699"] = 532136,
 			["mr"] = 532136,
 		},
-		["Söldnerschwert des Wolfs"] = {
+		["Eine Handvoll Teufelseisenbolzen"] = {
+			["H699"] = 19499,
+			["mr"] = 19499,
+		},
+		["Titanerz"] = {
+			["H699"] = 99333,
+			["mr"] = 99333,
+		},
+		["Polierter Chiastolith"] = {
+			["H699"] = 1972500,
+			["mr"] = 1972500,
+		},
+		["Schnitzmesser der Intelligenz"] = {
 			["H699"] = 10000,
 			["mr"] = 10000,
-		},
-		["Polierter Schlagring des Soldaten"] = {
-			["H699"] = 1990000,
-			["mr"] = 1990000,
-		},
-		["Glyphe 'Wucherwurzeln'"] = {
-			["H699"] = 987967,
-			["mr"] = 987967,
-		},
-		["Juwelendanio"] = {
-			["H699"] = 80000,
-			["mr"] = 80000,
 		},
 		["Glyphe 'Ablenkender Schuss'"] = {
 			["H699"] = 1490973,
 			["mr"] = 1490973,
 		},
-		["Hexenbeeren"] = {
-			["H699"] = 94999,
-			["mr"] = 94999,
+		["Juwelengeschmückter Ring der Bestie"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
-		["Brust - Glorreiche Werte"] = {
-			["H699"] = 2152500,
-			["mr"] = 2152500,
+		["Kunzit des Wächters"] = {
+			["H699"] = 679998,
+			["mr"] = 679998,
 		},
 		["Verziertes Band des Erdenbrechers"] = {
 			["H699"] = 1200000,
 			["mr"] = 1200000,
 		},
-		["Golembrustplatte der Gewandtheit"] = {
-			["H699"] = 149999,
-			["mr"] = 149999,
+		["Sturmschuppenarmschienen des Mistrals"] = {
+			["H699"] = 2490000,
+			["mr"] = 2490000,
 		},
-		["Jormungarschuppe"] = {
-			["H699"] = 30000,
-			["mr"] = 30000,
+		["Foliant des klaren Geistes"] = {
+			["H699"] = 70000,
+			["mr"] = 70000,
 		},
-		["Handschuhe - Außergewöhnliche Zaubermacht"] = {
-			["H699"] = 132500,
-			["mr"] = 132500,
+		["Waffe - Koloss"] = {
+			["H699"] = 2899999,
+			["mr"] = 2899999,
 		},
-		["Perfekter kunstvoller Chiastolith"] = {
-			["H699"] = 2222999,
-			["mr"] = 2222999,
+		["Kunstloses Zielfernrohr"] = {
+			["H699"] = 29900,
+			["mr"] = 29900,
 		},
-		["Schlangenstulpen des Banditen"] = {
-			["H699"] = 1490000,
-			["mr"] = 1490000,
+		["Handgenähte Lederweste"] = {
+			["H699"] = 3312,
+			["mr"] = 3312,
 		},
-		["Handschuhe - Große Stärke"] = {
-			["H699"] = 4865633,
-			["mr"] = 4865633,
+		["Handschuhe - Außergewöhnliche Stärke"] = {
+			["H699"] = 70000,
+			["mr"] = 70000,
 		},
-		["Schlangenhelm des Schützen"] = {
-			["H699"] = 2407853,
-			["mr"] = 2407853,
+		["Heiliges Mojo"] = {
+			["H699"] = 49500,
+			["mr"] = 49500,
 		},
-		["Geschickter Alexandrit"] = {
-			["H699"] = 149899,
-			["mr"] = 149899,
+		["Glyphe 'Adrenalinrausch'"] = {
+			["H699"] = 146023,
+			["mr"] = 146023,
 		},
 		["Rezept: Naturschutztrank"] = {
 			["H699"] = 1000000,
 			["mr"] = 1000000,
 		},
-		["Yakbeinschützer des Mistrals"] = {
-			["H699"] = 800000,
-			["mr"] = 800000,
+		["Saurokstulpen des Mistrals"] = {
+			["H699"] = 4990000,
+			["mr"] = 4990000,
 		},
 		["Mushanlederhandschuhe des Sciroccos"] = {
 			["H699"] = 2000000,
@@ -11279,25 +11308,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 3992,
 			["mr"] = 3992,
 		},
-		["Rezept: Elixier der Seelenstärke"] = {
-			["H699"] = 230000,
-			["mr"] = 230000,
+		["Rezept: Elixier der Tarnung"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
 		},
-		["Glyphe 'Zenflug'"] = {
-			["H699"] = 989000,
-			["mr"] = 989000,
+		["Obsidiumhenker"] = {
+			["H699"] = 1222222,
+			["mr"] = 1222222,
 		},
-		["Rolle der Willenskraft VII"] = {
-			["H699"] = 4900,
-			["mr"] = 4900,
+		["Handschuhe der Schöpfung"] = {
+			["H699"] = 90000000,
+			["mr"] = 90000000,
 		},
 		["Verdichteter Wetzstein"] = {
 			["H699"] = 2250,
 			["mr"] = 2250,
 		},
-		["Belebender Bergkristall"] = {
-			["H699"] = 19980000,
-			["mr"] = 19980000,
+		["Geistergeschmiedete Stulpen der Schildwache"] = {
+			["H699"] = 1990000,
+			["mr"] = 1990000,
 		},
 		["Fixierender Kunzit"] = {
 			["H699"] = 198500,
@@ -11311,9 +11340,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 25000,
 			["mr"] = 25000,
 		},
-		["Grummelring der Bestie"] = {
-			["H699"] = 806345,
-			["mr"] = 806345,
+		["Elixier der unmöglichen Präzision"] = {
+			["H699"] = 39800,
+			["mr"] = 39800,
 		},
 		["Geräucherter Lachs"] = {
 			["H699"] = 19073,
@@ -11323,47 +11352,47 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 14999900,
 			["mr"] = 14999900,
 		},
-		["Fledermäuschen aus Tirisfal"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Glyphe 'Nachwachsen'"] = {
+			["H699"] = 948998,
+			["mr"] = 948998,
 		},
-		["Kleiner himmlischer Splitter"] = {
-			["H699"] = 9000,
-			["mr"] = 9000,
-		},
-		["Bauplan: Gnomischer Alarm-o-Bot"] = {
-			["H699"] = 62802565,
-			["mr"] = 62802565,
-		},
-		["Muster: Magieerfüllte Netherstofftasche"] = {
+		["Muster: Zauberstoff"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
-		["Perfekter glatter Alazit"] = {
-			["H699"] = 241312,
-			["mr"] = 241312,
+		["Glyphe 'Todesmantel'"] = {
+			["H699"] = 399998,
+			["mr"] = 399998,
 		},
-		["Glyphe 'Himmelsfeuer'"] = {
-			["H699"] = 1495987,
-			["mr"] = 1495987,
+		["Kupferbarren"] = {
+			["H699"] = 3900,
+			["mr"] = 3900,
+		},
+		["Feinmaschige Sandalen der Flammenlohe"] = {
+			["H699"] = 1000000,
+			["mr"] = 1000000,
+		},
+		["Glänzender Umhang von Wu dem Jüngeren"] = {
+			["H699"] = 19900000,
+			["mr"] = 19900000,
 		},
 		["Glyphe 'Schlachtenheiler'"] = {
 			["H699"] = 1497499,
 			["mr"] = 1497499,
 		},
-		["Tigerauge"] = {
-			["H699"] = 400,
-			["mr"] = 400,
+		["Verschneite Unterarmschienen des Champions"] = {
+			["H699"] = 2400000,
+			["mr"] = 2400000,
 		},
-		["Oberbrigadiergamaschen"] = {
-			["H699"] = 24990000,
-			["mr"] = 24990000,
+		["Kobrajunges"] = {
+			["H699"] = 49900,
+			["mr"] = 49900,
 		},
-		["Nesselfisch"] = {
-			["H699"] = 4991,
-			["mr"] = 4991,
+		["Pläne: Bronzene Brustplatte mit Versilberung"] = {
+			["H699"] = 350000,
+			["mr"] = 350000,
 		},
-		["Muster: Blaue Leinenweste"] = {
+		["Rezept: Eisen in Gold transmutieren"] = {
 			["H699"] = 750000,
 			["mr"] = 750000,
 		},
@@ -11371,13 +11400,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 9166,
 			["mr"] = 9166,
 		},
-		["Weidenschiftung des Mistrals"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Rezept: Elixier des Dämonentötens"] = {
+			["H699"] = 1982622,
+			["mr"] = 1982622,
 		},
-		["Stulpen aus uraltem Stahl"] = {
-			["H699"] = 600000000,
-			["mr"] = 600000000,
+		["Muster: Teufelssaurierstulpen"] = {
+			["H699"] = 750000,
+			["mr"] = 750000,
 		},
 		["Go-Kans goldene Beinkleider"] = {
 			["H699"] = 34999999,
@@ -11391,101 +11420,101 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 289000,
 			["mr"] = 289000,
 		},
-		["Mahlstromkristall"] = {
-			["H699"] = 180500,
-			["mr"] = 180500,
+		["Tiefenschachtschild der Wirbelströmung"] = {
+			["H699"] = 190000,
+			["mr"] = 190000,
 		},
-		["Traumstaub"] = {
-			["H699"] = 7699,
-			["mr"] = 7699,
+		["Flüchtiges Leben"] = {
+			["H699"] = 21582,
+			["mr"] = 21582,
 		},
-		["Brennende Glutspäne"] = {
-			["H699"] = 521500,
-			["mr"] = 521500,
+		["Geringe ewige Essenz"] = {
+			["H699"] = 10100,
+			["mr"] = 10100,
 		},
 		["Frühlingszwiebeln"] = {
 			["H699"] = 148000,
 			["mr"] = 148000,
 		},
-		["Bauplan: Krachbummroboter"] = {
-			["H699"] = 25000000,
-			["mr"] = 25000000,
+		["Höhengipfelschulterstücke des Bären"] = {
+			["H699"] = 3111900,
+			["mr"] = 3111900,
 		},
 		["Zinnbarren"] = {
 			["H699"] = 8822,
 			["mr"] = 8822,
 		},
-		["Göttlicher Begleiter"] = {
-			["H699"] = 1500000,
-			["mr"] = 1500000,
+		["Weidenschiftung des Schützen"] = {
+			["H699"] = 1758957,
+			["mr"] = 1758957,
 		},
 		["Glyphe 'Schattenblitz'"] = {
 			["H699"] = 158993,
 			["mr"] = 158993,
 		},
-		["Nebelbalghelm des Sciroccos"] = {
-			["H699"] = 1700000,
-			["mr"] = 1700000,
+		["Schlüssel zur Ebene"] = {
+			["H699"] = 2500000,
+			["mr"] = 2500000,
 		},
-		["Vorlage: Wilder Hessonit"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Klobiger Blutstein"] = {
+			["H699"] = 113000,
+			["mr"] = 113000,
 		},
 		["Tsunamigürtel des Mistrals"] = {
 			["H699"] = 499999,
 			["mr"] = 499999,
 		},
-		["Nebelbalghandschuhe der Bora"] = {
-			["H699"] = 1490000,
-			["mr"] = 1490000,
+		["Glyphe 'Markerschütternder Ruf'"] = {
+			["H699"] = 666828,
+			["mr"] = 666828,
 		},
 		["Sturmschuppengamaschen des Zephirs"] = {
 			["H699"] = 699999,
 			["mr"] = 699999,
 		},
-		["Loderflammenzauberstab"] = {
-			["H699"] = 4900,
-			["mr"] = 4900,
+		["Rohes Krabbenfleisch"] = {
+			["H699"] = 400000,
+			["mr"] = 400000,
 		},
-		["Kriegsbemalungsgürtelbund"] = {
-			["H699"] = 10000,
-			["mr"] = 10000,
+		["Azsharas Schleier"] = {
+			["H699"] = 12200,
+			["mr"] = 12200,
 		},
-		["Geistergeschmiedete Armschienen des Avatars"] = {
-			["H699"] = 490000,
-			["mr"] = 490000,
+		["Glänzender Cinnabarit"] = {
+			["H699"] = 28957,
+			["mr"] = 28957,
 		},
 		["Widerstandsfähiger Handschutz"] = {
 			["H699"] = 20000,
 			["mr"] = 20000,
 		},
-		["Kundschaftermanschetten des Bären"] = {
-			["H699"] = 20000,
-			["mr"] = 20000,
+		["Glyphe 'Arkane Macht'"] = {
+			["H699"] = 198499,
+			["mr"] = 198499,
 		},
-		["Verzauberter Besen"] = {
-			["H699"] = 25000000,
-			["mr"] = 25000000,
+		["Gravierter Riesencitrin"] = {
+			["H699"] = 118750,
+			["mr"] = 118750,
 		},
-		["Fläschchen Portwein"] = {
-			["H699"] = 100000,
-			["mr"] = 100000,
+		["Stammesrundschild"] = {
+			["H699"] = 10000,
+			["mr"] = 10000,
 		},
-		["Rotes Kampfhemd"] = {
-			["H699"] = 750000,
-			["mr"] = 750000,
+		["Elementarfeuer"] = {
+			["H699"] = 1890,
+			["mr"] = 1890,
 		},
-		["Windwollkapuze des Windes"] = {
-			["H699"] = 5000000,
-			["mr"] = 5000000,
+		["Umhang - Überragender kritischer Trefferwert"] = {
+			["H699"] = 3327500,
+			["mr"] = 3327500,
 		},
 		["Gewürzte Krabbe"] = {
 			["H699"] = 5400,
 			["mr"] = 5400,
 		},
-		["Feinmaschige Kordel der Bestie"] = {
-			["H699"] = 1899800,
-			["mr"] = 1899800,
+		["Fünf der Tiger"] = {
+			["H699"] = 67990000,
+			["mr"] = 67990000,
 		},
 		["Infanteriegamaschen der Stärke"] = {
 			["H699"] = 10000,
@@ -11498,21 +11527,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 999724,
 			["sc"] = 7,
 		},
-		["Schuppenhandschuhe des Rivalen"] = {
-			["H699"] = 9950000,
-			["mr"] = 9950000,
+		["Trank der Jadeschlange"] = {
+			["H699"] = 99998,
+			["mr"] = 99998,
 		},
 		["Phönixküken"] = {
 			["H699"] = 7500000,
 			["mr"] = 7500000,
 		},
-		["Lederhelm des Rivalen"] = {
-			["H699"] = 13990000,
-			["mr"] = 13990000,
+		["Saurokarmschienen des Schützen"] = {
+			["H699"] = 3990000,
+			["mr"] = 3990000,
 		},
-		["Stiefel - Große Präzision"] = {
-			["H699"] = 639185,
-			["mr"] = 639185,
+		["Tiefsteinsalz"] = {
+			["H699"] = 44500,
+			["mr"] = 44500,
 		},
 		["Seidene Fußwickel des Rivalen"] = {
 			["H699"] = 4000000,
@@ -11522,57 +11551,60 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H699"] = 1491974,
 			["mr"] = 1491974,
 		},
-		["Feinmaschige Sandalen des Feuersturms"] = {
-			["H699"] = 2899900,
-			["mr"] = 2899900,
+		["Große Planaressenz"] = {
+			["mr"] = 69999,
+			["cc"] = 6,
+			["id"] = "22446",
+			["H699"] = 69999,
+			["sc"] = 7,
 		},
-		["Ziegelbrustplatte des Tigers"] = {
-			["H699"] = 3990000,
-			["mr"] = 3990000,
+		["Vereiste Spinnenseide"] = {
+			["H699"] = 85000,
+			["mr"] = 85000,
 		},
-		["Chalzedon"] = {
-			["H699"] = 14850,
-			["mr"] = 14850,
+		["Umhang - Erhebliche Beweglichkeit"] = {
+			["H699"] = 2077945,
+			["mr"] = 2077945,
 		},
-		["Formel: Waffe - Unheilig"] = {
-			["H699"] = 445498,
-			["mr"] = 445498,
+		["Verwirbelte Nebelsuppe"] = {
+			["H699"] = 100005,
+			["mr"] = 100005,
 		},
 		["Gürtelschnalle aus Schwarzstahl"] = {
 			["H699"] = 149500,
 			["mr"] = 149500,
 		},
-		["Gewandter Chiastolith"] = {
-			["H699"] = 205498,
-			["mr"] = 205498,
+		["Schwarzes Trilliumerz"] = {
+			["H699"] = 280000,
+			["mr"] = 280000,
 		},
-		["Geistergeschmiedete Schultern der Verkörperung"] = {
-			["H699"] = 1000000,
-			["mr"] = 1000000,
+		["Kleine irisierende Perle"] = {
+			["H699"] = 60000,
+			["mr"] = 60000,
 		},
 		["Gebirgsbeinschützer der Wirbelströmung"] = {
 			["H699"] = 1206048,
 			["mr"] = 1206048,
 		},
-		["Feiner Lederumhang"] = {
-			["H699"] = 1710,
-			["mr"] = 1710,
+		["Teufelsbalg"] = {
+			["H699"] = 19008,
+			["mr"] = 19008,
 		},
 		["Weidenbeinschützer des Banditen"] = {
 			["H699"] = 1990000,
 			["mr"] = 1990000,
 		},
-		["Armschiene - Große Werte"] = {
-			["H699"] = 100000,
-			["mr"] = 100000,
+		["Glyphe 'Aasschwarm'"] = {
+			["H699"] = 998998,
+			["mr"] = 998998,
 		},
-		["Weiße Rübe"] = {
-			["H699"] = 260000,
-			["mr"] = 260000,
+		["Ausbalancierter Alexandrit"] = {
+			["H699"] = 739900,
+			["mr"] = 739900,
 		},
-		["Bauplan: Schneemeister 9000"] = {
-			["H699"] = 4000000,
-			["mr"] = 4000000,
+		["Zinnerz"] = {
+			["H699"] = 9999,
+			["mr"] = 9999,
 		},
 		["Fachkundiger Chiastolith"] = {
 			["H699"] = 68500,
@@ -11592,21 +11624,20 @@ AUCTIONATOR_TOONS = {
 	},
 	["Magnifico"] = {
 		["firstSeen"] = 1349978424,
-		["guid"] = "0x030000000375DDB7",
 		["firstVersion"] = "3.0.5",
 	},
-	["Magnifiko"] = {
-		["firstSeen"] = 1351192911,
+	["Heinz"] = {
+		["firstSeen"] = 1349980989,
+		["guid"] = "0x0300000003F0BAA6",
 		["firstVersion"] = "3.0.5",
 	},
 	["Mcneto"] = {
 		["firstSeen"] = 1350689440,
 		["firstVersion"] = "3.0.5",
 	},
-	["Heinz"] = {
-		["firstSeen"] = 1349980989,
+	["Magnifiko"] = {
+		["firstSeen"] = 1351192911,
 		["firstVersion"] = "3.0.5",
-		["guid"] = "0x0300000003F0BAA6",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

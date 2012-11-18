@@ -17,23 +17,23 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["h"] = 18,
 					["w"] = 391,
-					["hideicon"] = true,
+					["y"] = 256.0000305175781,
 					["x"] = 764.99951171875,
 					["iconalpha"] = 1,
 					["border"] = "ArkInventory Square 1",
-					["nametextposition"] = "center",
-					["font"] = "Calibri",
 					["texture"] = "BantoBar",
-					["y"] = 256.0000305175781,
+					["font"] = "Calibri",
+					["nametextposition"] = "center",
+					["hideicon"] = true,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -53,8 +53,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -65,32 +63,34 @@ Quartz3DB = {
 					["mirrortexture"] = "BantoBar",
 					["mirrorfont"] = "Calibri",
 					["mirrorx"] = 608,
+					["mirrorheight"] = 14,
 					["mirrorposition"] = "top",
 					["mirrorfontsize"] = 10,
-					["mirrorheight"] = 14,
 				},
 			},
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Cowley - Gorgonnash"] = "Default",
-		["Feeble - Eredar"] = "Default",
+		["Ednah - Der Rat von Dalaran"] = "Default",
 		["Heinz - Der Rat von Dalaran"] = "Default",
 		["Regar - Der Rat von Dalaran"] = "Default",
 		["Magnifiko - Eredar"] = "Default",
 		["Orric - Magtheridon"] = "Default",
-		["Mcneto - Der Rat von Dalaran"] = "Default",
-		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Retzo - Der Rat von Dalaran"] = "Default",
+		["Sotheby - Der Rat von Dalaran"] = "Default",
 		["Zücho - Der Rat von Dalaran"] = "Default",
 		["Herman - Der Rat von Dalaran"] = "Default",
-		["Sotheby - Der Rat von Dalaran"] = "Default",
-		["Macneto - Der Rat von Dalaran"] = "Default",
 		["Atrako - Der Rat von Dalaran"] = "Default",
-		["Retzo - Der Rat von Dalaran"] = "Default",
+		["Macneto - Der Rat von Dalaran"] = "Default",
+		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
 		["Randolph - Gorgonnash"] = "Default",
-		["Ednah - Der Rat von Dalaran"] = "Default",
+		["Feeble - Eredar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

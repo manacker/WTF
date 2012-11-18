@@ -27,7 +27,13 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["RangeCircle"] = {
+		["Expander"] = {
+			["profiles"] = {
+				["Default"] = {
+					["key"] = "",
+					["scale"] = 7.3,
+				},
+			},
 		},
 		["AutoZoom"] = {
 		},
@@ -46,21 +52,6 @@ Chinchilla2DB = {
 					["frameHeight"] = 500,
 					["showCollapseButton"] = false,
 					["frameWidth"] = 250,
-				},
-			},
-		},
-		["WheelZoom"] = {
-		},
-		["ShowHide"] = {
-			["profiles"] = {
-				["Default"] = {
-					["voice"] = false,
-					["clock"] = false,
-					["zoom"] = false,
-					["lfg"] = "mouseover",
-					["locationText"] = false,
-					["map"] = false,
-					["locationBar"] = false,
 				},
 			},
 		},
@@ -106,6 +97,21 @@ Chinchilla2DB = {
 				},
 			},
 		},
+		["ShowHide"] = {
+			["profiles"] = {
+				["Default"] = {
+					["voice"] = false,
+					["clock"] = false,
+					["zoom"] = false,
+					["lfg"] = "mouseover",
+					["locationText"] = false,
+					["locationBar"] = false,
+					["map"] = false,
+				},
+			},
+		},
+		["WheelZoom"] = {
+		},
 		["Location"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -134,13 +140,7 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["Expander"] = {
-			["profiles"] = {
-				["Default"] = {
-					["key"] = "",
-					["scale"] = 7.3,
-				},
-			},
+		["RangeCircle"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -154,13 +154,13 @@ Chinchilla2DB = {
 		["Randolph - Gorgonnash"] = "Default",
 		["Mcneto - Der Rat von Dalaran"] = "Default",
 		["Cowley - Gorgonnash"] = "Default",
-		["Herman - Der Rat von Dalaran"] = "Default",
+		["Feeble - Eredar"] = "Default",
 		["Atrako - Der Rat von Dalaran"] = "Default",
 		["Macneto - Der Rat von Dalaran"] = "Default",
-		["Zücho - Der Rat von Dalaran"] = "Default",
-		["Orric - Magtheridon"] = "Default",
 		["Ednah - Der Rat von Dalaran"] = "Default",
-		["Feeble - Eredar"] = "Default",
+		["Orric - Magtheridon"] = "Default",
+		["Zücho - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

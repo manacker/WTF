@@ -6,52 +6,51 @@ BazookaDB = {
 	},
 	["profileKeys"] = {
 		["Cowley - Gorgonnash"] = "Default",
-		["Feeble - Eredar"] = "Default",
+		["Ednah - Der Rat von Dalaran"] = "Default",
 		["Heinz - Der Rat von Dalaran"] = "Default",
 		["Regar - Der Rat von Dalaran"] = "Default",
 		["Magnifiko - Eredar"] = "Default",
 		["Retzo - Der Rat von Dalaran"] = "Default",
-		["Mcneto - Der Rat von Dalaran"] = "Default",
-		["Severe - Der Rat von Dalaran"] = "Default",
 		["Zücho - Der Rat von Dalaran"] = "Default",
-		["Herman - Der Rat von Dalaran"] = "Default",
 		["Sotheby - Der Rat von Dalaran"] = "Default",
-		["Macneto - Der Rat von Dalaran"] = "Default",
-		["Atrako - Der Rat von Dalaran"] = "Default",
 		["Magnifico - Der Rat von Dalaran"] = "Default",
+		["Herman - Der Rat von Dalaran"] = "Default",
+		["Atrako - Der Rat von Dalaran"] = "Default",
+		["Macneto - Der Rat von Dalaran"] = "Default",
+		["Severe - Der Rat von Dalaran"] = "Default",
+		["Mcneto - Der Rat von Dalaran"] = "Default",
 		["Randolph - Gorgonnash"] = "Default",
-		["Ednah - Der Rat von Dalaran"] = "Default",
+		["Feeble - Eredar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["numBars"] = 2,
-			["locked"] = true,
 			["plugins"] = {
 				[""] = {
 					["Profession_1"] = {
 						["area"] = "right",
 						["showTitle"] = false,
-						["bar"] = 2,
 						["pos"] = 2,
+						["bar"] = 2,
 					},
 					["Profession_Kochkunst"] = {
 						["showLabel"] = false,
 						["area"] = "right",
 						["showText"] = false,
-						["pos"] = 5,
 						["bar"] = 2,
+						["pos"] = 5,
 					},
 					["Profession_2"] = {
 						["area"] = "right",
 						["showTitle"] = false,
-						["bar"] = 2,
 						["pos"] = 3,
+						["bar"] = 2,
 					},
 					["Profession_Erste Hilfe"] = {
 						["area"] = "right",
 						["showTitle"] = false,
-						["bar"] = 2,
 						["pos"] = 4,
+						["bar"] = 2,
 					},
 				},
 				["data source"] = {
@@ -117,7 +116,10 @@ BazookaDB = {
 						["pos"] = 26,
 					},
 					["Skada"] = {
-						["pos"] = 8,
+						["stripColors"] = false,
+						["area"] = "left",
+						["showValue"] = true,
+						["pos"] = 20,
 					},
 					["ArkInventory_Bags"] = {
 						["area"] = "left",
@@ -131,29 +133,34 @@ BazookaDB = {
 						["area"] = "left",
 						["pos"] = 16,
 					},
-					["BTC"] = {
-						["pos"] = 9,
+					["Launcher: Engineering"] = {
+						["pos"] = 34,
 					},
 					["Broker_Location"] = {
 						["showIcon"] = false,
 						["area"] = "left",
-						["bar"] = 2,
 						["pos"] = 1,
+						["bar"] = 2,
 					},
-					["Dungeon Difficulty"] = {
-						["pos"] = 32,
+					["Launcher: Schneiderei"] = {
+						["area"] = "cright",
+						["showText"] = false,
+						["pos"] = 4,
 					},
 					["Broker_Clock"] = {
 						["pos"] = 31,
 					},
-					["Broker_Garbage"] = {
-						["showValue"] = false,
-						["area"] = "cright",
-						["stripColors"] = false,
-						["pos"] = 4,
+					["LDBThreat"] = {
+						["area"] = "cleft",
+						["enabled"] = false,
+						["pos"] = 1,
 					},
-					["ArkInventory_Tracking_Item"] = {
-						["pos"] = 7,
+					["Broker_ProfessionsMenu"] = {
+						["showLabel"] = true,
+						["showText"] = false,
+						["showValue"] = true,
+						["showSuffix"] = true,
+						["pos"] = 5,
 					},
 					["|cFFFFB366Ara|r Friends"] = {
 						["pos"] = 13,
@@ -162,16 +169,15 @@ BazookaDB = {
 						["area"] = "left",
 						["pos"] = 18,
 					},
+					["Launcher: Alchemy"] = {
+						["pos"] = 34,
+					},
 					["Launcher: Alchemie"] = {
 						["pos"] = 3,
 					},
 					["Broker_uClock"] = {
 						["showIcon"] = false,
 						["pos"] = 33,
-					},
-					["Broker_DurabilityInfo"] = {
-						["area"] = "left",
-						["pos"] = 6,
 					},
 					["Launcher: Erste Hilfe"] = {
 						["pos"] = 6,
@@ -183,35 +189,31 @@ BazookaDB = {
 					["Launcher: Smelting"] = {
 						["pos"] = 36,
 					},
-					["Launcher: Alchemy"] = {
-						["pos"] = 34,
+					["Broker_DurabilityInfo"] = {
+						["area"] = "left",
+						["pos"] = 6,
 					},
 					["Sexy Reputation"] = {
 						["pos"] = 28,
 					},
-					["Broker_ProfessionsMenu"] = {
-						["showLabel"] = true,
-						["showText"] = false,
-						["showValue"] = true,
-						["pos"] = 5,
-						["showSuffix"] = true,
+					["ArkInventory_Tracking_Item"] = {
+						["pos"] = 7,
 					},
-					["LDBThreat"] = {
-						["area"] = "cleft",
-						["enabled"] = false,
-						["pos"] = 1,
+					["Broker_Garbage"] = {
+						["stripColors"] = false,
+						["area"] = "cright",
+						["showValue"] = false,
+						["pos"] = 4,
 					},
 					["BFactions"] = {
 						["area"] = "left",
 						["pos"] = 19,
 					},
-					["Launcher: Schneiderei"] = {
-						["area"] = "cright",
-						["showText"] = false,
-						["pos"] = 4,
+					["Dungeon Difficulty"] = {
+						["pos"] = 32,
 					},
-					["Launcher: Engineering"] = {
-						["pos"] = 34,
+					["BTC"] = {
+						["pos"] = 9,
 					},
 				},
 				["launcher"] = {
@@ -222,8 +224,8 @@ BazookaDB = {
 					["Recount"] = {
 						["showValue"] = false,
 						["area"] = "right",
-						["pos"] = 2,
 						["showSuffix"] = false,
+						["pos"] = 2,
 					},
 					["MoreChocolate"] = {
 						["pos"] = 7,
@@ -247,8 +249,8 @@ BazookaDB = {
 						["pos"] = 19,
 					},
 					["Profession_1"] = {
-						["area"] = "cright",
 						["showValue"] = false,
+						["area"] = "cright",
 						["iconBorderClip"] = 0.075,
 						["pos"] = 3,
 					},
@@ -264,14 +266,14 @@ BazookaDB = {
 						["area"] = "right",
 						["pos"] = 8,
 					},
+					["Profession_Kochkunst"] = {
+						["area"] = "cright",
+						["pos"] = 1,
+					},
 					["LFG"] = {
 						["showValue"] = false,
 						["area"] = "cleft",
-						["pos"] = 1,
 						["showSuffix"] = true,
-					},
-					["Profession_Kochkunst"] = {
-						["area"] = "cright",
 						["pos"] = 1,
 					},
 					["Bartender4"] = {
@@ -286,11 +288,11 @@ BazookaDB = {
 						["area"] = "right",
 						["pos"] = 11,
 					},
-					["kgPanels"] = {
+					["BagnonLauncher"] = {
 						["pos"] = 22,
 					},
-					["Broker_Garbage-Restack"] = {
-						["pos"] = 18,
+					["Raid Watch 2"] = {
+						["pos"] = 22,
 					},
 					["Profession_Erste Hilfe"] = {
 						["area"] = "cleft",
@@ -300,10 +302,10 @@ BazookaDB = {
 					["Omen"] = {
 						["pos"] = 23,
 					},
-					["Raid Watch 2"] = {
-						["pos"] = 22,
+					["Broker_Garbage-Restack"] = {
+						["pos"] = 18,
 					},
-					["BagnonLauncher"] = {
+					["kgPanels"] = {
 						["pos"] = 22,
 					},
 					["Masque"] = {
@@ -312,6 +314,7 @@ BazookaDB = {
 					},
 				},
 			},
+			["locked"] = true,
 			["bars"] = {
 				{
 					["bgTexture"] = "Blizzard Dialog Background",
@@ -322,9 +325,9 @@ BazookaDB = {
 					["iconSize"] = 14,
 					["bgColor"] = {
 						["a"] = 0.6500000059604645,
-						["r"] = 0.7411764705882353,
-						["g"] = 0.4196078431372549,
 						["b"] = 0.9372549019607843,
+						["g"] = 0.4196078431372549,
+						["r"] = 0.7411764705882353,
 					},
 					["frameHeight"] = 19.99993896484375,
 				}, -- [1]

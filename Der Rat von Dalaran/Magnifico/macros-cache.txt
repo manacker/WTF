@@ -18,7 +18,8 @@ MACRO 16777221 "Extra" "ABILITY_RACIAL_TIMEISMONEY"
 /click ExtraActionButton1
 END
 MACRO 16777223 "Food" "INV_MISC_QUESTIONMARK"
-/use Herbeigezauberter Manapudding;
+#showtooltip Herbeigezauberter Manapudding
+/use Herbeigezauberter Manapudding
 /use Herbeigezauberte Manabrötchen
 END
 MACRO 16777218 "Meteor" "Ability_Creature_Cursed_04"
